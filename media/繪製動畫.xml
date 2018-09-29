@@ -1,0 +1,613 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="oled_setup" id="7)Q`WnHksWHs0goUUI.%" x="52" y="71"></block>
+  <block type="controls_for" id="-Khh::![Tz;l#WFW;PK@" x="53" y="159">
+    <field name="VAR">i</field>
+    <value name="FROM">
+      <block type="math_number" id="Nh#uB;Uqt1aK?kqQ5Y_}">
+        <field name="NUM">14</field>
+      </block>
+    </value>
+    <value name="TO">
+      <block type="math_number" id="k{7,H7192cmxB!~Ztr0p">
+        <field name="NUM">114</field>
+      </block>
+    </value>
+    <value name="BY">
+      <block type="math_number" id="rs_z0c=ypmf+axl9Zjxj">
+        <field name="NUM">4</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="oled_drawline" id="6V-gP}e(;gMUbpSoG0;j">
+        <value name="COLOR">
+          <shadow type="set_color" id="JB=Ax!B2SoRoUkx;Detq">
+            <field name="COLOR">#ff0000</field>
+          </shadow>
+        </value>
+        <value name="POSA">
+          <shadow type="oled_set_position" id="RW)5Yizloq]P4CQM%-qa">
+            <value name="POSX">
+              <shadow type="math_number" id=";2Ry-37qitnPC(jfQHyd">
+                <field name="NUM">14</field>
+              </shadow>
+            </value>
+            <value name="POSY">
+              <shadow type="math_number" id="t29?%}dX!!@X4H4?~j;3">
+                <field name="NUM">114</field>
+              </shadow>
+              <block type="variables_get" id="VxAu#pBBajk3;y/z@y|T">
+                <field name="VAR">i</field>
+              </block>
+            </value>
+          </shadow>
+        </value>
+        <value name="POSB">
+          <shadow type="oled_set_position" id="STq6+goKeK(d)*;~v2w)">
+            <value name="POSX">
+              <shadow type="math_number" id="_}U15SY}UPJ_8]t?)-}A">
+                <field name="NUM">114</field>
+              </shadow>
+            </value>
+            <value name="POSY">
+              <shadow type="math_number" id="G1V8FvxNHvQwlp3Sc0.W">
+                <field name="NUM">114</field>
+              </shadow>
+              <block type="variables_get" id="C(MJI)XuOgl3xq{dQHoh">
+                <field name="VAR">i</field>
+              </block>
+            </value>
+          </shadow>
+        </value>
+        <next>
+          <block type="time_delay" id="Pb3Ocg)lP`+#BG~1?EhF">
+            <value name="DELAY_TIME_MILI">
+              <block type="math_number" id="Ae0:H1MVWeOd#Su;.S2U">
+                <field name="NUM">15</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="controls_for" id="{ZA[(1#hqrdn86N.@#2l">
+        <field name="VAR">i</field>
+        <value name="FROM">
+          <block type="math_number" id="]+(7K-V%7cc_t[Y9VXD=">
+            <field name="NUM">14</field>
+          </block>
+        </value>
+        <value name="TO">
+          <block type="math_number" id="fm:7X(x}Vm,0:]}2SWPk">
+            <field name="NUM">114</field>
+          </block>
+        </value>
+        <value name="BY">
+          <block type="math_number" id="E!#u0f7]r/8LAa3Cs(75">
+            <field name="NUM">4</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="oled_drawline" id="yn:8RHUh8HCdJ*2P?OY~">
+            <value name="COLOR">
+              <shadow type="set_color" id="o76nCm?C:-Yk75nYo%w.">
+                <field name="COLOR">#000000</field>
+              </shadow>
+            </value>
+            <value name="POSA">
+              <shadow type="oled_set_position" id="p@O-tx-TVhl7Z;9ql6J*">
+                <value name="POSX">
+                  <shadow type="math_number" id="RyQvpfamb`kTNea2mB:K">
+                    <field name="NUM">14</field>
+                  </shadow>
+                </value>
+                <value name="POSY">
+                  <shadow type="math_number" id="t29?%}dX!!@X4H4?~j;3">
+                    <field name="NUM">114</field>
+                  </shadow>
+                  <block type="variables_get" id="w!w3qYBOW#!;m)1A,PhW">
+                    <field name="VAR">i</field>
+                  </block>
+                </value>
+              </shadow>
+            </value>
+            <value name="POSB">
+              <shadow type="oled_set_position" id="g%H%=hj3:LMZhTVMVo+Z">
+                <value name="POSX">
+                  <shadow type="math_number" id="0qmPz+L[LtIJZ1?wd((/">
+                    <field name="NUM">114</field>
+                  </shadow>
+                </value>
+                <value name="POSY">
+                  <shadow type="math_number" id="G1V8FvxNHvQwlp3Sc0.W">
+                    <field name="NUM">114</field>
+                  </shadow>
+                  <block type="variables_get" id="hqxSq.)hDlBgL].QJ)p1">
+                    <field name="VAR">i</field>
+                  </block>
+                </value>
+              </shadow>
+            </value>
+            <next>
+              <block type="time_delay" id="Mql:I*O{={vQ/!XG[oK_">
+                <value name="DELAY_TIME_MILI">
+                  <block type="math_number" id="5^z]o(H-=M;+_N}1EB6(">
+                    <field name="NUM">15</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="oled_clear" id="V2cYa(qZPuk[}M^v|HBh">
+            <next>
+              <block type="controls_for" id="zg`;qP^xws_z{tRZFIV#">
+                <field name="VAR">j</field>
+                <value name="FROM">
+                  <block type="math_number" id="-]d|DRh3%gnGKQM|kk]#">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="TO">
+                  <block type="math_number" id=".8;*=OE)7cl3#oMEMymb">
+                    <field name="NUM">128</field>
+                  </block>
+                </value>
+                <value name="BY">
+                  <block type="math_number" id="3[oRC6OsK+|Ig|FAW04g">
+                    <field name="NUM">4</field>
+                  </block>
+                </value>
+                <statement name="DO">
+                  <block type="oled_drawline" id="sx|hhe-LT,h%B6Ta,@i=">
+                    <value name="COLOR">
+                      <shadow type="set_color" id="_adi/=17Ni:P%ktF03_H">
+                        <field name="COLOR">#ff00ff</field>
+                      </shadow>
+                    </value>
+                    <value name="POSA">
+                      <shadow type="oled_set_position" id="|VPYq/`P!eJfo[`n;(/9">
+                        <value name="POSX">
+                          <shadow type="math_number" id="jbxi@],#Jr|=*.(#8hf#">
+                            <field name="NUM">0</field>
+                          </shadow>
+                        </value>
+                        <value name="POSY">
+                          <shadow type="math_number" id="aPeE4[4Ax]xSR10:6*=(">
+                            <field name="NUM">0</field>
+                          </shadow>
+                          <block type="variables_get" id="/X0|xSZv-k(|%P[6:@sj">
+                            <field name="VAR">j</field>
+                          </block>
+                        </value>
+                      </shadow>
+                    </value>
+                    <value name="POSB">
+                      <shadow type="oled_set_position" id="yrP3bCYCy52iTHIoMSsg">
+                        <value name="POSX">
+                          <shadow type="math_number" id=".nX%vB^as2Gfr#sw1=S}">
+                            <field name="NUM">50</field>
+                          </shadow>
+                          <block type="variables_get" id="8|)gPOCVm2M@5MZ]]hV.">
+                            <field name="VAR">j</field>
+                          </block>
+                        </value>
+                        <value name="POSY">
+                          <shadow type="math_number" id="UX2/_vER[iJ,Pl!BlSKo">
+                            <field name="NUM">128</field>
+                          </shadow>
+                        </value>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="time_delay" id="ig=eoiCkO`hL2*Ng2B)R">
+                        <value name="DELAY_TIME_MILI">
+                          <block type="math_number" id="I?,5Z3;zUIXcfpSARkJI">
+                            <field name="NUM">15</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="controls_for" id="~Plzd9B0.yOL?S~8%=}M">
+                    <field name="VAR">j</field>
+                    <value name="FROM">
+                      <block type="math_number" id="y,5}6,?8p}lm8vykFv2T">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <value name="TO">
+                      <block type="math_number" id="`Gd|1lz1bS/1vUUC*`|7">
+                        <field name="NUM">128</field>
+                      </block>
+                    </value>
+                    <value name="BY">
+                      <block type="math_number" id="0Whrm2_OKsrzycd[*6yu">
+                        <field name="NUM">4</field>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block type="oled_drawline" id="zc5YU3fg%y;lG9Wyk#w-">
+                        <value name="COLOR">
+                          <shadow type="set_color" id="8|h/)XRD?Xf^[6!1#{zq">
+                            <field name="COLOR">#ff00ff</field>
+                          </shadow>
+                        </value>
+                        <value name="POSA">
+                          <shadow type="oled_set_position" id="9ynBAa5gP{y%H~f#z}z)">
+                            <value name="POSX">
+                              <shadow type="math_number" id="CrIJn{w2@21)j5)+Y,WW">
+                                <field name="NUM">0</field>
+                              </shadow>
+                              <block type="variables_get" id="2pDx,wkGA@DVREg{B{qp">
+                                <field name="VAR">j</field>
+                              </block>
+                            </value>
+                            <value name="POSY">
+                              <shadow type="math_number" id="aPeE4[4Ax]xSR10:6*=(">
+                                <field name="NUM">0</field>
+                              </shadow>
+                            </value>
+                          </shadow>
+                        </value>
+                        <value name="POSB">
+                          <shadow type="oled_set_position" id="oTTDE03S^ME3UW+%3TUe">
+                            <value name="POSX">
+                              <shadow type="math_number" id=".nX%vB^as2Gfr#sw1=S}">
+                                <field name="NUM">128</field>
+                              </shadow>
+                            </value>
+                            <value name="POSY">
+                              <shadow type="math_number" id="NsT[C_h/SLC{aeCGQJTv">
+                                <field name="NUM">50</field>
+                              </shadow>
+                              <block type="variables_get" id="2h9Zg.VS[n1Wn2??Dz(:">
+                                <field name="VAR">j</field>
+                              </block>
+                            </value>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="time_delay" id="L*4LFdHYwR`7nebQ:CI0">
+                            <value name="DELAY_TIME_MILI">
+                              <block type="math_number" id="Gc?Lq8[d!K49~0[^^iuM">
+                                <field name="NUM">15</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="oled_clear" id="aI[s`X5lLnqM28o!BC8G"></block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="controls_for" id="{0j^.fN++v].b/K{.|y(" x="475" y="169">
+    <field name="VAR">i</field>
+    <value name="FROM">
+      <block type="math_number" id="P-;:bCdvm|pHK^,u6q4L">
+        <field name="NUM">14</field>
+      </block>
+    </value>
+    <value name="TO">
+      <block type="math_number" id="-E.?KV!nm7BSCcm:Sfn.">
+        <field name="NUM">100</field>
+      </block>
+    </value>
+    <value name="BY">
+      <block type="math_number" id="7%Mw`E{|cFT!w:9l`N`v">
+        <field name="NUM">14</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="oled_drawrect" id="]=rMW19CNHs`Ltoccg5B">
+        <field name="rect_type">fill</field>
+        <value name="COLOR">
+          <shadow type="set_color" id="X`r#H.VS!grzC6XKO2,K">
+            <field name="COLOR">#00ffff</field>
+          </shadow>
+        </value>
+        <value name="SIZE">
+          <shadow type="oled_set_width_height" id="eJ-(5_psToXe{*5AzU2P">
+            <value name="WIDTH">
+              <shadow type="math_number" id="1Z}}xIzp^2%Bb|)?s37c">
+                <field name="NUM">50</field>
+              </shadow>
+              <block type="variables_get" id="fZr_Uw#dMVbzP_CetSCZ">
+                <field name="VAR">i</field>
+              </block>
+            </value>
+            <value name="HEIGHT">
+              <shadow type="math_number" id="dlB7u}5nf1OY7Fg(+I..">
+                <field name="NUM">50</field>
+              </shadow>
+              <block type="variables_get" id="aT|`rHdqhBic;+JJ//Md">
+                <field name="VAR">i</field>
+              </block>
+            </value>
+          </shadow>
+        </value>
+        <value name="POS">
+          <shadow type="oled_set_position" id="10UA;:3CXk)..curqvcF">
+            <value name="POSX">
+              <shadow type="math_number" id="C!(Sd`!QUBP(0s[IJtf^">
+                <field name="NUM">14</field>
+              </shadow>
+            </value>
+            <value name="POSY">
+              <shadow type="math_number" id="|^C4h:|nvu[S*164/=,7">
+                <field name="NUM">14</field>
+              </shadow>
+            </value>
+          </shadow>
+        </value>
+        <next>
+          <block type="time_delay" id="A.Sp0V^,b;`m:#LGJLMf">
+            <value name="DELAY_TIME_MILI">
+              <block type="math_number" id="Dsu9bdDlQ;sm0~sZLoeL">
+                <field name="NUM">30</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="controls_for" id="a5F[K3(N;~1Qt-H*x@jX">
+        <field name="VAR">i</field>
+        <value name="FROM">
+          <block type="math_number" id="thWJ?tE/xaEELW/*.@v%">
+            <field name="NUM">14</field>
+          </block>
+        </value>
+        <value name="TO">
+          <block type="math_number" id="l`+vScL2./I]xDXp=O*u">
+            <field name="NUM">100</field>
+          </block>
+        </value>
+        <value name="BY">
+          <block type="math_number" id="F=c?lk3TnCSUpe_cqjm{">
+            <field name="NUM">14</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="oled_drawrect" id="KKcrMY0p6=V8NL`d]X,Z">
+            <field name="rect_type">fill</field>
+            <value name="COLOR">
+              <shadow type="set_color" id="-j^Wvby`;g2MKxD#l{+?">
+                <field name="COLOR">#000000</field>
+              </shadow>
+            </value>
+            <value name="SIZE">
+              <shadow type="oled_set_width_height" id="m@oN~.(3Zl)nnA#^[fYE">
+                <value name="WIDTH">
+                  <shadow type="math_number" id="1Z}}xIzp^2%Bb|)?s37c">
+                    <field name="NUM">50</field>
+                  </shadow>
+                  <block type="variables_get" id="Qt^WStH}Z{d?s_]~U+,!">
+                    <field name="VAR">i</field>
+                  </block>
+                </value>
+                <value name="HEIGHT">
+                  <shadow type="math_number" id="dlB7u}5nf1OY7Fg(+I..">
+                    <field name="NUM">50</field>
+                  </shadow>
+                  <block type="variables_get" id="M37C0deDX#6IDB65+k+r">
+                    <field name="VAR">i</field>
+                  </block>
+                </value>
+              </shadow>
+            </value>
+            <value name="POS">
+              <shadow type="oled_set_position" id="KFb{CAC71A2[%ZG?xYlb">
+                <value name="POSX">
+                  <shadow type="math_number" id="+|f:pL9S9nAZe1ZZ^GYu">
+                    <field name="NUM">14</field>
+                  </shadow>
+                </value>
+                <value name="POSY">
+                  <shadow type="math_number" id="wUThwbw`3RF5AC73UqEY">
+                    <field name="NUM">14</field>
+                  </shadow>
+                </value>
+              </shadow>
+            </value>
+            <next>
+              <block type="time_delay" id="u@,QIQK2c9r5[1EI1f!d">
+                <value name="DELAY_TIME_MILI">
+                  <block type="math_number" id=".r}W8W-[72D7u}EsR3UR">
+                    <field name="NUM">30</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="oled_clear" id="Kd-rVRl5[h1{W-o+wp4|">
+            <next>
+              <block type="controls_for" id="YMlL,_Rz|O%K2}(tQ?wQ">
+                <field name="VAR">i</field>
+                <value name="FROM">
+                  <block type="math_number" id="nA^bVL:SdoTOh0[@WYXv">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="TO">
+                  <block type="math_number" id=")n,R6CRx(CV.fX;Zm-Cn">
+                    <field name="NUM">50</field>
+                  </block>
+                </value>
+                <value name="BY">
+                  <block type="math_number" id="C_sVo=,^qO2}}TQ(Ow6I">
+                    <field name="NUM">5</field>
+                  </block>
+                </value>
+                <statement name="DO">
+                  <block type="oled_drawcircle" id="5viCkR+41/Kb@w=;Js5H">
+                    <field name="circle_type">fill</field>
+                    <value name="COLOR">
+                      <shadow type="set_color" id="?dF-5_X~giol}2%exOF4">
+                        <field name="COLOR">#ffff00</field>
+                      </shadow>
+                    </value>
+                    <value name="POS">
+                      <shadow type="oled_set_position" id="U59sN/bIg/|#fp!^!-:?">
+                        <value name="POSX">
+                          <shadow type="math_number" id=";#QRAL)k:Wb1oTlKy#4W">
+                            <field name="NUM">64</field>
+                          </shadow>
+                        </value>
+                        <value name="POSY">
+                          <shadow type="math_number" id="Wm)%TY5Bwt7%:,M9EGxG">
+                            <field name="NUM">64</field>
+                          </shadow>
+                        </value>
+                      </shadow>
+                    </value>
+                    <value name="RADIUS">
+                      <shadow type="math_number" id="p:nS4};u~(mHY;7gLL6T">
+                        <field name="NUM">30</field>
+                      </shadow>
+                      <block type="variables_get" id="_GI-XY+scpN#hy`DBFi9">
+                        <field name="VAR">i</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="time_delay" id="c?/L;VHKa6I9hOHrjGT1">
+                        <value name="DELAY_TIME_MILI">
+                          <block type="math_number" id="5]n[5mAyz[;I00LfD}rw">
+                            <field name="NUM">40</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <next>
+                  <block type="controls_for" id="1g?5PE~y~DA(k+b8rRBI">
+                    <field name="VAR">i</field>
+                    <value name="FROM">
+                      <block type="math_number" id="G##Gf3xj1M#hxMQd!@oL">
+                        <field name="NUM">10</field>
+                      </block>
+                    </value>
+                    <value name="TO">
+                      <block type="math_number" id="0W5M6=GZY)m^lyQ}qvr%">
+                        <field name="NUM">50</field>
+                      </block>
+                    </value>
+                    <value name="BY">
+                      <block type="math_number" id="nW}Q(7yg^U?Q-~2T5m`+">
+                        <field name="NUM">5</field>
+                      </block>
+                    </value>
+                    <statement name="DO">
+                      <block type="oled_drawcircle" id="5:B7g10hN|Fkq}e#[9RF">
+                        <field name="circle_type">fill</field>
+                        <value name="COLOR">
+                          <shadow type="set_color" id="+B=?W^miQQ9}7rVai2H.">
+                            <field name="COLOR">#000000</field>
+                          </shadow>
+                        </value>
+                        <value name="POS">
+                          <shadow type="oled_set_position" id="`W.^P4!aV0wUr%)3n/Xr">
+                            <value name="POSX">
+                              <shadow type="math_number" id="f~tiXU.JbHl]tPt]D@`=">
+                                <field name="NUM">64</field>
+                              </shadow>
+                            </value>
+                            <value name="POSY">
+                              <shadow type="math_number" id="yabB6FOZe1|z4F-Y{Gji">
+                                <field name="NUM">64</field>
+                              </shadow>
+                            </value>
+                          </shadow>
+                        </value>
+                        <value name="RADIUS">
+                          <shadow type="math_number" id="p:nS4};u~(mHY;7gLL6T">
+                            <field name="NUM">30</field>
+                          </shadow>
+                          <block type="variables_get" id="Yxcr/_R6;pVOae0aIgfl">
+                            <field name="VAR">i</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="time_delay" id="1H4SeFcQ(^7:t~`eoyr,">
+                            <value name="DELAY_TIME_MILI">
+                              <block type="math_number" id="gQ!e^!TGC~ekv^{E_)K!">
+                                <field name="NUM">40</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="oled_clear" id="TxpxB/.S;r!8zg!!B#Zp"></block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="oled_text" id=";Hbe]K|-0jM]iqyibs7X" x="906" y="896">
+    <field name="print_type">println</field>
+    <value name="INPUT">
+      <shadow type="text" id="Tu0WwRV*b1@bVU^vpWEq">
+        <field name="TEXT">CocoRobo</field>
+      </shadow>
+    </value>
+    <value name="COLOR">
+      <shadow type="set_color" id="T%U8Uq=|`P@p,pAXV=3G">
+        <field name="COLOR">#0000ff</field>
+      </shadow>
+    </value>
+    <value name="POS">
+      <shadow type="oled_set_position" id="?WJBPh^Gpf[#Gen_PLp-">
+        <value name="POSX">
+          <shadow type="math_number" id="34SvP1_RJ}XIGec3f^/i">
+            <field name="NUM">20</field>
+          </shadow>
+        </value>
+        <value name="POSY">
+          <shadow type="math_number" id="T5}W}eUCD8DXg=G6[Q|z">
+            <field name="NUM">20</field>
+          </shadow>
+        </value>
+      </shadow>
+    </value>
+    <value name="SIZE">
+      <shadow type="math_number" id="N_JM^.2#e,I081sr4g|A">
+        <field name="NUM">1</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="time_delay" id="m_c76ZqMC*,uq{Ks/r@e">
+        <value name="DELAY_TIME_MILI">
+          <block type="math_number" id="fA%QLKDyfQ0]am%[*hs:">
+            <field name="NUM">1500</field>
+          </block>
+        </value>
+        <next>
+          <block type="oled_clear" id="2#ji]PA_U2lyc-s.gbe`"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
