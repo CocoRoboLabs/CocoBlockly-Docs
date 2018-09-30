@@ -27,82 +27,43 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
 
 ## 主機板模組基礎使用
 
-### 主控數據通信（主控發給 WiFi、主控接收WiFi 、WiFi 發給主控、WiFi 接收主控
+### 主控數據通信
 
 #### 模組組裝
 
-to be edited.
+<img src="/media/wifi__main--split.jpeg" width="250"/>
+<img src="/media/wifi__main--assemble.jpeg" width="250"/>
 
-#### 積木編程
 
-to be edited.
+---
+#### 主控發給 WiFi 与 WiFi 接收主控
+##### 積木編程
+![wifi__main](../media/wifi__main--blockly-1-1.jpeg)
+![wifi__main](../media/wifi__main--blockly-1-2.jpeg)
+##### 最終效果
 
-#### 最終效果
-
-to be edited.
-
-#### 參考鏈接
-
-to be edited.
+![wifi__main](../media/wifi__main--sample-1.jpeg)
 
 ---
 
-### 使用重置按鈕
+#### WiFi 發給主控 与 主控接收 WiFi
+##### 積木編程
+![wifi__main](../media/wifi__main--blockly-2-1.jpeg)
+![wifi__main](../media/wifi__main--blockly-2-2.jpeg)
+##### 最終效果
+![wifi__main](../media/wifi__main--sample-2.jpeg)
+---
 
-#### 模組組裝
-
-to be edited.
-
-#### 積木編程
-
-to be edited.
-
-#### 最終效果
-
-to be edited.
-
-#### 參考鏈接
-
-to be edited.
+### WiFi 連接網絡並獲取基本信息
+##### 積木編程
+![wifi__main](../media/wifi__main--blockly-3.jpeg)
+##### 最終效果
+![wifi__main](../media/wifi__main--sample-3.jpeg)
 
 ---
 
-## 主機板模組進階使用
-
-### 主機板與主機板模組間通訊（UART）
-
-#### 模組組裝
-
-to be edited.
-
-#### 積木編程
-
-to be edited.
-
-#### 最終效果
-
-to be edited.
-
-#### 參考鏈接
-
-to be edited.
-
----
-
-### HID 鼠標及鍵盤模式
-
-#### 模組組裝
-
-to be edited.
-
-#### 積木編程
-
-to be edited.
-
-#### 最終效果
-
-to be edited.
-
-#### 參考鏈接
-
-to be edited.
+### WiFi 發送基本請求
+##### 積木編程
+![wifi__main](../media/wifi__main--blockly-4.jpeg)
+##### 最終效果
+![wifi__main](../media/wifi__main--sample-4.jpeg)
