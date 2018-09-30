@@ -1,0 +1,98 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="bluetooth_intercomms_setup" id="S|.d)TT!h9#~?xkM~OqE" x="28" y="-50"></block>
+  <block type="variables_set" id="rp4b?,aI7@3G0zm:xqu4" x="33" y="36">
+    <field name="VAR">switch</field>
+    <value name="VALUE">
+      <block type="read_button" id="G,HX#fE;mLj^%YD%XyH~">
+        <value name="PINSNUM">
+          <shadow type="basic101_dropdown_button" id=",.Qi(nksf+B#KU5+;OR}">
+            <field name="SELECTPIN">12</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="variables_set" id=")?OG[,KNUc[aBK%Yl75S">
+        <field name="VAR">Potentiometer</field>
+        <value name="VALUE">
+          <block type="read_knob" id="57hSPEc8ROMO[lX2?W{;">
+            <value name="PINSNUM">
+              <shadow type="basic101_dropdown_knob" id="%2R0!Cvr,Bx74:(}iVHS">
+                <field name="SELECTPIN">A3</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="lists_variable_set" id="F*6qsb}tP_dXy6M3s=lF">
+            <field name="VAR">dataOut</field>
+            <value name="VALUE">
+              <block type="lists_create_with" id="Px^{pX{jvA+vX#hcBnh:">
+                <mutation items="2"></mutation>
+                <value name="ADD0">
+                  <block type="math_number" id="pR:UL+Y{-h4sK]9Dk7=b">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block type="math_number" id="vWi.PU[34H)lB*dt?lv8">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="lists_setIndex" id="G~*2IlIj(MBfI%I.d-Oq">
+                <value name="VAR">
+                  <shadow type="variables_get" id="3Tsb4wJm^WKd7Uu{|Spc">
+                    <field name="VAR">dataOut</field>
+                  </shadow>
+                </value>
+                <value name="AT">
+                  <shadow type="math_number" id="5%emcUdLm9]g3(#OP8yw">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+                <value name="TO">
+                  <shadow type="math_number" id="GJpIyQs:A;OW/W|7re?E">
+                    <field name="NUM">0</field>
+                  </shadow>
+                  <block type="variables_get" id="Tyz^opt2tFq2j=:9XK0]">
+                    <field name="VAR">switch</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="lists_setIndex" id="GRg?8cj^9C?ziQ8V.jpu">
+                    <value name="VAR">
+                      <shadow type="variables_get" id="rcg{5`4*qhR#(Bn/IfG(">
+                        <field name="VAR">dataOut</field>
+                      </shadow>
+                    </value>
+                    <value name="AT">
+                      <shadow type="math_number" id="1Q]EW}{YZbcsR^NGss5s">
+                        <field name="NUM">1</field>
+                      </shadow>
+                    </value>
+                    <value name="TO">
+                      <shadow type="math_number" id="GJpIyQs:A;OW/W|7re?E">
+                        <field name="NUM">0</field>
+                      </shadow>
+                      <block type="variables_get" id="=ORU,1KY4~VJ8q5rY,|G">
+                        <field name="VAR">Potentiometer</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="bluetooth_intercomms_sendMsg" id="B^]%0GDSCm}l!uRRMz+u">
+                        <field name="dataVar">dataOut</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
