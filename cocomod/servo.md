@@ -2,6 +2,8 @@
 
 ## 模組簡介
 
+舵機轉接模組能夠同時控制六個舵機，提供兩種供電方式，分別是主機板供電和外接電源控制。
+
 ## 模組主要部件
 
 <img src="/media/cocomod/modPic_0014_Layer 8 copy2.jpg" width="250"/>
