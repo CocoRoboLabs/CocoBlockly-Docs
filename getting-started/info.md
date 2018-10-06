@@ -122,22 +122,3 @@ https://cocorobolabs.gitbooks.io/cocoblockly/content/uploader-xia-zai-ji-an-zhua
     ![upload](../media/intro_upload_6.png)
 6. 完成以上3個步驟，就意味著我們已經將程式上傳至主機板中
    **註**：與 Arduino IDE 的「Verify code」類似，我們提供「編譯（Compile）」這個選項，供大家測試編寫的程式是否能夠正確編譯
-
----
-
-## 主機板模式與 WiFi 模式
-### 什麼是 WiFi 模組
-![wifi](../media/intro_wifi_1.png)
-### 什麼是 WiFi 模式
-給 WiFi 通訊模組進行編程時，我們需要在 CocoBlockly 的界面右下角「程式上傳區」中，點擊紅色框中的切換按鈕，切換為 Wi-Fi 模式。
-![wifi](../media/intro_wifi_3.png)
-![wifi](../media/intro_wifi_2.png)
-當我們製作一個與外接通訊的 IoT 項目時，需要給項目中的主機板模組和 WiFi 模組都上傳程式。下圖示範了製作一個 IoT 項目所需要的程式開發流程。
-![wifi](../media/intro_wifi_4.png)
-**註**：切換模式時，因為兩個模式工作空間的積木都會同時保存，所以當用戶再切換回去時，之前的編寫的積木程式不會丟失。
-目前的 CocoBlockly Wi-Fi 模式支持以下兩種傳送模式：
-1. 將數據傳送至遠端；
-2. 從遠端獲取數據；
-<!-- pagebreak -->
-同時，用戶還可以選擇接入 CocoCloud，或者 IFTTT、Thingspeak 這些第三方服務，來完成左邊兩種操作模式。
-![wifi](../media/intro_wifi_5.png)
