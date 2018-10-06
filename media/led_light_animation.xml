@@ -1,0 +1,380 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="led_neopixel_setup" id="xFc+B%|B0q.6y(,477Q@" x="-227" y="-638">
+    <field name="neopixel_initpin">6</field>
+    <field name="neopixel_initwidth">5</field>
+    <field name="neopixel_initheight">5</field>
+    <field name="neopixel_initbright">20</field>
+  </block>
+  <block type="led_pattern_5x5" id="svx^5v9w6UV~%^HKjk,)" x="60" y="-626">
+    <field name="0_0">#3B5587</field>
+    <field name="0_1">#3B5587</field>
+    <field name="0_2">#00ff00</field>
+    <field name="0_3">#00ff00</field>
+    <field name="0_4">#00ff00</field>
+    <field name="1_0">#3B5587</field>
+    <field name="1_1">#00ff00</field>
+    <field name="1_2">#3B5587</field>
+    <field name="1_3">#3B5587</field>
+    <field name="1_4">#3B5587</field>
+    <field name="2_0">#3B5587</field>
+    <field name="2_1">#00ff00</field>
+    <field name="2_2">#3B5587</field>
+    <field name="2_3">#3B5587</field>
+    <field name="2_4">#3B5587</field>
+    <field name="3_0">#3B5587</field>
+    <field name="3_1">#00ff00</field>
+    <field name="3_2">#3B5587</field>
+    <field name="3_3">#3B5587</field>
+    <field name="3_4">#3B5587</field>
+    <field name="4_0">#3B5587</field>
+    <field name="4_1">#3B5587</field>
+    <field name="4_2">#00ff00</field>
+    <field name="4_3">#00ff00</field>
+    <field name="4_4">#00ff00</field>
+    <next>
+      <block type="led_showall" id="7-U^Wf`0M)MW3[^_u+-p">
+        <next>
+          <block type="time_delay" id="92UelK_4}atgvW%u%p1)">
+            <value name="DELAY_TIME_MILI">
+              <block type="math_number" id="QXa-D(JC;@QzA=9O)bN(">
+                <field name="NUM">1000</field>
+              </block>
+            </value>
+            <next>
+              <block type="led_clear" id="Nm*70y@mq*xUYQq_+B6N">
+                <next>
+                  <block type="led_pattern_5x5" id=")v[,4Cx.Z52Kz@7iM)}h">
+                    <field name="0_0">#3B5587</field>
+                    <field name="0_1">#3B5587</field>
+                    <field name="0_2">#00ff00</field>
+                    <field name="0_3">#00ff00</field>
+                    <field name="0_4">#3b5587</field>
+                    <field name="1_0">#3B5587</field>
+                    <field name="1_1">#00ff00</field>
+                    <field name="1_2">#3B5587</field>
+                    <field name="1_3">#3B5587</field>
+                    <field name="1_4">#00ff00</field>
+                    <field name="2_0">#3B5587</field>
+                    <field name="2_1">#00ff00</field>
+                    <field name="2_2">#3B5587</field>
+                    <field name="2_3">#3B5587</field>
+                    <field name="2_4">#00ff00</field>
+                    <field name="3_0">#3B5587</field>
+                    <field name="3_1">#00ff00</field>
+                    <field name="3_2">#3B5587</field>
+                    <field name="3_3">#3B5587</field>
+                    <field name="3_4">#00ff00</field>
+                    <field name="4_0">#3B5587</field>
+                    <field name="4_1">#3B5587</field>
+                    <field name="4_2">#00ff00</field>
+                    <field name="4_3">#00ff00</field>
+                    <field name="4_4">#3b5587</field>
+                    <next>
+                      <block type="led_showall" id="w%ya7e3wyXv942{mOUcr">
+                        <next>
+                          <block type="time_delay" id="`Un^F*zbp9XwIey1AUkW">
+                            <value name="DELAY_TIME_MILI">
+                              <block type="math_number" id="QyY=V@ZqxeIiNQ-7*R,x">
+                                <field name="NUM">1000</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="led_clear" id="VW]k1r~Dk(9IRcqdrSr5">
+                                <next>
+                                  <block type="led_pattern_5x5" id="~!^=cAnu,j,7sX}*Hz28">
+                                    <field name="0_0">#3B5587</field>
+                                    <field name="0_1">#3B5587</field>
+                                    <field name="0_2">#00ff00</field>
+                                    <field name="0_3">#00ff00</field>
+                                    <field name="0_4">#00ff00</field>
+                                    <field name="1_0">#3B5587</field>
+                                    <field name="1_1">#00ff00</field>
+                                    <field name="1_2">#3B5587</field>
+                                    <field name="1_3">#3B5587</field>
+                                    <field name="1_4">#3B5587</field>
+                                    <field name="2_0">#3B5587</field>
+                                    <field name="2_1">#00ff00</field>
+                                    <field name="2_2">#3B5587</field>
+                                    <field name="2_3">#3B5587</field>
+                                    <field name="2_4">#3B5587</field>
+                                    <field name="3_0">#3B5587</field>
+                                    <field name="3_1">#00ff00</field>
+                                    <field name="3_2">#3B5587</field>
+                                    <field name="3_3">#3B5587</field>
+                                    <field name="3_4">#3B5587</field>
+                                    <field name="4_0">#3B5587</field>
+                                    <field name="4_1">#3B5587</field>
+                                    <field name="4_2">#00ff00</field>
+                                    <field name="4_3">#00ff00</field>
+                                    <field name="4_4">#00ff00</field>
+                                    <next>
+                                      <block type="led_showall" id="sUe^?AGZuI]eD(JF.i,B">
+                                        <next>
+                                          <block type="time_delay" id="XY%PVwrRpOyc*Mr.KgXm">
+                                            <value name="DELAY_TIME_MILI">
+                                              <block type="math_number" id="4#!oo,)SycoPdi[m93Fc">
+                                                <field name="NUM">1000</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="led_clear" id="KWGZRN*QWxx49/UuM8ZI">
+                                                <next>
+                                                  <block type="led_pattern_5x5" id="I)~QC@sJEx!y_1.Cxm.s">
+                                                    <field name="0_0">#3B5587</field>
+                                                    <field name="0_1">#3B5587</field>
+                                                    <field name="0_2">#00ff00</field>
+                                                    <field name="0_3">#00ff00</field>
+                                                    <field name="0_4">#3b5587</field>
+                                                    <field name="1_0">#3B5587</field>
+                                                    <field name="1_1">#00ff00</field>
+                                                    <field name="1_2">#3B5587</field>
+                                                    <field name="1_3">#3B5587</field>
+                                                    <field name="1_4">#00ff00</field>
+                                                    <field name="2_0">#3B5587</field>
+                                                    <field name="2_1">#00ff00</field>
+                                                    <field name="2_2">#3B5587</field>
+                                                    <field name="2_3">#3B5587</field>
+                                                    <field name="2_4">#00ff00</field>
+                                                    <field name="3_0">#3B5587</field>
+                                                    <field name="3_1">#00ff00</field>
+                                                    <field name="3_2">#3B5587</field>
+                                                    <field name="3_3">#3B5587</field>
+                                                    <field name="3_4">#00ff00</field>
+                                                    <field name="4_0">#3B5587</field>
+                                                    <field name="4_1">#3B5587</field>
+                                                    <field name="4_2">#00ff00</field>
+                                                    <field name="4_3">#00ff00</field>
+                                                    <field name="4_4">#3b5587</field>
+                                                    <next>
+                                                      <block type="led_showall" id="pZjZH4SgP{x4e%{Z!|E|">
+                                                        <next>
+                                                          <block type="time_delay" id="_k6pV%V%AWuPCfMfF7mH">
+                                                            <value name="DELAY_TIME_MILI">
+                                                              <block type="math_number" id="pk7.?nsS0?.mePvOEI#?">
+                                                                <field name="NUM">1000</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="led_clear" id="wvq|0HpHgBh##)g)J[E%"></block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="led_pattern_5x5" id=".T-9aikl4sw_pR_=D5J@" x="323" y="-618">
+    <field name="0_0">#3B5587</field>
+    <field name="0_1">#00ff00</field>
+    <field name="0_2">#00ff00</field>
+    <field name="0_3">#00ff00</field>
+    <field name="0_4">#3b5587</field>
+    <field name="1_0">#3B5587</field>
+    <field name="1_1">#00ff00</field>
+    <field name="1_2">#3B5587</field>
+    <field name="1_3">#3B5587</field>
+    <field name="1_4">#00ff00</field>
+    <field name="2_0">#3B5587</field>
+    <field name="2_1">#00ff00</field>
+    <field name="2_2">#00ff00</field>
+    <field name="2_3">#00ff00</field>
+    <field name="2_4">#3b5587</field>
+    <field name="3_0">#3B5587</field>
+    <field name="3_1">#00ff00</field>
+    <field name="3_2">#3B5587</field>
+    <field name="3_3">#00ff00</field>
+    <field name="3_4">#3b5587</field>
+    <field name="4_0">#3B5587</field>
+    <field name="4_1">#00ff00</field>
+    <field name="4_2">#3b5587</field>
+    <field name="4_3">#3b5587</field>
+    <field name="4_4">#00ff00</field>
+    <next>
+      <block type="led_showall" id="z]-{b22cz*`K5+`!-}:)">
+        <next>
+          <block type="time_delay" id="RL!2p/@9YK%iicNU8Hb[">
+            <value name="DELAY_TIME_MILI">
+              <block type="math_number" id="!#^xl9;UMTMXO(%f!zH-">
+                <field name="NUM">1000</field>
+              </block>
+            </value>
+            <next>
+              <block type="led_clear" id="Ol4i5[!dRbsa|;~vxj*j">
+                <next>
+                  <block type="led_pattern_5x5" id="}(3JE_EMZX_45*yT:.q=">
+                    <field name="0_0">#3B5587</field>
+                    <field name="0_1">#3B5587</field>
+                    <field name="0_2">#00ff00</field>
+                    <field name="0_3">#00ff00</field>
+                    <field name="0_4">#3b5587</field>
+                    <field name="1_0">#3B5587</field>
+                    <field name="1_1">#00ff00</field>
+                    <field name="1_2">#3B5587</field>
+                    <field name="1_3">#3B5587</field>
+                    <field name="1_4">#00ff00</field>
+                    <field name="2_0">#3B5587</field>
+                    <field name="2_1">#00ff00</field>
+                    <field name="2_2">#3B5587</field>
+                    <field name="2_3">#3B5587</field>
+                    <field name="2_4">#00ff00</field>
+                    <field name="3_0">#3B5587</field>
+                    <field name="3_1">#00ff00</field>
+                    <field name="3_2">#3B5587</field>
+                    <field name="3_3">#3B5587</field>
+                    <field name="3_4">#00ff00</field>
+                    <field name="4_0">#3B5587</field>
+                    <field name="4_1">#3B5587</field>
+                    <field name="4_2">#00ff00</field>
+                    <field name="4_3">#00ff00</field>
+                    <field name="4_4">#3b5587</field>
+                    <next>
+                      <block type="led_showall" id="m_T#xJOiE!ZU8U,FjGKk">
+                        <next>
+                          <block type="time_delay" id="R6fkDC|?mLJ{L2F.BuRR">
+                            <value name="DELAY_TIME_MILI">
+                              <block type="math_number" id="Q^(0^WO;Z/I`jD/TnPY_">
+                                <field name="NUM">1000</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="led_clear" id="tZrm[BkiI~fwzSi3nkRL">
+                                <next>
+                                  <block type="led_pattern_5x5" id="f]-4O}TAdGM10,s+U6YR">
+                                    <field name="0_0">#3B5587</field>
+                                    <field name="0_1">#00ff00</field>
+                                    <field name="0_2">#00ff00</field>
+                                    <field name="0_3">#00ff00</field>
+                                    <field name="0_4">#3b5587</field>
+                                    <field name="1_0">#3B5587</field>
+                                    <field name="1_1">#00ff00</field>
+                                    <field name="1_2">#3B5587</field>
+                                    <field name="1_3">#3B5587</field>
+                                    <field name="1_4">#00ff00</field>
+                                    <field name="2_0">#3B5587</field>
+                                    <field name="2_1">#00ff00</field>
+                                    <field name="2_2">#00ff00</field>
+                                    <field name="2_3">#00ff00</field>
+                                    <field name="2_4">#3b5587</field>
+                                    <field name="3_0">#3B5587</field>
+                                    <field name="3_1">#00ff00</field>
+                                    <field name="3_2">#3B5587</field>
+                                    <field name="3_3">#3b5587</field>
+                                    <field name="3_4">#00ff00</field>
+                                    <field name="4_0">#3B5587</field>
+                                    <field name="4_1">#00ff00</field>
+                                    <field name="4_2">#00ff00</field>
+                                    <field name="4_3">#00ff00</field>
+                                    <field name="4_4">#3b5587</field>
+                                    <next>
+                                      <block type="led_showall" id="NyH2aar,hl|(N9in1t*N">
+                                        <next>
+                                          <block type="time_delay" id="y6na]J%-IgJ2-ziahpCE">
+                                            <value name="DELAY_TIME_MILI">
+                                              <block type="math_number" id="Pe}JRrMk_w{4#BDPon)g">
+                                                <field name="NUM">1000</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="led_clear" id="gC5Q#v%lV_^A4l(J?CWT">
+                                                <next>
+                                                  <block type="led_pattern_5x5" id="XQpCJ7Z6cxym1V,0j3nz">
+                                                    <field name="0_0">#3B5587</field>
+                                                    <field name="0_1">#3B5587</field>
+                                                    <field name="0_2">#00ff00</field>
+                                                    <field name="0_3">#00ff00</field>
+                                                    <field name="0_4">#3b5587</field>
+                                                    <field name="1_0">#3B5587</field>
+                                                    <field name="1_1">#00ff00</field>
+                                                    <field name="1_2">#3B5587</field>
+                                                    <field name="1_3">#3B5587</field>
+                                                    <field name="1_4">#00ff00</field>
+                                                    <field name="2_0">#3B5587</field>
+                                                    <field name="2_1">#00ff00</field>
+                                                    <field name="2_2">#3B5587</field>
+                                                    <field name="2_3">#3B5587</field>
+                                                    <field name="2_4">#00ff00</field>
+                                                    <field name="3_0">#3B5587</field>
+                                                    <field name="3_1">#00ff00</field>
+                                                    <field name="3_2">#3B5587</field>
+                                                    <field name="3_3">#3B5587</field>
+                                                    <field name="3_4">#00ff00</field>
+                                                    <field name="4_0">#3B5587</field>
+                                                    <field name="4_1">#3B5587</field>
+                                                    <field name="4_2">#00ff00</field>
+                                                    <field name="4_3">#00ff00</field>
+                                                    <field name="4_4">#3b5587</field>
+                                                    <next>
+                                                      <block type="led_showall" id="zl?TL^btVn}G74^#9b%x">
+                                                        <next>
+                                                          <block type="time_delay" id=",;FMuw*gX+ws.CLjN}Mn">
+                                                            <value name="DELAY_TIME_MILI">
+                                                              <block type="math_number" id="+W5j9pHzH`ba8Z?[]}Qc">
+                                                                <field name="NUM">1000</field>
+                                                              </block>
+                                                            </value>
+                                                            <next>
+                                                              <block type="led_clear" id="Hb,(pI4PGt!I0Ucwk,rO">
+                                                                <next>
+                                                                  <block type="time_delay" id="iNWcvBL4,U{06tz8XKXV">
+                                                                    <value name="DELAY_TIME_MILI">
+                                                                      <block type="math_number" id="Po:^)sg|_Guju6QhRG([">
+                                                                        <field name="NUM">1000</field>
+                                                                      </block>
+                                                                    </value>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

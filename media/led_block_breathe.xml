@@ -1,0 +1,232 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="led_neopixel_setup" id="xFc+B%|B0q.6y(,477Q@" x="14" y="-580">
+    <field name="neopixel_initpin">6</field>
+    <field name="neopixel_initwidth">5</field>
+    <field name="neopixel_initheight">5</field>
+    <field name="neopixel_initbright">20</field>
+  </block>
+  <block type="controls_for" id="}k_+ax}KhT!*n:1KK9Uv" x="284" y="-578">
+    <field name="VAR">i</field>
+    <value name="FROM">
+      <block type="math_number" id="6xB4Z[hY`5k*kc@[H#dQ">
+        <field name="NUM">1</field>
+      </block>
+    </value>
+    <value name="TO">
+      <block type="math_number" id="4?[5Y^QJ^r#bsRJm49w|">
+        <field name="NUM">10</field>
+      </block>
+    </value>
+    <value name="BY">
+      <block type="math_number" id="]?6m`WKmJ2mGs:9k2[mi">
+        <field name="NUM">1</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="variables_set" id="jKHjUpGiDh.Vjz7~(#`O">
+        <field name="VAR">lightness</field>
+        <value name="VALUE">
+          <block type="math_arithmetic" id="-]RDSJ5FCAP;Q4=HY[DE">
+            <field name="OP">ADD</field>
+            <value name="A">
+              <block type="math_number" id="UTMavJdEJxgdJF:q^ka0">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_arithmetic" id="bvmf+E51^,4M25nO@9f=">
+                <field name="OP">MULTIPLY</field>
+                <value name="A">
+                  <block type="math_number" id="Ez3pf9Y[TBF9BH~TJ!Od">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="variables_get" id="qt=2JHFEnld,Tp/y.ZT+">
+                    <field name="VAR">i</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="led_setbright" id="^zvV!/VHhSBoi+)=W?cu">
+            <value name="BRIGHTNESS">
+              <shadow type="math_number" id="v0E|~#r/!z!lB?:]L7*3">
+                <field name="NUM">220</field>
+              </shadow>
+              <block type="variables_get" id="^4jv!XP;_UREa=M-J%3_">
+                <field name="VAR">lightness</field>
+              </block>
+            </value>
+            <next>
+              <block type="led_drawrect" id="UsCG7{sdot|([hs9#ic7">
+                <field name="rect_type">fill</field>
+                <value name="COLOR">
+                  <shadow type="set_color" id="pcM`N%:(#;IW=WS6{bfu">
+                    <field name="COLOR">#ffa500</field>
+                  </shadow>
+                </value>
+                <value name="SIZE">
+                  <shadow type="led_set_width_height" id="0!`tRtQ=z:KeNiE+{,6h">
+                    <value name="WIDTH">
+                      <shadow type="math_number" id="b:rKwL8`C~2/=[qt!0y:">
+                        <field name="NUM">5</field>
+                      </shadow>
+                    </value>
+                    <value name="HEIGHT">
+                      <shadow type="math_number" id="FTM6[FaK4b;I`_..2zdL">
+                        <field name="NUM">5</field>
+                      </shadow>
+                    </value>
+                  </shadow>
+                </value>
+                <value name="POS">
+                  <shadow type="led_set_position" id="Dy7lyld*vRD`~6Xwy%{3">
+                    <value name="POSX">
+                      <shadow type="math_number" id="Fl=yiTC6AI]Y]6SlB%13">
+                        <field name="NUM">0</field>
+                      </shadow>
+                    </value>
+                    <value name="POSY">
+                      <shadow type="math_number" id="uTRES2p9]fgHUesVe`3d">
+                        <field name="NUM">0</field>
+                      </shadow>
+                    </value>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="led_showall" id="uzO|p6FK`g@:00Hdcrl+">
+                    <next>
+                      <block type="time_delay" id="%p1ZP@nn7K5dQ/?v~E-*">
+                        <value name="DELAY_TIME_MILI">
+                          <block type="math_number" id="a9NwCn;_GTK(OXV:yzDo">
+                            <field name="NUM">200</field>
+                          </block>
+                        </value>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="controls_for" id="88Pg=v*p1MHG[V;KNBf9">
+        <field name="VAR">i</field>
+        <value name="FROM">
+          <block type="math_number" id="@gu4u:XDN-HDfP(:?i]%">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="TO">
+          <block type="math_number" id="nx7iNI3P81:]X+Teln+T">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <value name="BY">
+          <block type="math_number" id="gIMj1twhX=kJ2}wlVG2W">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="variables_set" id="t;(1w/e;Fe(JLlq,xI0Z">
+            <field name="VAR">lightness</field>
+            <value name="VALUE">
+              <block type="math_arithmetic" id="g:lnJm(;c7q5Y+j~*U,Y">
+                <field name="OP">ADD</field>
+                <value name="A">
+                  <block type="math_number" id="3+ayk3u2f:qFi=oNy)o~">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_arithmetic" id="GJjOtf}lRzI+KlM8?SCo">
+                    <field name="OP">MULTIPLY</field>
+                    <value name="A">
+                      <block type="math_number" id="Ft19/L6e![)knQ64@+;p">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="variables_get" id="Tb8VR__D-k4?%5.s]vV7">
+                        <field name="VAR">i</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="led_setbright" id="w5I{O;vh0hQXfa|_K9Q(">
+                <value name="BRIGHTNESS">
+                  <shadow type="math_number" id="v0E|~#r/!z!lB?:]L7*3">
+                    <field name="NUM">220</field>
+                  </shadow>
+                  <block type="variables_get" id=":fsQnW5@q}X}TUSl,v6s">
+                    <field name="VAR">lightness</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="led_drawrect" id="wl((W*{T(3.znJ]o1T!L">
+                    <field name="rect_type">fill</field>
+                    <value name="COLOR">
+                      <shadow type="set_color" id="E_t3-)8R%2+fG06n@vn8">
+                        <field name="COLOR">#ffa500</field>
+                      </shadow>
+                    </value>
+                    <value name="SIZE">
+                      <shadow type="led_set_width_height" id=")(gn1IE_HY:F49rHmD00">
+                        <value name="WIDTH">
+                          <shadow type="math_number" id="]sJ`X(IUZ}C?yh`sN}%E">
+                            <field name="NUM">5</field>
+                          </shadow>
+                        </value>
+                        <value name="HEIGHT">
+                          <shadow type="math_number" id=",J7ZHp*3Vl(a^%[zPx,u">
+                            <field name="NUM">5</field>
+                          </shadow>
+                        </value>
+                      </shadow>
+                    </value>
+                    <value name="POS">
+                      <shadow type="led_set_position" id="UpxK]SNXD,YKvn.f?u:[">
+                        <value name="POSX">
+                          <shadow type="math_number" id="V^/}F;4DT:gP/Pu+ZZrm">
+                            <field name="NUM">0</field>
+                          </shadow>
+                        </value>
+                        <value name="POSY">
+                          <shadow type="math_number" id="%pi9Vn%?UBRr.Q#R)}XJ">
+                            <field name="NUM">0</field>
+                          </shadow>
+                        </value>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="led_showall" id="%Nk3mOIy|vzC+}abNyuK">
+                        <next>
+                          <block type="time_delay" id="YhA{A_vc~10?y^3hDf(o">
+                            <value name="DELAY_TIME_MILI">
+                              <block type="math_number" id="[0MkbCC{TLAy]VsZ8eUO">
+                                <field name="NUM">200</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
