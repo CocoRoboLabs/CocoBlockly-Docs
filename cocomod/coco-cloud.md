@@ -38,9 +38,6 @@ https://cocorobo.hk/cloud
 
 
 ---
-## Trigger & Action
-
-Defined
 
 ## Events
 
@@ -48,7 +45,20 @@ Defined
 
 ### 使用方法
 
-abcd
+![cocoCloud__events](../media/cocoCloud__event--1.jpeg)
+
+點擊新增按鈕（ + ）
+
+![cocoCloud__events](../media/cocoCloud__event--2.jpeg)
+
+輸入事件名稱，與類別（非必填），點擊創建
+
+![cocoCloud__events](../media/cocoCloud__event--3.jpeg)
+
+點擊事件，即可看到事件的屬性，以及最後一筆數據的內容
+
+![cocoCloud__events](../media/cocoCloud__event--4.jpeg)
+
 
 ## Dashboard
 
