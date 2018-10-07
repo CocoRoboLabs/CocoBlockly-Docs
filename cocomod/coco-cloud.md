@@ -43,7 +43,7 @@ https://cocorobo.hk/cloud
 
 在 Events 中，用戶可以創建命名事件，以此來對每個屬性以及數據進行管理。
 
-### 使用方法
+### 創建方法
 
 ![cocoCloud__events](../media/cocoCloud__event--1.jpeg)
 
@@ -51,9 +51,16 @@ https://cocorobo.hk/cloud
 
 ![cocoCloud__events](../media/cocoCloud__event--2.jpeg)
 
-輸入事件名稱，與類別（非必填），點擊創建
+輸入事件名稱，與類別（非必填），點擊創建即可完成事件的建立
 
+### 使用方法
+
+#### 獲取URL
 ![cocoCloud__events](../media/cocoCloud__event--3.jpeg)
+
+點擊複製圖標即可獲取事件的URL，由此來對事件進行數據的新增。
+
+#### 事件查看
 
 點擊事件，即可看到事件的屬性，以及最後一筆數據的內容
 
@@ -66,9 +73,36 @@ https://cocorobo.hk/cloud
 
 ![cocoCloud](../media/cocoCloud__2.jpeg)
 
-### 使用方法
+### 創建方法
 
-abcd
+![cocoCloud__dashboard](../media/cocoCloud__dashboard--1.jpeg)
+
+點擊新增按鈕（ + ）
+
+![cocoCloud__dashboard](../media/cocoCloud__dashboard--2.jpeg)
+
+輸入要創建的工具種類，目前支持
+
+* 數據可視化
+* 插件
+
+輸入要創建的可視化類型或按鍵類型，目前支持
+
+* 數據可視化
+  * 線型圖
+  * 區域圖
+
+* 插件
+  * 開關
+
+輸入事件的名稱
+
+輸入欲觀察或改變的屬性
+
+點擊創建後即可看見數據的歷史數據所構成的圖表
+
+![cocoCloud](../media/cocoCloud__2.jpeg)
+
 
 ## API Key
 
