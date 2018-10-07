@@ -34,11 +34,11 @@
 
 ### MP3音樂
 #### 模組組裝
-It's comming soon.
+Coming soon.
 #### 積木編程
-It's comming soon.
+Coming soon.
 #### 最終效果
-It's comming soon.
+Coming soon.
 
 ---
 
@@ -55,8 +55,8 @@ It's comming soon.
 
 ### 製作 MP3 Player
 #### 模組組裝
-It's comming soon.
+Coming soon.
 #### 積木編程
-It's comming soon.
+Coming soon.
 #### 最終效果
-It's comming soon.
+Coming soon.

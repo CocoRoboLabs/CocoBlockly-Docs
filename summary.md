@@ -20,5 +20,7 @@
 - - [使用藍牙通訊模組](/cocomod/bluetooth)
 - - [使用舵機轉接模組](/cocomod/servo)
 - - [使用轉接模組](/cocomod/hub)
+- - [使用平行轉接模組](/cocomod/horizontal-adapter)
+- - [使用正反轉接模組](/cocomod/reversed-adapter)
 - - [使用 WiFi 通訊模組](/cocomod/wifi)
 - - [使用 CocoCloud](/cocomod/coco-cloud)
