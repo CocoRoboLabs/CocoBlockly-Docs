@@ -108,6 +108,10 @@ https://cocorobo.hk/cloud
 
 用戶的唯一識別碼。
 
-### 使用方法
+## 案例
 
-abcd
+利用環境模組同 WiFi 模組當作觸發器，將環境模組上的數據通過 WiFi 模組傳送至Cloud.
+
+![cocoCloud](../media/cocoCloud__sample--1.jpeg)
+
+![cocoCloud](../media/cocoCloud__sample--2.jpeg)
