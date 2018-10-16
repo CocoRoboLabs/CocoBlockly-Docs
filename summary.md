@@ -24,3 +24,8 @@
 - - [使用正反轉接模組](/cocomod/reversed-adapter)
 - - [使用 WiFi 通訊模組](/cocomod/wifi)
 - - [使用 CocoCloud](/cocomod/coco-cloud)
+- [课程套件使用](/kit/overview)
+- - [智能家居](/kit/smart-home)
+- - [創意電子](/kit/creative-electronics)
+- - [動力小車](/kit/robot-car)
+- - [機械達人](/kit/robot-arm)
