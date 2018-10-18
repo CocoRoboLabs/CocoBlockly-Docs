@@ -37,12 +37,12 @@
         logo: '/media/help-logo.png',
         themeColor: '#225dd5',
         homepage: 'index.md',
-
+        auto2top: true,
 
         loadSidebar: true,
         loadSidebar: 'summary.md',
         maxLevel: 4,
-
+        subMaxLevel: 3,
 
         // Search feature
 
@@ -70,13 +70,18 @@
             '/getting-started/local-storage.md',
             '/getting-started/cloud-storage.md',
             '/getting-started/project-snapshot.md',
-            '/getting-started/serial-monitor.md'
+            '/getting-started/serial-monitor.md',
+            '/kit/overview.md',
+            '/kit/smart-home.md',
+            '/kit/creative-electronics.md',
+            '/kit/robot-car.md',
+            '/kit/robot-arm.md',
         ],
 
         // complete configuration parameters
         search: {
             maxAge: 86400000, // Expiration time, the default one day
-            paths: [], // or 'auto'
+            paths: 'auto', // or 'auto'
             placeholder: 'Type to search',
 
             // Localization

@@ -1,4 +1,5 @@
 # 智能家居
+---
 ## 關於產品
 ### 關於智能家居套件 
 前往下面網址查詢其他關於 CocoKit 的資料http://cocorobo.hk/online/product/cocokit
@@ -80,15 +81,15 @@ CocoCloud 的特性：
 
 環境感測模組，含有如下感測器組件：
 
-① 光照感應元件，  資料介口為A1
+① 光照感應元件，  資料接口為A1
 
-② 聲音感應元件， 資料介口為A2
+② 聲音感應元件， 資料接口為A2
 
-③ 溫度/濕度感應元件， 資料介口為A4
+③ 溫度/濕度感應元件， 資料接口為A4
 
-④ 蜂鳴器元件， 資料介口為D7
+④ 蜂鳴器元件， 資料接口為D7
 
-⑤ RGB燈光元件， 對應介口分別為D9,D10,D11，在CocoBlockly中，關於環境感測模組的程式積木在![kit](../media/kit_12.png)中，共有8個程式積木，具體如下：
+⑤ RGB燈光元件， 對應接口分別為D9,D10,D11，在CocoBlockly中，關於環境感測模組的程式積木在![kit](../media/kit_12.png)中，共有8個程式積木，具體如下：
 
 1.使用環境感測模組之前，都需要使用該積木進行初始化設置
 
@@ -476,7 +477,7 @@ CocoRobo 的藍牙模組為一款通訊類模組，使用藍牙 2.0 為通訊協
 
 <span style="background-color:#cc0000; color:white">示例1</span>：顯示網絡設備信息這個示例將會在 Serial Monitor 中打印 3 個設備數據，包括本機 IP 地址。
 
-<span style="background-color:#cc0000; color:white">示例2</span>：接收來自 主控模組 發送的簡單數據這個示例將會告訴你如何接收從主控模組傳輸的數據，並儲存在數組中
+<span style="background-color:#cc0000; color:white">示例2</span></span>：接收來自 主控模組 發送的簡單數據這個示例將會告訴你如何接收從主控模組傳輸的數據，並儲存在數組中
 
 <span style="background-color:#cc0000; color:white">示例3</span>：接收來自 主控模組 發送的環境傳感數據這個示例將會告訴你如何接收從主控模組傳輸的數據，包括溫度、溼度、光照強度和聲音強度，並儲存在數組中
 
@@ -554,6 +555,25 @@ Web 服務積木：
 ![kit](../media/kit_113.png)
 
 意味著：若離開或回到家時，則提醒開啟/關閉  WiFi：在 iOS 裝置上，並沒有任何第三方程式有權限直接關閉/開啟 WiFi ，但透過 IFTTT 卻可以發出提醒通知。這個設置可以在你離開家或是回到家時，發出推播通知，提醒你開啟/關閉 WiFi ，以節省電力。
+#### IFTTT 註冊流程介紹
+- 網頁版本：
+
+1.在箭頭處填寫註冊郵箱
+
+![kit](../media/kit_191.png)
+
+<br/>
+
+2.設置密碼後點擊\[ sign up \] 按鈕完成註冊
+    
+![kit](../media/kit_195.png)
+
+<br/>
+
+- 手機版本：依次填寫註冊名、郵箱以及賬戶密碼，之後登錄該服務可以選擇註冊名或者郵箱任一
+
+<img src="../media/kit_195.jpg" width="300px" height="500px"/>
+
 #### CocoMod + IFTTT
 ![kit](../media/kit_114.png)
 
@@ -571,6 +591,18 @@ Web 服務積木：
 　　本章節中，我們向大家介紹如何使用 CocoMod 電子模組和 CocoBlockly 製作一個能夠向 Thingspeak 傳送數據的 IoT 項目
 
 更多關於 Thingspeak 的介紹請前往：https://www.mathworks.com/videos/introduction-to-thingspeak-107749.html 
+#### Thingspeak 註冊流程介紹
+1.進入thingspeak頁面后在左邊方框內容處填寫信息
+
+![kit](../media/kit_192.png)
+
+2.填寫完整信息后在下方點擊\[ continue \]按鈕后出現認證界面，去往填寫郵箱按照步驟認證完畢后，再次點擊該界面下方的\[ continue \]按鈕
+
+![kit](../media/kit_193.png)
+<hr/>
+![kit](../media/kit_194.png)
+
+3.註冊完成
 #### CocoMod + ThingSpeak
 ![kit](../media/kit_117.png)
 
