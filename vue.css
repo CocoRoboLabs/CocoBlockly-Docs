@@ -720,7 +720,8 @@ body {
 
 .markdown-section a {
     color: var(--theme-color, #42b983);
-    font-weight: 600
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .markdown-section h1 {
@@ -759,7 +760,7 @@ body {
 .markdown-section ol,
 .markdown-section p,
 .markdown-section ul {
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     word-spacing: .05rem
 }
 

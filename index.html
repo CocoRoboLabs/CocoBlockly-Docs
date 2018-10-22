@@ -9,6 +9,23 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <!--<link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css">-->
     <link rel="stylesheet" href="vue.css">
+    <meta name="theme-color" content="#2C4FCD">
+    <link rel="apple-touch-icon" sizes="57x57" href="http://cocorobo.hk/cocoblockly/dev/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://cocorobo.hk/cocoblockly/dev/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://cocorobo.hk/cocoblockly/dev/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://cocorobo.hk/cocoblockly/dev/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://cocorobo.hk/cocoblockly/dev/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://cocorobo.hk/cocoblockly/dev/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://cocorobo.hk/cocoblockly/dev/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://cocorobo.hk/cocoblockly/dev/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://cocorobo.hk/cocoblockly/dev/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="http://cocorobo.hk/cocoblockly/dev/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://cocorobo.hk/cocoblockly/dev/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://cocorobo.hk/cocoblockly/dev/img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://cocorobo.hk/cocoblockly/dev/img/favicon-16x16.png">
+    <link rel="manifest" href="http://cocorobo.hk/cocoblockly/dev/img/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="http://cocorobo.hk/cocoblockly/dev/img/ms-icon-144x144.png">
 </head>
 
 <body>
@@ -20,24 +37,51 @@
         logo: '/media/help-logo.png',
         themeColor: '#225dd5',
         homepage: 'index.md',
-
+        auto2top: true,
 
         loadSidebar: true,
         loadSidebar: 'summary.md',
         maxLevel: 4,
-
+        subMaxLevel: 3,
 
         // Search feature
 
         search: 'auto', // default
         search: [
-            '/',
+            '/index.md',
+            '/cocomod/overview.md',
+            '/cocomod/audio-analyzer.md',
+            '/cocomod/bluetooth.md',
+            '/cocomod/coco-cloud.md',
+            '/cocomod/environment.md',
+            '/cocomod/hub.md',
+            '/cocomod/led-matrix.md',
+            '/cocomod/main-controller.md',
+            '/cocomod/motion.md',
+            '/cocomod/motor-driver.md',
+            '/cocomod/music.md',
+            '/cocomod/power-management.md',
+            '/cocomod/screen.md',
+            '/cocomod/sensor-101.md',
+            '/cocomod/servo.md',
+            '/cocomod/touch.md',
+            '/cocomod/wifi.md',
+            '/getting-started/info.md',
+            '/getting-started/local-storage.md',
+            '/getting-started/cloud-storage.md',
+            '/getting-started/project-snapshot.md',
+            '/getting-started/serial-monitor.md',
+            '/kit/overview.md',
+            '/kit/smart-home.md',
+            '/kit/creative-electronics.md',
+            '/kit/robot-car.md',
+            '/kit/robot-arm.md',
         ],
 
         // complete configuration parameters
         search: {
             maxAge: 86400000, // Expiration time, the default one day
-            paths: [], // or 'auto'
+            paths: 'auto', // or 'auto'
             placeholder: 'Type to search',
 
             // Localization
@@ -53,13 +97,14 @@
             },
 
             // Headline depth, 1 - 6
-            depth: 2
-        }
+            depth: 6
+        },
+        ga: 'UA-110081781-1'
     }
     </script>
     <!-- docsify -->
-    <script src="docsify.min.js"></script>
-    <script src="search.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
     <!-- docsify-themeable -->
     <!-- <script src="//unpkg.com/docsify-themeable"></script>-->
 </body>

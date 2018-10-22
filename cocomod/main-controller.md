@@ -33,11 +33,11 @@
 ## 主機板模組進階使用
 ### 主機板與主機板模組間通訊（UART）
 #### 模組組裝
-It's comming soon.
+Coming soon.
 #### 積木編程
-It's comming soon.
+Coming soon.
 #### 最終效果
-It's comming soon.
+Coming soon.
 #### 參考鏈接
 https://learn.sparkfun.com/tutorials/serial-communication/uarts
 https://www.freebsd.org/doc/en/articles/serial-uart/
@@ -47,10 +47,10 @@ https://www.arduino.cc/reference/en/language/functions/communication/serial/
 
 ### HID 鼠標及鍵盤模式
 #### 模組組裝
-It's comming soon.
+Coming soon.
 #### 積木編程
-It's comming soon.
+Coming soon.
 #### 最終效果
-It's comming soon.
+Coming soon.
 #### 參考鏈接
-It's comming soon.
+Coming soon.

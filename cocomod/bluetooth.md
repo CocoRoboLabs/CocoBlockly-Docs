@@ -75,8 +75,8 @@ https://www.jianshu.com/p/9c462581bbcf
 
 ### 藍牙配對藍牙模組（模組間的數據傳輸）
 #### 藍牙改名：AT模式
-<img src="../media/bluetooth_AT_1.png" width="600"/> 
-<img src="../media/bluetooth_AT_2.png" width="600"/> 
+<img src="../media/Bluetooth_AT_1.png" width="600"/> 
+<img src="../media/Bluetooth_AT_2.png" width="600"/> 
 
 #### 模組組裝 
 
