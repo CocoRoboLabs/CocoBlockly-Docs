@@ -30,3 +30,4 @@
 - - [創意電子](/kit/creative-electronics)
 - - [動力小車](/kit/robot-car)
 - - [機械達人](/kit/robot-arm)
+- [常用問題解答](faq) 
