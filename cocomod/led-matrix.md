@@ -45,7 +45,9 @@ to be edited.
 ---
 
 ### 座標軸介紹
+
 ####坐標信息
+
 | 編號 | 座標軸  | 範圍                                                          |
 | --- | --------- | ----------------------------------------------------------------- |
 | 1.  | X軸 | 0-4 |
@@ -172,19 +174,31 @@ to be edited.
 #### 拼接教程
 
 #####拼接説明
+
 多屏LED的拼接需要結合轉接模組使用，每個LED燈屏需要連接轉接模組，主機板連接轉接模組。主機板上的轉接模組的接綫根據LED初始化積木的設定決定，而每個LED燈屏上的轉接模組接發固定：接入為引脚6，接出為引脚7
+
 #####拼接示例
+
 拼接一個2x3的LED屏以第一個LED為起始屏幕，除了初始化積木設置為
+
 <img src="../media/led_tiled_tutor_setup.png" width="200"/>
+
 LED屏以圖示順序進行連接，最總形成一個2x3的LED面板
+
 <img src="../media/led_tiled_tutorial_2x3.png" width="400"/>
+
 LED屏以圖示順序進行連接，拼接一個3x3的LED面板
+
 <img src="../media/led_tiled_tutorial_3x3.png" width="400"/>
+
 LED屏以圖示順序進行連接，拼接一個4x2的LED面板
+
 <img src="../media/led_tiled_tutorial_4x2.png" width="400"/>
 
 #### 積木編程
+
 拼接一個2*1屏，第一個屏顯示紅色（3x3），第二個屏顯示藍色（3x3）
+
 <img src="../media/led_tiled_block.png" width="500"/>
 
 #### 最終效果
