@@ -5,12 +5,14 @@
 ## CocoBlockly Uploader
 為了能夠讓 CocoBlockly 能夠從瀏覽器和主機板模組進行通訊，我們推出一款跨平臺的「上傳插件（Uploader）」，用戶只需要下載該插件，安裝即可對我們的電子模組進行上傳編程。
 首先，請選擇對應的操作系統，下載 CocoBlockly Uploader 安裝包。
+
 1. 安裝包下載
 
 | 作業平台                            | 下載     | 系統要求                   |
 | ----------------------------------- | -------- | -------------------------- |
-| CocoBlockly Uploader v3 for MacOS   | [下載地址](https://cocorobo.hk/downloads/CocoBlocklyUploader_macOS.zip) | 要求系統版本高於 10.10     |
-| CocoBlockly Uploader v3 for Windows | [下載地址](https://cocorobo.hk/downloads/CocoBlocklyUploader_Windows.zip) | 要求系統版本高於 Windows 7 |
+| CocoBlockly Uploader v3 for MacOS   | [下載地址](https://api.cocorobo.hk/releases/uploaderv2/download/mac) | 要求系統版本高於 macOS 10.10     |
+| CocoBlockly Uploader v3 for Windows | [下載地址](https://api.cocorobo.hk/releases/uploaderv2/download/windows) | 要求系統版本高於 Windows 7 |
+
 本安裝包對應的 CocoBlockly 使用鏈接為：http://cocorobo.hk/cocoblockly/
 <!-- pagebreak -->
 2. 安裝指示

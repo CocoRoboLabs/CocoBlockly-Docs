@@ -5,8 +5,24 @@
 CocoBlockly 是一種類似 MIT Scratch 的在線可視化積木式編程工具，通過拖拽一些功能積木便可理解編程。我們使用該界面，讓使用者能夠直接通過瀏覽器，來對電子模組進行編程。使用 CocoBlockly 時，需要配合 CocoBlockly Uploader 軟體來進行程序的上傳，下載安裝後，以後再使用網頁編程時只需保持該軟體打開即可。
 
 第一次使用 CocoBlockly 的用戶，請前往[該頁面](/getting-started/info)鏈接下載 **CocoBlockly Uploader 上傳軟件**，支持 Windows 及 macOS。
+### 使用必讀
 
-安裝完成後，前往 [http://cocorobo.hk/cocoblockly/dev/](http://cocorobo.hk/cocoblockly/dev/) ，檢查界面右下角的「Upload Area」是否有綠色的打勾圖標，如有，則表示安裝成功，這時你可以開始進行程式編寫，並上傳至你的電子模組中了。
+#### 準備事項： 
+
+1. 安裝 CocoBlockly Uploader（版本號高於 v3.0.0）:
+  1. Windows: https://api.cocorobo.hk/releases/uploaderv2/download/windows
+  2. macOS: https://api.cocorobo.hk/releases/uploaderv2/download/mac
+2. 安裝上傳插件的 Google Chrome Browser:
+  1. https://www.google.com/chrome/
+3. 安裝完成後，前往 [http://cocorobo.hk/cocoblockly/dev/](http://cocorobo.hk/cocoblockly/dev/) ，檢查界面右下角的「Upload Area」是否有綠色的打勾圖標，如有，則表示安裝成功，這時你可以開始進行程式編寫，並上傳至你的電子模組中了。
+
+#### 注意事項：
+
+1. 請不要在上傳過程中直接拔掉主機板模組或者 WiFi 通訊模組；
+2. 請不要使用不支持的瀏覽器和操作系統（推薦使用 Google Chrome）；
+3. 請不要在上傳過程中 按到主機板模組上的重置（Reset）按鈕；
+4. 當主機板已經連接，但頁面仍然沒有顯示端口時，可以點擊頁面右下角的「重置上傳插件」按鈕，重啟上傳插件；
+5. 如果出現上傳失敗或者編譯失敗的情況，請將錯誤信息複製記下，發給技術支持人員瞭解，或者寄信給 support-hk@cocorobo.cc
 
 ---
 
