@@ -9,7 +9,7 @@ CocoBlockly 是一種類似 MIT Scratch 的在線可視化積木式編程工具�
 
 #### 準備事項： 
 
-1. 安裝 CocoBlockly Uploader（請從以下鏈接獲取最新版本）:
+1. 安裝 CocoBlockly Uploader（請從以下鏈接獲取最新版本，當前穩定版本爲：v3.0.5）:
   1. Windows: https://api.cocorobo.hk/releases/uploaderv2/download/windows
   2. macOS: https://api.cocorobo.hk/releases/uploaderv2/download/mac
 2. 安裝上傳插件的 Google Chrome Browser:
