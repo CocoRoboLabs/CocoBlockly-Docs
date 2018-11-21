@@ -16,7 +16,7 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
 |3. |Reset 按鍵  |S2  |
 |4. |Flash 按鍵  |S1  |
 
-
+> 為了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
 
 ## 模組使用說明
 
