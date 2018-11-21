@@ -14,6 +14,7 @@
 	* 比如：「電機驅動模組」不可直接與「LED燈模組」使用，由於「LED燈模組」的默認接口為 D6，我們可以將「LED燈模組」接在「轉接模組A1」的 D3 接口上，然後在 CocoBlockly 裡中將 LED 設定積木的接口從 D6 改成 D3，便可以與電機驅動模組一起使用了；
 2. __關於 SPI 或者 I²C 通訊方式的原理，可從下方鏈接進行瞭解__
 	* <a href="http://magicjackting.pixnet.net/blog/post/164725144-spi-(serial-peripheral-interface)-串列-(序列)-週邊介" target="_blank">SPI (Serial Peripheral Interface) 串列 (序列) 週邊介面</a>
+	* <a href="http://magicjackting.pixnet.net/blog/post/173061691-i2c-bus-簡介-%28inter-integrated-circuit-bus%29-" target="_blank">I2C bus 簡介 (Inter-Integrated Circuit Bus)</a>
 
 --- 
 
