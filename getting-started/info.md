@@ -17,9 +17,10 @@
 <!-- pagebreak -->
 2. 安裝指示
     - **Windows**
-        - 選擇下載得到的 **zip** 文檔，并解壓這個文檔，得到安裝包
-        ![installer_win](../media/installer_win_1.png)
         - 雙擊安裝包，然後根據指示選擇目標的資料夾進行安裝
+
+        ![installer_win](../media/installer_win_1.png)
+
         ![installer_win](../media/installer_win_2.png)
         - 在安裝的過程中，會依次彈出協助安裝 Arduino 驅動和 WiFi 模組驅動的界面，可以根據指示依次安裝（如果已經安裝過該驅動，可以選擇取消跳過）
         ![installer_win](../media/installer_win_3.png)
