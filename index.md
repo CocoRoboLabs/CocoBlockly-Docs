@@ -69,3 +69,4 @@ CocoBlockly 是一種類似 MIT Scratch 的在線可視化積木式編程工具�
 - - [人工智能類](/projects/ai)
 - - [學科融合類](/projects/interdisciplinary)
 - [常用問題解答](faq) 
+- [版本更新日誌](changelog) 
