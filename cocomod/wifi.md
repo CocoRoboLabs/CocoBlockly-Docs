@@ -27,7 +27,7 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
 
 ## 主機板模組基礎使用
 
-### 主控數據通信
+### 主機板數據通信
 
 #### 模組組裝
 
@@ -54,7 +54,7 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
 ![wifi](../media/intro_wifi_5.png)
 
 ---
-#### 主控發給 WiFi 与 WiFi 接收主控
+#### 主機板發給 WiFi 与 WiFi 接收主機板
 ##### 積木編程
 ![wifi__main](../media/wifi__main--blockly-1-1.jpeg)
 ![wifi__main](../media/wifi__main--blockly-1-2.jpeg)
@@ -64,7 +64,7 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
 
 ---
 
-#### WiFi 發給主控 与 主控接收 WiFi
+#### WiFi 發給主機板 与 主機板接收 WiFi
 ##### 積木編程
 ![wifi__main](../media/wifi__main--blockly-2-1.jpeg)
 ![wifi__main](../media/wifi__main--blockly-2-2.jpeg)

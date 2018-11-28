@@ -37,7 +37,7 @@ find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/类比/模拟/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/序列埠/串口/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/讯号/信号/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/通讯/通信/g'
-find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/主机板/主控/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/主机板/主機板/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/感测/传感/g'
 
 echo "Pushing updated content to remote..."

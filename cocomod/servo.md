@@ -9,6 +9,7 @@
 <img src="/media/cocomod/modPic_0014_Layer 8 copy2.jpg" width="250"/>
 <img src="/media/servoHub--withDescription.jpg" width="250"/>
 
+<br>
 
 |編號 |部件名稱 | 部件描述  |
 |-  |-  |-  |
@@ -19,12 +20,12 @@
 |5. |D9 Pin |D9, VCC, GND （外接電源用）|
 |6. |D10 Pin |D10, VCC, GND （外接電源用）|
 |7. |D11 Pin |D11, VCC, GND （外接電源用）|
-|8. |D3 Pin |D3, VCC, GND （主控供電）|
-|9. |D5 Pin |D5, VCC, GND （主控供電）|
-|10. |D6 Pin |D6, VCC, GND （主控供電）|
-|11. |D9 Pin |D9, VCC, GND （主控供電）|
-|12. |D10 Pin |D10, VCC, GND （主控供電）|
-|13. |D11 Pin |D11, VCC, GND （主控供電）|
+|8. |D3 Pin |D3, VCC, GND （主機板供電）|
+|9. |D5 Pin |D5, VCC, GND （主機板供電）|
+|10. |D6 Pin |D6, VCC, GND （主機板供電）|
+|11. |D9 Pin |D9, VCC, GND （主機板供電）|
+|12. |D10 Pin |D10, VCC, GND （主機板供電）|
+|13. |D11 Pin |D11, VCC, GND （主機板供電）|
 
 > 為了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
 
@@ -48,7 +49,7 @@
 
 #### 積木編程
 
-![env__main--blockly](../media/servoHub__main--blockly-1.jpeg)
+![env__main--blockly](../media/servoHub__main--blockly-1.jpg)
 
 
 #### 最終效果

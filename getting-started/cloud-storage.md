@@ -1,7 +1,7 @@
 # 雲端存取檔案
 ---
 ## 簡介
-用戶可以使用CocoBlockly雲端存儲功能，自由的將工作區的積木檔案保存在CocoRobo公司雲端服務器的個人賬戶上。通過個人賬戶可以隨時隨地在不同終端主機上打開保存在雲端的檔案，操作簡單便捷。
+除了在計算機本地存儲積木文件外，用戶還可以在CocoBlockly上創建其個人賬戶、從CocoRobo公司的雲端服務器上存儲和隨時隨地調用其所撰寫的編程積木檔案。教師或學生將能夠根據需要在不同終端上傳和下載其檔案。
 <img src="../media/cloudStorage_panel.png" width="500"/>
 
 ---
@@ -12,13 +12,14 @@
 
 <img src="../media/cloudStorage_nav_account.png" width="500"/>
 
-弹出登录窗口，进行登陆操作
+彈出登錄窗口，進行登入操作
 
 <img src="../media/cloudStorage_account_beforeLogin.png" width="500"/>
 
 <img src="../media/cloudStorage_account_login.png" width="500"/>
 
-登陸成功后,點擊導航欄的**雲端存儲**
+登錄成功後，點擊導航欄的**雲端存儲**
+
 
 <img src="../media/cloudStorage_nav.png" width="500"/>
 
@@ -58,7 +59,7 @@
 
 <img src="../media/cloudStorage_open_file.png" width="500"/>
 
-成功打開檔案后，雲端存儲界面會自動關閉，積木工作區會根據文件類型自動切換模式（主控模式/WiFi模式），并且自動生成對應積木，界面右上角會彈出提示。
+成功打開檔案后，雲端存儲界面會自動關閉，積木工作區會根據文件類型自動切換模式（主機板模式/WiFi模式），并且自動生成對應積木，界面右上角會彈出提示。
 
 <img src="../media/cloudStorage_open_success.png" width="500"/>
 
@@ -75,7 +76,8 @@
 
 ---
 ### 常見檔案打開錯誤：
-  CocoBlockly版本更新后，雲端存儲檔案版本與CocoBlockly版本不匹配。部分積木已被更改，而不能正常加載。工作區會生成部分積木，但無法正常使用
+
+CocoBlockly版本更新后，雲端存儲檔案版本與CocoBlockly版本不匹配。部分積木已被更改，且不能正常加載
 
 <img src="../media/localStorage_import_invalidBlocks.png" width="500"/>
 
