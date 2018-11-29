@@ -1,5 +1,9 @@
 echo "Checking out new content from master to master-cn ..."
 
+git add .
+git commit -m "Update master branch"
+git push -u origin master
+
 git branch -D master-cn
 git push --delete origin master-cn
 git checkout -b master-cn master
