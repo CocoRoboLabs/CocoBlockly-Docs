@@ -1,19 +1,17 @@
-# 使用舵機轉接模組
+# 使用伺服馬達轉接模組
 
 ## 模組簡介
 
-舵機轉接模組能夠同時控制六個舵機，提供兩種供電方式，分別是主機板供電和外接電源控制。
+伺服馬達轉接模組能夠同時控制六個伺服馬達，提供兩種供電方式，分別是主機板供電和外接電源控制。
 
 ## 模組主要部件
 
-<img src="/media/cocomod/modPic_0014_Layer 8 copy2.jpg" width="250"/>
-<img src="/media/servoHub--withDescription.jpg" width="250"/>
-
-<br>
+<div style="margin-bottom:10px;"><img src="/media/cocomod/modPic_0014_Layer 8 copy2.jpg" width="40%"/>
+<img style="padding-left:10px;" src="/media/servoHub--withDescription.jpg" width="40%"/></div>
 
 |編號 |部件名稱 | 部件描述  |
 |-  |-  |-  |
-|1. |外接電源接口  | 5V 2A|
+|1. |外接電源接口  | 5V/2A 輸入|
 |2. |D3 Pin |D3, VCC, GND （外接電源用）|
 |3. |D5 Pin |D5, VCC, GND （外接電源用）|
 |4. |D6 Pin |D6, VCC, GND （外接電源用）|
@@ -27,15 +25,19 @@
 |12. |D10 Pin |D10, VCC, GND （主機板供電）|
 |13. |D11 Pin |D11, VCC, GND （主機板供電）|
 
-> 為了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
+> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
+
+--- 
 
 ## 注意事項
 
-1.當主機板控制 3 個舵機時，會產生電流過高的現象，需要外置電源才可穩定的控制
+1.當主機板控制 3 個伺服馬達時，會產生電流過高的現象，需要外置電源纔可穩定的控制
 
-## 舵機轉接模組基礎使用
+---
 
-### 調整舵機角度
+## 伺服馬達轉接模組基礎使用
+
+### 調整伺服馬達角度
 
 #### 所需模組與材料
 

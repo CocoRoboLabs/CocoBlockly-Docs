@@ -20,14 +20,14 @@ CocoBlockly 是一種類似 MIT Scratch 的在線可視化積木式編程工具�
 
 #### 什麼是 WiFi 模式
 
-給 WiFi 通訊模組進行編程時，我們需要在 CocoBlockly 的界面右下角，點擊切換按鈕，切換為 Wi-Fi 模式。  
+給 WiFi 通訊模組進行編程時，我們需要在 CocoBlockly 的界面右下角，點擊切換按鈕，切換爲 Wi-Fi 模式。  
 ![](/assets/import6.png)
 
 前面提到，當我們製作一個與外接通訊的 IoT 項目時，需要給項目中的主機板模組和 WiFi 模組都上傳程式。下圖示範了製作一個 IoT 項目所需要的程式開發流程。
 
 ![](https://lh5.googleusercontent.com/FSoaCK-Uq_uDLrPubKaQ0PbZOSULkZFlhwxV9ndW-oEeFfc19eyTczjHn8RtHW5ns_u3dO4jJPg6aoZ10FmChnH8Db_mmyU1KRFrsHF53K1fFdDu86VC3gAgPmSCRZCPFgpjKj_Yddw)
 
-註：切換模式時，因為兩個模式工作空間的積木都會同時保存，所以當用戶再切換回去時，之前的編寫的積木程式不會丟失。
+注：切換模式時，因爲兩個模式工作空間的積木都會同時保存，所以當用戶再切換回去時，之前的編寫的積木程式不會丟失。
 
 目前的 CocoBlockly Wi-Fi 模式支持以下兩種傳送模式：
 
@@ -44,6 +44,6 @@ CocoBlockly 是一種類似 MIT Scratch 的在線可視化積木式編程工具�
 
 ![](https://lh6.googleusercontent.com/HT1gtWAGIy6nzFGVlnMAqTA8c_YQaDzdZKw2WFoSaF_qTJi0RHB6jjT-7ge00Ma8J1Wy0Js9q6CTLRsUruV3Kjv01LLnFNHqXo0433lpRHJVX9ZzJrBIHQIA4DuJ1iGmpjDNYMPx)
 
-CocoMod 是一系列由 CocoRobo 研發的「即插即用式」的電子模組，目前已研發 15 余款，其中控制類模組 2 種，輸入類模組 7 種，輸出類模組 7 種，轉接類模組 6 種。CocoMod 可以讓你的作品能夠擁有感應、控制真實世界的能力，只要接上各種輸入/輸出模組或元件， 例如 LED 燈、摩打、開關、溫溼度傳感器、顯示裝置，或是接上無線通訊模組，就可以做出各式各樣的小發明。
+CocoMod 是一系列由 CocoRobo 研發的「即插即用式」的電子模組，目前已研發 15 餘款，其中控制類模組 2 種，輸入類模組 7 種，輸出類模組 7 種，轉接類模組 6 種。CocoMod 可以讓你的作品能夠擁有感應、控制真實世界的能力，只要接上各種輸入/輸出模組或元件， 例如 LED 燈、摩打、開關、溫溼度感應器、顯示裝置，或是接上無線通訊模組，就可以做出各式各樣的小發明。
 
-用户利用這些模組，結合 3D 打印和編程可以輕鬆地完成各類項目，其擴展性較市面上其他多數 Arduino 套件更適合入門者學習電子及編程知識。同時，CocoRobo 鼓勵用戶通過配套的課程，來更好、更快的學習使用 CocoMod 電子模組。
+用戶利用這些模組，結合 3D 打印和編程可以輕鬆地完成各類項目，其擴展性較市面上其他多數 Arduino 套件更適合入門者學習電子及編程知識。同時，CocoRobo 鼓勵用戶通過配套的課程，來更好、更快的學習使用 CocoMod 電子模組。

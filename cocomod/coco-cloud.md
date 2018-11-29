@@ -3,11 +3,11 @@
 
 ## 簡介
 
-Coco Cloud 是 CocoRobo 推出的雲平台。用戶可以在平台上進行事件的管理，以及事件狀態的查看。Coco Cloud 亦支持數據可視化功能，用戶可以在 Dashboard 中創建，查看各類數據。
+Coco Cloud 是 CocoRobo 推出的雲平臺。用戶可以在平臺上進行事件的管理，以及事件狀態的查看。Coco Cloud 亦支持數據可視化功能，用戶可以在 Dashboard 中創建，查看各類數據。
 
 https://cocorobo.hk/cloud
 
-## 平台主要組件
+## 平臺主要組件
 
 ![cocoCloud](../media/cocoCloud__2.jpeg)
 ![cocoCloud](../media/cocoCloud__1.jpeg)
@@ -25,7 +25,7 @@ https://cocorobo.hk/cloud
 
 ## 組件使用說明
 
-## 账号注册
+## 賬號註冊
 
 ![cocoCloud__register](../media/cocoCloud__register--1.jpeg)
 

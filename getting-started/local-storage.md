@@ -16,7 +16,7 @@
 
 <img src="../media/localStorage_fileSelector.png" width="400"/>
 
-選擇點擊我們想要的積木文件。__（注意:導入文件格式必須為XML格式，以及内容是CocoBlockly積木相關的，才能正確導入）__
+選擇點擊我們想要的積木文件。__（注意:導入文件格式必須爲XML格式，以及內容是CocoBlockly積木相關的，才能正確導入）__
 成功導入積木文件，CocoBlockly的工作區會自動生成對應積木，代碼產生區會自動產生對應代碼
 
 <img src="../media/localStorage_import.png" width="500"/>
@@ -31,7 +31,7 @@
 
 <img src="../media/localStorage_import_fileError.png" width="500"/>
 
- 2. 導入積木文件不完整，或者包含不存在積木，常見于CocoBlockly版本更新后，文件版本與CocoBlockly版本不匹配。工作區生成部分積木，但無法正常使用
+ 2. 導入積木文件不完整，或者包含不存在積木，常見於CocoBlockly版本更新後，文件版本與CocoBlockly版本不匹配。工作區生成部分積木，但無法正常使用
 
 <img src="../media/localStorage_import_invalidBlocks.png" width="500"/>
 
