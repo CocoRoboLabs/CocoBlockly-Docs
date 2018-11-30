@@ -13,7 +13,7 @@
 - - [使用觸摸感應模組](/cocomod/touch)
 - - [使用環境感應模組](/cocomod/environment)
 - - [使用音頻分析模組](/cocomod/audio-analyzer)
-- - [使用馬達驅動模組](/cocomod/motor-driver)
+- - [使用電機驅動模組](/cocomod/motor-driver)
 - - [使用顏色分析模組](/cocomod/color-analyzer)
 - - [使用運動感應模組](/cocomod/motion)
 - - [使用電源管理模組](/cocomod/power-management)
