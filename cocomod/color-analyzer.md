@@ -101,6 +101,6 @@ colorAnalysize_setLED.xml
     frameBorder="0"
     height="450px"
     scrolling="no"
-    src="/tools/FlexiColorPicker/examples/showcase.html">
+    src="../tools/FlexiColorPicker/examples/showcase.html">
 </iframe>
 </div>
