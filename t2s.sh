@@ -42,6 +42,7 @@ find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/通讯/通信/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/主机板/主機板/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/感应/传感/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'cocorobo.hk'/'cocorobo.cn'/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'api.cocorobo.cn'/'api.cocorobo.hk'/g'
 
 echo "Pushing updated content to remote..."
 
