@@ -40,22 +40,8 @@
 
         ![installer_win](../media/installer_mac_1.png)
 
-        - 雙擊安裝包
-        - 如果出現瞭如同下面的警告
-            - 點擊「好」
+        - 右鍵點擊安裝包，選擇打開，彈出以下窗口後，點擊「打開」以打開安裝包
 
-            ![installer_win](../media/installer_mac_2.png)
-
-            - 然後打開「系統偏好設置」，點擊「安全性與隱私」
-
-            ![installer_win](../media/installer_mac_3.png)
-
-            - 點擊紅色框中的「仍要打開」
-            
-            ![installer_win](../media/installer_mac_4.png)
-
-            - 點擊「打開」
-            
             ![installer_win](../media/installer_mac_5.png)
 
         - 在界面中，將「CocoBlockly Uploader」拖入右側的「Applications」資料夾中，隨後可能會需要輸入您的賬戶密碼，授權進行安裝

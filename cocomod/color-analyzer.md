@@ -66,10 +66,6 @@
 
 <img src="../media/colorAnalysize_result_getRGB.jpg" width="500"/>
 
-#### 參考鏈接
-
-to be edited.
-
 ---
 
 ## 顏色分析模組進階使用
@@ -77,17 +73,26 @@ to be edited.
 ### 製作顏色吸取 LED 燈
 
 #### 模組組裝 
+
 主機板+顏色分析模組+LED燈屏+平行轉接板
+
 <img src="../media/colorAnalysize_module_setLED.jpg" width="200"/>   <img src="../media/colorAnalysize_assembly_setLED.jpg" width="200"/>
 
 #### 積木編程
 
-<img src="../media/colorAnalysize_block_setLED.jpg" width="500"/>
+<img src="../media/colorAnalysize_block_setLED.jpg" width="100%"/>
 
 #### 最終效果
 
-//gif
+(gif to be added.)
 
 #### 參考鏈接
-//colorAnalysize_setLED.xml
+
+colorAnalysize_setLED.xml
+
+---
+
+## RGB 取色器
+
+
 
