@@ -95,10 +95,10 @@ colorAnalysize_setLED.xml
 ## RGB 取色器
 
 <div>
-	<iframe id="inlineColorPicker"
+	<iframe style="border: 0" id="inlineColorPicker"
     title="Inline Color Picker"
     width="100%"
-    frameborder="0"
+    frameBorder="0"
     height="450px"
     scrolling="no"
     src="/tools/FlexiColorPicker/examples/showcase.html">
