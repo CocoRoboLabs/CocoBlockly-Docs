@@ -48,7 +48,7 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 	- [使用運動感應模組](/cocomod/motion)
 	- [使用電源管理模組](/cocomod/power-management)
 	- [使用藍牙通訊模組](/cocomod/bluetooth)
-	- [使用伺服馬達轉接模組](/cocomod/servo)
+	- [使用舵機轉接模組](/cocomod/servo)
 	- [使用轉接模組](/cocomod/hub)
 	- [使用平行轉接模組](/cocomod/horizontal-adapter)
 	- [使用正反轉接模組](/cocomod/reversed-adapter)

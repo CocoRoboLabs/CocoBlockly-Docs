@@ -38,6 +38,7 @@
 ---
 
 ## 模組使用說明
+
 1. 通常反映運動變化的參數爲加速度和陀螺儀(角速度）。
 2. 加速度：反映單位時間內物體在某個方向上速度變化的快慢。
 3. 角速度：反映單位時間內物體在某個方向上旋轉的角度。
@@ -45,44 +46,76 @@
 ---
 
 ## 運動感應模組基礎使用
+
 ### 獲取 XYZ 的加速度值
+
 #### 模組組裝
+
+
 <img src="../media/motion_7.jpg" width="250"/>
+
 #### 積木編程
+
 ![motion](../media/motion_8.png)
+
 #### 最終效果
+
 Coming soon.
 
 ---
 
 ## 運動感應模組基礎使用
+
 ### 獲取 XYZ 的重力值
+
 #### 模組組裝
+
 Coming soon.
+
 #### 積木編程
+
 Coming soon.
+
 #### 最終效果
+
 Coming soon.
 
 ---
 
+
 ## 運動感應模組基礎使用
+
 ### 獲取 XYZ 的角度傾斜值
+
 #### 模組組裝
+
 Coming soon.
+
 #### 積木編程
+
 Coming soon.
+
 #### 最終效果
+
 Coming soon.
 
 ---
 
 ## 運動感應模組進階使用
+
 ### 製作運動感應 LED 燈
+
 #### 模組組裝
+
 <img src="../media/motion_3.jpg" width="250"/>
+
 #### 積木編程
+
 ![motion](../media/motion_4.png)
+
 ![motion](../media/motion_5.png)
+
 #### 最終效果
+
 <img src="../media/motion_6.png" width="400"/>
+

@@ -51,6 +51,7 @@ LED燈板是將多個LED燈排列一起而成的電子模組，我們可以通�
 主機板模組+LED燈屏模組
 
 #### 積木編程
+
 <img src="../media/led_block.png" width="100%"/>
 
 
@@ -76,6 +77,7 @@ to be edited.
 <img src="../media/led_coordinateAxis.png" width="300"/>
 
 #### 積木編程
+
 <img src="../media/led_block_line.png" width="100%"/>
 
 

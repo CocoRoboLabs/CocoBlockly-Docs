@@ -35,17 +35,26 @@
 ---
 
 ## 模組使用說明
+
 1. 常見的導電物體包括：杜邦線、手指、導電紙、螺絲刀、鎖匙等。
 2. 如果使用杜邦線或導電紙與觸摸感應模組的接口相連之後，需要給觸摸感應模組重新通電才能正常使用。
 
 ##  觸摸感應模組基礎使用
 
 ### 觸摸感應
+
 #### 所需模組
+
 <img src="../media/touch__main--split.jpeg" width="250"/>
+
 #### 模組組裝
+
 <img src="../media/touch__main--assemble.jpeg" width="250"/>
+
 #### 積木編程
+
 ![music](../media/touch__sample--blockly.jpeg)
+
 #### 最終效果
+
 <img src="../media/touch__sample--1.gif" width="400"/>

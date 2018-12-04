@@ -66,6 +66,7 @@
 ---
 
 ## 藍牙通訊模組基礎使用
+
 ### 藍牙接收 MIT App Inventor App 發送的數據
 
 #### 模組組裝 
@@ -95,15 +96,18 @@ to be edited.
 #### 待補充
 
 #### 參考鏈接
-https://web.17coding.net/
-https://www.jianshu.com/p/9c462581bbcf
+
+* https://web.17coding.net/
+* https://www.jianshu.com/p/9c462581bbcf
 
 ---
 
 ## 藍牙通訊模組進階使用
 
 ### 藍牙配對藍牙模組（模組間的數據傳輸）
+
 #### 藍牙改名：AT模式
+
 <img src="../media/Bluetooth_AT_1.png" width="100%"/> 
 <img src="../media/Bluetooth_AT_2.png" width="100%"/> 
 
@@ -112,16 +116,17 @@ https://www.jianshu.com/p/9c462581bbcf
 to be edited.
 
 #### 積木編程
+
 藍牙模組1
+
 <img src="../media/bluetooth2BT_block_BT1.jpg" width="600"/> 
+
 藍牙模組2
+
 <img src="../media/bluetooth2BT_block_BT2.jpg" width="600"/> 
 
 #### 最終效果
-//gif
+
 to be edited.
 
 #### 參考鏈接
-
-//colorAnalysize_setLED.xml
-
