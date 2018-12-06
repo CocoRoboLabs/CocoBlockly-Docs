@@ -108,8 +108,12 @@ to be edited.
 
 #### 藍牙改名：AT模式
 
-<img src="../media/Bluetooth_AT_1.png" width="100%"/> 
-<img src="../media/Bluetooth_AT_2.png" width="100%"/> 
+AT 模式對應 Arduino 程式下載：
+* https://cocorobo.hk/downloads/Bluetooth_AT_Mode.ino
+
+<object width="100%" height="860px" data="../media/at-mode.pdf" type="application/pdf">
+        <embed src="../media/at-mode.pdf" type="application/pdf" />
+    </object>
 
 #### 模組組裝 
 
