@@ -30,7 +30,7 @@
 	<tr>
 		<td>3.</td>
 		<td>AT模式按鈕</td>
-		<td>在通電前長按此按鈕，可進入<a href="http://help.cocorobo.hk/#/cocomod/bluetooth?id=藍牙改名：at模式">AT模式</a>，以進行「修改藍牙模組廣播名稱」、「配對密碼」、「獲取藍牙物理地址」等信息</td>
+		<td>在通電前長按此按鈕，可前往本章後面部分的<a href="http://help.cocorobo.hk/#/cocomod/bluetooth?id=藍牙改名：at模式">進入AT模式</a>瞭解，以進行「修改藍牙模組廣播名稱」、「配對密碼」、「獲取藍牙物理地址」等操作</td>
 	</tr>
 </table>
 
