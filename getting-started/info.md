@@ -6,70 +6,76 @@
 爲了能夠讓 CocoBlockly 能夠從瀏覽器和主機板模組進行通訊，我們推出一款跨平臺的「上傳插件（Uploader）」，用戶只需要下載該插件，安裝即可對我們的電子模組進行上傳編程。
 首先，請選擇對應的操作系統，下載 CocoBlockly Uploader 安裝包。
 
-1. 安裝包下載
+#### 安裝包下載
 
 | 作業平臺                            | 下載     | 系統要求                   |
 | ----------------------------------- | -------- | -------------------------- |
-| CocoBlockly Uploader v3 for MacOS   | [下載地址](https://api.cocorobo.hk/releases/uploaderv2/download/mac) | 要求系統版本高於 macOS 10.10     |
-| CocoBlockly Uploader v3 for Windows | [下載地址](https://api.cocorobo.hk/releases/uploaderv2/download/windows) | 要求系統版本高於 Windows 7 |
+| CocoBlockly Uploader v3 for MacOS   | [點此下載](https://api.cocorobo.hk/releases/uploaderv2/download/mac) | 要求系統版本高於 macOS 10.10     |
+| CocoBlockly Uploader v3 for Windows | [點此下載](https://api.cocorobo.hk/releases/uploaderv2/download/windows) | 要求系統版本高於 Windows 7 |
 
-本安裝包對應的 CocoBlockly 使用鏈接爲：http://cocorobo.hk/cocoblockly/
-<!-- pagebreak -->
-2. 安裝指示
-    - **Windows**
-        - 雙擊安裝包，然後根據指示選擇目標的資料夾進行安裝
+* 瀏覽器兼容性
+    * <b style="background-color:orangered; margin-right: 3px; padding: 2px 5px; color: #fff; font-size: 12px; border-radius: 4px;">推薦使用</b> Google Chrome，版本號需要大於 55 
+    * Opera，版本號需要大於 50
+    * Firefox，版本號需要大於 55
+    * Safari，版本號需要大於 12
+    * 360 安全瀏覽器，版本號需要大於 9.5
+    * 搜狗瀏覽器，版本號需要大於 8
 
-        ![installer_win](../media/installer_win_1.png)
+---
 
-        ![installer_win](../media/installer_win_2.png)
+#### 安裝指示
 
-        - 在安裝的過程中，會依次彈出協助安裝 Arduino 驅動和 WiFi 模組驅動的界面，可以根據指示依次安裝（如果已經安裝過該驅動，可以選擇取消跳過）
+- **Windows**
+    - 雙擊安裝包，然後根據指示選擇目標的資料夾進行安裝
 
-        ![installer_win](../media/installer_win_3.png)
-        ![installer_win](../media/installer_win_4.png)
-        ![installer_win](../media/installer_win_5.png)
-        ![installer_win](../media/installer_win_6.png)
-        ![installer_win](../media/installer_win_7.png)
+    ![installer_win](../media/installer_win_1.png)
 
-        - 最後，點擊「完成」結束 Uploader 安裝過程
+    ![installer_win](../media/installer_win_2.png)
 
-        ![installer_win](../media/installer_win_8.png)
+    - 在安裝的過程中，會依次彈出協助安裝 Arduino 驅動和 WiFi 模組驅動的界面，可以根據指示依次安裝（如果已經安裝過該驅動，可以選擇取消跳過）
 
-    - **MacOS**
-        - 選擇下載得到的 **zip** 文檔，並解壓這個文檔，得到安裝包
+    ![installer_win](../media/installer_win_3.png)
+    ![installer_win](../media/installer_win_4.png)
+    ![installer_win](../media/installer_win_5.png)
+    ![installer_win](../media/installer_win_6.png)
+    ![installer_win](../media/installer_win_7.png)
 
-        ![installer_win](../media/installer_mac_1.png)
+    - 最後，點擊「完成」結束 Uploader 安裝過程
 
-        - 右鍵點擊安裝包，選擇打開，彈出以下窗口後，點擊「打開」以打開安裝包
+    ![installer_win](../media/installer_win_8.png)
 
-            ![installer_win](../media/installer_mac_5.png)
+- **MacOS**
+    - 選擇下載得到的 **zip** 文檔，並解壓這個文檔，得到安裝包
 
-        - 在界面中，將「CocoBlockly Uploader」拖入右側的「Applications」資料夾中，隨後可能會需要輸入您的賬戶密碼，授權進行安裝
+    ![installer_win](../media/installer_mac_1.png)
 
-        ![installer_win](../media/installer_mac_6.png)
-        
-        - 如果需要安裝 WiFi 模組驅動
-            - 雙擊「WiFi Module Driver's installer.pkg」
-            - 點擊「繼續」
-        
-            ![installer_win](../media/installer_mac_7.png)
-        
-            - 點擊「繼續」
-        
-            ![installer_win](../media/installer_mac_8.png)
-        
-            - 點擊「安裝」，隨後可能會需要輸入您的賬戶密碼，授權進行安裝
-        
-            ![installer_win](../media/installer_mac_9.png)
-        
-            - 點擊「關閉」，完成 WiFi 模組驅動的安裝
-        
-            ![installer_win](../media/installer_mac_10.png)
-        
-        - 安裝完成後，雙擊「Applications」進入應用程式資料夾，通過雙擊「CocoBlockly Uploader」的圖標，打開「CocoBlockly Uploader」
-<!-- pagebreak -->
+    - 右鍵點擊安裝包，選擇打開，彈出以下窗口後，點擊「打開」以打開安裝包
 
-3. 可以前往以下網頁瞭解更多：https://cocorobolabs.gitbooks.io/cocoblockly/content/uploader-xia-zai-ji-an-zhuang.html
+        ![installer_win](../media/installer_mac_5.png)
+
+    - 在界面中，將「CocoBlockly Uploader」拖入右側的「Applications」資料夾中，隨後可能會需要輸入您的賬戶密碼，授權進行安裝
+
+    ![installer_win](../media/installer_mac_6.png)
+    
+    - 如果需要安裝 WiFi 模組驅動
+        - 雙擊「WiFi Module Driver's installer.pkg」
+        - 點擊「繼續」
+    
+        ![installer_win](../media/installer_mac_7.png)
+    
+        - 點擊「繼續」
+    
+        ![installer_win](../media/installer_mac_8.png)
+    
+        - 點擊「安裝」，隨後可能會需要輸入您的賬戶密碼，授權進行安裝
+    
+        ![installer_win](../media/installer_mac_9.png)
+    
+        - 點擊「關閉」，完成 WiFi 模組驅動的安裝
+    
+        ![installer_win](../media/installer_mac_10.png)
+    
+    - 安裝完成後，雙擊「Applications」進入應用程式資料夾，通過雙擊「CocoBlockly Uploader」的圖標，打開「CocoBlockly Uploader」
 
 ---
 
