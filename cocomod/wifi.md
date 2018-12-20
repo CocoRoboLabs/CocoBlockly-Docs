@@ -56,9 +56,14 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
 
 ---
 
-## 主機板模組基礎使用
+<div style="border-radius:8px;background-color:#f15713; color:#fff;padding:20px 22px;">
+	<b style="color:#fff;font-size:24px;padding-bottom:-20px;">提示：</b>
+	<p style="margin-bottom:2px;">我們已於近期推出了 WiFi 模式的簡易積木（Easy Mode），便於零基礎用戶更直觀的編程 WiFi 模組以及製作物聯網項目，來將數據接入我們的 Coco Cloud，或者是 ThingSpeak，詳細請前往 <a href="../#/cocomod/wifi-easymode" style="text-decoration:underline;color:rgba(255,255,255,.75);">此處查看</a>。</p>
+</div>
 
-### 主機板數據通訊
+## WiFi 通訊模組基礎使用
+
+### WiFi 通訊模組數據通訊
 
 #### 模組組裝
 
