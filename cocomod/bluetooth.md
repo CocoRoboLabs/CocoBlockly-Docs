@@ -67,19 +67,29 @@
 
 ## 藍牙通訊模組基礎使用
 
-### 藍牙接收 MIT App Inventor App 發送的數據
+使用 Android 手機 App 來與藍牙模組進行連接，由此來控制主控模組。
+
+### 藍牙接收 Android App 發送的數據
 
 #### 模組組裝 
 
-to be edited.
+將藍牙模組和主機板模組拼在一起。
 
 #### 積木編程
 
 <img src="../media/bluetooth_block_send.png" width="500"/> 
 
-#### 使用app
+#### 連接配置
 
-<img src="../media/bluetooth_app.jpg" width="90"/> 
+關於如何讓 Android 收集與藍牙模組配對，請參考下面這個文檔：
+
+<object width="100%" height="500px" data="../media/移動端(Android)配對藍牙通訊模組教程.pdf" type="application/pdf">
+	<embed src="../media/移動端(Android)配對藍牙通訊模組教程.pdf" type="application/pdf" />
+</object>
+
+配對成功後，便可以打開 Android app 進行連接了：
+
+<img style="border-radius:5px;border: 1px #ddd solid; " align="center" src="../media/bluetooth_app.jpg" width="30%"/> 
 
 #### 最終效果
 
@@ -91,9 +101,9 @@ to be edited.
 
 ---
 
-### 學習如何製作 MIT AI2 的app
+### 學習如何使用 MIT AppInventor 製作 Android App
 
-#### 待補充
+完善中。
 
 #### 參考鏈接
 
@@ -104,16 +114,14 @@ to be edited.
 
 ## 藍牙通訊模組進階使用
 
-### 藍牙配對藍牙模組（模組間的數據傳輸）
+本小節介紹如何進行藍牙与蓝牙模組之間的數據傳輸：
 
-#### 藍牙改名：AT模式
+* AT 模式對應 Arduino 程式下載：
+	* https://cocorobo.hk/downloads/Bluetooth_AT_Mode.ino
 
-AT 模式對應 Arduino 程式下載：
-* https://cocorobo.hk/downloads/Bluetooth_AT_Mode.ino
-
-<object width="100%" height="860px" data="../media/at-mode.pdf" type="application/pdf">
-        <embed src="../media/at-mode.pdf" type="application/pdf" />
-    </object>
+<object width="100%" height="600px" data="../media/CocoRobo藍牙模組間配對流程.pdf" type="application/pdf">
+	<embed src="../media/CocoRobo藍牙模組間配對流程.pdf" type="application/pdf" />
+</object>
 
 #### 模組組裝 
 
