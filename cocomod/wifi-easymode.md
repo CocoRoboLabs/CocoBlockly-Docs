@@ -22,11 +22,11 @@ EasyMode即簡易模式，是針對零基礎的學生，CocoRobo公司研發的�
 
  3. ThingSpeak積木
 
-   ![easymode](../media/thingspeak_blocks.png)
+   ![easymode](../media/ThingSpeak_blocks.png)
 
  4. CocoCloud積木
 
-   ![easymode](../media/cococloud_blocks.png)
+   ![easymode](../media/CocoCloud_blocks.png)
 
  5. IFTTT積木
 
