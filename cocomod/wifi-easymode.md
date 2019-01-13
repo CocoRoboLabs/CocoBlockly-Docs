@@ -10,8 +10,8 @@ EasyMode即簡易模式，是針對零基礎的學生，CocoRobo公司研發的�
 | -------- | ------------------ |
 | 聯網積木    | ![easymode](../media/easymode/network_blocks.png) |
 |  數據通訊積木   |  ![easymode](../media/easymode/transfer_blocks.png) |
-| ThingSpeak積木 |  ![easymode](../media/easymode/thingspeak_blocks.png)|
-|CocoCloud積木  | ![easymode](../media/easymode/cococloud_blocks.png) |
+| ThingSpeak積木 |  ![easymode](../media/easymode/ThingSpeak_blocks.png)|
+|CocoCloud積木  | ![easymode](../media/easymode/CocoCloud_blocks.png) |
 | IFTTT積木 | ![easymode](../media/easymode/IFTTT_blocks.png) |
 
 
