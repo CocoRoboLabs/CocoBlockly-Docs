@@ -111,11 +111,11 @@ Coming soon.
 
 #### 積木編程
 
-![motion](../media/motion_4.png)
-
-![motion](../media/motion_5.png)
+![motion](../media/motion_9.png)
 
 #### 最終效果
+
+LED燈光會隨著模組的運動方向發生位置的變化。
 
 <img src="../media/motion_6.png" width="400"/>
 

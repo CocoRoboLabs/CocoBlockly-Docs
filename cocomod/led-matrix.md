@@ -50,6 +50,8 @@ LED燈板是將多個LED燈排列一起而成的電子模組，我們可以通�
 
 主機板模組+LED燈屏模組
 
+<img src="../media/led_light_assemble.jpg" width="250"/>
+
 #### 積木編程
 
 <img src="../media/led_block.png" width="100%"/>
@@ -116,9 +118,9 @@ to be edited.
 <img src="../media/led_block_clean.png" width="100%"/>
 
 #### 最終效果
-
-<img src="../media/led_light.jpg" width="300"/>
-
+實際效果：LED燈“一亮（紅光）一暗”，并且循環顯示此效果。
+<img src="../media/led_light_area.jpg" width="200"/>
+<img src="../media/led_light_off.jpg" width="200"/>
 #### 參考鏈接
 
 to be edited.

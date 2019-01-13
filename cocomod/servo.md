@@ -41,17 +41,22 @@
 
 #### 所需模組與材料
 
-<img src="../media/servo.jpeg" width="250"/>
-<img src="../media/servoHub__main--split.jpeg" width="250"/>
+主機板模組、舵機轉接模組和舵機
+
+<img src="../media/servo.jpeg" width="200"/>
+<img src="../media/servoHub__main--split.jpeg" width="200"/>
 
 #### 組裝
 
-<img src="../media/servoHub__main--assemble.jpeg" width="250"/>
+連著舵機的有 3 根線，依次為「橙/紅/棕咖」，即「訊號／正極／負極」對應地，將舵機連接至舵機轉接模組上，如下圖所示：
+
+<img src="../media/servoHub_assemble.png" height="200" width="200"/>
+<img src="../media/servoHub__main--assemble.jpeg" width="200"/>
 
 
 #### 積木編程
 
-![env__main--blockly](../media/servoHub__main--blockly-1.jpg)
+![env__main--blockly](../media/servoHub_program.png)
 
 
 #### 最終效果

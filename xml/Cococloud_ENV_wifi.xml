@@ -1,0 +1,44 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wifiEasymode_network" id="t3GL!KRjh-/IR1HFmn~N" x="81" y="-46">
+    <field name="wifi_ssid">20pro</field>
+    <field name="wifi_pw">rong27374</field>
+  </block>
+  <block type="wifiEasymode_transfer2_receive" id="dmJfmiox24ph+FofOk*3" x="78" y="41">
+    <field name="DATAMAIN">rxData</field>
+    <field name="LENGTH">4</field>
+    <next>
+      <block type="wifiEasymode_cococloud2_post" id="!c[}k=@GerQ})kvM7IYL">
+        <mutation items="4"></mutation>
+        <field name="event0">5f09a6726c075290ef70fcbb2f80e81c</field>
+        <field name="field0">sound</field>
+        <field name="field1">light</field>
+        <field name="field2">humid</field>
+        <field name="field3">temperature</field>
+        <value name="ADD0">
+          <block type="wifiEasymode_transfer2_receive_getValue" id="fBjXfuR)WR{}_sa5?LQn">
+            <field name="DATAMAIN">rxData</field>
+            <field name="INDEX">0</field>
+          </block>
+        </value>
+        <value name="ADD1">
+          <block type="wifiEasymode_transfer2_receive_getValue" id=",]hL;`MS+9+l`_ANfT~r">
+            <field name="DATAMAIN">rxData</field>
+            <field name="INDEX">1</field>
+          </block>
+        </value>
+        <value name="ADD2">
+          <block type="wifiEasymode_transfer2_receive_getValue" id="0U.W9q#40!~CDr~]]iJE">
+            <field name="DATAMAIN">rxData</field>
+            <field name="INDEX">2</field>
+          </block>
+        </value>
+        <value name="ADD3">
+          <block type="wifiEasymode_transfer2_receive_getValue" id="!T!z|})M`yTH^N0#7+=T">
+            <field name="DATAMAIN">rxData</field>
+            <field name="INDEX">3</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

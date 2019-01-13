@@ -134,23 +134,24 @@
 
    ![upload](../media/intro_upload_2.png)
 
-4. 將主機板模組通過 USB 線接入電腦，通過一小段時間，將會顯示主機板模組的端口名
-   **注**：Windows 裏的端口名通常以 COM 開頭，MacOS 裏的通常以 /dev/tty.usb 開頭
+4. 將主機板模組通過 USB 線接入電腦，通過一小段時間，將會顯示主機板模組的端口名。
+   **注1**：關於主機板模組的資料，請查閲：[使用主機板模組](/cocomod/main-controller)
+   **注2**：Windows 裏的端口名通常以 COM 開頭，MacOS 裏的通常以 /dev/tty.usb 開頭。
 
    ![upload](../media/intro_upload_3.png)
 
-5. 點擊「上傳（Upload）」開始將「積木對應原始碼參考區」中的 Arduino 原始碼上傳至主機板中，此時會經歷3個步驟：
+6. 點擊「上傳（Upload）」開始將「積木對應原始碼參考區」中的 Arduino 原始碼上傳至主機板中，此時會經歷3個步驟：
     1. 編譯中（Compiling）
 
     ![upload](../media/intro_upload_4.png)
 
-    2. 上傳中（Uploading）
+    1. 上傳中（Uploading）
 
     ![upload](../media/intro_upload_5.png)
 
-    3. 上傳成功（Upload successfully）
+    1. 上傳成功（Upload successfully）
 
     ![upload](../media/intro_upload_6.png)
 
-6. 完成以上3個步驟，就意味著我們已經將程式上傳至主機板中
+7. 完成以上3個步驟，就意味著我們已經將程式上傳至主機板中
    **注**：與 Arduino IDE 的「Verify code」類似，我們提供「編譯（Compile）」這個選項，供大家測試編寫的程式是否能夠正確編譯

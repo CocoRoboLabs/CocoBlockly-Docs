@@ -58,6 +58,8 @@
 
 顏色分析模組 與 主機板模組拼接 
 
+<img src="../media/colorAnalysize_assemble.jpg" width="250"/>
+
 #### 積木編程
 
 <img src="../media/colorAnalysize_block_getRGB.jpg" width="500"/>
