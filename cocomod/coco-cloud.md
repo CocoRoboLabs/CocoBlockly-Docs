@@ -80,7 +80,7 @@ https://cocorobo.hk/cloud
 
 3. 在積木中設置無線名稱同密碼。
 
-4. 在 CocoCloud 積木中設置在 CocoCloud 中複製的 [API鑰匙](####http://help.cocorobo.hk/#/cocomod/coco-cloud?id=獲取API鑰匙) 並設置數據名（屬性) (如上圖中的*Temp*）以及欲發送的數據（如上圖中的 *20*)。
+4. 在 CocoCloud 積木中設置在 CocoCloud 中複製的 [API鑰匙](#獲取API鑰匙) 並設置數據名（屬性) (如上圖中的*Temp*）以及欲發送的數據（如上圖中的 *20*)。
 
 到此完成在 CocoBlockly 中的設定。
 
