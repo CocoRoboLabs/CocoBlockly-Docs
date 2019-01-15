@@ -72,33 +72,50 @@ https://cocorobo.hk/cloud
 
 1. 進入 [CocoBlockly](https://cocorobo.hk/cocoblockly/dev/?lang=zh-hant)
 
-2. 依照下圖所示 在 WiFi 模組中 的 **聯網** 以及 **Web 服務** 中 拖曳出以下積木
+![cocoCloud__events](../media/cocoCloud__event--6.png)
+
+2. 登入帳戶名與密碼
+
+![cocoCloud__events](../media/cocoCloud__event--7.png)
+
+
+3.點擊 **雲端項目** 獲取事件列表
+
+![cocoCloud__events](../media/cocoCloud__event--8.png)
+
+4.點選 已創建的事件（如 *Home*) 則可以看到相應的 API 鑰匙
+
+![cocoCloud__events](../media/cocoCloud__event--9.png)
+
+5. 依照下圖所示 在 WiFi 模組中 的 **聯網** 以及 **Web 服務** 中 拖曳出以下積木
 
 ⚠️ 注意：為避免數據發送不成功，建議多設置一個等待時間大於**三秒**的積木，因為間隔少於**三秒**的資料上傳會被服務器阻擋
 
-![cocoCloud__events](../media/cocoCloud__event--6.png)
+![cocoCloud__events](../media/cocoCloud__event--10.png)
 
-3. 在積木中設置無線名稱同密碼。
+6. 在積木中設置無線名稱同密碼。
 
-4. 在 CocoCloud 積木中設置在 CocoCloud 中複製的 [API鑰匙](#獲取API鑰匙) 並設置數據名（屬性) (如上圖中的*Temp*）以及欲發送的數據（如上圖中的 *20*)。
+7. 在 CocoCloud 積木中設置在 CocoCloud 中複製的 [API鑰匙](#獲取API鑰匙) 並設置數據名（屬性) (如上圖中的*Temp*）以及欲發送的數據（如上圖中的 *20*)。
 
 到此完成在 CocoBlockly 中的設定。
 
 此時點開 Cloud 中的 *Home* 事件，則可看到相應的結果。
 
-![cocoCloud__events](../media/cocoCloud__event--7.png)
+![cocoCloud__events](../media/cocoCloud__event--11.png)
+
+
 
 #### 事件查看
 
 點擊事件，即可看到事件的屬性，以及最後一筆數據的內容
 
-![cocoCloud__events](../media/cocoCloud__event--7.png)
+![cocoCloud__events](../media/cocoCloud__event--11.png)
 
 #### 數據導出
 
 打開事件，點擊數據導出按鈕，即可得到歷史所有數據的 CSV 檔案
 
-![cocoCloud__events](../media/cocoCloud__event--8.png)
+![cocoCloud__events](../media/cocoCloud__event--12.png)
 
 #### 事件刪除
 
@@ -110,6 +127,7 @@ https://cocorobo.hk/cloud
 
 在儀表板中，用戶可以創建數據可視化的面板，在面板中觀察數據的變化，也可以創建插件，用來對事件的某個屬性進行開關的控制。儀表板建立於事件之上。
 
+⚠️ 注意 儀表板的中的屬性的數據僅支持數字格式（其他格式如字符串將會導致儀表板創建失敗）。
 
 ### 創建方法
 
