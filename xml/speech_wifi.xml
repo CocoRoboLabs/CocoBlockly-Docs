@@ -1,0 +1,91 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wifiNetwork_network" id="1kUjJ=.WQ-_8o=c%!0bb" x="-24" y="-256">
+    <field name="wifi_ssid">CocoRobo</field>
+    <field name="wifi_pw">cocorobo</field>
+  </block>
+  <block type="wifiServices_cococloud_get" id="p7uJ5-;o*vJ8q)#@k`Oh" x="197" y="-248">
+    <mutation items="1"></mutation>
+    <field name="event0">d0f98bb70ae070cd89725780e67dfe6b</field>
+    <field name="DATA0">data_0</field>
+    <value name="ADD0">
+      <block type="wifiServices_cococloud_get_data" id="M_NIaZqrqlo4Oy(b~u{!">
+        <field name="KEY">EM_data</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_if" id="dmfMp)Ryjrp+/]3k-8;D">
+        <mutation elseif="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="RBLUXXu4j3FqEf?XvzG#">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="variables_get" id="U[O{As,lG+j*/i0PK@1i">
+                <field name="VAR">data_0</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="ROq.?LYW[QM:cQQt]/F/">
+                <field name="TEXT">turn on</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="c+5r]j3d!lrwK~sm#xa*">
+            <field name="VAR">command</field>
+            <value name="VALUE">
+              <block type="math_number" id="Q;~C0^r,z:-M#FAHQTEa">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="*V0a_%(~%bx=3QK6K6R4">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="variables_get" id="rW4;**V2?P7sR:8i|~i8">
+                <field name="VAR">data_0</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="Eg3=X@^2MPB+nw^9B8n6">
+                <field name="TEXT">turn off</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="variables_set" id="L#Ur.C0~ujz1?Ixj~4Tr">
+            <field name="VAR">command</field>
+            <value name="VALUE">
+              <block type="math_number" id="anDmCB4y]jvOgOU6M55m">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="wifiTransfer_send" id="0l*akuSB%J?0_Fu=AE+z">
+            <mutation items="1"></mutation>
+            <field name="DATAMAIN">txData</field>
+            <value name="ADD0">
+              <block type="variables_get" id="y#0%6T_Kpb*`[jCe/6f|">
+                <field name="VAR">command</field>
+              </block>
+            </value>
+            <next>
+              <block type="time_delay" id=")hG=YNPQGwpocs-O8c0j">
+                <value name="DELAY_TIME_MILI">
+                  <block type="math_number" id="T!,!{#1FN`*j-O4UdgLD">
+                    <field name="NUM">500</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
