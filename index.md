@@ -9,7 +9,7 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 
 #### 準備事項： 
 
-1. 安裝 CocoBlockly Uploader（請從以下鏈接獲取最新版本，當前穩定版本爲：v3.0.5）:
+1. 安裝 CocoBlockly Uploader（請從以下鏈接獲取最新版本）:
   1. Windows: https://api.cocorobo.hk/releases/uploaderv2/download/windows
   2. macOS: https://api.cocorobo.hk/releases/uploaderv2/download/mac
 2. 安裝上傳插件的 Google Chrome Browser:
@@ -56,7 +56,7 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 	- [使用第三方感應器](/cocomod/3rd-party)
 	- [使用 WiFi 通訊模組](/cocomod/wifi)
 	- [使用 CocoCloud](/cocomod/coco-cloud)
-	- [體驗 AI](/getting-started/using-ai)
+	- [體驗 AI](/getting-started/ai)
 - [課程套件教學](/kit/overview)
 	- [智慧家居](/kit/smart-home)
 	- [創意電子](/kit/creative-electronics)
