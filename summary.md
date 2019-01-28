@@ -26,7 +26,7 @@
 - - [使用 WiFi 通訊模組](/cocomod/wifi)
 - - [使用 CocoCloud](/cocomod/coco-cloud)
 - - [使用 ThingSpeak](/cocomod/thingspeak)
-- - [體驗 AI](/getting-started/using-ai)
+- - [體驗 AI](/getting-started/ai)
 - [課程套件教學](/kit/overview)
 - - [智慧家居](/kit/smart-home)
 - - [創意電子](/kit/creative-electronics)
