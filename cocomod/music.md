@@ -4,7 +4,7 @@
 
 ## 模組簡介
 
-音樂模組爲播放樂器聲音和音樂文檔所用，音樂模組可以發出超過 100 種樂器的聲音，模組也有1個SD卡擴展插口，支援播放 **.ogg** 或者 **.mp3** 的音樂檔。目前版本的 CocoBlockly 中，我們已經支持使用者通過音樂模組，演奏出不同樂器的聲音。
+音樂模組為播放樂器聲音和音樂文檔所用，音樂模組可以發出超過 100 種樂器的聲音，模組也有1個SD卡擴展插口，支援播放 **.ogg** 或者 **.mp3** 的音樂檔。目前版本的 CocoBlockly 中，我們已經支持使用者通過音樂模組，演奏出不同樂器的聲音。
 
 ## 模組主要部件
 
@@ -33,27 +33,27 @@
 | 接口位置 | 接口描述           |
 | -------- | ------------------ |
 | D10, A0, A1, A2, A3   | 音樂模組芯片所使用到的接口       |
-| (類比訊號) A5   | 音頻接口使用的接口，用戶也可自己外接至揚聲器模組播放音頻  |
+| (類比信號) A5   | 音頻接口使用的接口，用户也可自己外接至揚聲器模組播放音頻  |
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
+> 為了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
 
 ---
 
-## 模組使用說明
-1. 使用前的準備：1 個音箱、1 條音訊線，使用音訊線將音箱和「音樂模組」連接在一起，確保音箱的模式爲「線輸入」模式。
+## 模組使用説明
+1. 使用前的準備：1 個音箱、1 條音訊線，使用音訊線將音箱和「音樂模組」連接在一起，確保音箱的模式為「線輸入」模式。
 
 
 <div style="text-align: center;">
    ![music](../media/music_2.png)
 </div>
 
-2. MIDI 的全稱爲「音樂數位接口」，其原理是將各個樂器的音色加以編號，但這些音色並不儲存於 MIDI 的檔案中，相對的，爲了減少檔案大小，MIDI檔案裏面只記錄了音樂的代號及一些高低音的設定，這些檔案就存置於音樂模組中。
+2. MIDI 的全稱為「音樂數位接口」，其原理是將各個樂器的音色加以編號，但這些音色並不儲存於 MIDI 的檔案中，相對的，為了減少檔案大小，MIDI檔案裏面只記錄了音樂的代號及一些高低音的設定，這些檔案就存置於音樂模組中。
 
 <div style="text-align: center;">
    ![music](../media/music_3.png)
 </div>
 
-3. 當你聆聽歌曲或音樂片段的時候，有時會不知不覺地跟著歌曲或音樂片段拍手或跺腳——這就是這首歌曲或音樂片段的拍子。拍子在曲譜中透過音符來表示，以某一音符爲一拍能說明這一拍子在音樂片段中持續的時間。以形態各異的音符爲一拍的拍子高高低低地組合在一起，使得歌曲或音樂片段具有輕重緩急的豐盈與流動之感，其有規律地循環往復則構成音樂的節拍。
+3. 當你聆聽歌曲或音樂片段的時候，有時會不知不覺地跟著歌曲或音樂片段拍手或跺腳——這就是這首歌曲或音樂片段的拍子。拍子在曲譜中透過音符來表示，以某一音符為一拍能説明這一拍子在音樂片段中持續的時間。以形態各異的音符為一拍的拍子高高低低地組合在一起，使得歌曲或音樂片段具有輕重緩急的豐盈與流動之感，其有規律地循環往復則構成音樂的節拍。
 
 
 <div style="text-align: center;">
@@ -79,14 +79,14 @@
 #### 最終效果
 
 <div style="text-align: center;">
-<img src="../media/music_7.png" width="400"/>
+<img style="transform: rotate(-90deg);" src="../media/music_7.png" width="400"/>
 </div>
 
 ---
 
 ### MP3音樂
 
-#### 积木示意图
+#### 積木示意圖
 | 積木圖示  | 簡介  |
  |-  |-  |
 |![music](../media/music_mp3_setup.png)  |  a.MP3初始化積木: 可設置初始音量高低 |
@@ -100,13 +100,17 @@
 音樂模組支持MP3音樂播放功能，須配合TF卡使用，歌曲存放在TF卡中
 
 
-<div style="text-align: center;">
+<div style="transform: rotate(180deg);" style="text-align: center;">
+
 ![music](../media/music_mp3_material1.jpg)
+
 </div>
 
 
-<div style="text-align: center;">
+<div style="transform: rotate(180deg);" style="text-align: center;">
+
 ![music](../media/music_mp3_material2.jpg)
+
 </div>
 
 
@@ -115,7 +119,9 @@
 
 
 <div style="text-align: center;">
+
 ![music](../media/music_mp3_demo1.png)
+
 </div>
 
 #### 最終效果
@@ -123,7 +129,7 @@
 播放TF卡內命名為E1.mp3的歌曲
 
 <div style="text-align: center;">
-<img src="../media/music_7.png" width="400"/>
+<img style="transform: rotate(-90deg);" src="../media/music_7.png" width="400"/>
 </div>
 
 ##  音樂模組進階使用
@@ -143,7 +149,7 @@
 #### 最終效果
 
 <div style="text-align: center;">
-<img src="../media/music_9.png" width="400"/>
+<img style="transform: rotate(-90deg);" src="../media/music_9.png" width="400"/>
 </div>
 
 ---
@@ -169,5 +175,5 @@
 不同按鍵實現三個歌曲的切換，和歌曲啟動暫停功能
 
 <div style="text-align: center;">
-<img src="../media/music_9.png" width="400"/>
+<img style="transform: rotate(-90deg);" src="../media/music_9.png" width="400"/>
 </div>
