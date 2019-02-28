@@ -1,0 +1,24 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wifiNetwork_network" id="va#}ZfkGopju)qGb5)mh" x="-7" y="150">
+    <field name="wifi_ssid">CocoRobo</field>
+    <field name="wifi_pw">cocorobo</field>
+  </block>
+  <block type="wifiClient_http_setup" id="4*|xJkP]b9o`M1hA[=O/" x="216" y="202"></block>
+  <block type="wifiClient_http_get" id="9dc`s],;g*DL%V`E+S8x" x="-4" y="308">
+    <field name="URL">/LED</field>
+    <field name="VAR">Data_receive</field>
+    <next>
+      <block type="wifiTransfer_send" id="VR#lyXL,K^AH@0V|(to3">
+        <mutation items="1"></mutation>
+        <field name="DATAMAIN">txData</field>
+        <value name="ADD0">
+          <block type="wifiClient_http_get_getValue" id="6K`g3I^9`_z0GN}nIj[@">
+            <field name="VAR">Data_receive</field>
+            <field name="INDEX">0</field>
+            <field name="TYPE">Int</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

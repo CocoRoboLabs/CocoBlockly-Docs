@@ -1,0 +1,48 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wifiNetwork_AP" id="u[/wG=Y{-+:46q6OX4m." x="28" y="-4">
+    <field name="SSID">CocoRobo</field>
+    <field name="PW">cocorobo</field>
+  </block>
+  <block type="wifiServer_setup" id="llKM+Mn%B{rX%1?oUN(m" x="250" y="2"></block>
+  <block type="wifiTransfer_receive" id="PQT,9jF22p|-Hhq-Sh9n" x="38" y="133">
+    <field name="DATAMAIN">rxData</field>
+    <field name="LENGTH">4</field>
+    <next>
+      <block type="wifiServer_setRootPage" id="~H%.ubENu~ULMuZteeQ=">
+        <statement name="STATEMENT0">
+          <block type="webpage_label" id="5*o91^~HVkZ2k?nR7qEG">
+            <mutation items="4"></mutation>
+            <field name="LABLE0">sound</field>
+            <field name="LABLE1">light</field>
+            <field name="LABLE2">humid</field>
+            <field name="LABLE3">temperature</field>
+            <value name="ADD0">
+              <block type="wifiTransfer_receive_getValue" id="R8c0:/1O:)BrraNu/]ap">
+                <field name="DATAMAIN">rxData</field>
+                <field name="INDEX">0</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block type="wifiTransfer_receive_getValue" id="`Jh^!qCf=B5)CXl#(.L-">
+                <field name="DATAMAIN">rxData</field>
+                <field name="INDEX">1</field>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block type="wifiTransfer_receive_getValue" id="um=lc%E9gvgU[I,N*D#Z">
+                <field name="DATAMAIN">rxData</field>
+                <field name="INDEX">2</field>
+              </block>
+            </value>
+            <value name="ADD3">
+              <block type="wifiTransfer_receive_getValue" id="7f6T=hjOL]b,.J{0y6oI">
+                <field name="DATAMAIN">rxData</field>
+                <field name="INDEX">3</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

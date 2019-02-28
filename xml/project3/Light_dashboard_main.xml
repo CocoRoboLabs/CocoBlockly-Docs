@@ -1,0 +1,113 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="led_neopixel_setup" id=",/}x[jtOLqB11(``wEo/" x="-44" y="37">
+    <field name="neopixel_initpin">6</field>
+    <field name="neopixel_initbright">20</field>
+    <field name="neopixel_initwidth">1</field>
+    <field name="neopixel_initheight">1</field>
+  </block>
+  <block type="MainEasymode_transfer2_receive" id="uvb_/E3y-8nYYO:az}t[" x="139" y="40">
+    <field name="DATAMAIN">rxData</field>
+    <field name="LENGTH">1</field>
+    <next>
+      <block type="controls_if" id="e4ZAf01hK.3MGfH:nNO.">
+        <mutation else="1"></mutation>
+        <value name="IF0">
+          <block type="MainEasymode_transfer2_receive_getValue" id="PzHhe,thKEhocuJY?49(">
+            <field name="DATAMAIN">rxData</field>
+            <field name="INDEX">0</field>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="led_clear" id="frl;%;5PJfTMyl4m4SW%">
+            <next>
+              <block type="led_drawrect" id="qI|]XLX@}HI8VVPyj*K{">
+                <field name="rect_type">fill</field>
+                <value name="COLOR">
+                  <block type="set_color" id="{p759BLM4@R2vZ~x9Fn~">
+                    <field name="COLOR">#0000ff</field>
+                  </block>
+                </value>
+                <value name="SIZE">
+                  <block type="led_set_width_height" id="yA3?#rb`@55R^(u|hDo6">
+                    <value name="WIDTH">
+                      <block type="math_number" id="Owl!YgyrX2|}!i!(RZ:1">
+                        <field name="NUM">5</field>
+                      </block>
+                    </value>
+                    <value name="HEIGHT">
+                      <block type="math_number" id="hIx(L0A!AkRqEiY]FV|{">
+                        <field name="NUM">5</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="POS">
+                  <block type="led_set_position" id="6irP9h!M4Q,:JrD45PK~">
+                    <value name="POSX">
+                      <block type="math_number" id="KCAT*(tv|z[QnV`B7,s4">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <value name="POSY">
+                      <block type="math_number" id="%gq+.Qy%cxn^Pyjnx8~Q">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="led_showall" id="PH/]hLrZr+#2eyX5mal+"></block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="led_clear" id="N8aM#(G7:X:#DJF7SA]w">
+            <next>
+              <block type="led_drawrect" id="zAod#};/tQ5z8qz+|l|U">
+                <field name="rect_type">fill</field>
+                <value name="COLOR">
+                  <block type="set_color" id="|rQ^m~_X7OOmg?N3TN@a">
+                    <field name="COLOR">#000000</field>
+                  </block>
+                </value>
+                <value name="SIZE">
+                  <block type="led_set_width_height" id="oV)b//^cxY}VrWbPbe}w">
+                    <value name="WIDTH">
+                      <block type="math_number" id="pK9^tyRJ{Tx(i-_S0qE{">
+                        <field name="NUM">5</field>
+                      </block>
+                    </value>
+                    <value name="HEIGHT">
+                      <block type="math_number" id="WlpPMxrlI.0sFS,+-s1}">
+                        <field name="NUM">5</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <value name="POS">
+                  <block type="led_set_position" id=";hBubE*]2.:LDjfNSvq^">
+                    <value name="POSX">
+                      <block type="math_number" id="E5=dz5f@G@3g8h8;e#X%">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <value name="POSY">
+                      <block type="math_number" id="i?dQ3ET1MJ;U(*tr=ZwZ">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <next>
+                  <block type="led_showall" id="b//DNS?05ztNyR.yp(vV"></block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

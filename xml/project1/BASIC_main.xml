@@ -1,0 +1,45 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="controls_if" id="w0GiqF|{b},r9Ug:fy=x" x="28" y="23">
+    <mutation else="1"></mutation>
+    <value name="IF0">
+      <block type="read_button" id="l0%P|gbab8-RNZIbBgM{">
+        <value name="PINSNUM">
+          <block type="basic101_dropdown_button" id="1H8,,P|!_M?wK+4yi7[v">
+            <field name="SELECTPIN">12</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <statement name="DO0">
+      <block type="variables_set" id="3EFc3GIB/PHQyLBUNNP-">
+        <field name="VAR">item</field>
+        <value name="VALUE">
+          <block type="math_number" id="CU]m6`yAO~0{xh5]b[g`">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <statement name="ELSE">
+      <block type="variables_set" id="},g,M?*2[ouEL(e|jSA:">
+        <field name="VAR">item</field>
+        <value name="VALUE">
+          <block type="math_number" id="?3LA*KdC5dO|K=r`IL~{">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <next>
+      <block type="MainEasymode_transfer2_send" id="G9//s}0E0@LEdemPFw)e">
+        <mutation items="1"></mutation>
+        <field name="DATAMAIN">txData</field>
+        <value name="ADD0">
+          <block type="variables_get" id="|U1(0cc|ebHEa7}CkxAE">
+            <field name="VAR">item</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

@@ -108,7 +108,7 @@ to be edited.
 to be edited.
 
 ---
-### 清除屏幕
+### 清除熒幕
 
 #### 模組組裝
 
@@ -203,7 +203,7 @@ to be edited.
 
 ##### 拼接示例
 
-拼接一個2x3的LED屏以第一個LED爲起始屏幕，除了初始化積木設置爲
+拼接一個2x3的LED屏以第一個LED爲起始熒幕，除了初始化積木設置爲
 
 <img src="../media/led_tiled_tutor_setup.png" width="200"/>
 

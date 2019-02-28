@@ -1,0 +1,44 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wifiNetwork_network" id="giHy)NnAzEC`NGp74U=B" x="39" y="3">
+    <field name="wifi_ssid">CocoRobo</field>
+    <field name="wifi_pw">cocorobo</field>
+  </block>
+  <block type="wifiTransfer_receive" id="k%tn;vQ-U!T1uvj3m-#;" x="49" y="141">
+    <field name="DATAMAIN">rxData</field>
+    <field name="LENGTH">4</field>
+    <next>
+      <block type="wifiServices_cococloud_post" id="uo2P1uUIp=7BxwICTc~)">
+        <mutation items="4"></mutation>
+        <field name="event0">d0f98bb70ae070cd89725780e67dfe6b</field>
+        <field name="field0">light</field>
+        <field name="field1">sound</field>
+        <field name="field2">humid</field>
+        <field name="field3">temperature</field>
+        <value name="ADD0">
+          <block type="wifiTransfer_receive_getValue" id="6G3W[#0]4U)-ta)zk139">
+            <field name="DATAMAIN">rxData</field>
+            <field name="INDEX">0</field>
+          </block>
+        </value>
+        <value name="ADD1">
+          <block type="wifiTransfer_receive_getValue" id="+.]pXqrS*olH7ODv5lZ.">
+            <field name="DATAMAIN">rxData</field>
+            <field name="INDEX">1</field>
+          </block>
+        </value>
+        <value name="ADD2">
+          <block type="wifiTransfer_receive_getValue" id="Y6*B%o|3oE[LUL@_nkc`">
+            <field name="DATAMAIN">rxData</field>
+            <field name="INDEX">2</field>
+          </block>
+        </value>
+        <value name="ADD3">
+          <block type="wifiTransfer_receive_getValue" id="B5xi7zax#lbCZG]l_@~g">
+            <field name="DATAMAIN">rxData</field>
+            <field name="INDEX">3</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

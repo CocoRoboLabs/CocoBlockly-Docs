@@ -1,0 +1,28 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="env_init" id="WT?yc4g(ybj{wGYkYHvy" x="67" y="13"></block>
+  <block type="MainEasymode_transfer2_send" id="5T^^Zu1ozcX!.^=0*}]j" x="61" y="107">
+    <mutation items="4"></mutation>
+    <field name="DATAMAIN">txData</field>
+    <value name="ADD0">
+      <block type="iot_read_mic" id="s_3ri5UU[Dg=gyQbO|v0">
+        <field name="env_sensor_mic">A2</field>
+      </block>
+    </value>
+    <value name="ADD1">
+      <block type="iot_read_light" id="nD5P]^55+Wdq6!f#3w!4">
+        <field name="env_sensor_light">A1</field>
+      </block>
+    </value>
+    <value name="ADD2">
+      <block type="iot_read_humid" id="LB*%/};zS2l%4,%LC%rN">
+        <field name="env_sensor_humid">4</field>
+      </block>
+    </value>
+    <value name="ADD3">
+      <block type="iot_read_temp" id="M?WLAcD(IYFl/zkAEB2}">
+        <field name="env_sensor_temp">4</field>
+        <field name="temp_unit">c</field>
+      </block>
+    </value>
+  </block>
+</xml>
