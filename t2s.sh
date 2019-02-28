@@ -33,6 +33,7 @@ echo "Replacing all the localized technical term from Hong Kong to Mandarin..."
 find . -type f -name "*.html" -print0 | xargs -0 sed -i '' -e 's/幫助文檔/帮助文档/g'
 find . -type f -name "*.html" -print0 | xargs -0 sed -i '' -e 's/搜尋/搜索/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/模组/模块/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/作业平台/操作系统/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/马达/电机/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/伺服马达/舵机/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/数位/数字/g'
