@@ -1,6 +1,6 @@
 # 什麼是 CocoBlockly
 
-![](/media/about-cocoblockly.png)
+![](/media/about-cocoblockly-308.jpg)
 
 CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環境，用戶透過拖拽具有特定功能的編程積木即可輕鬆撰寫相關的程式，賦予電子產品以多種多樣的功能。
 
