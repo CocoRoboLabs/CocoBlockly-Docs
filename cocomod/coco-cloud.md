@@ -9,16 +9,17 @@ https://cocorobo.hk/cloud
 
 ## 平臺主要組件
 
-![cocoCloud](../media/cocoCloud__1.png)
-![cocoCloud](../media/cocoCloud__2.png)
-
+![cocoCloud](../media/cocoCloud__2.jpeg)
+![cocoCloud](../media/cocoCloud__1.jpeg)
+![cocoCloud](../media/cocoCloud__3.jpeg)
 
 
 
 |編號 |組件名稱 | 組件描述  |
 |-  |-  |-  |
-|1. |事件  | 事件管理 包括創建以及查看事件內的資料|
-|2. |儀表板  | 數據視覺化面板以及控制按鈕面板 |
+|1. |Dashboard  | 數據視覺化面板，控制按鈕面板 |
+|2. |Event  | 事件管理|
+|3. |APIKEY  | 用戶的APIKEY  |
 
 
 
@@ -26,7 +27,7 @@ https://cocorobo.hk/cloud
 
 ## 賬號註冊
 
-![cocoCloud__register](../media/cocoCloud__register--1.png)
+![cocoCloud__register](../media/cocoCloud__register--1.jpeg)
 
 ### 方式一
 
@@ -39,123 +40,128 @@ https://cocorobo.hk/cloud
 
 ---
 
-## 事件
+## Events
 
-在**事件**中，用戶可以創建事件，以此來儲存各種各樣的資料。（想像像是一個文件夾）
+在 Events 中，用戶可以創建命名事件，以此來對每個屬性以及數據進行管理。
 
 ### 創建方法
 
-![cocoCloud__events](../media/cocoCloud__1.png)
+![cocoCloud__events](../media/cocoCloud__event--1.jpeg)
 
 點擊新增按鈕（ + ）
 
-![cocoCloud__events](../media/cocoCloud__event--2.png)
-![cocoCloud__events](../media/cocoCloud__event--3.png)
+![cocoCloud__events](../media/cocoCloud__event--2.jpeg)
 
-輸入事件名稱，點擊創建即可完成事件的建立
-
-![cocoCloud__events](../media/cocoCloud__event--4.png)
+輸入事件名稱，與類別（非必填），點擊創建即可完成事件的建立
 
 ### 使用方法
 
-#### 獲取API鑰匙
-![cocoCloud__events](../media/cocoCloud__event--5.png)
+#### 獲取URL
+![cocoCloud__events](../media/cocoCloud__event--3.jpeg)
 
-
-點擊複製圖標即可獲取事件的API鑰匙，由此來對事件在 [CocoBlockly](https://cocorobo.hk/cocoblockly/dev/?lang=zh-hant) 中進行數據 **(包括屬性)** 的新增。
-
-#### 創建事件屬性
-
-事件屬性的創建伴隨 CocoBlockly 數據的上傳進行設定。用戶無需在 CocoCloud 中設定。
-
-下面舉例在 CocoBlockly 中的設定
-
-1. 進入 [CocoBlockly](https://cocorobo.hk/cocoblockly/dev/?lang=zh-hant)
-
-![cocoCloud__events](../media/cocoCloud__event--6.png)
-
-2. 登入帳戶名與密碼
-
-![cocoCloud__events](../media/cocoCloud__event--7.png)
-
-
-3.點擊 **雲端項目** 獲取事件列表
-
-![cocoCloud__events](../media/cocoCloud__event--8.png)
-
-4.點選 已創建的事件（如 *Home*) 則可以看到相應的 API 鑰匙
-
-![cocoCloud__events](../media/cocoCloud__event--9.png)
-
-5. 依照下圖所示 在 WiFi 模組中 的 **聯網** 以及 **Web 服務** 中 拖曳出以下積木
-
-⚠️ 注意：為避免數據發送不成功，建議多設置一個等待時間大於**三秒**的積木，因為間隔少於**三秒**的資料上傳會被服務器阻擋
-
-![cocoCloud__events](../media/cocoCloud__event--10.png)
-
-6. 在積木中設置無線名稱同密碼。
-
-7. 在 CocoCloud 積木中設置在 CocoCloud 中複製的 [API鑰匙](#獲取API鑰匙) 並設置數據名（屬性) (如上圖中的*Temp*）以及欲發送的數據（如上圖中的 *20*)。
-
-到此完成在 CocoBlockly 中的設定。
-
-此時點開 Cloud 中的 *Home* 事件，則可看到相應的結果。
-
-![cocoCloud__events](../media/cocoCloud__event--11.png)
-
-
+點擊複製圖標即可獲取事件的URL，由此來對事件進行數據的新增。
 
 #### 事件查看
 
 點擊事件，即可看到事件的屬性，以及最後一筆數據的內容
 
-![cocoCloud__events](../media/cocoCloud__event--11.png)
+![cocoCloud__events](../media/cocoCloud__event--4.jpeg)
 
-#### 數據導出
 
-打開事件，點擊數據導出按鈕，即可得到歷史所有數據的 CSV 檔案
+## Dashboard
 
-![cocoCloud__events](../media/cocoCloud__event--12.png)
+在 Dashboard 中，用戶可以創建數據可視化的面板，在面板中觀察數據的變化，也可以創建插件，用來對事件的某個屬性進行開關的控制。Dashboard 建立於 Events 之上。
 
-#### 事件刪除
-
-打開事件，點擊刪除事件按鈕，將會刪除事件。
-
-⚠️ 注意 刪除的事件不可恢復。
-
-## 儀表板
-
-在儀表板中，用戶可以創建數據可視化的面板，在面板中觀察數據的變化，也可以創建插件，用來對事件的某個屬性進行開關的控制。儀表板建立於事件之上。
-
-⚠️ 注意 儀表板的中的屬性的數據僅支持數字格式（其他格式如字符串將會導致儀表板創建失敗）。
+![cocoCloud](../media/cocoCloud__2.jpeg)
 
 ### 創建方法
 
+![cocoCloud__dashboard](../media/cocoCloud__dashboard--1.jpeg)
+
 點擊新增按鈕（ + ）
 
-![cocoCloud__dashboard](../media/cocoCloud__dashboard--1.png)
+![cocoCloud__dashboard](../media/cocoCloud__dashboard--2.jpeg)
 
-![cocoCloud__dashboard](../media/cocoCloud__dashboard--2.png)
+輸入要創建的工具種類，目前支持
 
-1. 選擇事件的名稱
+* 數據可視化
+* 插件
 
-2. 選擇欲觀察或改變的屬性
+輸入要創建的可視化類型或按鍵類型，目前支持
 
-3. 輸入要創建的工具種類，目前支持
+* 數據可視化
+  * 線型圖
+  * 區域圖
 
-  * 數據可視化
-  * 插件
+* 插件
+  * 開關
 
-4. 輸入要創建的可視化類型或按鍵類型，目前支持
+輸入事件的名稱
 
-  * 數據可視化
-    * 線型圖
-    * 區域圖
-
-  * 插件
-    * 開關
-
+輸入欲觀察或改變的屬性
 
 點擊創建後即可看見數據的歷史數據所構成的圖表
 
-![cocoCloud__dashboard](../media/cocoCloud__dashboard--3.png)
+![cocoCloud](../media/cocoCloud__2.jpeg)
+
+
+## API Key
+
+用戶的唯一識別碼。
+
+***
+
+## 項目一覽
+
+| 項目類型 | 項目內容 | 備註 |
+| :------ | :------ | :------: |
+| CocoCloud | 雲端呈現環境模組數據 | [查看此處](#項目一)  |
+| CocoCloud | 雲端控制LED亮暗 | [查看此處](#項目二)  |
+
+---
+
+## 項目
+
+### 項目一
+
+####  項目簡介 : 雲端呈現環境模組數據
+
+雲端呈現環境模組數據: 將數據從主機板傳輸至WiFi通訊模組，然後傳輸至CocoCloud雲端，在CocoCloud展示數據
+
+#### 主機板程式預覽
+
+* 主機板 - 設置環境積木，設置數據傳輸至WiFi通訊模組
+  程式下載 <a href="../xml/cocoCloud_project1/project1_main.xml" download >project1_main.xml</a>
+
+![wifi__main](../media/cocoCloud_project_1_main.png)
+
+#### WiFi程式預覽
+
+* WiFi - 設置連網，接收主機板數據，設置CocoCloud發送積木發起請求發送數據至雲端
+  程式下載 <a href="../xml/cocoCloud_project1/project1_main.xml" download >project1_wifi.xml</a>
+
+![wifi__main](../media/cocoCloud_project_1_wifi.png)
+
+---
+
+### 項目二
+
+####  項目簡介 : 雲端控制LED亮暗
+
+雲端控制LED亮暗: WiFi模組接收雲端CocoCloud項目內開關Switch的開或關的數據，來遠程控制LED的亮暗
+
+#### 主機板程式預覽
+
+* 主機板 - 接收WiFi通訊模組傳輸過來的數據，設置LED 
+  程式下載 <a href="../xml/cocoCloud_project2/project2_main.xml" download >project2_main.xml</a>
+
+![wifi__main](../media/cocoCloud_project_2_main.png)
+
+#### WiFi程式預覽
+
+* WiFi - 設置連網，設置CocoCloud接收積木發起請求，向雲端獲取數據，發送獲取到的數據到主機板
+  程式下載 <a href="../xml/cocoCloud_project2/project2_wifi.xml"
+  download >project2_wifi.xml</a>
+
+![wifi__main](../media/cocoCloud_project_2_wifi.png)
+
