@@ -235,9 +235,9 @@ WiFi通訊模組與主機板模組進行數據通訊使用,即是可以向主機
 
 * 發送數據数组[1,2]至主機板模組 *注意：目前無法傳輸字符串*
 
-![wifi__main](../media/wifi/wifi_transfer_1_sendVar.png)
+![wifi__main](../media/wifi/wifi_transfer_1_sendvar.png)
 
-![wifi__main](../media/wifi/wifi_transfer_1_sendVar_main.png)
+![wifi__main](../media/wifi/wifi_transfer_1_sendvar_main.png)
 
 2. 接收積木 : 與主控通訊積木，接收主機板傳輸過來的數據，需要設置接收數據的數組長度
 
@@ -412,8 +412,8 @@ WEB服務包含IFTTT，Thingspeak，CocoCloud相關積木，允許模組與這�
 | (本地)AP模式 | 教學模塊控制LED模組 | [查看此處](#項目一) |
 | (本地)AP模式 | 網頁呈現環境模塊數據 | [查看此處](#項目二) |
 | (本地)AP模式 | 網頁控制LED開關 | [查看此處](#項目三)  |
-|(聯網) CocoCloud | 雲端呈現環境模組數據 | [查看此處](/cocomod/coco-cloud/#項目一)  |
-|(聯網) CocoCloud | 雲端控制LED亮暗 | [查看此處](/cocomod/coco-cloud/#項目二)  |
+|(聯網) CocoCloud | 雲端呈現環境模組數據 | [查看此處](/cocomod/coco-cloud?id=項目一)  |
+|(聯網) CocoCloud | 雲端控制LED亮暗 | [查看此處](/cocomod/coco-cloud?id=項目二)  |
 |(聯網) Thingspeak | 環境模組數據上傳與可視化 | 查看此處  |
 |(聯網) IFTTT| 環境數據觸發email提醒 | 查看此處  |
 |(聯網) IFTTT| 環境數據觸發google助手 | 查看此處  |
