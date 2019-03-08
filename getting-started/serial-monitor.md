@@ -8,17 +8,17 @@
 ### 序列埠監視器切換
 右側工具欄懸浮顯示，點擊第二個按鈕即可切換爲序列埠監視器
 
-<img src="../media/serialMonitor_switch.png" width="500"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_switch.png" width="100%" /></div>
 
 點擊切換，會將**程式代碼生成區**和**程式上傳區**切換成**序列埠監視器**
 
-<img src="../media/serialMonitor_card.png" width="500"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card.png" width="100%" /></div>
 
 ### 功能分區
 
 #### 序列埠工具連接區:連接開發板端口，數據打印方式，連接波特率，數據發送
 
-<img src="../media/serialMonitor_card_1.png" width="200"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card_1.png" width="40%" /></div>
 
 ##### 數據打印方式
 
@@ -33,30 +33,30 @@
 
 序列埠數據打印區
 
-<img src="../media/serialMonitor_card_2.png" width="200"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card_2.png" width="40%" /></div>
 
 序列埠工具功能區:數據顯示自動換行，導出數據，顯示區域數據清除
 
-<img src="../media/serialMonitor_card_3.png" width="200"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card_3.png" width="40%" /></div>
 
 ## 使用介紹
 ### 使用積木
 序列埠監視器的使用需要配合序列埠通訊積木，其中第一個積木爲初始化積木，可以設置波特率。第二個積木爲打印數據積木。通常需要和時間積木聯用
 
-<img src="../media/serialMonitor_block.png" width="500"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_block.png" width="100%" /></div>
 
 上傳工作區所示積木樣例至主機板板，切換至序列埠監視器（序列埠監控視窗），點擊連接按鈕
 
-<img src="../media/serialMonitor_connect.png" width="500"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_connect.png" width="100%" /></div>
 
 成功連接後，連接按鈕會被替換爲斷開按鈕，序列埠數據打印區會開始不斷打印數據
 
-<img src="../media/serialMonitor_show.png" width="500"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_show.png" width="100%" /></div>
 
 點擊導出數據按鈕，會彈出一個數據導出樣式選擇的簡易界面，會將當前序列埠數據打印區數據導出成對應數據格式
 
-<img src="../media/serialMonitor_export.png" width="500"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_export.png" width="100%" /></div>
 
 選擇保存文件命名和位置
 
-<img src="../media/serialMonitor_fileselector.png" width="300"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_fileselector.png" width="80%" /></div>

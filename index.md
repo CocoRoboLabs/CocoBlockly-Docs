@@ -31,14 +31,15 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 
 - [關於 CocoBlockly](index)
 - [開始使用 CocoBlockly](/getting-started/info)
+	- [軟體安裝指引](/getting-started/installation)
+	- [編程界面介紹](/getting-started/gui)
 	- [本地存取檔案](/getting-started/local-storage)
 	- [雲端存取檔案](/getting-started/cloud-storage)
-	- [檔案快照](/getting-started/project-snapshot)
 	- [序列埠監視器](/getting-started/serial-monitor)
 - [電子模組基本教學](/cocomod/overview)
 	- [使用主機板模組](/cocomod/main-controller)
 	- [使用教學模組](/cocomod/sensor-101)
-	- [使用LED燈模組 ](/cocomod/led-matrix)
+	- [使用LED燈屏模組 ](/cocomod/led-matrix)
 	- [使用熒幕模組](/cocomod/screen)
 	- [使用音樂模組](/cocomod/music)
 	- [使用觸摸感應模組](/cocomod/touch)
@@ -72,3 +73,4 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 	- [學科融合類](/projects/interdisciplinary)
 - [常用問題解答](faq) 
 - [版本更新日誌](changelog) 
+
