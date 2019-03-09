@@ -50,7 +50,9 @@
 
 #### 模組組裝
 
-<img src="../media/maincontroller_2.jpg" width="250"/>
+只需要一塊主機板模組即可，並插入 USB 數據線，同時將另一端接入電腦中：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/maincontroller_2.jpg" width="40%" /></div>
 
 #### 積木編程
 
@@ -58,48 +60,33 @@
 
 #### 最終效果
 
-![main controller](../media/maincontroller_4.png)
+上傳完成後，位於 D13 的 LED 燈將會每隔 1 秒（1 秒 = 1000 毫秒）閃一次：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-09-2019 15-52-04.gif" width="40%" /></div>
 
 ---
 
-## 主機板模組進階使用
-
-### 主機板與主機板模組間通訊（UART）
+### 人機交互模式（模擬鼠標及鍵盤）
 
 #### 模組組裝
 
-Coming soon.
+* 1 個主機板模組（圖中位於底部的電子模組）；
+* 1 個教學模組（圖中位於頂部的電子模組）
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_assemble.jpg" width="40%" /></div>
 
 #### 積木編程
 
-Coming soon.
+本項目中，我們將製作一個迷你鍵盤。對應積木可以從下圖紅圈處找到：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_1.jpg" width="100%" /></div>
 
 #### 最終效果
 
-Coming soon.
+上傳完成後，使用教學模組上的兩個按鈕，來在電腦中輸入「A」和「B」兩個字符：
 
-#### 參考鏈接
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-09-2019 16-12-29.gif" width="75%" /></div>
 
-* https://learn.sparkfun.com/tutorials/serial-communication/uarts
-* https://www.freebsd.org/doc/en/articles/serial-uart/
-* https://www.arduino.cc/reference/en/language/functions/communication/serial/
+> 註：在 macOS 作業系統中，上傳完人機交互程式後，CocoBlockly 界面中右下角上傳區的端口號會變爲帶有「HIDFG」的名稱，這意味着你的主機板模組已經成功被電腦識別爲人機交互裝置，但改變不會影響之後的程式上傳
 
----
-
-### HID 鼠標及鍵盤模式
-
-#### 模組組裝
-
-Coming soon.
-
-#### 積木編程
-
-Coming soon.
-
-#### 最終效果
-
-Coming soon.
-
-#### 參考鏈接
-
-Coming soon.
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_tip.jpg" width="50%" /></div>

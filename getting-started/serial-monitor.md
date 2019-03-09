@@ -1,7 +1,8 @@
 # 序列埠監視器
 ---
 ## 簡介
-序列埠監視器用於顯示查看開發板上的數據，並且能將顯示的數據以txt/csv格式導出
+
+序列埠監視器用於顯示查看開發板上的數據，是調試數據（感應器、網絡請求）的好幫手，該功能亦支持將顯示的數據以 TXT 和 CSV 格式導出。
 
 ## 界面介紹
 
@@ -18,7 +19,7 @@
 
 #### 序列埠工具連接區:連接開發板端口，數據打印方式，連接波特率，數據發送
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card_1.png" width="40%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card_1.png" width="100%" /></div>
 
 ##### 數據打印方式
 
@@ -33,19 +34,23 @@
 
 序列埠數據打印區
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card_2.png" width="40%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card_2.png" width="100%" /></div>
 
 序列埠工具功能區:數據顯示自動換行，導出數據，顯示區域數據清除
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card_3.png" width="40%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_card_3.png" width="100%" /></div>
 
 ## 使用介紹
+
 ### 使用積木
+
 序列埠監視器的使用需要配合序列埠通訊積木，其中第一個積木爲初始化積木，可以設置波特率。第二個積木爲打印數據積木。通常需要和時間積木聯用
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_block.png" width="100%" /></div>
 
 上傳工作區所示積木樣例至主機板板，切換至序列埠監視器（序列埠監控視窗），點擊連接按鈕
+
+> 此處請注意：使用序列埠監視器時，請記得在打印積木後加入不少於 50 毫秒的延時，避免數據顯示過快
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_connect.png" width="100%" /></div>
 

@@ -30,13 +30,12 @@
 
 #### 常見導入錯誤：
 
- 1. 導入錯誤類型文件：如*txt*，*docs*，以及*非CocoBlockly積木相關的xml文件*等
+<b style="background-color:#d40000; color:white; padding: 4px 5px; margin-right: 5px; border-radius:2px;">錯誤 1</b> 導入錯誤類型文件：如*txt*，*docs*，以及*非CocoBlockly積木相關的xml文件*等
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/localStorage_import_fileError.png" width="100%" /></div>
 
- 2. 導入積木文件不完整，或者包含不存在積木，常見於CocoBlockly版本更新後，文件版本與CocoBlockly版本不匹配。工作區生成部分積木，但無法正常使用
+<b style="background-color:#d40000; color:white; padding: 4px 5px; margin-right: 5px; border-radius:2px;">錯誤 2</b> 導入積木文件不完整，或者包含不存在積木，常見於CocoBlockly中積木更新後，項目文件中的積木與當前 CocoBlockly 的積木不匹配，工作區可以生成部分積木，但無效積木將會需要重新編寫
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/localStorage_import_invalidBlocks.png" width="100%" /></div>
 
 #### 導入錯誤解決方案
  1. 點擊導航欄的*垃圾桶*圖標刪除工作區所有積木
@@ -53,6 +52,7 @@
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/localStorage_export_before.png" width="100%" /></div>
 
-瀏覽器自動彈出文件選擇器，選擇檔案要保存的本地位置
+隨後將會彈出導出選項窗口，此處可以選擇「導出項目文件 (XML 格式)」或者「導出項目積木截圖 (PNG 格式」：
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/localStorage_export_fileSelector.png" width="80%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/localStorage_export_after.png" width="100%" /></div>
+

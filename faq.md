@@ -1,3 +1,7 @@
+<div class="headerInProgress">
+	本部分內容仍在更新中，如有任何疑問，請聯繫 support-hk@cocorobo.cc，帶來的不便，請您諒解。
+</div>
+
 # 常見問題解答 FAQ
 ---
 
@@ -25,6 +29,3 @@
 * <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">場景 2</b> 接入主機板模組時沒有任何端口顯示
 	* 修復方法：如果重複上傳 3 次都無法成功，請嘗試換一臺電腦，或者換一根 USB 線，如果嘗試後仍然無法上傳，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
 
-
----
-> 我們不斷在更新本文檔，如有更多問題，請您發送郵件至 tommy@cocorobo.cc

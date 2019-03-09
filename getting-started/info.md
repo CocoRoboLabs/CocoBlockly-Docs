@@ -32,30 +32,32 @@
 2. 打開網頁：http://cocorobo.hk/cocoblockly/dev/
 3. CocoBlockly 完成載入後，界面右上方會提示「插件已經成功連接！」
 
-   ![upload](../media/intro_upload_1.png)
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_1.png" width="40%" /></div>
 
-   同時，「程式上傳區」也會顯示連接成功
+  - 同時，「程式上傳區」也會顯示連接成功
 
-   ![upload](../media/intro_upload_2.png)
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_2.png" width="70%" /></div>
 
 4. 將主機板模組通過 USB 線接入電腦，通過一小段時間，將會顯示主機板模組的端口名。
-   **注1**：關於主機板模組的資料，請查閲：[使用主機板模組](/cocomod/main-controller)
-   **注2**：Windows 裏的端口名通常以 COM 開頭，MacOS 裏的通常以 /dev/tty.usb 開頭。
+  - **注1**：關於主機板模組的資料，請查閲：[使用主機板模組](/cocomod/main-controller)
+  - **注2**：Windows 裏的端口名通常以 COM 開頭，MacOS 裏的通常以 /dev/tty.usb 開頭。
 
-   ![upload](../media/intro_upload_3.png)
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_3.png" width="70%" /></div>
 
 6. 點擊「上傳（Upload）」開始將「積木對應原始碼參考區」中的 Arduino 原始碼上傳至主機板中，此時會經歷3個步驟：
-    1. 編譯中（Compiling）
 
-    ![upload](../media/intro_upload_4.png)
+  - 編譯中（Compiling）
 
-    1. 上傳中（Uploading）
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_4.png" width="70%" /></div>
 
-    ![upload](../media/intro_upload_5.png)
+  - 上傳中（Uploading）
 
-    1. 上傳成功（Upload successfully）
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_5.png" width="70%" /></div>
 
-    ![upload](../media/intro_upload_6.png)
+  - 上傳成功（Upload successfully）
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_6.png" width="70%" /></div>
 
 7. 完成以上3個步驟，就意味著我們已經將程式上傳至主機板中
-   **注**：與 Arduino IDE 的「Verify code」類似，我們提供「編譯（Compile）」這個選項，供大家測試編寫的程式是否能夠正確編譯
+
+  - **注**：與 Arduino IDE 的「Verify code」類似，我們提供「編譯（Compile）」這個選項，供大家測試編寫的程式是否能夠正確編譯
