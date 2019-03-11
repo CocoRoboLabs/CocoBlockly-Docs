@@ -54,19 +54,25 @@
 
 ### 讀取感應器得到的 RGB 三個值
 
+> 註：什麼是 RGB？RGB是指三原色RED GREEN BLUE，即紅、綠、藍，三原色可以混合出所有的顏色，這樣的設計就可以通過軟件自定義背光的顏色。
+
 #### 模組組裝 
 
-顏色分析模組 與 主機板模組拼接 
+將顏色分析模組 與 主機板模組拼接 
 
-<img src="../media/colorAnalysize_assemble.jpg" width="250"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/colorAnalysize_assemble.jpg" width="60%" /></div>
 
 #### 積木編程
 
-<img src="../media/colorAnalysize_block_getRGB.jpg" width="500"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/colorAnalysize_block_getRGB.jpg" width="100%" /></div>
 
 #### 最終效果
 
-<img src="../media/colorAnalysize_result_getRGB.jpg" width="500"/>
+程式上傳成功後，請點擊右側工具欄的序列埠窗口來查看觸摸感應的數據輸出：
+
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/colorAnalysize_result_getRGB.jpg" width="50%" /></div>
 
 ---
 
@@ -76,9 +82,12 @@
 
 #### 模組組裝 
 
-主機板+顏色分析模組+LED燈屏+平行轉接板
+將主機板模組，與顏色分析模組 + LED 燈屏模組 + 平行轉接模組結合在一起，並將主機板模組連接到電腦端： 
 
-<img src="../media/colorAnalysize_module_setLED.jpg" width="200"/>   <img src="../media/colorAnalysize_assembly_setLED.jpg" width="200"/>
+<div style="padding: 10px 0 10px 0;text-align: center;">
+	<img style="margin-right:20px;" src="../media/colorAnalysize_module_setLED.jpg" width="40%" />
+	<img src="../media/colorAnalysize_assembly_setLED.jpg" width="40%" />
+</div>
 
 #### 積木編程
 
@@ -86,11 +95,7 @@
 
 #### 最終效果
 
-(gif to be added.)
-
-#### 參考鏈接
-
-colorAnalysize_setLED.xml
+程式上傳成功後，將顏色分析模組上的「黃色」部分靠近有色物體（建議使用彩色卡紙），隨後 LED 燈屏便會根據顏色分析模組讀取到的 RGB 數值，顯示近似的顏色
 
 ---
 

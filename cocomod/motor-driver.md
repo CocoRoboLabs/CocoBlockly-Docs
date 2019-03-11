@@ -89,6 +89,10 @@
 
 #### 最終效果
 
+程式上傳成功後，請確保馬達驅動模組上的撥動開關處於+5V 一側的狀態（使用主機板模組供電）
+
+<div style="margin-bottom:20px;border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/motor_driver-power_switch.jpg" width="60%" /></div>
+
 <img src="../media/motorDriver__sample-1.gif" width="500"/>
 
 
@@ -115,7 +119,8 @@
 
 #### 最終效果
 
+程式上傳成功後，請確保馬達驅動模組上的撥動開關處於+5V 一側的狀態（使用主機板模組供電）
+
+<div style="margin-bottom:20px;border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/motor_driver-power_switch.jpg" width="60%" /></div>
+
 <img src="../media/motorDriver__sample-2.gif" width="500"/>
-
-
----

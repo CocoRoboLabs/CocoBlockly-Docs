@@ -48,22 +48,19 @@ LED燈屏模組是將多個LED燈排列一起而成的電子模組，我們可�
 
 #### 模組組裝
 
-主機板模組+LED燈屏模組
+將主機板模組和 LED 燈屏模組組合在一起，並連接好 USB 數據線至電腦：
 
-<img src="../media/led_light_assemble.jpg" width="250"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
 #### 積木編程
 
 <img src="../media/led_block.png" width="100%"/>
 
-
 #### 最終效果
 
-<img src="../media/led_light.jpg" width="300"/>
+上傳完成後，將會在 LED 燈屏上顯示一個長和寬各爲 5 的綠色實心正方形
 
-#### 參考鏈接
-
-to be edited.
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light.jpg" width="40%" /></div>
 
 ---
 
@@ -71,69 +68,77 @@ to be edited.
 
 #### 座標信息
 
-| 編號 | 座標軸  | 範圍                                                          |
+| 編號 | 座標軸  | 座標數值                                                          |
 | --- | --------- | ----------------------------------------------------------------- |
-| 1.  | X軸 | 0-4 |
-| 2.  | Y軸 | 0-4  |
+| 1.  | X 軸 | 0~4 |
+| 2.  | Y 軸 | 0~4  |
 
-<img src="../media/led_coordinateAxis.png" width="300"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_coordinateAxis.png" width="40%" /></div>
 
 #### 積木編程
+
+這裏我們將在 LED 燈屏上繪製一條線
 
 <img src="../media/led_block_line.png" width="100%"/>
 
-
 #### 最終效果
 
-<img src="../media/led_light_line.jpg" width="300"/>
+上傳完成後，效果如下：
 
----
-### 基本圖形繪製：點、線、面
-
-#### 模組組裝
-
-主機板模組+LED燈屏模組
-
-#### 積木編程
-<img src="../media/led_block_draw.png" width="100%"/>
-
-#### 最終效果
-
-<img src="../media/led_light_dot.jpg" width="200"/>
-<img src="../media/led_light_line1.jpg" width="200"/>
-<img src="../media/led_light_area.jpg" width="200"/>
-
-#### 參考鏈接
-
-to be edited.
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_line.jpg" width="40%" /></div>
 
 ---
 ### 清除熒幕
 
 #### 模組組裝
 
-主機板模組+LED燈屏模組
+將主機板模組和 LED 燈屏模組組合在一起，並連接好 USB 數據線至電腦：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
 #### 積木編程
-<img src="../media/led_block_clean.png" width="100%"/>
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_block_clean.png" width="100%" /></div>
 
 #### 最終效果
-實際效果：LED燈“一亮（紅光）一暗”，并且循環顯示此效果。
-<img src="../media/led_light_area.jpg" width="200"/>
-<img src="../media/led_light_off.jpg" width="200"/>
-#### 參考鏈接
 
-to be edited.
+實際效果：LED燈“一亮（紅光）一暗”，并且循環顯示此效果。
+
+<div style="padding: 10px 0 10px 0;text-align: center;">
+	<img style="margin-right:20px;" src="../media/led_light_area.jpg" width="40%" />
+	<img src="../media/led_light_off.jpg" width="40%" />
+</div>
+
+---
+### 繪製動畫
+
+#### 模組組裝
+
+將主機板模組和 LED 燈屏模組組合在一起，並連接好 USB 數據線至電腦：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
+
+#### 積木編程
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_block_draw.png" width="100%" /></div>
+
+#### 最終效果
+
+程式上傳以後，將會以「點 -> 線」的順序，每個一秒切換一個圖形顯示在 LED 燈屏上：
+
+<div style="padding: 10px 0 10px 0;text-align: center;">
+	<img style="margin-right:20px;" src="../media/led_light_dot.jpg" width="40%" />
+	<img src="../media/led_light_line1.jpg" width="40%" />
+</div>
 
 ---
 
-## LED燈屏模組進階使用
-
-### 打印文字
+## 繪製自定義圖案
 
 #### 模組組裝 
 
-主機板模組+LED燈屏模組
+將主機板模組和 LED 燈屏模組組合在一起，並連接好 USB 數據線至電腦：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
 #### 積木編程
 
@@ -141,31 +146,9 @@ to be edited.
 
 #### 最終效果
 
-<img src="../media/led_light_A.jpg" width="300"/>
+程式上傳以後，將會呈現處如程式編寫時的圖案效果，此處爲大寫字母「A」：
 
-#### 參考鏈接
-
-to be edited.
-
----
-
-### 逐幀動畫
-
-#### 模組組裝 
-
-主機板模組+LED燈屏模組
-
-#### 積木編程
-
-<img src="../media/led_block_animation.png" width="100%"/>
-
-#### 最終效果
-
-待編寫
-
-#### 參考鏈接
-
-待編寫
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_A.jpg" width="40%" /></div>
 
 ---
 
@@ -173,7 +156,9 @@ to be edited.
 
 #### 模組組裝 
 
-主機板模組+LED燈屏模組
+將主機板模組和 LED 燈屏模組組合在一起，並連接好 USB 數據線至電腦：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
 #### 積木編程
 
@@ -181,15 +166,12 @@ to be edited.
 
 #### 最終效果
 
-待編寫
+程式上傳以後，LED 燈將會以漸亮和漸暗（亮度在 0 至 100 間變化）的形式，呈現出白色呼吸燈的效果
 
-#### 參考鏈接
 
-待編寫
+<!-- 
 
----
-
-### 多LED拼接
+## 多LED拼接
 
 #### 模組組裝 
 
@@ -231,7 +213,7 @@ LED屏以圖示順序進行連接，拼接一個4x2的LED面板
 
 #### 參考鏈接
 
-to be edited.
+to be edited. -->
 
 
 

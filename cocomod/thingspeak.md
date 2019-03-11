@@ -74,9 +74,11 @@ ThingSpeak(https://thingspeak.com) 是由 MathWorks 開發的一款雲端資料�
 
 WiFi模式:
 
+> 註：編寫程式時，請注意將聯網積木中的 WiFi 信息和密碼改成你自己要連接的
+
 ![ThingSpeak](../media/ThingSpeak_example_wifi.png)
 
-ThingSpeak數據收集結果 :
+程式上傳完成後，前往 ThingSpeak 查看收集到的數據結果:
 
 ![ThingSpeak](../media/ThingSpeak_example_res.png)
 

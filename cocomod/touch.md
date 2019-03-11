@@ -59,4 +59,8 @@
 
 #### 最終效果
 
-<img src="../media/touch__sample--1.gif" width="400"/>
+程式上傳成功後，請點擊右側工具欄的序列埠窗口來查看觸摸感應的數據輸出：
+
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+
+<div style="margin-top:20px;padding: 10px 0 10px 0;text-align: center;"><img src="../media/touch__sample--1.gif" width="70%" /></div>

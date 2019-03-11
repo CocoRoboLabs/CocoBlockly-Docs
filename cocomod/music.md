@@ -74,6 +74,8 @@
 
 #### 模組組裝
 
+將主機板模組和音樂模組組合在一起，並連接好 USB 數據線至電腦：
+
 <div style="text-align: center;">
 <img src="../media/music_5.jpg" width="250"/>
 </div>
@@ -103,26 +105,18 @@
 
 #### 模組組裝
 
-音樂模組支持MP3音樂播放功能，須配合TF卡使用，歌曲存放在TF卡中
-
-
-<div style="transform: rotate(180deg);" style="text-align: center;">
-
-![music](../media/music_mp3_material1.jpg)
-
+<div style="text-align: center;">
+<img src="../media/music_5.jpg" width="250"/>
 </div>
 
+音樂模組支持MP3音樂播放功能，須配合TF卡使用，歌曲存放在TF卡中，將主機板模組和音樂模組組合在一起，並連接好 USB 數據線至電腦：
 
-<div style="transform: rotate(180deg);" style="text-align: center;">
-
-![music](../media/music_mp3_material2.jpg)
-
+<div style="padding: 10px 0 10px 0;text-align: center;">
+	<img style="margin-right:20px;" src="../media/music_mp3_material1.jpg" width="40%" />
+	<img src="../media/music_mp3_material2.jpg" width="40%" />
 </div>
-
-
 
 #### 積木編程
-
 
 <div style="text-align: center;">
 
@@ -138,11 +132,16 @@
 <img style="transform: rotate(-90deg);" src="../media/music_7.png" width="400"/>
 </div>
 
+---
+
 ##  音樂模組進階使用
 
 ### 觸摸電子琴
 
 #### 模組組裝
+
+
+將主機板模組、音樂模組和觸摸模組組合在一起，並連接好 USB 數據線至電腦：
 
 <div style="text-align: center;">
 <img src="../media/music_8.jpg" width="250"/>
@@ -153,6 +152,8 @@
 ![music](../media/music_10.png)
 
 #### 最終效果
+
+程式上傳成功後，觸摸觸摸模組上的針腳，來發出不同的音階；
 
 <div style="text-align: center;">
 <img style="transform: rotate(-90deg);" src="../media/music_9.png" width="400"/>

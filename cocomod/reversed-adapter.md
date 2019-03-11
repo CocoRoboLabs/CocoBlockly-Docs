@@ -18,9 +18,9 @@
 
 #### 模組組裝
 
-<img src="../media/正反_2.jpg" width="263"/>
+將 4 塊模組按照下圖順序組裝起來（由後至前）：教學模組、主機板模組、正反轉接模組、LED燈屏模組，並將 USB 數據線連接主機板模組和電腦：
 
-<img src="../media/正反_3.jpg" width="250"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/正反_2.jpg" width="50%" /></div>
 
 #### 積木編程
 
@@ -28,4 +28,6 @@
 
 #### 最終效果
 
-<img src="../media/正反_5.jpg" width="300"/>
+程式上傳後，將可以使用教學模組上位於 D8 的按鈕來控制 LED 燈屏的燈的亮滅：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/正反_5.jpg" width="30%" /></div>

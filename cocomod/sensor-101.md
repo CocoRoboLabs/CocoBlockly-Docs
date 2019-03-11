@@ -34,19 +34,27 @@
 ### 用按鈕與切換開光控制 LED 燈
 
 #### 模組組裝
-**注** 模組組裝的方法：仔細觀察模組正反兩面,分別有兩種不同的接口（部分模組只有一面有接口），而且接口的長短不一。正反兩面的一種接口為「公」接口，另一種為「母」接口。模組之間的組裝方法則是將長短一致的兩種接口緊密結合。
 
+將教學模組與主機板模組組裝起來，並讓主機板模組用 USB 數據線和電腦連接起來，模組組裝的方法如下：
+* 仔細觀察模組正反兩面,分別有兩種不同的接口（部分模組只有一面有接口），而且接口的長短不一。正反兩面的一種接口為「公」接口，另一種為「母」接口。模組之間的組裝方法則是將長短一致的兩種接口緊密結合。
 
-<img src="../media/sensor101_2.jpg" width="250"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_2.jpg" width="40%" /></div>
 
 #### 積木編程
 
-( **提示：** 點擊“如果......執行......”積木左上角的藍色小齒輪按鈕，可添加“否則如果”和“否則”積木 ）
-![sensor101](../media/sensor101_3.png)
+( **提示：** 點擊「如果......執行......」積木左上角的藍色小齒輪按鈕，可添加「否則如果」和「否則」積木 ）
+
+<div style="border: 1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 13-22-56.gif" width="60%" /></div>
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_3.png" width="100%" /></div>
 
 #### 最終效果
 
-![sensor101](../media/sensor101_4.png)
+將程式上傳後：
+* 按下位於 D8 的按鈕，將會點亮位於 D0 和 D2 的 LED 燈；
+* 撥動位於 D12 的開關，將可以控制位於 D1 和 D3 的 LED 燈的亮和滅
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_4.png" width="40%" /></div>
 
 ---
 
@@ -54,7 +62,7 @@
 
 #### 模組組裝
 
-<img src="../media/sensor101_2.jpg" width="250"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_2.jpg" width="40%" /></div>
 
 #### 積木編程
 
@@ -72,7 +80,8 @@
 
 #### 模組組裝
 
-<img src="../media/sensor101_6.jpg" width="250"/>
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_6.jpg" width="50%" /></div>
 
 #### 積木編程
 
@@ -80,4 +89,6 @@
 
 #### 最終效果
 
-![sensor101](../media/sensor101_8.png)
+將程式上傳後，使用如圖的紅外遙控器，按下數字 2 後將會讓位於 D0、D1、D2 的 LED 燈全部亮起來，按下數字 2 後將會讓位於 D0、D1、D2 的 LED 燈全部滅掉：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_8.png" width="40%" /></div>

@@ -50,18 +50,19 @@
 3. X 和 Y 的最大數值爲128，既爲螢幕長和寬的最大數值。
 4. 在螢幕的某一點的位置可以定位爲 **(X,Y)**。
 
-<img src="../media/screen_18.png" width="300"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_18.png" width="40%" /></div>
 
 ---
 
 ### 基本圖形繪製
 
 #### 模組組裝
-主機板模組和OLED螢幕模組
 
-<img src="../media/screen_2.jpg" width="250"/>
+將主機板模組和熒模組組合在一起，並連接好 USB 數據線至電腦：
 
-#### 線
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_2.jpg" width="40%" /></div>
+
+<!-- #### 繪製線
 
 ##### 積木編程
 
@@ -69,19 +70,19 @@
 
 ##### 最終效果
 
-<img src="../media/screen_7.jpg" width="400"/>
+<img src="../media/screen_7.jpg" width="400"/>-->
 
-#### 矩形
+#### 繪製矩形
 
 ##### 積木編程
 
-![screen](../media/screen_8.png)
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_8.png" width="100%" /></div>
 
 ##### 最終效果
 
-<img src="../media/screen_9.jpg" width="400"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_9.jpg" width="40%" /></div>
 
-#### 圓形
+#### 繪製圓形
 
 ##### 積木編程
 
@@ -89,7 +90,7 @@
 
 ##### 最終效果
 
-<img src="../media/screen_11.png" width="400"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_11.png" width="40%" /></div>
 
 #### 三角形
 
@@ -99,7 +100,7 @@
 
 ##### 最終效果
 
-<img src="../media/screen_13.jpg" width="400"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_13.jpg" width="40%" /></div>
 
 ---
 
@@ -107,7 +108,9 @@
 
 #### 模組組裝
 
-<img src="../media/screen_2.jpg" width="250"/>
+將主機板模組和熒模組組合在一起，並連接好 USB 數據線至電腦：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_2.jpg" width="40%" /></div>
 
 #### 積木編程
 
@@ -115,7 +118,7 @@
 
 #### 最終效果
 
-<img src="../media/screen_15.jpg" width="400"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_15.jpg" width="40%" /></div>
 
 ---
 
@@ -125,7 +128,9 @@
 
 #### 模組組裝
 
-<img src="../media/screen_2.jpg" width="250"/>
+將主機板模組和熒模組組合在一起，並連接好 USB 數據線至電腦：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_2.jpg" width="40%" /></div>
 
 #### 積木編程
 
@@ -133,7 +138,9 @@
 
 #### 最終效果
 
-![screen](../media/screen_4.png)
+程式上傳完成後，將會呈現一系列幾何圖形動畫：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_4.png" width="40%" /></div>
 
 ---
 
@@ -141,7 +148,9 @@
 
 #### 模組組裝
 
-<img src="../media/screen_2.jpg" width="250"/>
+將主機板模組和熒模組組合在一起，並連接好 USB 數據線至電腦：
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_2.jpg" width="40%" /></div>
 
 #### 積木編程
 **關鍵點：** 使用黑色的圖形對文字進行覆蓋，達到更換文字的效果
@@ -151,4 +160,4 @@
 #### 最終效果
 先顯示文字“CocoRobo Inc.”，覆蓋文字后再顯示“CocoRobo”
 
-<img src="../media/screen_17.jpg" width="400"/>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_17.jpg" width="40%" /></div>
