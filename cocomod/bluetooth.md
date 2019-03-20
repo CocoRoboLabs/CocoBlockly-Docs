@@ -119,9 +119,21 @@ to be edited.
 * AT 模式對應 Arduino 程式下載：
 	* https://cocorobo.hk/downloads/Bluetooth_AT_Mode.ino
 
-<object width="100%" height="600px" data="../media/CocoRobo藍牙模組間配對流程.pdf" type="application/pdf">
+<object width="100%" height="800px" data="../media/CocoRobo藍牙模組間配對流程.pdf" type="application/pdf">
 	<embed src="../media/CocoRobo藍牙模組間配對流程.pdf" type="application/pdf" />
 </object>
+
+<b>視頻：「如何進入藍牙模組的 AT 模式」</b>
+<video width="100%" height="480px" controls>
+  <source src="media/entering_at-mode.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<b>視頻：「藍牙模組綁定完成，再次通電後連接的效果」</b>
+<video width="100%" height="480px" controls>
+  <source src="media/bluetooth_comm-pairing.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 #### 模組組裝 
 
