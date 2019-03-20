@@ -9,12 +9,12 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 
 #### 準備事項： 
 
-1. 安裝 CocoBlockly Uploader（請從以下鏈接獲取最新版本）:
+1. 安裝 CocoBlockly Uploader（請從以下連結獲取最新版本）:
   1. Windows: https://api.cocorobo.hk/releases/uploaderv2/download/windows
   2. macOS: https://api.cocorobo.hk/releases/uploaderv2/download/mac
-2. 安裝上傳插件的 Google Chrome Browser:
-  1. https://www.google.com/chrome/
-3. 安裝完成後，前往 [http://cocorobo.hk/cocoblockly/dev/](http://cocorobo.hk/cocoblockly/dev/) ，檢查界面右下角的「Upload Area」是否有綠色的打勾圖標，如有，則表示安裝成功，這時你可以開始進行程式編寫，並上傳至你的電子模組中了。
+2. 開啟瀏覽器，我們推薦使用 Google Chrome，請前往[此處](/#/getting-started/info?id=cocoblockly-uploader)檢視完整的支援列表，如果您還沒有安裝合適的瀏覽器，可前往下方連結下載:
+  1. 安裝 Google Chrome：https://www.google.com/chrome/
+3. 以上步驟全部準備完成後，前往 [http://cocorobo.cn/cocoblockly/dev/](http://cocorobo.cn/cocoblockly/dev/) ，檢查介面右下角的「Upload Area」是否有綠色的打勾圖示，如有，則表示安裝成功，這時你可以開始進行程式編寫，並上傳至你的電子模組中了。
 
 #### 注意事項：
 
