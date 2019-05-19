@@ -3,6 +3,26 @@
 
 > 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
 
+---
+
+<div style="padding: 16px 20px; background-color:#004be1; border-radius:5px; color:#fff; font-size:18px; text-align: center; font-weight:bold;">
+	常見問題請注意：使用完序列埠窗口後上傳程式失敗
+</div>
+
+這是因爲序列埠工具連接著開發板端口，導致「主機板模組」端口被佔用，所以無法上傳成功。
+
+<div align=center><img src="../media/portBeUsed.png" width="450"/></div>
+
+#### 解決方法: 
+
+切換到序列埠工具連接區，斷開序列埠連接，再重新上傳即可。
+
+<div align=center>
+<img src="../media/serialConnWhenupload.gif" width="250"/>
+</div>
+
+---
+
 ## 使用土壤濕度感應器
 
 ### 模組組裝
