@@ -2,7 +2,6 @@
 ---
 ## 模組介紹
 - [主機板模組](/cocomod/main-controller)
-- [教學模組](/cocomod/sensor-101)
 - [LED 燈模組](/cocomod/led-matrix)
 - [音樂模組](/cocomod/music)
 - [觸摸感應模組](/cocomod/touch)
@@ -11,7 +10,7 @@
 電子模組：
 - 主機板模組
 - 音樂模組
-- 燈光模組
+- LED 燈模組
 - 觸碰感應模組
 
 ![kit](../media/kit_167.png)
