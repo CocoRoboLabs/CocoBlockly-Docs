@@ -116,12 +116,12 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
     <td> a.熱點積木: 設置自身熱點名稱與密碼(密碼不小於八位) </td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_transfer_detail_1.png"> </td>
+    <td> <img src="../media/wifi_new_1.png"> </td>
     <td> a.發送積木: 與主控通訊積木，向主機板發送包含數據的數字數組(注意：單個數據取值範圍為0~255) </td>
   </tr>
     <tr>
-    <td> <img src="../media/wifi/wifi_transfer_detail_2.png"> </td>
-    <td> a.接收積木:與主控通訊積木，接收主機板傳輸過來的數據，需設置長度 <br> b.取值積木: 與接收積木同用，獲取主機板傳輸過來的單個數據，以0為起始位數 </td>
+    <td> <img src="../media/wifi_new_2.png"> </td>
+    <td> a.接收積木:與主控通訊積木，接收主機板傳輸過來的數據，需設置長度 <br> b.取值積木: 與接收積木同用，獲取主機板傳輸過來的單個數據，以0為起始位數 <br> c. 可設定接受到的字符串類型：字符串（String）、整數數值（Number）、帶小數點的數值（Float）</td>
   </tr>
   <tr>
     <td> <img src="../media/wifi/wifi_webservice_detail_1.png"> </td>
