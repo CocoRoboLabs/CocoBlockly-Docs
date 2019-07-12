@@ -39,7 +39,7 @@
 ## 模組使用說明
 
 1. 切勿使用超過 5V/2A 的電源供電。
-2. 當主機板模組的 LED13 燈呈呼吸狀態時，意味著模組正處於重置狀態，該狀態一般會持續 10s 左右，10s 以後將會恢復正常狀態。
+2. 當主機板模組的 LED 燈（D13）呈呼吸狀態時，意味著模組正處於重置狀態，該狀態一般會持續 10s 左右，10s 以後將會恢復正常狀態。
 3. 當從 CocoBlockly 上傳程序至主機板模組不成功時，可以嘗試在按下重置按鈕 1s 後再點擊上傳。
 
 ---
@@ -50,7 +50,7 @@
 
 #### 模組組裝
 
-只需要一塊主機板模組即可，並插入 USB 數據線，同時將另一端接入電腦中：
+只需要一塊主機板模組即可，並插入 USB 數據線，同時將 USB 數據線的另一端接入電腦中：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/maincontroller_2.jpg" width="40%" /></div>
 
@@ -71,7 +71,7 @@
 #### 模組組裝
 
 * 1 個主機板模組（圖中位於底部的電子模組）；
-* 1 個教學模組（圖中位於頂部的電子模組）
+* 1 個教學模組（圖中位於頂部的電子模組）。
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_assemble.jpg" width="40%" /></div>
 
@@ -87,6 +87,6 @@
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-09-2019 16-12-29.gif" width="75%" /></div>
 
-> 註：在 macOS 作業系統中，上傳完人機交互程式後，CocoBlockly 界面中右下角上傳區的端口號會變爲帶有「HIDFG」的名稱，這意味着你的主機板模組已經成功被電腦識別爲人機交互裝置，但改變不會影響之後的程式上傳
+> 註：在 macOS 作業系統中，上傳完人機交互程式後，CocoBlockly 界面中右下角上傳區的端口號會變爲帶有「HIDFG」的名稱，這意味著你的主機板模組已經成功被電腦識別爲人機交互裝置，但名稱的改變不會影響之後的程式上傳
 
 <div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_tip.jpg" width="50%" /></div>

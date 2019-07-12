@@ -13,7 +13,7 @@
 | 1.   | (數位訊號) D0 至 D6    | LED 燈       |
 | 2.   | (類比訊號) A3    | 電位器，又稱旋鈕 |
 | 3.   | (數位訊號) D8、D9     | 按鈕       |
-| 4.   | (類比訊號) D12、D13  | 切換開關     |
+| 4.   | (數位訊號) D12、D13  | 切換開關     |
 | 5.   | (數位訊號) D11   | 蜂鳴器          |
 | 6.   | (類比訊號) A2 | 紅外訊號           |
 
@@ -54,7 +54,7 @@
 * 按下位於 D8 的按鈕，將會點亮位於 D0 和 D2 的 LED 燈；
 * 撥動位於 D12 的開關，將可以控制位於 D1 和 D3 的 LED 燈的亮和滅
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_4.png" width="40%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_4.gif" width="40%" /></div>
 
 ---
 
@@ -89,6 +89,6 @@
 
 #### 最終效果
 
-將程式上傳後，使用如圖的紅外遙控器，按下數字 2 後將會讓位於 D0、D1、D2 的 LED 燈全部亮起來，按下數字 2 後將會讓位於 D0、D1、D2 的 LED 燈全部滅掉：
+將程式上傳後，使用如圖的紅外遙控器，按下數字 2 後將會讓位於 D0、D1、D2 的 LED 燈全部亮起來，按下數字 1 後將會讓位於 D0、D1、D2 的 LED 燈全部滅掉：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_8.png" width="40%" /></div>
