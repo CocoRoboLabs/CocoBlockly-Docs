@@ -1,6 +1,6 @@
 # CocoMod 電子模組
 
---- 
+---
 
 ![](../media/about-cocomod.png)
 
@@ -8,8 +8,11 @@ CocoMod 是一系列由 CocoRobo 研發的「即插即用式」的電子模組�
 
 用戶利用這些模組，結合 3D 打印和編程可以輕鬆地完成各類項目，其擴展性較市面上其他多數 Arduino 套件更適合入門者學習電子及編程知識。同時，改爲 “CocoRobo鼓勵用戶通過配套課程來更好、更快地學習使用 CocoMod 電子模組
 
-模組間會有接口使用衝突，請注意參考下表的接口示意，再進行程式編寫：
+模組間會有接口使用衝突。例如：在教學模組和LED燈屏模組中，數字接口D6均用於控制LED燈，此時兩者都處於輸出狀態。所以LED燈屏模組和教學模組D6接口処的LED燈只能單獨使用，若同時使用教學模組D6接口処的LED燈和LED燈屏模組，就會產生接口衝突，燈光的顯示出現異常，無法正常使用。
 
+<div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_exam.png" width="70%" /></div>
+
+請注意參考下表的接口示意，再進行程式編寫：
 ![](../media/cocorobo-modules-pinout-map_v2.jpg)
 
 高解析度的版本可從[點擊此處](http://cocorobo.hk/downloads/cocorobo-modules-pinout-map_v2.pdf)查看。
