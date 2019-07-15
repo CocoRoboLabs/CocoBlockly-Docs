@@ -4,7 +4,7 @@
 
 ## 模組簡介
 
-音樂模組為播放樂器聲音和音樂文檔所用，音樂模組可以發出超過 100 種樂器的聲音，模組也有1個SD卡擴展插口，支援播放 **.ogg** 或者 **.mp3** 的音樂檔。目前版本的 CocoBlockly 中，我們已經支持使用者通過音樂模組，演奏出不同樂器的聲音。
+音樂模組為播放樂器聲音和音樂文檔所用，音樂模組可以發出超過 100 種樂器的聲音，模組也有1個SD卡擴展插口，支援播放 **.ogg** 或者 **.mp3** 的音樂檔。目前版本的 CocoBlockly 中，我們已經支持使用者通過音樂模組，演奏出不同樂器的聲音，以及播放單個音樂文件。
 
 ## 模組主要部件
 
@@ -74,7 +74,7 @@
 
 #### 模組組裝
 
-將主機板模組和音樂模組組合在一起，並連接好 USB 數據線至電腦：
+將主機板模組和音樂模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="text-align: center;">
 <img src="../media/music_5.jpg" width="250"/>
@@ -87,7 +87,7 @@
 #### 最終效果
 
 <div style="text-align: center;">
-<img style="transform: rotate(-90deg);" src="../media/music_7.png" width="400"/>
+<img style="margin:10px 0px 10px 0px;" src="../media/music_7.png" width="600"/>
 </div>
 
 ---
@@ -98,9 +98,8 @@
 | 積木圖示  | 簡介  |
  |-  |-  |
 |![music](../media/music_mp3_setup.png)  |  a.MP3初始化積木: 可設置初始音量高低 |
-| ![music](../media/music_mp3_playSingle.png) | a.音樂播放積木: 播放指定名稱音樂  |
-| ![music](../media/music_mp3_playList.png) | a.音樂列表播放積木: 播放列表內所有音樂  |
-| ![music](../media/music_mp3_playSetting.png) | a.音樂播放設置積木: 可設置音樂播放暫停、啟動、終止、上一首、下一首  |
+|![music](../media/music_mp3_playSingle.png) | a.音樂播放積木: 播放指定名稱音樂  |
+|![music](../media/music_mp3_playSetting.png) | a.音樂播放設置積木: 可設置音樂播放暫停、啟動、終止、上一首、下一首  |
 
 
 #### 模組組裝
@@ -109,7 +108,7 @@
 <img src="../media/music_5.jpg" width="250"/>
 </div>
 
-音樂模組支持MP3音樂播放功能，須配合TF卡使用，歌曲存放在TF卡中，將主機板模組和音樂模組組合在一起，並連接好 USB 數據線至電腦：
+音樂模組支持MP3音樂播放功能，須配合TF卡使用，歌曲存放在TF卡中，將TF卡插入到SD卡擴展插口，然後將主機板模組和音樂模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 	<img style="margin-right:20px;" src="../media/music_mp3_material1.jpg" width="40%" />
@@ -129,7 +128,7 @@
 播放TF卡內命名為E1.mp3的歌曲
 
 <div style="text-align: center;">
-<img style="transform: rotate(-90deg);" src="../media/music_7.png" width="400"/>
+<img style="margin:10px 0px 10px 0px;" src="../media/music_7.png" width="600"/>
 </div>
 
 ---
@@ -141,7 +140,7 @@
 #### 模組組裝
 
 
-將主機板模組、音樂模組和觸摸模組組合在一起，並連接好 USB 數據線至電腦：
+將主機板模組、音樂模組和觸摸感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="text-align: center;">
 <img src="../media/music_8.jpg" width="250"/>
@@ -151,12 +150,19 @@
 
 ![music](../media/music_10.png)
 
-#### 最終效果
-
-程式上傳成功後，觸摸觸摸模組上的針腳，來發出不同的音階；
+##### 提示
+使用觸摸感應模塊時，為「當觸碰傳感接口」積木添加按鍵接口可參考下圖提示：
 
 <div style="text-align: center;">
-<img style="transform: rotate(-90deg);" src="../media/music_9.png" width="400"/>
+<img style="margin:10px 0px 20px 0px;" src="../media/music_touch.gif" width="400"/>
+</div>
+
+#### 最終效果
+
+程式上傳成功後，觸摸觸摸感應模組上的針腳，來發出不同的音階；
+
+<div style="text-align: center;">
+<img style="margin:10px 0px 10px 0px;" src="../media/music_9.png" width="600"/>
 </div>
 
 ---
@@ -164,6 +170,7 @@
 ### 製作 MP3 Player
 
 #### 模組組裝
+將TF卡插入音樂模組對應位置上，然後將主機板模組、音樂模組和觸摸感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="text-align: center;">
 <img src="../media/music_8.jpg" width="250"/>
@@ -171,16 +178,15 @@
 
 #### 積木編程
 
-觸摸模組和MP3模組結合而成的簡易MP3播放器,積木程式:
+觸摸感應模組和音樂模組結合而成的簡易MP3播放器,積木程式:
 
-<a href="../xml/music_touch_mp3.xml" download>音樂MP3播放器.xml</a>
 
 ![music](../media/music_mp3_demo2.png)
 
 #### 最終效果
 
-不同按鍵實現三個歌曲的切換，和歌曲啟動暫停功能
+不同按鍵實現三個歌曲的切換和歌曲啟動暫停功能
 
 <div style="text-align: center;">
-<img style="transform: rotate(-90deg);" src="../media/music_9.png" width="400"/>
+<img style="margin:10px 0px 10px 0px;" src="../media/music_9.png" width="600"/>
 </div>
