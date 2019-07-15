@@ -3,7 +3,7 @@
 ---
 ## 模組簡介
 
-觸摸感應模組通常與導電紙同用，與兩邊接口相連，通過觸摸接口或者相連的導電紙，向模組發送一個電位訊號，表示觸摸位置。
+觸摸感應模組通常與導電紙同用，與兩邊接口相連，通過觸摸接口或者與接口相連的導電紙，向模組發送一個電位訊號，表示觸摸的位置。
 
 ---
 
@@ -38,6 +38,12 @@
 
 1. 常見的導電物體包括：杜邦線、手指、導電紙、螺絲刀、鎖匙等。
 2. 如果使用杜邦線或導電紙與觸摸感應模組的接口相連之後，需要給觸摸感應模組重新通電才能正常使用。
+3.為「當觸碰傳感接口」積木或「當鬆開被觸碰的接口」積木添加按鍵接口可參考下圖提示：
+
+<div style="text-align: center;">
+<img style="margin:10px 0px 20px 0px;" src="../media/touch1.gif" width="300"/>
+<img style="margin:10px 0px 20px 0px;" src="../media/touch2.gif" width="300"/>
+</div>
 
 ---
 
@@ -45,17 +51,17 @@
 
 ### 觸摸感應
 
-#### 所需模組
-
-<img src="../media/touch__main--split.jpeg" width="250"/>
-
 #### 模組組裝
 
-<img src="../media/touch__main--assemble.jpeg" width="250"/>
+將主機板模組和觸摸感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align: center;">
+<img src="../media/touch__main--assemble.jpg" width="300"/>
+</div>
 
 #### 積木編程
 
-![music](../media/touch__sample--blockly.jpeg)
+![music](../media/touch__sample--blockly.png)
 
 #### 最終效果
 

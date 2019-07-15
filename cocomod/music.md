@@ -154,7 +154,7 @@
 使用觸摸感應模塊時，為「當觸碰傳感接口」積木添加按鍵接口可參考下圖提示：
 
 <div style="text-align: center;">
-<img style="margin:10px 0px 20px 0px;" src="../media/music_touch.gif" width="400"/>
+<img style="margin:10px 0px 20px 0px;" src="../media/touch1.gif" width="400"/>
 </div>
 
 #### 最終效果
