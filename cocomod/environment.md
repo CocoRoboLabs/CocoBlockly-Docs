@@ -73,23 +73,29 @@
 
 ## 環境感應模組
 
-### 獲取溫溼度度數據
+### 獲取溫度和溼度數據
 
 #### 模組組裝
 
+將主機板模組和環境感測模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
 <img src="../media/env__main--assemble.jpeg" width="250"/>
+</div>
 
 
 
 #### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-1.jpeg)
+![env__main--blockly](../media/env__main--blockly-1.png)
 
 
 #### 最終效果
 
-![env__main--result](../media/env__main--result-1.jpeg)
+<div style="text-align:center;">
+<img src="../media/env__main--result-1.png" width=80%/>
+</div>
 
 
 ---
@@ -102,7 +108,7 @@
 
 <div align=center><img src="../media/portBeUsed.png" width="450"/></div>
 
-#### 解決方法: 
+#### 解決方法:
 
 切換到序列埠工具連接區，斷開序列埠連接，再重新上傳即可。
 
@@ -116,16 +122,22 @@
 
 #### 模組組裝
 
+將主機板模組和環境感測模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
 <img src="../media/env__main--assemble.jpeg" width="250"/>
+</div>
 
 #### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-2.jpeg)
+![env__main--blockly](../media/env__main--blockly-2.png)
 
 #### 最終效果
 
-![env__main--result](../media/env__main--result-2.jpeg)
+<div align=center>
+<img src="../media/env__main--result-2.png" width=80%/>
+</div>
 
 ---
 
@@ -134,16 +146,22 @@
 
 #### 模組組裝
 
+將主機板模組和環境感測模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
 <img src="../media/env__main--assemble.jpeg" width="250"/>
+</div>
 
 #### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-3.jpeg)
+![env__main--blockly](../media/env__main--blockly-3.png)
 
 #### 最終效果
 
-![env__main--result](../media/env__main--result-3.jpeg)
+<div align=center>
+<img src="../media/env__main--result-3.png" width=80%/>
+</div>
 
 ---
 
@@ -151,17 +169,22 @@
 
 #### 模組組裝
 
+將主機板模組和環境感測模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
 <img src="../media/env__main--assemble.jpeg" width="250"/>
+</div>
 
 #### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-4.jpeg)
+![env__main--blockly](../media/env__main--blockly-4.png)
 
 
 #### 最終效果
-
+<div style="text-align:center;">
 <img src="../media/env__main--result-4.jpeg" width="500"/>
+</div>
 
 ---
 
@@ -169,12 +192,16 @@
 
 #### 模組組裝
 
+將主機板模組和環境感測模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
 <img src="../media/env__main--assemble.jpeg" width="250"/>
+</div>
 
 #### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-5.jpeg)
+![env__main--blockly](../media/env__main--blockly-5.png)
 
 
 #### 最終效果
@@ -187,15 +214,21 @@
 
 #### 模組組裝
 
+將主機板模組、環境感測模組以及熒幕模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
 <img src="../media/env__main--split-6.jpeg" width="250"/>
 <img src="../media/env__main--assemble-6.jpeg" width="250"/>
+</div>
 
 
 #### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-6.jpeg)
+![env__main--blockly](../media/env__main--blockly-6.png)
 
 
 #### 最終效果
 
+<div style="text-align:center;">
 <img src="../media/env__main--result-6.jpeg" width="500"/>
+</div>
