@@ -82,7 +82,7 @@
 
 #### 模組組裝
 
-將主機板模組，與顏色分析模組 + LED 燈屏模組 + 平行轉接模組結合在一起，並將主機板模組連接到電腦端：
+將主機板模組與顏色分析模組、LED 燈屏模組、平行轉接模組結合在一起，並將主機板模組好 USB 數據線至電腦端：
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 	<img style="margin-right:20px;" src="../media/colorAnalysize_module_setLED.jpg" width="40%" />
