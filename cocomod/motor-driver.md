@@ -74,27 +74,37 @@
 
 #### 所需模組與材料
 
+1個馬達驅動模組、1個主機板模組及1個馬達
+
+<div style="text-align:center;">
 <img src="../media/motor__single.jpeg" width="250"/>
 <img src="../media/motorDriver__main--split-1.jpeg" width="250"/>
+</div>
 
-#### 組裝
+#### 模組組裝
 
+將馬達上的杜邦綫連接到馬達驅動模組的A接口，然後將主機板模組和馬達驅動模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
 <img src="../media/motorDriver__mainAndMotor--assemble-1.jpeg" width="250"/>
-
+</div>
 
 #### 積木編程
 
-![env__main--blockly](../media/motorDriver__main--blockly-1.jpeg)
+<div style="text-align:center;">
+<img src="../media/motorDriver__main--blockly-1.png" width=50%/>
+</div>
 
 
 #### 最終效果
 
-程式上傳成功後，請確保馬達驅動模組上的撥動開關處於+5V 一側的狀態（使用主機板模組供電）
+程式上傳成功後，請確保馬達驅動模組上的撥動開關處於「+5V」 一側的狀態（使用主機板模組供電）
 
 <div style="margin-bottom:20px;border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/motor_driver-power_switch.jpg" width="60%" /></div>
 
+<div style="text-align:center;">
 <img src="../media/motorDriver__sample-1.gif" width="500"/>
-
+</div>
 
 ---
 
@@ -102,20 +112,28 @@
 
 #### 所需模組與材料
 
+1個馬達驅動模組、1個主機板模組及2個馬達
+
+<div style="text-align:center;">
 <img src="../media/motor__double.jpeg" width="250"/>
 <img src="../media/motorDriver__main--split-1.jpeg" width="250"/>
+</div>
 
 #### 模組組裝
 
+將兩個馬達上的杜邦綫分別連接到馬達驅動模組的A接口和B接口，然後將主機板模組和馬達驅動模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
 <img src="../media/motorDriver__mainAndMotor--assemble-2.jpeg" width="250"/>
+</div>
 
 #### 積木編程
 
-![env__main--blockly](../media/motorDriver__main--blockly-2.jpeg)
+![env__main--blockly](../media/motorDriver__main--blockly-2.png)
 
 ##### 注意事項
 
-1. 正反轉間隔需大於 **400ms**，否則會引起主機板板重置
+正反轉間隔需大於 **400ms**，否則會引起主機板模組重置
 
 #### 最終效果
 
@@ -123,4 +141,6 @@
 
 <div style="margin-bottom:20px;border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/motor_driver-power_switch.jpg" width="60%" /></div>
 
+<div style="text-align:center;">
 <img src="../media/motorDriver__sample-2.gif" width="500"/>
+</div>
