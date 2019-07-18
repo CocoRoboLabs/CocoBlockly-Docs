@@ -120,3 +120,70 @@
 
 * https://web.17coding.net/
 * https://www.jianshu.com/p/9c462581bbcf
+
+---
+
+<!--
+## 藍牙通訊模組進階使用
+
+**本小節介紹如何進行兩個蓝牙通訊模組之間的數據傳輸：**
+
+要使兩個蓝牙通訊模組能夠進行數據傳輸，首先要分別進入兩個藍牙通訊模組的AT模式進行配置，儅兩個藍牙通訊模組配對成功后便可傳輸數據
+
+* AT 模式對應 Arduino 程式下載：
+	* https://cocorobo.hk/downloads/Bluetooth_AT_Mode.ino
+
+<object width="100%" height="800px" data="../media/CocoRobo藍牙通訊模組間配對流程.pdf" type="application/pdf">
+	<embed src="../media/CocoRobo藍牙通訊模組間配對流程.pdf" type="application/pdf" />
+</object>
+
+<b>視頻：「如何進入藍牙通訊模組的 AT 模式」</b>
+<video width="100%" height="480px" controls>
+  <source src="media/entering_at-mode.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<b>視頻：「藍牙通訊模組綁定完成，再次通電後連接的效果」</b>
+<video width="100%" height="480px" controls>
+  <source src="media/bluetooth_comm-pairing.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+#### 模組組裝
+
+##### 藍牙通訊模組1
+
+將教學模組、藍牙通訊模組及主機板模組拼在一起，並讓主機板模組連接好 USB 綫至電腦：
+
+<div style="text-align:center;">
+<img src="../media/bluetooth_main_screen.jpg" width="350"/>
+</div>
+
+##### 藍牙通訊模組2
+
+將LED燈屏模組、藍牙通訊模組及主機板模組拼在一起，並讓主機板模組連接好 USB 綫至電腦：
+
+<div style="text-align:center;">
+<img src="../media/bluetooth_main_led.jpg" width="350"/>
+</div>
+
+#### 積木編程
+
+分別對藍牙通訊模組1、藍牙通訊模組2編寫程序並上載到對應模組的主機板模組中
+
+##### 藍牙通訊模組1
+
+<div style="text-align:center;">
+<img style="margin:0px 0px 10px 0px;" src="../media/bluetooth2BT_block_BT1.jpg" width=100%/>
+</div>
+
+##### 藍牙通訊模組2
+
+<div style="text-align:center;">
+<img style="margin:0px 0px 10px 0px;" src="../media/bluetooth2BT_block_BT2.jpg" width=100%/>
+</div>
+
+#### 最終效果
+
+to be edited.
+-->
