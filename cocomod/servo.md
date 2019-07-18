@@ -27,11 +27,11 @@
 
 > 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
 
---- 
+---
 
 ## 注意事項
 
-1.當主機板控制 3 個伺服馬達時，會產生電流過高的現象，需要外置電源纔可穩定的控制
+當主機板控制 3 個伺服馬達時，會產生電流過高的現象，需要外置電源纔來穩定控制
 
 ---
 
@@ -43,16 +43,20 @@
 
 主機板模組、伺服馬達轉接模組和伺服馬達
 
+<div style="text-align:center;">
 <img src="../media/servo.jpeg" width="200"/>
 <img src="../media/servoHub__main--split.jpeg" width="200"/>
+</div>
 
-#### 組裝
+#### 模組組裝
 
+首先將伺服馬達轉接模組和主機板模組拼接在一起，然後再將伺服馬達連接到伺服馬達轉接模組上。
 連著伺服馬達的有 3 根線，依次為「橙/紅/棕咖」，即「訊號／正極／負極」對應地，將伺服馬達連接至伺服馬達轉接模組上，如下圖所示：
 
+<div style="text-align:center;">
 <img src="../media/servoHub_assemble.png" height="200" width="200"/>
 <img src="../media/servoHub__main--assemble.jpeg" width="200"/>
-
+</div>
 
 #### 積木編程
 
@@ -61,7 +65,8 @@
 
 #### 最終效果
 
-<img src="../media/servoHub__sample--1.gif" width="500"/>
-
+<div style="text-align:center;">
+<img src="../media/servoHub__sample--1.gif" width="400"/>
+</div>
 
 ---
