@@ -60,6 +60,9 @@
 
 <div style="padding: 10px 0 30px 0;text-align: center;"><img src="../media/hub_7.png" width="40%" /></div>
 
+<p style="color:rgba(0,0,0,.3);">注：（套件中不再含有該模組） 激光頭模組：
+用於發射低功率的激光光束。
+支持：數位訊號輸出 </p>
 
 **關於第三方感應器的介紹及使用方法請參見 [使用第三方感應器](/cocomod/3rd-party)**
 
