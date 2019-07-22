@@ -31,7 +31,7 @@
 
 | 接口位置 | 接口描述           |
 | -------- | ------------------ |
-| (類比訊號) D2, D3, D7    | 運動感應元件使用的接口 |
+| (數位訊號) D2, D3, D7    | 運動感應元件使用的接口 |
 
 > 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
 
@@ -51,8 +51,11 @@
 
 #### 模組組裝
 
+將主機板模組和運動感應模組拼接在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
+<div style="text-align:center;">
 <img src="../media/motion_7.jpg" width="250"/>
+</div>
 
 #### 積木編程
 
@@ -107,7 +110,11 @@ Coming soon.
 
 #### 模組組裝
 
+將主機板模組和運動感應模組以及LED燈屏模組拼接在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
 <img src="../media/motion_3.jpg" width="250"/>
+</div>
 
 #### 積木編程
 
@@ -117,5 +124,6 @@ Coming soon.
 
 LED燈光會隨著模組的運動方向發生位置的變化。
 
-<img src="../media/motion_6.png" width="400"/>
-
+<div style="text-align:center;">
+<img src="../media/motion_6.gif" width="400"/>
+</div>
