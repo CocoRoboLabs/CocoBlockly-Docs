@@ -1,12 +1,11 @@
 main$<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="led_neopixel_setup" id="-g9k=1=C}Mp8*qBNl8KM" x="61" y="-337">
+  <block type="led_neopixel_setup" id="-g9k=1=C}Mp8*qBNl8KM" x="64" y="-330">
     <field name="neopixel_initpin">6</field>
     <field name="neopixel_initbright">20</field>
     <field name="neopixel_initwidth">1</field>
     <field name="neopixel_initheight">1</field>
   </block>
   <block type="MainEasymode_transfer2_receive" id="6gn)/y]Lz%+v*05YN6Vq" x="63" y="-175">
-    <field name="DATAMAIN">rxData</field>
     <field name="LENGTH">1</field>
     <next>
       <block type="controls_if" id="c`D6!~Y3vJD=Ev(sGF5?">
@@ -16,8 +15,8 @@ main$<xml xmlns="http://www.w3.org/1999/xhtml">
             <field name="OP">EQ</field>
             <value name="A">
               <block type="MainEasymode_transfer2_receive_getValue" id="jd5LuZ7:93LgmBx3!Z%T">
-                <field name="DATAMAIN">rxData</field>
                 <field name="INDEX">0</field>
+                <field name="TYPE"></field>
               </block>
             </value>
             <value name="B">
@@ -73,8 +72,8 @@ main$<xml xmlns="http://www.w3.org/1999/xhtml">
             <field name="OP">EQ</field>
             <value name="A">
               <block type="MainEasymode_transfer2_receive_getValue" id="j6B]CxV,+7Jdzcw#X{tQ">
-                <field name="DATAMAIN">rxData</field>
                 <field name="INDEX">0</field>
+                <field name="TYPE"></field>
               </block>
             </value>
             <value name="B">

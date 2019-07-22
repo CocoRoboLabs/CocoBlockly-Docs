@@ -4,14 +4,8 @@ wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
     <field name="wifi_pw">cocorobo</field>
   </block>
   <block type="wifiServices_cococloud_get" id="p7uJ5-;o*vJ8q)#@k`Oh" x="197" y="-248">
-    <mutation items="1"></mutation>
     <field name="event0">d0f98bb70ae070cd89725780e67dfe6b</field>
-    <field name="DATA0">data_0</field>
-    <value name="ADD0">
-      <block type="wifiServices_cococloud_get_data" id="M_NIaZqrqlo4Oy(b~u{!">
-        <field name="KEY">EM_data</field>
-      </block>
-    </value>
+    <field name="VAR">rxCloud</field>
     <next>
       <block type="controls_if" id="dmfMp)Ryjrp+/]3k-8;D">
         <mutation elseif="1"></mutation>
@@ -68,21 +62,11 @@ wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
         <next>
           <block type="wifiTransfer_send" id="0l*akuSB%J?0_Fu=AE+z">
             <mutation items="1"></mutation>
-            <field name="DATAMAIN">txData</field>
             <value name="ADD0">
               <block type="variables_get" id="y#0%6T_Kpb*`[jCe/6f|">
                 <field name="VAR">command</field>
               </block>
             </value>
-            <next>
-              <block type="time_delay" id=")hG=YNPQGwpocs-O8c0j">
-                <value name="DELAY_TIME_MILI">
-                  <block type="math_number" id="T!,!{#1FN`*j-O4UdgLD">
-                    <field name="NUM">500</field>
-                  </block>
-                </value>
-              </block>
-            </next>
           </block>
         </next>
       </block>
