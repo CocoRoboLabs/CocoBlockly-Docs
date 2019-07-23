@@ -1,12 +1,11 @@
 main$<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="led_neopixel_setup" id="-g9k=1=C}Mp8*qBNl8KM" x="61" y="-337">
+  <block type="led_neopixel_setup" id="-g9k=1=C}Mp8*qBNl8KM" x="-103" y="-359">
     <field name="neopixel_initpin">6</field>
     <field name="neopixel_initbright">20</field>
     <field name="neopixel_initwidth">1</field>
     <field name="neopixel_initheight">1</field>
   </block>
-  <block type="MainEasymode_transfer2_receive" id="6gn)/y]Lz%+v*05YN6Vq" x="63" y="-175">
-    <field name="DATAMAIN">rxData</field>
+  <block type="MainEasymode_transfer2_receive" id="6gn)/y]Lz%+v*05YN6Vq" x="83" y="-357">
     <field name="LENGTH">1</field>
     <next>
       <block type="led_clear" id="LoL/%,WVr.`oT1,;Oi1(">
@@ -18,8 +17,8 @@ main$<xml xmlns="http://www.w3.org/1999/xhtml">
                 <field name="OP">EQ</field>
                 <value name="A">
                   <block type="MainEasymode_transfer2_receive_getValue" id="jd5LuZ7:93LgmBx3!Z%T">
-                    <field name="DATAMAIN">rxData</field>
                     <field name="INDEX">0</field>
+                    <field name="TYPE"></field>
                   </block>
                 </value>
                 <value name="B">
@@ -47,8 +46,8 @@ main$<xml xmlns="http://www.w3.org/1999/xhtml">
                 <field name="OP">EQ</field>
                 <value name="A">
                   <block type="MainEasymode_transfer2_receive_getValue" id="j6B]CxV,+7Jdzcw#X{tQ">
-                    <field name="DATAMAIN">rxData</field>
                     <field name="INDEX">0</field>
+                    <field name="TYPE"></field>
                   </block>
                 </value>
                 <value name="B">
@@ -76,8 +75,8 @@ main$<xml xmlns="http://www.w3.org/1999/xhtml">
                 <field name="OP">EQ</field>
                 <value name="A">
                   <block type="MainEasymode_transfer2_receive_getValue" id="dV!Z.76}BgC+t9m41Y[z">
-                    <field name="DATAMAIN">rxData</field>
                     <field name="INDEX">0</field>
+                    <field name="TYPE"></field>
                   </block>
                 </value>
                 <value name="B">
