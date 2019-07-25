@@ -1,12 +1,12 @@
 wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="wifiNetwork_AP" id="3tvi_6l7a-6^^)2=5),G" x="70" y="-9">
+  <block type="wifiNetwork_AP" id="t-gS}8~(~8dg:IrcDXGz" x="68" y="29">
     <field name="SSID">CocoRobo</field>
     <field name="PW">cocorobo</field>
   </block>
-  <block type="wifiServer_setup" id="Je}#t@e|(gngn/Rn:0CG" x="290" y="-2"></block>
-  <block type="wifiServer_setRootPage" id="R~pF*%iRwg%f1=,j]2~N" x="416" y="34">
+  <block type="wifiServer_setup" id="G}0A8wWKrYnupx.eOj{;" x="258" y="28"></block>
+  <block type="wifiServer_setRootPage" id="pQ./Ty(({9oyVlKP![6p" x="410" y="28">
     <statement name="STATEMENT0">
-      <block type="webpage_button" id=";g-@reMPI3{xBhuZ=?ko">
+      <block type="webpage_button" id="X!:JBZ24[#RX[P)u/NHw">
         <mutation items="2"></mutation>
         <field name="BUTTON0">on</field>
         <field name="URL0">/light</field>
@@ -15,79 +15,31 @@ wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
       </block>
     </statement>
   </block>
-  <block type="wifiServer_setRouter" id="P|Z.JjgK{RdnUBRn,-M!" x="75" y="149">
+  <block type="wifiServer_setRouter" id="4s3]{6kb_*za;dpK2Icm" x="69" y="254">
     <mutation items="1"></mutation>
     <field name="URL0">/light</field>
     <statement name="STATEMENT0">
-      <block type="wifiServer_Receive" id="x)67sMHe@h2wH%q!/x].">
+      <block type="wifiServer_Receive" id="ZMv.q=72@H0qcA%Xc-%_">
         <field name="VAR">Data_receive</field>
         <field name="LENGTH">1</field>
       </block>
     </statement>
     <next>
-      <block type="controls_if" id="0Fv|lf}vB(ZNrBpy@qXw">
-        <mutation elseif="1"></mutation>
-        <value name="IF0">
-          <block type="logic_compare" id="/KZB,q,v3Cp4:ey;~Lg6">
-            <field name="OP">EQ</field>
-            <value name="A">
-              <block type="wifiServer_Receive_getValue" id="EFsci.D=k6/^^mIY]A^{">
-                <field name="VAR">Data_receive</field>
-                <field name="INDEX">0</field>
-                <field name="TYPE">String</field>
-              </block>
-            </value>
-            <value name="B">
-              <block type="text" id="Ch?KbL+R`Iw@:b)^]tk|">
-                <field name="TEXT">on</field>
-              </block>
-            </value>
+      <block type="variables_set" id="+-wel2K[PX?vpTmDAP|5">
+        <field name="VAR">item</field>
+        <value name="VALUE">
+          <block type="wifiServer_Receive_getValue" id="mFB2#lV2wNb^@xDP~_5F">
+            <field name="VAR">Data_receive</field>
+            <field name="INDEX">0</field>
+            <field name="TYPE">String</field>
           </block>
         </value>
-        <statement name="DO0">
-          <block type="variables_set" id="YCJ%S#UnXFtQ)4b~.eo@">
-            <field name="VAR">light</field>
-            <value name="VALUE">
-              <block type="math_number" id=".92vvCV.B%ZB!!+@q*oW">
-                <field name="NUM">1</field>
-              </block>
-            </value>
-          </block>
-        </statement>
-        <value name="IF1">
-          <block type="logic_compare" id="~r7B`EC^5MW8*%7m-oT`">
-            <field name="OP">EQ</field>
-            <value name="A">
-              <block type="wifiServer_Receive_getValue" id="v!}9q6LuDjYGW;leo.(A">
-                <field name="VAR">Data_receive</field>
-                <field name="INDEX">0</field>
-                <field name="TYPE">String</field>
-              </block>
-            </value>
-            <value name="B">
-              <block type="text" id="/q)rqP!(a+j[JV2(b5N`">
-                <field name="TEXT">off</field>
-              </block>
-            </value>
-          </block>
-        </value>
-        <statement name="DO1">
-          <block type="variables_set" id="n!j]4c1!22^z|~+s^:`:">
-            <field name="VAR">light</field>
-            <value name="VALUE">
-              <block type="math_number" id="1jN[0+@xcT48:f(gwHCg">
-                <field name="NUM">0</field>
-              </block>
-            </value>
-          </block>
-        </statement>
         <next>
-          <block type="wifiTransfer_send" id="#bs=#[g|8R}[P5T|khX@">
+          <block type="wifiTransfer_send" id="Ga^Bt+:Vm21zAGyErvA9">
             <mutation items="1"></mutation>
-            <field name="DATAMAIN">txData</field>
             <value name="ADD0">
-              <block type="variables_get" id="~zShuCPY4hlv;]PYd;H.">
-                <field name="VAR">light</field>
+              <block type="variables_get" id="ZpVLbh)x,B3@!OdHlzHk">
+                <field name="VAR">item</field>
               </block>
             </value>
           </block>
