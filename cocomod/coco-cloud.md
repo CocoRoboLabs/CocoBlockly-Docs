@@ -160,6 +160,8 @@ Coco Cloud平臺上：
 
 #### 模組組裝
 
+將主機板模組、WiFi 通訊模組以及環境感應模組拼接在一起
+
 > 注：需對主機板模組和 WiFi 通訊模組分別上傳對應模式下的積木程式后再拼接在一起
 
 <div style="text-align:center;margin:0px 0 20px 0;">
@@ -183,6 +185,8 @@ Coco Cloud平臺上：
 
 * WiFi模式 - 設置連網，接收主機板數據，設置「 Coco Cloud 發送積木」發起請求發送數據至雲端
   程式下載： <a href="../xml/cocoCloud_project1/project1_wifi.xml" download >project1_wifi.xml</a>
+
+> 注：編寫程式時，請注意將聯網積木中的 WiFi 信息和密碼改成你自己要連接的
 
 <div style="text-align:center;margin:0px 0 20px 0;">
   <img src="../media/cocoCloud_project_1_wifi_1.png" width=40%/>
