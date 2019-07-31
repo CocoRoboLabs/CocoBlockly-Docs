@@ -465,10 +465,12 @@ WEB服務包含IFTTT，Thingspeak，CocoCloud相關積木，允許模組與這�
 | (本地)AP模式 | 網頁呈現環境模組數據 | [查看此處](#項目二) |
 | (本地)AP模式 | 網頁控制LED開關 | [查看此處](#項目三)  |
 |(聯網) CocoCloud | 雲端呈現環境模組數據 | [查看此處](/cocomod/coco-cloud?id=項目一)  |
-|(聯網) CocoCloud | 雲端控制LED亮暗 | [查看此處](/cocomod/coco-cloud?id=項目二)  |
 |(聯網) Thingspeak | 環境模組數據上傳與可視化 | [查看此處](/cocomod/thingspeak?id=案例)  |
-|(聯網) IFTTT| 環境數據觸發email提醒 | 查看此處  |
-|(聯網) IFTTT| 環境數據觸發google助手 | 查看此處  |
+|(聯網) IFTTT| 電位器觸發email提醒 | [查看此處](/cocomod/ifttt?id=案例)  |
+
+
+<!--|(聯網) CocoCloud | 雲端控制LED亮暗 | [查看此處](/cocomod/coco-cloud?id=項目二)  |
+|(聯網) IFTTT| 環境數據觸發google助手 | 查看此處  |-->
 
 ***
 
