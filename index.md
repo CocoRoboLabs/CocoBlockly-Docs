@@ -7,7 +7,7 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 第一次使用 CocoBlockly 的用戶，請前往[該頁面](/getting-started/info)鏈接下載 **CocoBlockly Uploader 上傳軟件**，支持 Windows 及 macOS。
 ### 使用必讀
 
-#### 準備事項： 
+#### 準備事項：
 
 1. 安裝 CocoBlockly Uploader（請從以下連結獲取最新版本）:
   1. Windows: https://api.cocorobo.hk/releases/uploaderv2/download/windows
@@ -56,6 +56,7 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 	- [使用 WiFi 通訊模組](/cocomod/wifi)
 	- [使用 CocoCloud](/cocomod/coco-cloud)
 	- [使用 ThingSpeak](/cocomod/thingspeak)
+	- [使用 IFTTT](/cocomod/ifttt)
 	- [體驗 AI](/getting-started/ai)
 - [課程套件教學](/kit/overview)
 	- [智慧家居套件](/kit/smart-home)
@@ -69,5 +70,5 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 	- [物聯網類](/projects/iot)
 	- [人工智能類](/projects/ai)
 	- [學科融合類](/projects/interdisciplinary)
-- [常用問題解答](faq) 
-- [版本更新日誌](changelog) 
+- [常用問題解答](faq)
+- [版本更新日誌](changelog)
