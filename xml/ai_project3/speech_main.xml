@@ -1,0 +1,92 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="led_neopixel_setup" id="-g9k=1=C}Mp8*qBNl8KM" x="64" y="-330">
+    <field name="neopixel_initpin">6</field>
+    <field name="neopixel_initbright">20</field>
+    <field name="neopixel_initwidth">1</field>
+    <field name="neopixel_initheight">1</field>
+  </block>
+  <block type="MainEasymode_transfer2_receive" id="6gn)/y]Lz%+v*05YN6Vq" x="63" y="-175">
+    <field name="LENGTH">1</field>
+    <next>
+      <block type="controls_if" id="c`D6!~Y3vJD=Ev(sGF5?">
+        <mutation elseif="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="y[|uT{O3K8Cbe[gUWhb%">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="MainEasymode_transfer2_receive_getValue" id="jd5LuZ7:93LgmBx3!Z%T">
+                <field name="INDEX">0</field>
+                <field name="TYPE"></field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="3x?ewJvR[Aq8tf=#yECQ">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="led_drawrect" id="Qa:5kxQpU2*)+}gj@r(^">
+            <field name="rect_type">fill</field>
+            <value name="COLOR">
+              <shadow type="set_color" id="VQT-KodjRr2bs/=x~VZ%">
+                <field name="COLOR">#0000ff</field>
+              </shadow>
+            </value>
+            <value name="SIZE">
+              <shadow type="led_set_width_height" id="Byd4*iV~/%v*2/D4QW2@">
+                <value name="WIDTH">
+                  <shadow type="math_number" id="C%o[#9^SyevAqf=0T{8@">
+                    <field name="NUM">5</field>
+                  </shadow>
+                </value>
+                <value name="HEIGHT">
+                  <shadow type="math_number" id="fMY5~8p2U`A6?agQaDHb">
+                    <field name="NUM">5</field>
+                  </shadow>
+                </value>
+              </shadow>
+            </value>
+            <value name="POS">
+              <shadow type="led_set_position" id="!J^7uk_e{4We#YXuZMgz">
+                <value name="POSX">
+                  <shadow type="math_number" id="7HcE2Xox8Yc.Wr9O}0Ng">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+                <value name="POSY">
+                  <shadow type="math_number" id=")N?`_80NKvKJ|B-~6lab">
+                    <field name="NUM">0</field>
+                  </shadow>
+                </value>
+              </shadow>
+            </value>
+            <next>
+              <block type="led_showall" id="tr~/v_Cs.D^Pr-Lu?E1F"></block>
+            </next>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="logic_compare" id="9C?T(qaAZ6g6#`7tZ-R+">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="MainEasymode_transfer2_receive_getValue" id="j6B]CxV,+7Jdzcw#X{tQ">
+                <field name="INDEX">0</field>
+                <field name="TYPE"></field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="y}UTxA)Z-k?yF32FkHGC">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="led_clear" id="`3qdo6@`k!%@0?4DYOBw"></block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>

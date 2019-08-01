@@ -54,7 +54,7 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 	- [使用正反轉接模組](/cocomod/reversed-adapter)
 	- [使用第三方感應器](/cocomod/3rd-party)
 	- [使用 WiFi 通訊模組](/cocomod/wifi)
-	- [使用 CocoCloud](/cocomod/coco-cloud)
+	- [使用 Coco Cloud](/cocomod/coco-cloud)
 	- [使用 ThingSpeak](/cocomod/thingspeak)
 	- [使用 IFTTT](/cocomod/ifttt)
 	- [體驗 AI](/getting-started/ai)

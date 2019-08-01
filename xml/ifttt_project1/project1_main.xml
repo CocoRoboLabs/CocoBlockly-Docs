@@ -1,0 +1,23 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="MainEasymode_transfer2_send" id="rQ!1q]XJ)J0Bia5Cx[kp" x="171" y="184">
+    <mutation items="1"></mutation>
+    <value name="ADD0">
+      <block type="read_knob" id="tZQ}8f-6Wb1p%S*9Mo)~">
+        <value name="PINSNUM">
+          <block type="basic101_dropdown_knob" id="Js_#F/1LTKByY~*~jZYp">
+            <field name="SELECTPIN">A3</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="time_delay" id="eN9Nq8B-`sZ79?f~[oF%">
+        <value name="DELAY_TIME_MILI">
+          <block type="math_number" id="6vAR@K4_+yDJO2t*;^.L">
+            <field name="NUM">1000</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

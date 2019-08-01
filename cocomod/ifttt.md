@@ -149,21 +149,25 @@ IFTTT 網址：https://ifttt.com/
 
 將主機板模組、WiFi 通訊模組以及教學模組拼接在一起
 
-> 注：需對主機板模組和 WiFi 通訊模組分別上傳對應模式下的積木程式后再拼接在一起
+> 注：必須先對主機板模組和 WiFi 通訊模組分別上傳對應模式下的積木程式后，再將這些模組拼接在一起
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-  <img src="../media/cocoCloud_project_1.jpg" width=40%/>
+  <img src="../media/ifttt_project1.jpg" width=40%/>
   </div>
 
 #### 積木編程
 
 ##### 主機板模式:
 
+程式下載： <a href="../xml/ifttt_project1/project1_main.xml" download >project1_main.xml</a>
+
 <div style="text-align:center;margin:0px 0 20px 0;">
   <img src="../media/ifttt_project1.main.png"/>
   </div>
 
 ##### WiFi模式:
+
+程式下載： <a href="../xml/ifttt_project1/project1_wifi.xml" download >project1_wifi.xml</a>
 
 > 注：編寫程式時，請注意將聯網積木中的 WiFi 名稱和密碼改成你自己要連接的
 

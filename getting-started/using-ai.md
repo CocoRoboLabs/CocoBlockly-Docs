@@ -21,7 +21,7 @@ CocoBlockly界面AI使用接口
 
 a.切換按鈕:點擊啓動電腦前置攝像頭（注意：如果提示無法啓動前置攝像頭，需要更換連接https://cocorobo.hk/cocoblockly/）
 b.點擊按鈕:點擊電腦前置攝像頭抓取圖片，顯示在右側，並且反饋表情檢測結果
-c.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前需要保證CocoBlockly賬戶登陸）
+c.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前需要保證CocoBlockly賬戶登錄）
 
 <img src="../media/AI_webcam_1.1.png" width="100%"/>
 
@@ -32,7 +32,7 @@ c.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前
 
 
 a.點擊按鈕:點擊電腦前置攝像頭抓取圖片，顯示在右側，並且反饋表情檢測結果
-b.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前需要保證CocoBlockly賬戶登陸）
+b.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前需要保證CocoBlockly賬戶登錄）
 
 <img src="../media/AI_voice_1.1.png" width="100%"/>
 
@@ -60,7 +60,7 @@ b.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前
 <img src="../media/AI_speech_wifi.png" width="100%"/>
 
 ## Cloud雲端設置
-點擊賬戶登陸
+點擊賬戶登錄
 
 <img src="../media/AI_blockly_login.png" width="100%"/>
 

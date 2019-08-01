@@ -162,7 +162,7 @@ Coco Cloud平臺上：
 
 將主機板模組、WiFi 通訊模組以及環境感應模組拼接在一起
 
-> 注：需對主機板模組和 WiFi 通訊模組分別上傳對應模式下的積木程式后再拼接在一起
+> 注：必須先對主機板模組和 WiFi 通訊模組分別上傳對應模式下的積木程式后，再將這些模組拼接在一起
 
 <div style="text-align:center;margin:0px 0 20px 0;">
   <img src="../media/cocoCloud_project_1.jpg" width=40%/>

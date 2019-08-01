@@ -455,7 +455,7 @@ CocoRobo 的藍牙模組爲一款通訊類模組，使用藍牙 2.0 爲通訊協
 製作的步驟：
 * STEP 1 — 註冊Cocorobo賬號
 
-　　爲了更好地使用CocoBlockly編寫程式，先註冊一個CocoRobo賬號，成功註冊賬號後，可使用CocoRobo的雲端儲存功能和CocoCloud的數據可視化功能。CocoRobo賬號可以前往Cocorobo官方網站主頁註冊，登陸後，CocoCloud網站將同步登陸你的賬號。
+　　爲了更好地使用CocoBlockly編寫程式，先註冊一個CocoRobo賬號，成功註冊賬號後，可使用CocoRobo的雲端儲存功能和CocoCloud的數據可視化功能。CocoRobo賬號可以前往Cocorobo官方網站主頁註冊，登錄後，CocoCloud網站將同步登錄你的賬號。
 
 ![kit](../media/kit_90.png) 
 * STEP 2 — 編寫主機板模組的程式：使環境感應模組讀取環境的數據，並且將數據發送WiFi通訊模組

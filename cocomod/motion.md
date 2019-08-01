@@ -49,6 +49,8 @@
 
 ### 獲取 XYZ 的加速度值
 
+加速度 (acceleration)表示單位時間内速度改變程度的矢量。一般情況下，加速度是個瞬時概念，它的常用單位是米/秒²，即 m/s²
+
 #### 模組組裝
 
 將主機板模組和運動感應模組拼接在一起，並讓主機板模組連接好 USB 數據線至電腦：
@@ -59,12 +61,19 @@
 
 #### 積木編程
 
-![motion](../media/motion_8.png)
+<div style="text-align:center;">
+<img src="../media/motion_8.png" width=80%/>
+</div>
 
 #### 最終效果
 
-Coming soon.
+打開序列埠監控視窗，連接主機板並晃動模組，可以看到加速度的數值改變
 
+<div style="text-align:center;">
+<img src="../media/motion_8_1.png" width=50%/>
+</div>
+
+<!--
 ---
 
 ## 運動感應模組基礎使用
@@ -82,7 +91,7 @@ Coming soon.
 #### 最終效果
 
 Coming soon.
-
+-->
 ---
 
 
@@ -92,15 +101,25 @@ Coming soon.
 
 #### 模組組裝
 
-Coming soon.
+將主機板模組和運動感應模組拼接在一起，並讓主機板模組連接好 USB 數據線至電腦：
+
+<div style="text-align:center;">
+<img src="../media/motion_7.jpg" width="250"/>
+</div>
 
 #### 積木編程
 
-Coming soon.
+<div style="text-align:center;">
+<img src="../media/motion_11.png" width=80%/>
+</div>
 
 #### 最終效果
 
-Coming soon.
+打開序列埠監控視窗，連接主機板並向不同角度轉動模組，可以看到旋轉度的數值改變
+
+<div style="text-align:center;">
+<img src="../media/motion_12.png" width=50%/>
+</div>
 
 ---
 
