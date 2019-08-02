@@ -17,7 +17,7 @@
 
 * 註：使用 CocoBlockly 編程時，務必確保本機的 CocoBlockly Uploader 打開了，否則將無法給電子模組上傳程式；
 * 瀏覽器兼容性
-    * <b style="background-color:orangered; margin-right: 3px; padding: 2px 5px; color: #fff; font-size: 12px; border-radius: 4px;">推薦使用</b> Google Chrome，版本號需要大於 55 
+    * <b style="background-color:orangered; margin-right: 3px; padding: 2px 5px; color: #fff; font-size: 12px; border-radius: 4px;">推薦使用</b> Google Chrome，版本號需要大於 55
     * Opera，版本號需要大於 50
     * Firefox，版本號需要大於 55
     * Safari，版本號需要大於 12
@@ -28,23 +28,25 @@
 
 #### 使用 Uploader 上傳程式
 
-1. 打開程式「CocoBlockly Uploader」
-2. 打開網頁：http://cocorobo.hk/cocoblockly/dev/
-3. CocoBlockly 完成載入後，界面右上方會提示「插件已經成功連接！」
+1. 打開已安裝好的插件「CocoBlockly Uploader」
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_icon.png" width="20%" /></div>
 
+2. 打開網頁：http://cocorobo.hk/cocoblockly/dev/
+
+3. CocoBlockly 完成載入後，界面右上方會提示「插件已經成功連接！」
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_1.png" width="40%" /></div>
 
   - 同時，「程式上傳區」也會顯示連接成功
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_2.png" width="70%" /></div>
 
-4. 將主機板模組通過 USB 線接入電腦，通過一小段時間，將會顯示主機板模組的端口名。
+4. 將主機板模組通過 USB 線接入電腦，經過一小段時間后，將會顯示主機板模組的端口名。
   - **注1**：關於主機板模組的資料，請查閲：[使用主機板模組](/cocomod/main-controller)
   - **注2**：Windows 裏的端口名通常以 COM 開頭，MacOS 裏的通常以 /dev/tty.usb 開頭。
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_3.png" width="70%" /></div>
 
-6. 點擊「上傳（Upload）」開始將「積木對應原始碼參考區」中的 Arduino 原始碼上傳至主機板中，此時會經歷3個步驟：
+5. 點擊「上載」開始將「積木對應原始碼參考區」中的 Arduino 原始碼上傳至主機板中，此時會經歷3個步驟：
 
   - 編譯中（Compiling）
 
@@ -58,6 +60,9 @@
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_6.png" width="70%" /></div>
 
-7. 完成以上3個步驟，就意味著我們已經將程式上傳至主機板中
+6. 完成以上3個步驟，就意味著我們已經將程式上傳至主機板中
 
   - **注**：與 Arduino IDE 的「Verify code」類似，我們提供「編譯（Compile）」這個選項，供大家測試編寫的程式是否能夠正確編譯
+
+
+  <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_7.png" width="70%" /></div>
