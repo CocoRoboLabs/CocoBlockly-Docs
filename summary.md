@@ -1,6 +1,6 @@
 - [關於 CocoBlockly](index)
 - [開始使用 CocoBlockly](/getting-started/info)
-	- [軟體安裝指引](/getting-started/installation)
+	- [軟件安裝指引](/getting-started/installation)
 	- [編程界面介紹](/getting-started/gui)
 	- [本地存取檔案](/getting-started/local-storage)
 	- [雲端存取檔案](/getting-started/cloud-storage)

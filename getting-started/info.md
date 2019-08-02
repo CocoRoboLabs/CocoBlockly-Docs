@@ -15,6 +15,8 @@
 | CocoBlockly Uploader v3 for MacOS   | [點此下載](https://api.cocorobo.hk/releases/uploaderv2/download/mac) | 要求系統版本高於 macOS 10.10 | [查看](/getting-started/installation?id=macOS-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
 | CocoBlockly Uploader v3 for Windows | [點此下載](https://api.cocorobo.hk/releases/uploaderv2/download/windows) | 要求系統版本高於 Windows 7 | [查看](/getting-started/installation?id=windows-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
 
+**詳細的安裝指引請參見 [此頁面](/getting-started/installation)**
+
 * 註：使用 CocoBlockly 編程時，務必確保本機的 CocoBlockly Uploader 打開了，否則將無法給電子模組上傳程式；
 * 瀏覽器兼容性
     * <b style="background-color:orangered; margin-right: 3px; padding: 2px 5px; color: #fff; font-size: 12px; border-radius: 4px;">推薦使用</b> Google Chrome，版本號需要大於 55
