@@ -1,10 +1,10 @@
 # 什麼是 CocoBlockly
 
-![](/media/about-cocoblockly-308.jpg)
+![](/media/about-cocoblockly-308.png)
 
-CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環境，支持多语言（簡體中文、繁體中文和英文），用戶透過拖拽具有特定功能的編程積木即可輕鬆撰寫相關的程式，賦予電子產品以多種多樣的功能。
+CocoBlockly 是一種基於 Blockly 視覺化編程積木的程式設計開發環境，支持多语言（簡體中文、繁體中文和英文），用戶透過拖拽具有特定功能的編程積木即可輕鬆撰寫相關的程式，賦予電子產品以多種多樣的功能。
 
-第一次使用 CocoBlockly 的用戶，請前往[該頁面](/getting-started/info)鏈接下載 **CocoBlockly Uploader 上傳軟件**，支持 Windows 及 macOS。
+第一次使用 CocoBlockly 的用戶，請前往[該頁面](/getting-started/info)鏈接下載 **CocoBlockly Uploader 上載軟件**，支持 Windows 及 macOS。
 ### 使用必讀
 
 #### 準備事項：
@@ -12,18 +12,21 @@ CocoBlockly是一種基於Blockly視覺化編程積木的程式設計開發環�
 1. 安裝 CocoBlockly Uploader（請從以下連結獲取最新版本）:
   1. Windows: https://api.cocorobo.hk/releases/uploaderv2/download/windows
   2. macOS: https://api.cocorobo.hk/releases/uploaderv2/download/mac
-2. 開啟瀏覽器，我們推薦使用 Google Chrome，請前往[此處](/getting-started/info?id=cocoblockly-uploader)檢視完整的支援列表，如果您還沒有安裝合適的瀏覽器，可前往下方連結下載:
+2. 開啟瀏覽器，我們推薦使用 Google Chrome，請前往[此處](/getting-started/info?id=cocoblockly-uploader)檢視完整的支援列表，如果您還沒有安裝合適的瀏覽器，可前往下方鏈接下載:
   1. 安裝 Google Chrome：https://www.google.com/chrome/
-3. 以上步驟全部準備完成後，前往 [http://cocorobo.cn/cocoblockly/dev/](http://cocorobo.cn/cocoblockly/dev/) ，檢查介面右下角的「Upload Area」是否有綠色的打勾圖示，如有，則表示安裝成功，這時你可以開始進行程式編寫，並上傳至你的電子模組中了。
+3. 以上步驟全部準備完成後，前往 [http://cocorobo.cn/cocoblockly/dev/](http://cocorobo.cn/cocoblockly/dev/) ，檢查介面右下角的「上載區」是否有綠色的打勾圖示，如有，則表示安裝成功，這時你可以開始進行程式編寫，並上傳至你的電子模組中了。
 
 #### 注意事項：
 
-1. 如果您使用的是 Windows 電腦，請確保您所在的計算機戶口擁有管理員權限（Administrator），我們的 CocoBlockly Uploader 需要管理員權限才能夠正常安裝；
+1. 如果您使用的是 Windows 電腦，請確保您所在的計算機賬戶擁有管理員權限（Administrator），我們的 CocoBlockly Uploader 需要管理員權限才能夠正常安裝；
 2. 請不要在上傳過程中直接拔掉主機板模組或者 WiFi 通訊模組；
 3. 請不要使用不支持的瀏覽器和操作系統（推薦使用 Google Chrome）；
-4. 請不要在上傳過程中 按到主機板模組上的重置（Reset）按鈕；
-5. 當主機板已經連接，但頁面仍然沒有顯示端口時，可以點擊頁面右下角的「重置上傳插件」按鈕，重啓上傳插件；
-6. 如果出現上傳失敗或者編譯失敗的情況，請將錯誤信息複製記下，發給技術支持人員瞭解，或者寄信給 support-hk@cocorobo.cc
+4. 請不要在上傳過程中按到主機板模組上的重置（Reset）按鈕；
+5. 當主機板已經連接，但頁面仍然沒有顯示端口時，可以點擊頁面右下角的「重啓Uploader」按鈕，重啓上傳插件；
+<div style="text-align:center;margin:10px 0 10px 0;">
+<img src="./media/about-cocoblockly_1.png" width=60%/>
+</div>
+6. 如果出現上傳失敗或者編譯失敗的情況，請將錯誤信息複製記下，寄信給 support-hk@cocorobo.cc ，以便技術支持人員瞭解
 
 ---
 
