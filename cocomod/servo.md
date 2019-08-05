@@ -37,11 +37,11 @@
 
 如果希望用D13接口控制伺服馬達，請使用定義舵機接口積木將D13接口設置爲控制伺服馬達模式
 
-![servo](../media/servo D13.png)
+![servo](../media/servo_D13.png)
 
 相應地，當使用D13接口控制伺服馬達時，不能使用D13接口來控制内置LED燈
 
-![servo](../media/servo D13 conflict.png)
+![servo](../media/servo_D13_conflict.png)
 
 ---
 
