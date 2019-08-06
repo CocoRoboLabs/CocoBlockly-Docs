@@ -21,7 +21,7 @@
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_8.png" width="80%" /></div>
 
---- 
+---
 
 <div style="border:1px solid rgba(0,0,0,.1);text-align: center;"><img src="../media/installation-instruction-macos-header.jpg" width="100%" /></div>
 
@@ -52,3 +52,7 @@
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_mac_10.png" width="60%" /></div>
 
 6. 安裝完成後，便可以在應用列表中打開 CocoBlockly Uploader。
+
+
+---
+更新時間：2019年8月

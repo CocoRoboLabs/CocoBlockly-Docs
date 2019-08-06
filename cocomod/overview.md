@@ -24,3 +24,6 @@ CocoMod 是一系列由 CocoRobo 研發的「即插即用式」的電子模組�
 高解析度的版本可從[點擊此處](http://cocorobo.hk/downloads/cocorobo-modules-pinout-map_v2.pdf)查看。
 
 接口使用衝突可以通過轉接接口的方法來解決，具體内容請前往[此頁面](/cocomod/pinout-map)查看
+
+---
+更新時間：2019年8月

@@ -170,3 +170,6 @@
 先顯示文字“CocoRobo Inc.”，覆蓋文字后再顯示“CocoRobo”
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_17.gif" width="40%" /></div>
+
+---
+更新時間：2019年8月

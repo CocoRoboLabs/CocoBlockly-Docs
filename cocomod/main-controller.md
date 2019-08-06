@@ -90,3 +90,7 @@
 > 註：在 macOS 作業系統中，上傳完人機交互程式後，CocoBlockly 界面中右下角上傳區的端口號會變爲帶有「HIDFG」的名稱，這意味著你的主機板模組已經成功被電腦識別爲人機交互裝置，但名稱的改變不會影響之後的程式上傳
 
 <div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_tip.jpg" width="50%" /></div>
+
+
+---
+更新時間：2019年8月

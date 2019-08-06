@@ -232,3 +232,6 @@
 <div style="text-align:center;">
 <img src="../media/env__main--result-6.jpeg" width="500"/>
 </div>
+
+---
+更新時間：2019年8月

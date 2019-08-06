@@ -21,7 +21,7 @@ EasyMode即簡易模式，是針對零基礎的學生，CocoRobo公司研發的�
 
  ![easymode](../media/easymode/network_blocks.png)
 
-  
+
 
 2. 數據通訊積木
   * 發送數據積木: 點擊左上方齒輪可彈出編輯框,拖動value選項來增加傳輸數據個數
@@ -38,7 +38,7 @@ EasyMode即簡易模式，是針對零基礎的學生，CocoRobo公司研發的�
 
 
 4. CocoCloud積木
-  * 發送數據積木: 
+  * 發送數據積木:
     * 點擊左上方齒輪可彈出編輯框,拖動value選項來增加傳輸數據個數，
     * Cloud Event指CocoCloud事件的API-Key，用于指定事件对象
     * 對應每個數據需要給定好屬性名（數據名）
@@ -57,7 +57,7 @@ EasyMode即簡易模式，是針對零基礎的學生，CocoRobo公司研發的�
 ##案例一
 
  項目：從主控獲取環境感應板資料,傳送到WiFi上去,通過CocoCloud積木發送到Coco cloud上。
- 
+
  #### 創建Cloud雲端項目
 
  進入CocoCloud網站，選擇創建新的Event
@@ -71,12 +71,12 @@ EasyMode即簡易模式，是針對零基礎的學生，CocoRobo公司研發的�
  主機板程式下載: <a href="../xml/Cococloud_ENV_main.xml" download>Cococloud_ENV_main.xml</a>
  **注意：** 請單獨給主機模組上傳程式
   ![easymode](../media/easymode/easymode_getCloud_example_m.png)
- 
+
 
  ####  WiFi通訊模組積木拼接
- 
+
  WiFi通訊程式下載: <a href="../xml/Cococloud_ENV_wifi.xml" download>Cococloud_ENV_wifi.xml</a>
- **注意：** 請單獨給WiFi通訊模組上傳程式 
+ **注意：** 請單獨給WiFi通訊模組上傳程式
 
   ![easymode](../media/easymode/easymode_getCloud_example_w.png)
 
@@ -85,10 +85,10 @@ EasyMode即簡易模式，是針對零基礎的學生，CocoRobo公司研發的�
  獲取對應Cloud Event的API-Key替換積木對應Cloud Event位置
 
   ![easymode](../media/easymode/easymode_getCloud_example_getkey.png)
- 
+
 
 #### 效果示意圖
- 
+
  當主機板模組和WiFi通訊模組單獨上傳程式后，將模組都拼合在一起，通電後一段時間，會發現環境感測模組的聲音、光照、適度和溫度的數值分別傳到了CocoCloud上，數值會實時變化，如下圖所示：
 
   ![easymode](../media/easymode/easymode_getCloud_example_result.png)
@@ -114,3 +114,6 @@ EasyMode即簡易模式，是針對零基礎的學生，CocoRobo公司研發的�
 
 當主機板模組和WiFi通訊模組單獨上傳程式后，將模組都拼合在一起，通電後一段時間，會發現環境感測模組的聲音、光照、適度和溫度的數值分別傳到了ThingSpeak上，數值會實時變化，如下圖所示：
 ![ThingSpeak](../media/ThingSpeak_example_res.png)
+
+---
+更新時間：2019年8月

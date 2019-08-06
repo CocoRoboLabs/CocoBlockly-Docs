@@ -111,3 +111,7 @@
     src="../tools/FlexiColorPicker/examples/showcase.html">
 </iframe>
 </div>
+
+
+---
+更新時間：2019年8月

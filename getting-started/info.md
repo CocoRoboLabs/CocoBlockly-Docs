@@ -68,3 +68,6 @@
 
 
   <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_7.png" width="70%" /></div>
+
+  ---
+  更新時間：2019年8月

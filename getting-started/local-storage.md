@@ -60,3 +60,7 @@
 隨後將會彈出導出選項窗口，此處可以選擇「導出項目文件 (XML 格式)」或者「導出項目積木截圖 (PNG 格式)」：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/localStorage_export_after.png" width="100%" /></div>
+
+
+---
+更新時間：2019年8月

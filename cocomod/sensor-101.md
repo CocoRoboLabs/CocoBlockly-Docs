@@ -92,3 +92,7 @@
 將程式上傳後，使用如圖的紅外遙控器，按下數字 2 後將會讓位於 D0、D1、D2 的 LED 燈全部亮起來，按下數字 1 後將會讓位於 D0、D1、D2 的 LED 燈全部滅掉：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_8.png" width="40%" /></div>
+
+
+---
+更新時間：2019年8月

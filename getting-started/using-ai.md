@@ -40,7 +40,7 @@ b.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前
 ## 主機板程式
 
 1. 人臉識別
-   
+
 <img src="../media/AI_camera_main.png" width="100%"/>
 
 2. 語音識別
@@ -50,13 +50,13 @@ b.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前
 ## WiFi程式
 
 1. 人臉識別
-   
+
 < src="../media/aidemo_camera_wifi.xml">
 
 <img src="../media/AI_camera_wifi.png" width="100%"/>
 
 1. 語音識別
- 
+
 <img src="../media/AI_speech_wifi.png" width="100%"/>
 
 ## Cloud雲端設置
@@ -80,7 +80,7 @@ AI示例項目相關事件: camera/action , speech/action.
 
 人臉識別Demo: 人臉識別笑臉或苦臉，通過LED顯示檢測結果
 
-sad face 效果展示：抓取圖片後保存圖片，並且顯示反饋信息"sad face" 
+sad face 效果展示：抓取圖片後保存圖片，並且顯示反饋信息"sad face"
 
 <img src="../media/AI_webcam_2.png" width="100%"/>
 
@@ -91,3 +91,6 @@ sad face 效果展示：抓取圖片後保存圖片，並且顯示反饋信息"s
 主機板和WiFi模組
 
 <img src="../media/AI_camera_result.jpg" width="50%"/>
+
+---
+更新時間：2019年8月

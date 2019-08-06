@@ -144,3 +144,5 @@
 <div style="text-align:center;">
 <img src="../media/motorDriver__sample-2.gif" width="500"/>
 </div>
+---
+更新時間：2019年8月

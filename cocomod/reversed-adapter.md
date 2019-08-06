@@ -31,3 +31,6 @@
 程式上傳後，將可以使用教學模組上位於 D8 的按鈕來控制 LED 燈屏的燈的亮滅：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/正反_5.jpg" width="30%" /></div>
+
+---
+更新時間：2019年8月

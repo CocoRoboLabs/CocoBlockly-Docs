@@ -190,3 +190,6 @@
 <div style="text-align: center;">
 <img style="margin:10px 0px 10px 0px;" src="../media/music_9.png" width="600"/>
 </div>
+
+---
+更新時間：2019年8月

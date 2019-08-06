@@ -590,3 +590,5 @@ WEB服務包含IFTTT，Thingspeak，CocoCloud相關積木，允許模組與這�
 ![wifi__main](../media/wifi/wifi_project_3_show.gif)
 
 ***
+
+更新時間：2019年8月

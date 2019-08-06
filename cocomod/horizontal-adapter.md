@@ -34,3 +34,7 @@
 程式上傳成功後，熒幕模組上將會顯示由環境感應模組得到的 4 組數據：聲音強度、光照強度、溼度和溫度：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/平行_5.jpg" width="60%" /></div>
+
+
+---
+更新時間：2019年8月

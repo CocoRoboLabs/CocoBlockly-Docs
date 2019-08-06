@@ -70,3 +70,7 @@
 <div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
 
 <div style="margin-top:20px;padding: 10px 0 10px 0;text-align: center;"><img src="../media/touch__sample--1.gif" width="70%" /></div>
+
+
+---
+更新時間：2019年8月

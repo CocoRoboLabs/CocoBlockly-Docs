@@ -146,3 +146,7 @@ LED燈光會隨著模組的運動方向發生位置的變化。
 <div style="text-align:center;">
 <img src="../media/motion_6.gif" width="400"/>
 </div>
+
+
+---
+更新時間：2019年8月

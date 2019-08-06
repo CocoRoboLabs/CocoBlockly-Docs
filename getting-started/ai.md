@@ -329,3 +329,6 @@ LED 燈狀態呈現
   LED 燈屏模組呈現效果
 
   ![AI](../media/AI_speech_result.jpg)
+
+---
+更新時間：2019年8月

@@ -86,3 +86,6 @@ ThingSpeak(https://thingspeak.com) 是由 MathWorks 開發的一款雲端資料�
 程式上傳完成後，前往 ThingSpeak 查看收集到的數據結果:
 
 ![ThingSpeak](../media/ThingSpeak_example_res.png)
+
+---
+更新時間：2019年8月

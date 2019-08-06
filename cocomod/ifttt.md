@@ -182,3 +182,7 @@ IFTTT 網址：https://ifttt.com/
 <div style="text-align:center;margin:0px 0 20px 0;">
   <img src="../media/ifttt_project1.result.png" width=70%/>
   </div>
+
+
+  ---
+  更新時間：2019年8月

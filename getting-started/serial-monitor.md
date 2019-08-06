@@ -25,7 +25,7 @@
 
 <div align=center><img src="../media/portBeUsed.png" width="450"/></div>
 
-#### 解決方法: 
+#### 解決方法:
 
 切換到序列埠工具連接區，斷開序列埠連接，再重新上傳即可。
 
@@ -86,3 +86,7 @@
 選擇保存文件命名和位置
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/serialMonitor_fileselector.png" width="80%" /></div>
+
+
+---
+更新時間：2019年8月
