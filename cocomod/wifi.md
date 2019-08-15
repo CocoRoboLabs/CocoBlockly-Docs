@@ -287,13 +287,13 @@ WEB服務包含IFTTT，Thingspeak，CocoCloud相關積木，允許模組與這�
 
 ##### 積木簡介
 
-1. Thingspeak積木 : ThingSpeak是一個數據可視化網站，能將模組收集的數據傳輸到該網站以圖表的方式顯示規範時間內數據變化情況。詳情可見 [Thingspeak使用介紹](/cocomod/coco-cloud)
+1. Thingspeak積木 : ThingSpeak是一個數據可視化網站，能將模組收集的數據傳輸到該網站以圖表的方式顯示規範時間內數據變化情況。詳情可見 [Thingspeak使用介紹](/cocomod/thingspeak)
 
 * 積木顯示
 
 ![wifi__main](../media/wifi/wifi_webservice_1_intro.png)
 
-2. IFTTT積木 : IFTTT是一個多功能網絡服務平台，可通過收集的模組信息設置特定的其他網絡服務反饋，如發送Email。詳情可見 [IFTTT使用介紹](/cocomod/coco-cloud)
+2. IFTTT積木 : IFTTT是一個多功能網絡服務平台，可通過收集的模組信息設置特定的其他網絡服務反饋，如發送Email。詳情可見 [IFTTT使用介紹](/cocomod/ifttt)
 
 * 積木顯示 : 獲取數據選項,向IFTTT特定項目獲取信息
 

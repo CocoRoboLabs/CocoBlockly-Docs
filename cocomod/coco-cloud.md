@@ -53,11 +53,9 @@ https://cocorobo.hk/cloud
 
 #### 獲取 API Key
 
-有關 API Key 的介紹請前往 [API Key](#APIKey)查看
+點擊「複製圖標」即可獲取該事件的 API Key，由此來對事件進行數據的新增。有關 API Key 的介紹請前往 [API Key](#APIKey) 查看。
 
 ![cocoCloud__events](../media/cocoCloud__event_3.png)
-
-點擊「複製圖標」即可獲取該事件的 API Key，由此來對事件進行數據的新增。
 
 #### 添加屬性
 
@@ -137,23 +135,19 @@ Coco Cloud平臺上：
 </div>
 
 ***
-
+<!--
 ## 項目一覽
 
 | 項目類型 | 項目內容 | 備註 |
 | :------ | :------ | :------: |
 | CocoCloud | 雲端呈現環境模組數據 | [查看此處](#項目一)  |
-
-<!--
 | CocoCloud | 雲端控制LED亮暗 | [查看此處](#項目二)  |
 -->
 
----
-
 ## 項目
-
+<!--
 ### 項目一
-
+-->
 ####  項目簡介 : 雲端呈現環境模組數據
 
 雲端呈現環境模組數據: 將數據從主機板傳輸至 WiFi 通訊模組，然後由 WiFi 通訊模組傳輸至 Coco Cloud 雲端，在 Coco Cloud 展示數據
