@@ -31,7 +31,7 @@
 * <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">場景 3</b> 端口顯示被佔用
 	* 修復方法：切換到序列埠工具連接區，斷開序列埠連接，再重新上傳。如果嘗試後仍然無法上傳，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
 
-## 3.在 Mac OS 系統中用 USB 綫將 WiFi 通訊模組連接至電腦后，電腦無法識別到模組如何修復？
+## 3. 在 Mac OS 系統中用 USB 綫將 WiFi 通訊模組連接至電腦后，電腦無法識別到模組如何修復？
 
 解決步驟：
 
