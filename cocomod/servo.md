@@ -31,17 +31,20 @@
 
 ## 注意事項
 
-當主機板控制 3 個伺服馬達時，會產生電流過高的現象，需要外置電源纔來穩定控制
+1. 當主機板控制 3 個伺服馬達時，會產生電流過高的現象，需要外置電源纔來穩定控制
 
-主機板上的D13接口默認用於控制主機板上的内置LED燈，所以不能直接用D13接口控制伺服馬達
+2. 主機板上的 D13 接口默認用於控制主機板上的内置 LED 燈，所以舵機轉接模組上不含有 D13 接口，但如果希望用 D13 接口控制伺服馬達，請使用轉接模組，將舵機連接到轉接模組的 D13 接口処，並定義舵機接口積木將 D13 接口設置爲控制伺服馬達模式
 
-如果希望用D13接口控制伺服馬達，請使用定義舵機接口積木將D13接口設置爲控制伺服馬達模式
+<div style="text-align:center;margin:0 0 20px 0;">
+<img src="../media/servo_D13.png" width=70%/>
+<img src="../media/servo_D13_transfer.jpg" width=50%/>
+</div>
 
-![servo](../media/servo_D13.png)
+>注意：相應地，當使用 D13 接口控制伺服馬達時，此時就不能使用 D13 接口來控制主機板模組的内置 LED 燈
 
-相應地，當使用D13接口控制伺服馬達時，不能使用D13接口來控制内置LED燈
-
-![servo](../media/servo_D13_conflict.png)
+<div style="text-align:center;">
+<img src="../media/servo_D13_conflict.png" width=70%/>
+</div>
 
 ---
 
