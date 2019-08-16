@@ -25,10 +25,19 @@
 如果出現了主機板模組上傳失敗的情況，請參考以下對應場景，逐一排查並解決：
 
 * <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">場景 1</b>上傳程式失敗
-	* 修復方法：點擊上傳，在編譯完成後迅速摁在主控板上的<a href="/#/cocomod/main-controller?id=模組主要部件" target="blank">重置按鈕</a>，可以修復多數程式上傳失敗情況； 
+	* 修復方法：點擊上傳，在編譯完成後迅速摁在主控板上的<a href="/#/cocomod/main-controller?id=模組主要部件" target="blank">重置按鈕</a>，可以修復多數程式上傳失敗情況；
 * <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">場景 2</b> 接入主機板模組時沒有任何端口顯示
 	* 修復方法：如果重複上傳 3 次都無法成功，請嘗試換一臺電腦，或者換一根 USB 線，如果嘗試後仍然無法上傳，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
 * <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">場景 3</b> 端口顯示被佔用
 	* 修復方法：切換到序列埠工具連接區，斷開序列埠連接，再重新上傳。如果嘗試後仍然無法上傳，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
 
+## 3.在 Mac OS 系統中用 USB 綫將 WiFi 通訊模組連接至電腦后，電腦無法識別到模組如何修復？
 
+解決步驟：
+
+ 1. 打開 Mac 的安全設置頁面（「系統偏好設置」->「安全性與隱私」）；
+ 2. 允許驅動程序進程使用；
+ 3. 重新安裝一次驅動程序。
+
+
+ 如果嘗試後仍然無法識別到模組，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
