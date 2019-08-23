@@ -70,9 +70,10 @@ CocoBlockly 是一種基於 Blockly 視覺化編程積木的程式設計開發�
 - [項目製作教學](/projects/overview)
 	- [創意電子類](/projects/creative-electronics)
 	- [機械類](/projects/mechanical-device)
-	- [可穿戴類](/projects/wearable-device)
-	- [物聯網類](/projects/iot)
+	- [智能家居類](/projects/smart-home)
 	- [人工智能類](/projects/ai)
-	- [學科融合類](/projects/interdisciplinary)
 - [常用問題解答](faq)
 - [版本更新日誌](changelog)
+
+<!---  [可穿戴類](/projects/wearable-device)[物聯網類](/projects/iot)
+[學科融合類](/projects/interdisciplinary)-->
