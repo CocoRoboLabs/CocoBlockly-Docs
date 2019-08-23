@@ -62,10 +62,10 @@
 |---|-------------------------|----------|------------------|------------------|
 |1. | <img src="../media/Coco_BT_Switch.png" width="80"/>     |   Coco BT Switch          |    藍牙控制：按鈕開關   | 使用按鈕，發出單個數值數據 |
 |2. | <img src="../media/Coco_BT_Slider.png" width="80"/>              | Coco BT Slider  |  藍牙控制：滑動條    | 通過滑動條上指針的所處位置，發出單個數值數據（0~100） |
-|3. | <img src="../media/Coco_BT_Motor_Control.png" width="80"/>                 | Coco BT Motor Controller    |  藍牙控制：馬達控制    | 操控兩個馬達的正轉、反轉和速度，發出數據為按鈕上顯示的單個文本或數值 |
-|4. | <img src="../media/Coco_BT_Servo_Control.png" width="80"/>                  | Coco BT Servo Controller    |  藍牙控制：伺服馬達控制    | 可同時操控 6 個伺服馬達的角度（0~180度），發出單個數值數據 |
-|5. |  <img src="../media/Coco_Robot_Arm.png" width="80"/>               | Coco Robot Arm    |  藍牙控制機械臂        | 在 CocoBlockly 中打開「藍牙」，選擇「藍牙控制機械臂」，發出數據為滑動條的單個數值 |
-|6. | <img src="../media/Coco_Robot_Car.png" width="80"/>                 | Coco Robot Car    |  藍牙控制小車    | 在 CocoBlockly 中打開「藍牙」，選擇「藍牙控制小車」，發出數據為按鈕上顯示的單個文本 |
+|3. | <img src="../media/Coco_BT_Motor_Control.png" width="80"/>                 | Coco BT Motor Controller    |  藍牙控制：馬達    | 操控兩個馬達的正轉、反轉和速度，發出數據為按鈕上顯示的單個文本或數值 |
+|4. | <img src="../media/Coco_BT_Servo_Control.png" width="80"/>                  | Coco BT Servo Controller    |  藍牙控制：伺服馬達    | 可同時操控 6 個伺服馬達的角度（0~180度），發出單個數值數據 |
+|5. |  <img src="../media/Coco_Robot_Arm.png" width="80"/>               | Coco Robot Arm    |  藍牙控制：機械臂        | 在 CocoBlockly 中打開「藍牙」，選擇「藍牙控制機械臂」，發出數據為滑動條的單個數值 |
+|6. | <img src="../media/Coco_Robot_Car.png" width="80"/>                 | Coco Robot Car    |  藍牙控制：小車    | 在 CocoBlockly 中打開「藍牙」，選擇「藍牙控制小車」，發出數據為按鈕上顯示的單個文本 |
 
 ---
 
