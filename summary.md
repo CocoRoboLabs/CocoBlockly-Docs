@@ -26,6 +26,7 @@
 	- [使用 Coco Cloud](/cocomod/coco-cloud)
 	- [使用 ThingSpeak](/cocomod/thingspeak)
 	- [使用 IFTTT](/cocomod/ifttt)
+	- [使用 NB-IoT 通訊模組](/cocomod/nbiot)
 	- [體驗 AI](/getting-started/ai)
 - [課程套件教學](/kit/overview)
 	- [創意電子套件](/kit/creative-electronics)
