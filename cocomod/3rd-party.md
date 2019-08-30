@@ -401,7 +401,7 @@
 
 ### 最終效果
 
-程式上傳後，打開 CocoBlockly 的序列埠監視窗，將手掌蓋住感應器上的 2 個黑色頭，就可以查看到對應的數據發生變化：
+程式上傳後，打開 CocoBlockly 的序列埠監視窗，將手掌蓋住感應器上的紅外綫接收管和紅外綫發射管，就可以查看到對應的數據發生變化：
 
 <div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
 
