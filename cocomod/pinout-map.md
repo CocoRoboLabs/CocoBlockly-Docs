@@ -12,6 +12,8 @@
 
 1. __當模組間有接口衝突的時候，可以通過任意一個轉接模組外接使用：__
 	* 比如：「馬達驅動模組」不可直接與「 LED 燈屏模組」使用，由於「 LED 燈屏模組」的默認接口爲 D6，我們可以將「 LED 燈屏模組」接在「轉接模組 A1 」的 D3 接口上，然後在 CocoBlockly 裏中將 LED 設定積木的接口從 D6 改成 D3，便可以與馬達驅動模組一起使用了；
+	* **特別注意：**有部分模組是無法透過轉接模組來轉接引脚的，這部分模組有：觸摸感應模組、運動感應模組、顔色分析模組、熒幕模組以及音樂模組。
+
 2. __關於 SPI 或者 I²C 通訊方式的原理，可從下方鏈接進行了解__
 	* <a href="http://magicjackting.pixnet.net/blog/post/164725144-spi-(serial-peripheral-interface)-串列-(序列)-周邊介" target="_blank">SPI (Serial Peripheral Interface) 串列 (序列) 周邊介面</a>
 	* <a href="http://magicjackting.pixnet.net/blog/post/173061691-i2c-bus-簡介-%28inter-integrated-circuit-bus%29-" target="_blank">I2C bus 簡介 (Inter-Integrated Circuit Bus)</a>
