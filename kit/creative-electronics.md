@@ -105,30 +105,30 @@
       <td>作品評比</td>
    </tr>
    <tr>
-      <td></td>
-      <td>選修模塊：燈帶</td>
+      <td>選修模塊</td>
+      <td>燈帶</td>
       <td>1) 認識燈帶，學習連接方法，實現簡單效果<br>2)	實現走馬燈等複雜效果<br>3)	互動燈帶項目</td>
    </tr>
    <tr>
-      <td></td>
-      <td>選修模塊：多屏拼接</td>
+      <td>選修模塊</td>
+      <td>多屏拼接</td>
       <td>1)	學習兩個 LED 燈屏的連接方法，實現簡單效果<br>2)	學習兩個以上 LED 燈屏的連接方法，實現較爲複雜的動畫效果<br>3)	多屏動畫效果</td>
    </tr>
    <tr>
-      <td></td>
-      <td>選修模塊：猜拳神器</td>
+      <td>選修模塊</td>
+      <td>猜拳神器</td>
       <td>1)	深入學習觸摸感應模組，條件判斷語句、變量、隨機數<br>2)	互動項目：猜拳神器</td>
    </tr>
    <tr>
-      <td></td>
-      <td>選修模塊：游戲手柄</td>
+      <td>選修模塊</td>
+      <td>游戲手柄</td>
       <td>1)	觸摸和游戲手柄<br>2)	互動項目：手柄和 scratch 小游戲</td>
    </tr>
 </table>
 
 ## 模組介紹
 
-材料包中所包含的模組請見下表：
+本課程套件所涉及的模組請見下表：
 
 |No. |模組 | 圖片 |簡介 | 詳細介紹 |
 |-  |-  |-  |- |- |
@@ -195,7 +195,7 @@
 
 <img src="../media/kit_172.png" width=550/>
 
-###### Send your question to  [it@cocorobo.hk](http://cocorobo.hk/online/)  for support
+###### 若您有其他疑問，請電郵至 support-hk@cocorobo.cc 詢問
 
 ***
 
