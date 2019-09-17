@@ -46,11 +46,11 @@
 
 ---
  
-## 4. 使用 Google Chrome 打開 CocoBlockly 網頁時加載很慢，有什麼辦法可以解決？
+## 4. 瀏覽器中打開 CocoBlockly 網頁時加載很慢，有什麼辦法可以解決？
 
-出現這樣的問題，通常情況是因爲電腦配置過低，解決步驟可以參考以下辦法：
+出現這樣的問題，通常情況是因爲電腦配置過低，如果您使用 Google Chrome 的話，可以參考以下解決步驟：
 
-1. 前往瀏覽器的設定中，搜尋「Use hardware acceleration when available」或者「在可用時使用硬體加速」；
+1. 前往瀏覽器設定中，搜尋「Use hardware acceleration when available」或者「在可用時使用硬體加速」；
 2. 搜到結果以後，開啓該項設定。
 
 ---
