@@ -14,8 +14,9 @@
 
 如果使用以上環境仍然無法連接，請聯繫郵箱 tommy@cocorobo.cc 讓我們得知，及時幫助您解決問題
 
-## 2. 上傳程式至主機板模組時出現問題該如何解決？
+---
 
+## 2. 上傳程式至主機板模組時出現問題該如何解決？
 
 <table> <tr> <td width="40%">
 一個主機板模組在上傳時的狀態效果，可以參考右邊這張圖片：</td>
@@ -30,6 +31,8 @@
 	* 修復方法：如果重複上傳 3 次都無法成功，請嘗試換一臺電腦，或者換一根 USB 線，如果嘗試後仍然無法上傳，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
 * <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">場景 3</b> 端口顯示被佔用
 	* 修復方法：切換到序列埠工具連接區，斷開序列埠連接，再重新上傳。如果嘗試後仍然無法上傳，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
+	
+---
 
 ## 3. 在 Mac OS 系統中用 USB 綫將 WiFi 通訊模組連接至電腦后，電腦無法識別到模組如何修復？
 
@@ -38,6 +41,16 @@
  1. 打開 Mac 的安全設置頁面（「系統偏好設置」->「安全性與隱私」）；
  2. 允許驅動程序進程使用；
  3. 重新安裝一次驅動程序。
+ 
+如果嘗試後仍然無法識別到模組，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
 
+---
+ 
+## 4. 使用 Google Chrome 打開 CocoBlockly 網頁時加載很慢，有什麼辦法可以解決？
 
- 如果嘗試後仍然無法識別到模組，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
+出現這樣的問題，通常情況是因爲電腦配置過低，解決步驟可以參考以下辦法：
+
+1. 前往瀏覽器的設定中，搜尋「Use hardware acceleration when available」或者「在可用時使用硬體加速」；
+2. 搜到結果以後，開啓該項設定。
+
+如果仍然有問題，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
