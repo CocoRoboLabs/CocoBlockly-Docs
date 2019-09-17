@@ -1,119 +1,119 @@
 # 使用EasyMode
 
-## 關於EasyMode
-EasyMode即簡易模式，是針對零基礎的學生，CocoRobo公司研發的基礎物聯網積木，相對原有的WiFi積木，EasyMode更加注重理解的容易度，操作的簡易性，以及樣式的簡潔美觀性。
+## 关于EasyMode
+EasyMode即简易模式，是针对零基础的学生，CocoRobo公司研发的基础物联网积木，相对原有的WiFi积木，EasyMode更加注重理解的容易度，操作的简易性，以及样式的简洁美观性。
 
-## 積木樣式
- 簡易模式涵蓋五個類別物聯網積木:
+## 积木样式
+ 简易模式涵盖五个类别物联网积木:
 
- | 積木名稱 | 積木樣式         |
+ | 积木名称 | 积木样式         |
 | -------- | ------------------ |
-| 聯網積木    | ![easymode](../media/easymode/network_blocks.png) |
-|  數據通訊積木   |  ![easymode](../media/easymode/transfer_blocks.png) |
-| ThingSpeak積木 |  ![easymode](../media/easymode/ThingSpeak_blocks.png)|
-|CocoCloud積木  | ![easymode](../media/easymode/CocoCloud_blocks.png) |
-| IFTTT積木 | ![easymode](../media/easymode/IFTTT_blocks.png) |
+| 联网积木    | ![easymode](../media/easymode/network_blocks.png) |
+|  数据通信积木   |  ![easymode](../media/easymode/transfer_blocks.png) |
+| ThingSpeak积木 |  ![easymode](../media/easymode/ThingSpeak_blocks.png)|
+|CocoCloud积木  | ![easymode](../media/easymode/CocoCloud_blocks.png) |
+| IFTTT积木 | ![easymode](../media/easymode/IFTTT_blocks.png) |
 
 
-## 使用説明
-1. 聯網積木
-  * 填入無綫網絡的名稱和密碼即可
+## 使用说明
+1. 联网积木
+  * 填入无线网络的名称和密码即可
 
  ![easymode](../media/easymode/network_blocks.png)
 
 
 
-2. 數據通訊積木
-  * 發送數據積木: 點擊左上方齒輪可彈出編輯框,拖動value選項來增加傳輸數據個數
-  * 接收數據積木：接收數據的長度最大為6，且必須與主控的發送數據個數一致，獲取的數據會存到rxData數組中
-  * 通訊類型目前限定為數字，以數組的方式進行通訊，即無法傳輸字符串類型
+2. 数据通信积木
+  * 发送数据积木: 点击左上方齿轮可弹出编辑框,拖动value选项来增加传输数据个数
+  * 接收数据积木：接收数据的长度最大为6，且必须与主控的发送数据个数一致，获取的数据会存到rxData数组中
+  * 通信类型目前限定为数字，以数组的方式进行通信，即无法传输字符串类型
 
   ![easymode](../media/easymode/transfer_detail.png)
 
-3. ThingSpeak積木
-  *  點擊左上方齒輪可彈出編輯框,拖動value選項來增加傳輸數據個數
-  *  Channel API Key :填寫數據傳輸到ThingSpeak的CHannel項目的聲明
+3. ThingSpeak积木
+  *  点击左上方齿轮可弹出编辑框,拖动value选项来增加传输数据个数
+  *  Channel API Key :填写数据传输到ThingSpeak的CHannel项目的声明
 
   ![easymode](../media/easymode/ThingSpeak_detail.png)
 
 
-4. CocoCloud積木
-  * 發送數據積木:
-    * 點擊左上方齒輪可彈出編輯框,拖動value選項來增加傳輸數據個數，
+4. CocoCloud积木
+  * 发送数据积木:
+    * 点击左上方齿轮可弹出编辑框,拖动value选项来增加传输数据个数，
     * Cloud Event指CocoCloud事件的API-Key，用于指定事件对象
-    * 對應每個數據需要給定好屬性名（數據名）
-  * 接收數據積木：
+    * 对应每个数据需要给定好属性名（数据名）
+  * 接收数据积木：
     * Cloud Event指CocoCloud事件的API-Key，用于指定事件对象
-    * 通過屬性名獲得Cloud取回來對應的數據，并且存儲到自定義變量中
+    * 通过属性名获得Cloud取回来对应的数据，并且存储到自定义变量中
 
  ![easymode](../media/easymode/CocoCloud_detail.png)
 
-5. IFTTT積木
-  * IFTTT Key: 用戶的IFTTT賬戶對應的Key
-  * IFTTT Event Name: 項目名稱，用於將數據傳輸到對應項目中
+5. IFTTT积木
+  * IFTTT Key: 用户的IFTTT账户对应的Key
+  * IFTTT Event Name: 项目名称，用于将数据传输到对应项目中
 
  ![easymode](../media/easymode/IFTTT_detail.png)
 
 ##案例一
 
- 項目：從主控獲取環境感應板資料,傳送到WiFi上去,通過CocoCloud積木發送到Coco cloud上。
+ 项目：从主控获取环境传感板资料,传送到WiFi上去,通过CocoCloud积木发送到Coco cloud上。
 
- #### 創建Cloud雲端項目
+ #### 创建Cloud云端项目
 
- 進入CocoCloud網站，選擇創建新的Event
+ 进入CocoCloud网站，选择创建新的Event
   ![easymode](../media/easymode/easymode_cloud_setting.png)
 
- #### cloud雲端項目示意圖
+ #### cloud云端项目示意图
 
   ![easymode](../media/easymode/easymode_cloud_setting_event.png)
 
- #### 主機板模組積木拼接
- 主機板程式下載: <a href="../xml/Cococloud_ENV_main.xml" download>Cococloud_ENV_main.xml</a>
- **注意：** 請單獨給主機模組上傳程式
+ #### 主控模块积木拼接
+ 主控程序下载: <a href="../xml/Cococloud_ENV_main.xml" download>Cococloud_ENV_main.xml</a>
+ **注意：** 请单独给主机模块上传程序
   ![easymode](../media/easymode/easymode_getCloud_example_m.png)
 
 
- ####  WiFi通訊模組積木拼接
+ ####  WiFi通信模块积木拼接
 
- WiFi通訊程式下載: <a href="../xml/Cococloud_ENV_wifi.xml" download>Cococloud_ENV_wifi.xml</a>
- **注意：** 請單獨給WiFi通訊模組上傳程式
+ WiFi通信程序下载: <a href="../xml/Cococloud_ENV_wifi.xml" download>Cococloud_ENV_wifi.xml</a>
+ **注意：** 请单独给WiFi通信模块上传程序
 
   ![easymode](../media/easymode/easymode_getCloud_example_w.png)
 
- ####  更換API-KEY
+ ####  更换API-KEY
 
- 獲取對應Cloud Event的API-Key替換積木對應Cloud Event位置
+ 获取对应Cloud Event的API-Key替换积木对应Cloud Event位置
 
   ![easymode](../media/easymode/easymode_getCloud_example_getkey.png)
 
 
-#### 效果示意圖
+#### 效果示意图
 
- 當主機板模組和WiFi通訊模組單獨上傳程式后，將模組都拼合在一起，通電後一段時間，會發現環境感應模組的聲音、光照、適度和溫度的數值分別傳到了CocoCloud上，數值會實時變化，如下圖所示：
+ 当主控模块和WiFi通信模块单独上传程序后，将模块都拼合在一起，通电后一段时间，会发现环境传感模块的声音、光照、适度和温度的数值分别传到了CocoCloud上，数值会实时变化，如下图所示：
 
   ![easymode](../media/easymode/easymode_getCloud_example_result.png)
 
 ## 案例二
 
-項目: 獲取環境開發板的數據，向ThingSpeak發送並進行監測。ThingSpeak的配置方法，請查閲： [使用ThingSpeak](/thingspeak.md)
+项目: 获取环境开发板的数据，向ThingSpeak发送并进行监测。ThingSpeak的配置方法，请查阅： [使用ThingSpeak](/thingspeak.md)
 
-#### 主機板模式:
+#### 主控模式:
 
- 主機板程式下載: <a href="../xml/Thingspeak_ENV_main.xml" download>ThingSpeak_ENV_main.xml</a>
- **注意：** 請單獨給主機模組上傳程式
+ 主控程序下载: <a href="../xml/Thingspeak_ENV_main.xml" download>ThingSpeak_ENV_main.xml</a>
+ **注意：** 请单独给主机模块上传程序
 
 ![ThingSpeak](../media/ThingSpeak_example_main.png)
 
-#### WiFi通訊模式:
- WiFi通訊程式下載: <a href="../xml/Thingspeak_ENV_wifi.xml" download>ThingSpeak_ENV_wifi.xml</a>
- **注意：** 請單獨給WiFi通訊模組上傳程式
+#### WiFi通信模式:
+ WiFi通信程序下载: <a href="../xml/Thingspeak_ENV_wifi.xml" download>ThingSpeak_ENV_wifi.xml</a>
+ **注意：** 请单独给WiFi通信模块上传程序
 
 ![ThingSpeak](../media/ThingSpeak_example_wifi.png)
 
-#### ThingSpeak數據收集結果 :
+#### ThingSpeak数据收集结果 :
 
-當主機板模組和WiFi通訊模組單獨上傳程式后，將模組都拼合在一起，通電後一段時間，會發現環境感應模組的聲音、光照、適度和溫度的數值分別傳到了ThingSpeak上，數值會實時變化，如下圖所示：
+当主控模块和WiFi通信模块单独上传程序后，将模块都拼合在一起，通电后一段时间，会发现环境传感模块的声音、光照、适度和温度的数值分别传到了ThingSpeak上，数值会实时变化，如下图所示：
 ![ThingSpeak](../media/ThingSpeak_example_res.png)
 
 ---
-更新時間：2019年8月
+更新时间：2019年8月

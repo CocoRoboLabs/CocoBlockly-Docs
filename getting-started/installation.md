@@ -1,15 +1,15 @@
-## CocoBlockly Uploader 安裝指引
+## CocoBlockly Uploader 安装指引
 
 <br>
 <div style="border:1px solid rgba(0,0,0,.1);text-align: center;"><img src="../media/installation-instruction-windows-header.jpg" width="100%" /></div>
 
-##### Windows 安裝說明
+##### Windows 安装说明
 
-1. 雙擊安裝包，然後根據指示選擇目標的資料夾進行安裝：
+1. 双击安装包，然后根据指示选择目标的资料夹进行安装：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_2.png" width="80%" /></div>
 
-2. 在安裝的過程中，會依次彈出協助安裝 Arduino 驅動和 WiFi 模組驅動的界面，可以根據指示依次安裝（如果已經安裝過該驅動，可以選擇取消跳過）：
+2. 在安装的过程中，会依次弹出协助安装 Arduino 驱动和 WiFi 模块驱动的界面，可以根据指示依次安装（如果已经安装过该驱动，可以选择取消跳过）：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_2.png" width="80%" /></div>
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_3.png" width="80%" /></div>
@@ -17,7 +17,7 @@
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_5.png" width="80%" /></div>
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_6.png" width="80%" /></div>
 
-3. 最後，點擊「完成」結束 Uploader 安裝過程
+3. 最后，点击「完成」结束 Uploader 安装过程
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_8.png" width="80%" /></div>
 
@@ -25,34 +25,34 @@
 
 <div style="border:1px solid rgba(0,0,0,.1);text-align: center;"><img src="../media/installation-instruction-macos-header.jpg" width="100%" /></div>
 
-##### macOS 安裝說明
+##### macOS 安装说明
 
-1. **右鍵點擊安裝包**，選擇打開，彈出以下窗口後，點擊「打開」以打開安裝包
+1. **右键点击安装包**，选择打开，弹出以下窗口后，点击「打开」以打开安装包
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_mac_5.png" width="60%" /></div>
 
-2. 在界面中，將「CocoBlockly Uploader」拖入右側的「Applications」資料夾中，隨後可能會需要輸入您的賬戶密碼，授權進行安裝
+2. 在界面中，将「CocoBlockly Uploader」拖入右侧的「Applications」资料夹中，随后可能会需要输入您的账户密码，授权进行安装
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_mac_6.png" width="60%" /></div>
 
-3. 安裝 WiFi 模組驅動
+3. 安装 WiFi 模块驱动
 
-    - 雙擊「WiFi Module Driver's installer.pkg」；
-    - 點擊「繼續」，並按照指示步驟完成安裝
+    - 双击「WiFi Module Driver's installer.pkg」；
+    - 点击「继续」，并按照指示步骤完成安装
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_mac_7.png" width="60%" /></div>
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_mac_8.png" width="60%" /></div>
 
-4. 點擊「安裝」，隨後可能會需要輸入您的賬戶密碼，授權進行安裝
+4. 点击「安装」，随后可能会需要输入您的账户密码，授权进行安装
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_mac_9.png" width="60%" /></div>
 
-5. 點擊「關閉」，完成 WiFi 模組驅動的安裝
+5. 点击「关闭」，完成 WiFi 模块驱动的安装
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_mac_10.png" width="60%" /></div>
 
-6. 安裝完成後，便可以在應用列表中打開 CocoBlockly Uploader。
+6. 安装完成后，便可以在应用列表中打开 CocoBlockly Uploader。
 
 
 ---
-更新時間：2019年8月
+更新时间：2019年8月

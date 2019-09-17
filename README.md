@@ -1,49 +1,49 @@
-# CocoBlockly 可視化編程工具
+# CocoBlockly 可视化编程工具
 
 ---
 
-## 什麼是 CocoBlockly
+## 什么是 CocoBlockly
 
 ![](https://lh4.googleusercontent.com/lFwJK6fND0y7pgV_-EoSCTlfDDgMmbaF6T01YtezXcPQaBG5hoh5C7HmsknI_yIwASi3_f4-fzF7MoyvqgPr6i4SvCBNCBVrAbn-BLj7_M4zSvuUhDrq3Xj_EcBC8lx3Z8RFBgE9gVo)
 
-CocoBlockly 是一種類似 MIT Scratch 的在線可視化積木式編程工具，通過拖拽一些功能積木便可理解編程。我們使用該界面，讓使用者能夠直接通過瀏覽器，來對電子模組進行編程。
+CocoBlockly 是一种类似 MIT Scratch 的在线可视化积木式编程工具，通过拖拽一些功能积木便可理解编程。我们使用该界面，让使用者能够直接通过浏览器，来对电子模块进行编程。
 
-平臺特性 ：![](/assets/import2.png)在使用 CocoBlockly 時，需要配合 CocoBlockly Uploader 軟體來進行程序的上傳，下載安裝後，以後再使用網頁編程時只需保持該軟體打開即可。
+平台特性 ：![](/assets/import2.png)在使用 CocoBlockly 时，需要配合 CocoBlockly Uploader 软件来进行程序的上传，下载安装后，以后再使用网页编程时只需保持该软件打开即可。
 
-第一次使用 CocoBlockly 的用戶，請前往[該頁面](https://blockly-help.cocorobo.hk/uploader-xia-zai-ji-an-zhuang.html)鏈接下載 **CocoBlockly Uploader 上傳軟件**，支持 Windows 及 macOS。
+第一次使用 CocoBlockly 的用户，请前往[该页面](https://blockly-help.cocorobo.cn/uploader-xia-zai-ji-an-zhuang.html)链接下载 **CocoBlockly Uploader 上传软件**，支持 Windows 及 macOS。
 
-安裝完成後，前往 [http://cocorobo.hk/cocoblockly/dev/](http://cocorobo.hk/cocoblockly/dev/) ，檢查界面右下角的「Upload Area」是否有綠色的打勾圖標，如有，則表示安裝成功，這時你可以開始進行程式編寫，並上傳至你的電子模組中了。
+安装完成后，前往 [http://cocorobo.cn/cocoblockly/dev/](http://cocorobo.cn/cocoblockly/dev/) ，检查界面右下角的「Upload Area」是否有绿色的打勾图标，如有，则表示安装成功，这时你可以开始进行程序编写，并上传至你的电子模块中了。
 
-## 如何使用 WiFi 模組
+## 如何使用 WiFi 模块
 
-#### 什麼是 WiFi 模組![](/assets/import4.png)
+#### 什么是 WiFi 模块![](/assets/import4.png)
 
-#### 什麼是 WiFi 模式
+#### 什么是 WiFi 模式
 
-給 WiFi 通訊模組進行編程時，我們需要在 CocoBlockly 的界面右下角，點擊切換按鈕，切換爲 Wi-Fi 模式。  
+给 WiFi 通信模块进行编程时，我们需要在 CocoBlockly 的界面右下角，点击切换按钮，切换为 Wi-Fi 模式。  
 ![](/assets/import6.png)
 
-前面提到，當我們製作一個與外接通訊的 IoT 項目時，需要給項目中的主機板模組和 WiFi 模組都上傳程式。下圖示範了製作一個 IoT 項目所需要的程式開發流程。
+前面提到，当我们制作一个与外接通信的 IoT 项目时，需要给项目中的主控模块和 WiFi 模块都上传程序。下图示范了制作一个 IoT 项目所需要的程序开发流程。
 
 ![](https://lh5.googleusercontent.com/FSoaCK-Uq_uDLrPubKaQ0PbZOSULkZFlhwxV9ndW-oEeFfc19eyTczjHn8RtHW5ns_u3dO4jJPg6aoZ10FmChnH8Db_mmyU1KRFrsHF53K1fFdDu86VC3gAgPmSCRZCPFgpjKj_Yddw)
 
-注：切換模式時，因爲兩個模式工作空間的積木都會同時保存，所以當用戶再切換回去時，之前的編寫的積木程式不會丟失。
+注：切换模式时，因为两个模式工作空间的积木都会同时保存，所以当用户再切换回去时，之前的编写的积木程序不会丢失。
 
-目前的 CocoBlockly Wi-Fi 模式支持以下兩種傳送模式：
+目前的 CocoBlockly Wi-Fi 模式支持以下两种传送模式：
 
-1. 將數據傳送至遠端；
-2. 從遠端獲取數據；
+1. 将数据传送至远端；
+2. 从远端获取数据；
 
-同時，用戶還可以選擇接入 CocoCloud，或者 IFTTT、Thingspeak 這些第三方服務，來完成左邊兩種操作模式。
+同时，用户还可以选择接入 CocoCloud，或者 IFTTT、Thingspeak 这些第三方服务，来完成左边两种操作模式。
 
 ![](/assets/import7.png)
 
 ---
 
-## CocoMod 電子模組
+## CocoMod 电子模块
 
 ![](https://lh6.googleusercontent.com/HT1gtWAGIy6nzFGVlnMAqTA8c_YQaDzdZKw2WFoSaF_qTJi0RHB6jjT-7ge00Ma8J1Wy0Js9q6CTLRsUruV3Kjv01LLnFNHqXo0433lpRHJVX9ZzJrBIHQIA4DuJ1iGmpjDNYMPx)
 
-CocoMod 是一系列由 CocoRobo 研發的「即插即用式」的電子模組，目前已研發 15 餘款，其中控制類模組 2 種，輸入類模組 7 種，輸出類模組 7 種，轉接類模組 6 種。CocoMod 可以讓你的作品能夠擁有感應、控制真實世界的能力，只要接上各種輸入/輸出模組或元件， 例如 LED 燈、摩打、開關、溫溼度感應器、顯示裝置，或是接上無線通訊模組，就可以做出各式各樣的小發明。
+CocoMod 是一系列由 CocoRobo 研发的「即插即用式」的电子模块，目前已研发 15 余款，其中控制类模块 2 种，输入类模块 7 种，输出类模块 7 种，转接类模块 6 种。CocoMod 可以让你的作品能够拥有传感、控制真实世界的能力，只要接上各种输入/输出模块或元件， 例如 LED 灯、摩打、开关、温湿度传感器、显示装置，或是接上无线通信模块，就可以做出各式各样的小发明。
 
-用戶利用這些模組，結合 3D 打印和編程可以輕鬆地完成各類項目，其擴展性較市面上其他多數 Arduino 套件更適合入門者學習電子及編程知識。同時，CocoRobo 鼓勵用戶通過配套的課程，來更好、更快的學習使用 CocoMod 電子模組。
+用户利用这些模块，结合 3D 打印和编程可以轻松地完成各类项目，其扩展性较市面上其他多数 Arduino 套件更适合入门者学习电子及编程知识。同时，CocoRobo 鼓励用户通过配套的课程，来更好、更快的学习使用 CocoMod 电子模块。

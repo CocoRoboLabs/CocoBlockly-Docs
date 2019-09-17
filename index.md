@@ -1,80 +1,80 @@
-# 什麼是 CocoBlockly
+# 什么是 CocoBlockly
 
 ![](/media/about-cocoblockly-308.png)
 
-CocoBlockly 是一種基於 Blockly 視覺化編程積木的程式設計開發環境，支持多语言（簡體中文、繁體中文和英文），用戶透過拖拽具有特定功能的編程積木即可輕鬆撰寫相關的程式，賦予電子產品以多種多樣的功能。
+CocoBlockly 是一种基于 Blockly 视觉化编程积木的程序设计开发环境，支持多语言（简体中文、繁体中文和英文），用户通过拖拽具有特定功能的编程积木即可轻松撰写相关的程序，赋予电子产品以多种多样的功能。
 
-第一次使用 CocoBlockly 的用戶，請前往[該頁面](/getting-started/info)鏈接下載 **CocoBlockly Uploader 上載軟件**，支持 Windows 及 macOS。
-### 使用必讀
+第一次使用 CocoBlockly 的用户，请前往[该页面](/getting-started/info)链接下载 **CocoBlockly Uploader 上载软件**，支持 Windows 及 macOS。
+### 使用必读
 
-#### 準備事項：
+#### 准备事项：
 
-1. 安裝 CocoBlockly Uploader（請從以下連結獲取最新版本）:
+1. 安装 CocoBlockly Uploader（请从以下连结获取最新版本）:
   1. Windows: https://api.cocorobo.hk/releases/uploaderv2/download/windows
   2. macOS: https://api.cocorobo.hk/releases/uploaderv2/download/mac
-2. 開啟瀏覽器，我們推薦使用 Google Chrome，請前往[此處](/getting-started/info?id=cocoblockly-uploader)檢視完整的支援列表，如果您還沒有安裝合適的瀏覽器，可前往下方鏈接下載:
-  1. 安裝 Google Chrome：https://www.google.com/chrome/
-3. 以上步驟全部準備完成後，前往 [http://cocorobo.cn/cocoblockly/dev/](http://cocorobo.cn/cocoblockly/dev/) ，檢查介面右下角的「上載區」是否有綠色的打勾圖示，如有，則表示安裝成功，這時你可以開始進行程式編寫，並上傳至你的電子模組中了。
+2. 开启浏览器，我们推荐使用 Google Chrome，请前往[此处](/getting-started/info?id=cocoblockly-uploader)检视完整的支援列表，如果您还没有安装合适的浏览器，可前往下方链接下载:
+  1. 安装 Google Chrome：https://www.google.com/chrome/
+3. 以上步骤全部准备完成后，前往 [http://cocorobo.cn/cocoblockly/dev/](http://cocorobo.cn/cocoblockly/dev/) ，检查介面右下角的「上载区」是否有绿色的打勾图示，如有，则表示安装成功，这时你可以开始进行程序编写，并上传至你的电子模块中了。
 
-#### 注意事項：
+#### 注意事项：
 
-1. 如果您使用的是 Windows 電腦，請確保您所在的計算機賬戶擁有管理員權限（Administrator），我們的 CocoBlockly Uploader 需要管理員權限才能夠正常安裝；
-2. 請不要在上傳過程中直接拔掉主機板模組或者 WiFi 通訊模組；
-3. 請不要使用不支持的瀏覽器和操作系統（推薦使用 Google Chrome）；
-4. 請不要在上傳過程中按到主機板模組上的重置（Reset）按鈕；
-5. 當主機板已經連接，但頁面仍然沒有顯示端口時，可以點擊頁面右下角的「重啓Uploader」按鈕，重啓上傳插件；
+1. 如果您使用的是 Windows 电脑，请确保您所在的计算机账户拥有管理员权限（Administrator），我们的 CocoBlockly Uploader 需要管理员权限才能够正常安装；
+2. 请不要在上传过程中直接拔掉主控模块或者 WiFi 通信模块；
+3. 请不要使用不支持的浏览器和操作系统（推荐使用 Google Chrome）；
+4. 请不要在上传过程中按到主控模块上的重置（Reset）按钮；
+5. 当主控已经连接，但页面仍然没有显示端口时，可以点击页面右下角的「重启Uploader」按钮，重启上传插件；
 <div style="text-align:center;margin:10px 0 10px 0;">
 <img src="./media/about-cocoblockly_1.png" width=60%/>
 </div>
-6. 如果出現上傳失敗或者編譯失敗的情況，請將錯誤信息複製記下，寄信給 support-hk@cocorobo.cc ，以便技術支持人員瞭解
+6. 如果出现上传失败或者编译失败的情况，请将错误信息复制记下，寄信给 support@cocorobo.cc ，以便技术支持人员了解
 
 ---
 
 ## 教程索引
 
-- [關於 CocoBlockly](index)
-- [開始使用 CocoBlockly](/getting-started/info)
-	- [軟件安裝指引](/getting-started/installation)
-	- [編程界面介紹](/getting-started/gui)
-	- [本地存取檔案](/getting-started/local-storage)
-	- [雲端存取檔案](/getting-started/cloud-storage)
-	- [序列埠監視器](/getting-started/serial-monitor)
-- [電子模組基本教學](/cocomod/overview)
-	- [使用主機板模組](/cocomod/main-controller)
-	- [使用教學模組](/cocomod/sensor-101)
-	- [使用LED燈屏模組 ](/cocomod/led-matrix)
-	- [使用熒幕模組](/cocomod/screen)
-	- [使用音樂模組](/cocomod/music)
-	- [使用觸摸感應模組](/cocomod/touch)
-	- [使用環境感應模組](/cocomod/environment)
-	- [使用馬達驅動模組](/cocomod/motor-driver)
-	- [使用顏色分析模組](/cocomod/color-analyzer)
-	- [使用運動感應模組](/cocomod/motion)
-	- [使用藍牙通訊模組](/cocomod/bluetooth)
-	- [使用伺服馬達轉接模組](/cocomod/servo)
-	- [使用轉接模組](/cocomod/hub)
-	- [使用平行轉接模組](/cocomod/horizontal-adapter)
-	- [使用正反轉接模組](/cocomod/reversed-adapter)
-	- [使用第三方感應器](/cocomod/3rd-party)
-	- [使用 WiFi 通訊模組](/cocomod/wifi)
+- [关于 CocoBlockly](index)
+- [开始使用 CocoBlockly](/getting-started/info)
+	- [软件安装指引](/getting-started/installation)
+	- [编程界面介绍](/getting-started/gui)
+	- [本地存取档案](/getting-started/local-storage)
+	- [云端存取档案](/getting-started/cloud-storage)
+	- [串口监视器](/getting-started/serial-monitor)
+- [电子模块基本教学](/cocomod/overview)
+	- [使用主控模块](/cocomod/main-controller)
+	- [使用教学模块](/cocomod/sensor-101)
+	- [使用LED灯屏模块 ](/cocomod/led-matrix)
+	- [使用屏幕模块](/cocomod/screen)
+	- [使用音乐模块](/cocomod/music)
+	- [使用触摸传感模块](/cocomod/touch)
+	- [使用环境传感模块](/cocomod/environment)
+	- [使用电机驱动模块](/cocomod/motor-driver)
+	- [使用颜色分析模块](/cocomod/color-analyzer)
+	- [使用运动传感模块](/cocomod/motion)
+	- [使用蓝牙通信模块](/cocomod/bluetooth)
+	- [使用伺服电机转接模块](/cocomod/servo)
+	- [使用转接模块](/cocomod/hub)
+	- [使用平行转接模块](/cocomod/horizontal-adapter)
+	- [使用正反转接模块](/cocomod/reversed-adapter)
+	- [使用第三方传感器](/cocomod/3rd-party)
+	- [使用 WiFi 通信模块](/cocomod/wifi)
 	- [使用 Coco Cloud](/cocomod/coco-cloud)
 	- [使用 ThingSpeak](/cocomod/thingspeak)
 	- [使用 IFTTT](/cocomod/ifttt)
-	- [使用 NB-IoT 通訊模組](/cocomod/nbiot)
-	- [體驗 AI](/getting-started/ai)
-- [課程套件教學](/kit/overview)
-  - [創意電子套件](/kit/creative-electronics)
-  - [動力小車套件](/kit/robot-car)
-  - [智慧家居套件](/kit/smart-home)
+	- [使用 NB-IoT 通信模块](/cocomod/nbiot)
+	- [体验 AI](/getting-started/ai)
+- [课程套件教学](/kit/overview)
+  - [创意电子套件](/kit/creative-electronics)
+  - [动力小车套件](/kit/robot-car)
+  - [智能家居套件](/kit/smart-home)
   - [人工智能套件](/kit/aiot)
-  - [機械達人套件](/kit/robot-arm)
-- [項目製作教學](/projects/overview)
-	- [創意電子類](/projects/creative-electronics)
-	- [機械類](/projects/mechanical-device)
-	- [智能家居類](/projects/smart-home)
-	- [人工智能類](/projects/ai)
-- [常用問題解答](faq)
-- [版本更新日誌](changelog)
+  - [机械达人套件](/kit/robot-arm)
+- [项目制作教学](/projects/overview)
+	- [创意电子类](/projects/creative-electronics)
+	- [机械类](/projects/mechanical-device)
+	- [智能家居类](/projects/smart-home)
+	- [人工智能类](/projects/ai)
+- [常用问题解答](faq)
+- [版本更新日志](changelog)
 
-<!---  [可穿戴類](/projects/wearable-device)[物聯網類](/projects/iot)
-[學科融合類](/projects/interdisciplinary)-->
+<!---  [可穿戴类](/projects/wearable-device)[物联网类](/projects/iot)
+[学科融合类](/projects/interdisciplinary)-->

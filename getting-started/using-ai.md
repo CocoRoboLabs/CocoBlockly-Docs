@@ -1,96 +1,96 @@
-# 體驗 AI 特性
+# 体验 AI 特性
 
 ## 原理
 
-#### AI人臉識別
-  通過前置攝像頭抓取圖片，AI系統自動識別使用者人臉照片，判斷照片內容是笑臉還是苦臉，並將反饋結果存儲到雲端，通過WiFi模組從雲端獲取對應事件的數據，並傳輸給主機板，完成後續編程項目
+#### AI人脸识别
+  通过前置摄像头抓取图片，AI系统自动识别使用者人脸照片，判断照片内容是笑脸还是苦脸，并将反馈结果存储到云端，通过WiFi模块从云端获取对应事件的数据，并传输给主控，完成后续编程项目
 
-#### AI語音識別
+#### AI语音识别
 
-通過使用麥克風抓取使用者說話音頻，AI系統自動識別使用者說話內容，將內容存儲到雲端，通過WiFi模組從雲端獲取對應事件的數據，並傳輸給主機板，完成後續編程項目
+通过使用麦克风抓取使用者说话音频，AI系统自动识别使用者说话内容，将内容存储到云端，通过WiFi模块从云端获取对应事件的数据，并传输给主控，完成后续编程项目
 
-## 界面介紹
+## 界面介绍
 
 CocoBlockly界面AI使用接口
 
 <img src="../media/AI_blockly_intro_1.png" width="100%"/>
 
-1. 人臉識別 : 點擊左邊的攝像頭圖標即可展開
+1. 人脸识别 : 点击左边的摄像头图标即可展开
 
 <img src="../media/AI_webcam_1.png" width="100%"/>
 
-a.切換按鈕:點擊啓動電腦前置攝像頭（注意：如果提示無法啓動前置攝像頭，需要更換連接https://cocorobo.hk/cocoblockly/）
-b.點擊按鈕:點擊電腦前置攝像頭抓取圖片，顯示在右側，並且反饋表情檢測結果
-c.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前需要保證CocoBlockly賬戶登錄）
+a.切换按钮:点击启动电脑前置摄像头（注意：如果提示无法启动前置摄像头，需要更换连接https://cocorobo.cn/cocoblockly/）
+b.点击按钮:点击电脑前置摄像头抓取图片，显示在右侧，并且反馈表情检测结果
+c.事件选择：点击可选择CocoCloud内已创建事件（选择事件之前需要保证CocoBlockly账户登录）
 
 <img src="../media/AI_webcam_1.1.png" width="100%"/>
 
 
-2. 語音識別： 點擊右邊的麥克風圖標即可展開
+2. 语音识别： 点击右边的麦克风图标即可展开
 
 <img src="../media/AI_voice_1.png" width="100%"/>
 
 
-a.點擊按鈕:點擊電腦前置攝像頭抓取圖片，顯示在右側，並且反饋表情檢測結果
-b.事件選擇：點擊可選擇CocoCloud內已創建事件（選擇事件之前需要保證CocoBlockly賬戶登錄）
+a.点击按钮:点击电脑前置摄像头抓取图片，显示在右侧，并且反馈表情检测结果
+b.事件选择：点击可选择CocoCloud内已创建事件（选择事件之前需要保证CocoBlockly账户登录）
 
 <img src="../media/AI_voice_1.1.png" width="100%"/>
 
 
-## 主機板程式
+## 主控程序
 
-1. 人臉識別
+1. 人脸识别
 
 <img src="../media/AI_camera_main.png" width="100%"/>
 
-2. 語音識別
+2. 语音识别
 
 <img src="../media/AI_speech_main.png" width="100%"/>
 
-## WiFi程式
+## WiFi程序
 
-1. 人臉識別
+1. 人脸识别
 
 < src="../media/aidemo_camera_wifi.xml">
 
 <img src="../media/AI_camera_wifi.png" width="100%"/>
 
-1. 語音識別
+1. 语音识别
 
 <img src="../media/AI_speech_wifi.png" width="100%"/>
 
-## Cloud雲端設置
-點擊賬戶登錄
+## Cloud云端设置
+点击账户登录
 
 <img src="../media/AI_blockly_login.png" width="100%"/>
 
-進入CocoCloud界面
+进入CocoCloud界面
 
 <img src="../media/AI_cloud_panel.png" width="100%"/>
 
-創建事件: 點擊虛框中間的加號
+创建事件: 点击虚框中间的加号
 
 <img src="../media/AI_cloud_createEvent.png" width="100%"/>
 
-AI示例項目相關事件: camera/action , speech/action.
+AI示例项目相关事件: camera/action , speech/action.
 
 <img src="../media/AI_cloud_events.png" width="100%"/>
 
 ## 效果展示
 
-人臉識別Demo: 人臉識別笑臉或苦臉，通過LED顯示檢測結果
+人脸识别Demo: 人脸识别笑脸或苦脸，通过LED显示检测结果
 
-sad face 效果展示：抓取圖片後保存圖片，並且顯示反饋信息"sad face"
+sad face 效果展示：抓取图片后保存图片，并且显示反馈信息"sad face"
 
 <img src="../media/AI_webcam_2.png" width="100%"/>
 
-查看雲端項目事件
+查看云端项目事件
 
 <img src="../media/AI_cloud_result_camera.png" width="100%"/>
 
-主機板和WiFi模組
+主控和WiFi模块
 
 <img src="../media/AI_camera_result.jpg" width="50%"/>
 
 ---
-更新時間：2019年8月
+更新时间：2019年8月

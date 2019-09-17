@@ -1,95 +1,95 @@
-# 使用 NB-IoT 通訊模組
+# 使用 NB-IoT 通信模块
 
 ---
 
-## 模組簡介
+## 模块简介
 
-NB-IoT 通訊模組可以通過移動互聯網訪問 Coco Cloud 平臺或 IFTTT 平臺，實現向平臺進行無綫數據傳輸，因此用戶也可以利用此模組搭建智慧家居小應用。
+NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 平台，实现向平台进行无线数据传输，因此用户也可以利用此模块搭建智能家居小应用。
 
-## 模組主要部件
+## 模块主要部件
 
 <img src="/media/cocomod/modPic_0020_R0010176.png" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">部件名稱</td>
+		<td width="20%" style="font-weight: bold;">部件名称</td>
 		<td style="font-weight: bold;">部件描述</td>
 	</tr>
 	<tr>
 		<td>1.</td>
-		<td>天綫</td>
-		<td>延伸 NB-IoT 通訊模組訊號的擴展部件，建議將天綫與模組連接后再使用</td>
+		<td>天线</td>
+		<td>延伸 NB-IoT 通信模块信号的扩展部件，建议将天线与模块连接后再使用</td>
 	</tr>
 	<tr>
 		<td>2.</td>
-		<td>重置按鍵</td>
-		<td>點擊重置按鍵後將會讓 NB-IoT 通訊模組重啓</td>
+		<td>重置按键</td>
+		<td>点击重置按键后将会让 NB-IoT 通信模块重启</td>
 	</tr>
 	<tr>
 		<td>3.</td>
-		<td>Power on 按鍵</td>
-		<td>通電以後，按住2秒才能讓模組開機</td>
+		<td>Power on 按键</td>
+		<td>通电以后，按住2秒才能让模块开机</td>
 	</tr>
 	<tr>
 		<td>4.</td>
-		<td>網絡指示燈</td>
-		<td>儅 NB-IoT 通訊模組通電以後，若模組未聯網成功時，該指示燈閃爍較快，若模組聯網成功時，指示燈閃爍變慢</td>
+		<td>网络指示灯</td>
+		<td>儅 NB-IoT 通信模块通电以后，若模块未联网成功时，该指示灯闪烁较快，若模块联网成功时，指示灯闪烁变慢</td>
 	</tr>
 </table>
 
 
-#### 模組接口示意
+#### 模块接口示意
 
 | 接口位置 | 接口描述           |
 | -------- | ------------------ |
-| (數位訊號) D0: 主機板 Rx    | Tx:  NB-IoT 通訊模組端 (UART 通訊)       |
-| (數位訊號) D1: 主機板 Tx   | Rx:  NB-IoT 通訊模組端 (UART 通訊) |
+| (数字信号) D0: 主控 Rx    | Tx:  NB-IoT 通信模块端 (UART 通信)       |
+| (数字信号) D1: 主控 Tx   | Rx:  NB-IoT 通信模块端 (UART 通信) |
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
+> 为了避免不同类型的电子模块在使用时有接口（Pin out）的冲突，请注意前往[此页面](/cocomod/pinout-map)查看接口示意图
 
 ---
 
-## 模組使用說明
+## 模块使用说明
 
-1. 切勿使用超過 5V/2A 的電源供電
-2. NB-IoT 擁有一個特性，叫休眠模式，也稱作低功耗模式，若連續十秒鐘未使用該模組的情況下，模組會自動休眠，直到下一次發起請求時，模組便會重新開機，這種模式的作用是爲了省電
+1. 切勿使用超过 5V/2A 的电源供电
+2. NB-IoT 拥有一个特性，叫休眠模式，也称作低功耗模式，若连续十秒钟未使用该模块的情况下，模块会自动休眠，直到下一次发起请求时，模块便会重新开机，这种模式的作用是为了省电
 
 
-### NB-IoT 積木示意圖
+### NB-IoT 积木示意图
 
 <table width="800">
   <tr>
-    <th>積木圖示</th>
-    <th>簡介</th>
+    <th>积木图示</th>
+    <th>简介</th>
   </tr>
   <tr  >
     <td> <img src="../media/nbiot_block1.png"> </td>
-    <td> NB-IoT 通訊模組初始化積木：初始化設置 NB-IoT 通訊模組，</td>
+    <td> NB-IoT 通信模块初始化积木：初始化设置 NB-IoT 通信模块，</td>
   </tr>
 	<tr>
 	<td> <img src="../media/nbiot_block4.png"> </td>
-	<td>主機板模組控制 NB-IoT 通訊模組必須使用的積木</td>
+	<td>主控模块控制 NB-IoT 通信模块必须使用的积木</td>
 </tr>
 <tr>
 	<td> <img src="../media/nbiot_block5.png"> </td>
-	<td> 連接判斷積木：判斷模組與移動互聯網是否連接成功 </td>
+	<td> 连接判断积木：判断模块与移动互联网是否连接成功 </td>
 </tr>
 <tr>
 	<td> <img src="../media/nbiot_block6.png"> </td>
-	<td> 獲取 IP 積木： 用於獲取 NB-IoT 通訊模組的網絡 IP 地址，比如：10.10.10.10 </td>
+	<td> 获取 IP 积木： 用于获取 NB-IoT 通信模块的网络 IP 地址，比如：10.10.10.10 </td>
 </tr>
   <tr>
     <td> <img src="../media/nbiot_block2.png"> </td>
-    <td> NB-IoT 與 Coco Cloud 數據傳輸積木： 向 Coco Cloud 發送數據，需要設置項目 API-key 以及發送數據的屬性名</td>
+    <td> NB-IoT 与 Coco Cloud 数据传输积木： 向 Coco Cloud 发送数据，需要设置项目 API-key 以及发送数据的属性名</td>
   </tr>
   <tr>
     <td> <img src="../media/nbiot_block3.png"> </td>
-    <td> NB-IoT 與 IFTTT 數據傳輸積木：向 IFTTT 項目發送數據，需從 IFTTT 項目獲取項目的名稱及對應的 API-Key </td>
+    <td> NB-IoT 与 IFTTT 数据传输积木：向 IFTTT 项目发送数据，需从 IFTTT 项目获取项目的名称及对应的 API-Key </td>
   </tr>
 </table>
 
-為 NB-IoT 與 Coco Cloud 數據傳輸積木（左圖）以及 NB-IoT 與 IFTTT 數據傳輸積木（右圖）增添發送數據的方法如下：
+为 NB-IoT 与 Coco Cloud 数据传输积木（左图）以及 NB-IoT 与 IFTTT 数据传输积木（右图）增添发送数据的方法如下：
 
 <div style="text-align:center;">
 <img src="/media/nbiot_block_cococloud.gif" width="250"/>
@@ -98,30 +98,30 @@ NB-IoT 通訊模組可以通過移動互聯網訪問 Coco Cloud 平臺或 IFTTT 
 
 ***
 
-## NB-IoT 通訊模組使用
+## NB-IoT 通信模块使用
 
-### 組裝 NB-IoT 通訊模組
+### 组装 NB-IoT 通信模块
 
-拿出 NB-IoT 通訊模組和天綫
+拿出 NB-IoT 通信模块和天线
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_assembled_1.png" width="400"/>
 </div>
 
-組裝 NB-IoT 通訊模組
+组装 NB-IoT 通信模块
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_assembled_2.png" width=90%/>
 </div>
 
-將 sim 卡放入 NB-IoT 通訊模組的卡槽中
+将 sim 卡放入 NB-IoT 通信模块的卡槽中
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_assembled_3.png" width=70%/>
 </div>
 
-### 与主機板模组进行數據通訊
+### 与主控模块进行数据通信
 
-#### 模組組裝
+#### 模块组装
 
-將 NB-IoT 通訊模組和主機板模組拼接在一起
+将 NB-IoT 通信模块和主控模块拼接在一起
 
 <div style="text-align:center;">
 <img src="/media/nbiot_main_assemble.jpg" width="400"/>
@@ -130,31 +130,31 @@ NB-IoT 通訊模組可以通過移動互聯網訪問 Coco Cloud 平臺或 IFTTT 
 
 ---
 
-### 序列埠顯示網絡 IP
+### 串口显示网络 IP
 
-#### 模組組裝
+#### 模块组装
 
-將 NB-IoT 通訊模組和主機板模組拼接在一起，並用 USB 綫連接好主機板模組至電腦
+将 NB-IoT 通信模块和主控模块拼接在一起，并用 USB 线连接好主控模块至电脑
 
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_main_split.jpg" width=300/>
 </div>
 
-#### 積木編程
+#### 积木编程
 
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_project1_1.png" width=100%/>
 </div>
 
-**注意：**給 NB-IoT 通訊模組通電后需按住 power on 按鈕2秒才能讓模組開機，模組開機后會在序列埠監控視窗打印開機提示
+**注意：**给 NB-IoT 通信模块通电后需按住 power on 按钮2秒才能让模块开机，模块开机后会在串口监控视窗打印开机提示
 
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_project1_2.png" width=60%/>
 </div>
 
-##### 最終結果
+##### 最终结果
 
-上傳程式后打開序列埠監控視窗並連接主機板模組，可以看到此時正在打印 NB-IoT 通訊模組連接移動互聯網后的網絡IP
+上传程序后打开串口监控视窗并连接主控模块，可以看到此时正在打印 NB-IoT 通信模块连接移动互联网后的网络IP
 
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_project1_3.png" width=60%/>
@@ -162,47 +162,47 @@ NB-IoT 通訊模組可以通過移動互聯網訪問 Coco Cloud 平臺或 IFTTT 
 
 ***
 
-### 雲端呈現環境模組數據
+### 云端呈现环境模块数据
 
-使用環境模組獲取環境中的聲音、光照、溫度、濕度的數據，NB-IoT 通訊模組通過移動互聯網訪問 Coco Cloud 平臺，並將環境模組獲取的數據發送到平臺
+使用环境模块获取环境中的声音、光照、温度、湿度的数据，NB-IoT 通信模块通过移动互联网访问 Coco Cloud 平台，并将环境模块获取的数据发送到平台
 
-#### 模組組裝
+#### 模块组装
 
-將 NB-IoT 通訊模組和主機板模組、正反轉接模組、環境模組拼接在一起，並用 USB 綫連接好主機板模組至電腦
+将 NB-IoT 通信模块和主控模块、正反转接模块、环境模块拼接在一起，并用 USB 线连接好主控模块至电脑
 
-> 注意：由於模組的公母接口的原因，連接環境模組時要使用正反轉接模組，保證環境模組位於最外側，這樣讀取的光照數值才是環境中的數值
+> 注意：由于模块的公母接口的原因，连接环境模块时要使用正反转接模块，保证环境模块位于最外侧，这样读取的光照数值才是环境中的数值
 
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_project2.jpg" width=300/>
 </div>
 
-#### Coco Cloud 事件創建
+#### Coco Cloud 事件创建
 
-在 Coco Cloud 雲端平臺上為環境模組收集的數據創建一個事件「Environment」
+在 Coco Cloud 云端平台上为环境模块收集的数据创建一个事件「Environment」
 
 ![wifi__main](../media/cocoCloud_project_1_1.png)
 
-#### 積木編程
+#### 积木编程
 
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_project2_2.png" width=100%/>
 </div>
 
-**注意：**給 NB-IoT 通訊模組通電后需按住 power on 按鈕2秒才能讓模組開機，模組開機后會在序列埠監控視窗打印開機提示
+**注意：**给 NB-IoT 通信模块通电后需按住 power on 按钮2秒才能让模块开机，模块开机后会在串口监控视窗打印开机提示
 
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_project1_2.png" width=60%/>
 </div>
 
-##### 最終結果
+##### 最终结果
 
-上傳程式后打開序列埠監控視窗並連接主機板模組，在序列埠中可以看到 NB-IoT 通訊模組目前的狀態
+上传程序后打开串口监控视窗并连接主控模块，在串口中可以看到 NB-IoT 通信模块目前的状态
 
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_project2_1.png" width=60%/>
 </div>
 
-查看 Coco Cloud 平臺上「Environment」事件的數據
+查看 Coco Cloud 平台上「Environment」事件的数据
 
 <div style="text-align:center;margin:0 0 20px 0;">
 <img src="/media/nbiot_project2_3.png" width=100%/>
@@ -210,4 +210,4 @@ NB-IoT 通訊模組可以通過移動互聯網訪問 Coco Cloud 平臺或 IFTTT 
 
 ***
 
-更新時間：2019年8月
+更新时间：2019年8月

@@ -1,134 +1,134 @@
-# 使用 LED 燈屏模組
+# 使用 LED 灯屏模块
 ---
 
-## 模組簡介
+## 模块简介
 
-LED 燈屏模組是將多個 LED 燈排列一起而成的電子模組，我們可以通過點亮不同的燈，用不同的顏色，去繪製自己想要的圖案
+LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们可以通过点亮不同的灯，用不同的颜色，去绘制自己想要的图案
 
-## 模組主要部件
+## 模块主要部件
 
 <img src="../media/led_matrix.jpg" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">部件名稱</td>
+		<td width="20%" style="font-weight: bold;">部件名称</td>
 		<td style="font-weight: bold;">部件描述</td>
 	</tr>
 	<tr>
 		<td>1.</td>
 		<td>RGB LED</td>
-		<td>該模組上載有 25 粒 RGB 的 LED 燈，可控制燈光亮度，同時還支持多個模組進行拼接</td>
+		<td>该模块上载有 25 粒 RGB 的 LED 灯，可控制灯光亮度，同时还支持多个模块进行拼接</td>
 	</tr>
 </table>
 
-#### 模組接口示意
+#### 模块接口示意
 
 | 接口位置 | 接口描述           |
 | -------- | ------------------ |
-| (數位訊號) D6   | 控制該模組 LED 燈的訊號接口，默認爲 D6       |
-| (數位訊號) D7   | 在組裝多個 LED 燈模組使用，使用時，需要將該接口通過轉接模組轉接至第二塊 LED 燈模組的 D6 處|
+| (数字信号) D6   | 控制该模块 LED 灯的信号接口，默认为 D6       |
+| (数字信号) D7   | 在组装多个 LED 灯模块使用，使用时，需要将该接口通过转接模块转接至第二块 LED 灯模块的 D6 处|
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
+> 为了避免不同类型的电子模块在使用时有接口（Pin out）的冲突，请注意前往[此页面](/cocomod/pinout-map)查看接口示意图
 
 ---
 
 
-## 模組使用說明
+## 模块使用说明
 
-1. 一個模組由25個 LED 燈構成，以右下角爲排列起始位置，橫排豎排各5個，構成5X5的方陣
-2. 需要連接主機板模組使用
-3.  LED 模組默認佔用D6引腳，拼接到轉接模組可以設定其他數位引腳
-4.使用 LED 燈屏模組時需要先使用初始化設置 LED 燈組的積木，「 LED 燈組設置積木」如下圖：
+1. 一个模块由25个 LED 灯构成，以右下角为排列起始位置，横排竖排各5个，构成5X5的方阵
+2. 需要连接主控模块使用
+3.  LED 模块默认占用D6引脚，拼接到转接模块可以设定其他数字引脚
+4.使用 LED 灯屏模块时需要先使用初始化设置 LED 灯组的积木，「 LED 灯组设置积木」如下图：
 <div style="padding:0px 0px 12px 0px;text-align: center;"><img src="../media/led_setup.png" width="18%" /></div>
-5.需要使用「顯示圖案」積木才能讓繪製的圖案顯示在 LED 燈屏上，「顯示圖案」積木如下圖：
+5.需要使用「显示图案」积木才能让绘制的图案显示在 LED 灯屏上，「显示图案」积木如下图：
 <div style="padding:0px 0px 12px 0px;text-align: center;"><img src="../media/led_show.png" width="15%" /></div>
 
 ---
 
-## LED燈屏模組基礎使用
+## LED灯屏模块基础使用
 
-### 亮度調整
+### 亮度调整
 
-#### 模組組裝
+#### 模块组装
 
-將主機板模組和 LED 燈屏模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+将主控模块和 LED 灯屏模块组合在一起，并让主控模块连接好 USB 数据线至电脑：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
-#### 積木編程
+#### 积木编程
 
 <img src="../media/led_block.png" width="100%"/>
 
-#### 最終效果
+#### 最终效果
 
-上傳完成後，將會在 LED 燈屏上顯示一個長和寬各爲 5 的綠色實心正方形
+上传完成后，将会在 LED 灯屏上显示一个长和宽各为 5 的绿色实心正方形
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light.jpg" width="40%" /></div>
 
 ---
 
-### 坐標軸介紹
+### 坐标轴介绍
 
-#### 坐標信息
+#### 坐标信息
 
-| 編號 | 坐標軸  | 坐標數值                                                          |
+| 编号 | 坐标轴  | 坐标数值                                                          |
 | --- | --------- | ----------------------------------------------------------------- |
-| 1.  | X 軸 | 0~4 |
-| 2.  | Y 軸 | 0~4  |
+| 1.  | X 轴 | 0~4 |
+| 2.  | Y 轴 | 0~4  |
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_coordinateAxis.png" width="40%" /></div>
 
-根據圖中坐標軸方向，LED燈屏上標號為1的LED燈坐標是（0.0），標號為5的LED燈坐標是（4，0），標號為21的LED燈坐標是（0，4），以此類推。
+根据图中坐标轴方向，LED灯屏上标号为1的LED灯坐标是（0.0），标号为5的LED灯坐标是（4，0），标号为21的LED灯坐标是（0，4），以此类推。
 
-#### 積木編程
+#### 积木编程
 
-這裏我們將在 LED 燈屏上繪製一條線
+这里我们将在 LED 灯屏上绘制一条线
 
 <img src="../media/led_block_line.png" width="100%"/>
 
-#### 最終效果
+#### 最终效果
 
-上傳完成後，效果如下：
+上传完成后，效果如下：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_line.jpg" width="40%" /></div>
 
 ---
-### 清除熒幕
+### 清除屏幕
 
-#### 模組組裝
+#### 模块组装
 
-將主機板模組和 LED 燈屏模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+将主控模块和 LED 灯屏模块组合在一起，并让主控模块连接好 USB 数据线至电脑：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
-#### 積木編程
+#### 积木编程
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_block_clean.png" width="100%" /></div>
 
-#### 最終效果
+#### 最终效果
 
-實際效果： LED 燈“一亮（紅光）一暗”，并且循環顯示此效果。
+实际效果： LED 灯“一亮（红光）一暗”，并且循环显示此效果。
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 	<img style="margin-right:20px;" src="../media/led_light.gif" width="40%" />
 </div>
 
 ---
-### 繪製動畫
+### 绘制动画
 
-#### 模組組裝
+#### 模块组装
 
-將主機板模組和 LED 燈屏模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+将主控模块和 LED 灯屏模块组合在一起，并让主控模块连接好 USB 数据线至电脑：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
-#### 積木編程
+#### 积木编程
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_block_draw.png" width="100%" /></div>
 
-#### 最終效果
+#### 最终效果
 
-程式上傳以後，將會以「點 -> 線」的順序，每隔一秒切換一個圖形顯示在 LED 燈屏上：
+程序上传以后，将会以「点 -> 线」的顺序，每隔一秒切换一个图形显示在 LED 灯屏上：
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 	<img style="margin-right:20px;" src="../media/led_light_dotline.gif" width="40%" />
@@ -136,41 +136,41 @@ LED 燈屏模組是將多個 LED 燈排列一起而成的電子模組，我們�
 
 ---
 
-## 繪製自定義圖案
+## 绘制自定义图案
 
-#### 模組組裝
+#### 模块组装
 
-將主機板模組和 LED 燈屏模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+将主控模块和 LED 灯屏模块组合在一起，并让主控模块连接好 USB 数据线至电脑：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
-#### 積木編程
+#### 积木编程
 
 <img src="../media/led_block_vocabulary.png" width="100%"/>
 
-#### 最終效果
+#### 最终效果
 
-程式上傳以後，將會呈現處如程式編寫時的圖案效果，此處爲大寫字母「A」：
+程序上传以后，将会呈现处如程序编写时的图案效果，此处为大写字母「A」：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_A.jpg" width="40%" /></div>
 
 ---
 
-### 呼吸燈
+### 呼吸灯
 
-#### 模組組裝
+#### 模块组装
 
-將主機板模組和 LED 燈屏模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+将主控模块和 LED 灯屏模块组合在一起，并让主控模块连接好 USB 数据线至电脑：
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
-#### 積木編程
+#### 积木编程
 
 <img src="../media/led_block_breathe.png" width="100%"/>
 
-#### 最終效果
+#### 最终效果
 
-程式上傳以後，LED 燈將會以漸亮和漸暗（亮度在 0 至 100 間變化）的形式交替顯示，呈現出白色呼吸燈的效果
+程序上传以后，LED 灯将会以渐亮和渐暗（亮度在 0 至 100 间变化）的形式交替显示，呈现出白色呼吸灯的效果
 
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_breath.gif" width="40%" /></div>
@@ -179,47 +179,47 @@ LED 燈屏模組是將多個 LED 燈排列一起而成的電子模組，我們�
 
 ## 多LED拼接
 
-#### 模組組裝
+#### 模块组装
 
-主機板模組+LED燈屏模組+轉接模組
+主控模块+LED灯屏模块+转接模块
 
 #### 拼接教程
 
-##### 拼接說明
+##### 拼接说明
 
-多屏LED的拼接需要結合轉接模組使用，每個LED燈屏需要連接轉接模組，主機板連接轉接模組。主機板上的轉接模組的接線根據LED初始化積木的設定決定，而每個LED燈屏上的轉接模組接發固定：接入爲引腳6，接出爲引腳7
+多屏LED的拼接需要结合转接模块使用，每个LED灯屏需要连接转接模块，主控连接转接模块。主控上的转接模块的接线根据LED初始化积木的设定决定，而每个LED灯屏上的转接模块接发固定：接入为引脚6，接出为引脚7
 
 ##### 拼接示例
 
-拼接一個2x3的LED屏以第一個LED爲起始熒幕，除了初始化積木設置爲
+拼接一个2x3的LED屏以第一个LED为起始屏幕，除了初始化积木设置为
 
 <img src="../media/led_tiled_tutor_setup.png" width="200"/>
 
-LED屏以圖示順序進行連接，最總形成一個2x3的LED面板
+LED屏以图示顺序进行连接，最总形成一个2x3的LED面板
 
 <img src="../media/led_tiled_tutorial_2x3.png" width="400"/>
 
-LED屏以圖示順序進行連接，拼接一個3x3的LED面板
+LED屏以图示顺序进行连接，拼接一个3x3的LED面板
 
 <img src="../media/led_tiled_tutorial_3x3.png" width="400"/>
 
-LED屏以圖示順序進行連接，拼接一個4x2的LED面板
+LED屏以图示顺序进行连接，拼接一个4x2的LED面板
 
 <img src="../media/led_tiled_tutorial_4x2.png" width="400"/>
 
-#### 積木編程
+#### 积木编程
 
-拼接一個2x1屏，第一個屏顯示紅色（3x3），第二個屏顯示藍色（3x3）
+拼接一个2x1屏，第一个屏显示红色（3x3），第二个屏显示蓝色（3x3）
 
 <img src="../media/led_tiled_block.png" width="500"/>
 
-#### 最終效果
+#### 最终效果
 <img src="../media/led_tiled_light.png" width="300"/>
 
 
-#### 參考鏈接
+#### 参考链接
 
 to be edited. -->
 
 ---
-更新時間：2019年8月
+更新时间：2019年8月

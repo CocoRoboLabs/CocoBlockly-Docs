@@ -1,58 +1,58 @@
 <div class="headerInProgress">
-	本部分內容仍在更新中，帶來的不便，請您諒解。
+	本部分内容仍在更新中，带来的不便，请您谅解。
 </div>
 
-# 常見問題解答 FAQ
+# 常见问题解答 FAQ
 ---
 
-## 1. CocoBlockly 一直顯示未連接應該怎麼辦？
+## 1. CocoBlockly 一直显示未连接应该怎么办？
 
-當這種情況出現時，請確保您的操作環境符合以下要求：
+当这种情况出现时，请确保您的操作环境符合以下要求：
 
-1. 使用這些瀏覽器：Google Chrome、Firefox、Opera、Microsoft Edge；
-2. 使用這些版本的作業系統：Windows 7/8/10、macOS 10.10 或更高版本；
+1. 使用这些浏览器：Google Chrome、Firefox、Opera、Microsoft Edge；
+2. 使用这些版本的作业系统：Windows 7/8/10、macOS 10.10 或更高版本；
 
-如果使用以上環境仍然無法連接，請聯繫我們。
+如果使用以上环境仍然无法连接，请联系我们。
 
 ---
 
-## 2. 上傳程式至主機板模組時出現問題該如何解決？
+## 2. 上传程序至主控模块时出现问题该如何解决？
 
 <table> <tr> <td width="40%">
-一個主機板模組在上傳時的狀態效果，可以參考右邊這張圖片：</td>
+一个主控模块在上传时的状态效果，可以参考右边这张图片：</td>
 <td width="60%">
 <div align="center"><img width="250px" src="./media/upload-working-effect.gif" /></div></td></tr></table>
 
-如果出現了主機板模組上傳失敗的情況，請參考以下對應場景，逐一排查並解決：
+如果出现了主控模块上传失败的情况，请参考以下对应场景，逐一排查并解决：
 
-* <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">場景 1</b>上傳程式失敗
-	* 修復方法：點擊上傳，在編譯完成後迅速摁在主控板上的<a href="/#/cocomod/main-controller?id=模組主要部件" target="blank">重置按鈕</a>，可以修復多數程式上傳失敗情況；
-* <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">場景 2</b> 接入主機板模組時沒有任何端口顯示
-	* 修復方法：如果重複上傳 3 次都無法成功，請嘗試換一臺電腦，或者換一根 USB 線，如果嘗試後仍然無法上傳，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
-* <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">場景 3</b> 端口顯示被佔用
-	* 修復方法：切換到序列埠工具連接區，斷開序列埠連接，再重新上傳。如果嘗試後仍然無法上傳，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
+* <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">场景 1</b>上传程序失败
+	* 修复方法：点击上传，在编译完成后迅速摁在主控板上的<a href="/#/cocomod/main-controller?id=模块主要部件" target="blank">重置按钮</a>，可以修复多数程序上传失败情况；
+* <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">场景 2</b> 接入主控模块时没有任何端口显示
+	* 修复方法：如果重复上传 3 次都无法成功，请尝试换一台电脑，或者换一根 USB 线，如果尝试后仍然无法上传，请联系 Sales 或者电邮至 support@cocorobo.cc 询问。
+* <b style="background-color:#2870ca;border-radius:4px;color:#fff;font-size:14px;padding:3px 5px;margin-right:5px;">场景 3</b> 端口显示被占用
+	* 修复方法：切换到串口工具连接区，断开串口连接，再重新上传。如果尝试后仍然无法上传，请联系 Sales 或者电邮至 support@cocorobo.cc 询问。
 	
 ---
 
-## 3. 在 Mac OS 系統中用 USB 綫將 WiFi 通訊模組連接至電腦后，電腦無法識別到模組如何修復？
+## 3. 在 Mac OS 系统中用 USB 线将 WiFi 通信模块连接至电脑后，电脑无法识别到模块如何修复？
 
-解決步驟：
+解决步骤：
 
- 1. 打開 Mac 的安全設置頁面（「系統偏好設置」->「安全性與隱私」）；
- 2. 允許驅動程序進程使用；
- 3. 重新安裝一次驅動程序。
+ 1. 打开 Mac 的安全设置页面（「系统偏好设置」->「安全性与隐私」）；
+ 2. 允许驱动程序进程使用；
+ 3. 重新安装一次驱动程序。
  
-如果嘗試後仍然無法識別到模組，請聯繫我們。
+如果尝试后仍然无法识别到模块，请联系我们。
 
 ---
  
-## 4. 在瀏覽器裏，初次打開 CocoBlockly 網頁時，加載很慢，有什麼辦法可以解決？
+## 4. 在浏览器里，初次打开 CocoBlockly 网页时，加载很慢，有什么办法可以解决？
 
-出現這樣的問題，通常情況是因爲電腦配置過低，如果您使用 Google Chrome 的話，可以參考以下解決步驟：
+出现这样的问题，通常情况是因为电脑配置过低，如果您使用 Google Chrome 的话，可以参考以下解决步骤：
 
-1. 前往瀏覽器設定中，搜尋「Use hardware acceleration when available」或者「在可用時使用硬體加速」；
-2. 搜到結果以後，開啓該項設定。
+1. 前往浏览器设定中，搜寻「Use hardware acceleration when available」或者「在可用时使用硬件加速」；
+2. 搜到结果以后，开启该项设定。
 
 ---
 
-以上針對問題給出的解決方案，如果仍然不能解決，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
+以上针对问题给出的解决方案，如果仍然不能解决，请联系 Sales 或者电邮至 support@cocorobo.cc 询问。
