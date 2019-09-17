@@ -1,5 +1,5 @@
 <div class="headerInProgress">
-	本部分內容仍在更新中，如有任何疑問，請聯繫 support-hk@cocorobo.cc，帶來的不便，請您諒解。
+	本部分內容仍在更新中，帶來的不便，請您諒解。
 </div>
 
 # 常見問題解答 FAQ
@@ -12,7 +12,7 @@
 1. 使用這些瀏覽器：Google Chrome、Firefox、Opera、Microsoft Edge；
 2. 使用這些版本的作業系統：Windows 7/8/10、macOS 10.10 或更高版本；
 
-如果使用以上環境仍然無法連接，請聯繫郵箱 tommy@cocorobo.cc 讓我們得知，及時幫助您解決問題
+如果使用以上環境仍然無法連接，請聯繫我們。
 
 ---
 
@@ -42,7 +42,7 @@
  2. 允許驅動程序進程使用；
  3. 重新安裝一次驅動程序。
  
-如果嘗試後仍然無法識別到模組，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
+如果嘗試後仍然無法識別到模組，請聯繫我們。
 
 ---
  
@@ -53,4 +53,6 @@
 1. 前往瀏覽器的設定中，搜尋「Use hardware acceleration when available」或者「在可用時使用硬體加速」；
 2. 搜到結果以後，開啓該項設定。
 
-如果仍然有問題，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
+---
+
+以上針對問題給出的解決方案，如果仍然不能解決，請聯繫 Sales 或者電郵至 support-hk@cocorobo.cc 詢問。
