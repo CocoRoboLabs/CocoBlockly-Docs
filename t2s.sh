@@ -40,6 +40,7 @@ find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/伺服马达/舵�
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/数位/数字/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/类比/模拟/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/序列埠/串口/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/通讯/通信/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/讯号/信号/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/通讯/通信/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/主机板/主控/g'
