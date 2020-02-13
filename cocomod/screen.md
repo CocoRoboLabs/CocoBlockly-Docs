@@ -1,172 +1,175 @@
-# 使用熒幕模組
+# Apply Screen Module
 
 ---
 
-## 模組簡介
+## Introduction
 
-模組上連有一個 OLED 熒幕，接通之後可以繪製不同顏色的不同圖案，熒幕面積（長 x 寬）爲 128 x 128 px (像素)。
+There is an OLED screen (128px X 128px) on the module. Pictures of various colors can be drawn on the screen.
 
-## 模組主要部件
+## Main Components
 
 <img src="../media/screen_1.jpg" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">部件名稱</td>
-		<td style="font-weight: bold;">部件描述</td>
+		<td width="20%" style="font-weight: bold;">Name</td>
+		<td style="font-weight: bold;">Description</td>
 	</tr>
 	<tr>
 		<td>1.</td>
-		<td>OLED 熒幕</td>
-		<td> 熒幕的分辨率爲 128 x 128 px (像素)</td>
+		<td>OLED Screen</td>
+		<td> The screen resolution is 128 x 128 PPI.</td>
 	</tr>
 </table>
 
-#### 模組接口示意
+#### Pinout
 
-| 接口位置 | 接口描述           |
+| Pinout Position | Pinout Description           |
 | -------- | ------------------ |
-| D5, D5   | 熒幕處理芯片所使用到的接口 |
-| SCK, MOSI   | 熒幕處理芯片所使用到的接口（使用 SPI 通訊）  |
+| D5, D5   | used by screen processing chip |
+| SCK, MOSI   | used by screen processing chip (SPI communication)  |
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
-
----
-
-
-## 模組使用說明
-
-1. 碰撞熒幕容易導致熒幕損壞，需要小心使用；
-2. 使用 OLED 熒幕模組時需要先使用初始化設置 OLED 屏幕模組的積木，「 OLED 屏幕設置積木」如下圖：
-<div style="padding:0px 0px 10px 0px;text-align: center;"><img src="../media/oled_setup.png" width="18%" /></div>
+> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
 
 ---
 
-## 熒幕模組基礎使用
 
-### 坐標軸定義
+## Instructions
 
-1. 我們定義熒幕的左下角爲熒幕的原點（起點），坐標爲 **(0,0)**。
-2. 水平方向爲 X 軸，垂直方向爲 Y。
-3. X 和 Y 的最大數值爲128，即爲熒幕長和寬的最大數值。
-4. 在熒幕的某一點的位置可以定位爲 **(X,Y)**。
+1. Be careful of impacting screen;
+2. When using the OLED screen module, you have to initialize the blocks. The "OLED Screen Setup block" is shown below:
+<div style="padding:0px 0px 10px 0px;text-align: center;"><img src="../media/oled_setup_en.png" width="18%" /></div>
+
+---
+
+## Basic Application
+
+### Definition of Axes
+
+1. The coordinate of the origin (starting point) at the lower left of the screen is defined as **(0, 0)**;
+2. The horizontal axis is defined as X axis; the vertical one Y axis;
+3. The maximum values of X axis and Y axis are all 128, namely the maximum value of the screen's width and length;
+4. The position of a point in the screen is defined as  **(X, Y)**.
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_18.png" width="40%" /></div>
 
 ---
 
-### 基本圖形繪製
+### Draw Basic Graphic
 
-#### 模組組裝
+#### Assemble Modules
 
-將主機板模組和熒幕模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Put the screen module and the main controller together, and connect the main controller and a computer via a USB data cable:
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_2.jpg" width="40%" /></div>
 
-<!-- #### 繪製線
+<!-- #### drawing line
 
-##### 積木編程
+##### Code by CocoBlockly
 
 ![screen](../media/screen_6.png)
 
-##### 最終效果
+##### Effects
 
 <img src="../media/screen_7.jpg" width="400"/>-->
 
 ---
 
-#### 繪製矩形
+#### Draw a Rectangle
 
-##### 積木編程
+##### Code by CocoBlockly
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_8.png" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_8_en.png" width="100%" /></div>
 
-> 注意：矩形繪製的起點為圖案左上角的頂點
+> Note: The rectangle is drawn from the vertex at the upper left corner.
 
-##### 最終效果
+##### Effects
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_9.jpg" width="40%" /></div>
 
 ---
 
-#### 繪製圓形
+#### Draw a Circle
 
-##### 積木編程
+##### Code by CocoBlockly
 
-![screen](../media/screen_10.png)
+![screen](../media/screen_10_en.png)
 
-> 注意：圓形繪製的起點為圖案最上方的頂點
+> Note: The circle is drawn from the upper vertex.
 
-##### 最終效果
+##### Effects
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_11.png" width="40%" /></div>
 
 ---
 
-#### 繪製三角形
+#### Draw a Triangle
 
-##### 積木編程
+##### Code by CocoBlockly
 
-![screen](../media/screen_12.png)
+![screen](../media/screen_12_en.png)
 
-##### 最終效果
+##### Effects
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_13.jpg" width="40%" /></div>
 
 ---
 
-#### 繪製文字
+#### Draw a Word
 
 
-##### 積木編程
+##### Code by CocoBlockly
 
-![screen](../media/screen_14.png)
+![screen](../media/screen_14_en.png)
 
-> 注意：尺寸為1的文字高度是 7 px ，尺寸為2的文字高度是 14 px ，以此類推
+> Note: The word of size 1 has a height of 7px; The word of size 2 has a height of 14px; and you can know the height of other words by analogy.
 
-##### 最終效果
+##### Effects
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_15.jpg" width="40%" /></div>
 
 ---
 
-## 熒幕模組進階使用
+## Advanced Application
 
-### 製作動畫
+### Draw an Animated Graphic
 
-#### 模組組裝
+#### Assemble Modules
 
-將主機板模組和熒幕模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Put the screen module and the main controller together, and connect the main controller and a computer via a USB data cable:
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_2.jpg" width="40%" /></div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-![screen](../media/screen_19.png)
+![screen](../media/screen_19_en.png)
 
-#### 最終效果
+#### Effects
 
-程式上傳完成後，將會呈現一系列幾何圖形動畫：
+After the program is uploaded successfully, a series of geometrical animated graphics will be presented:
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_4.gif" width="40%" /></div>
 
 ---
 
-### 更換文字
+### Replace a Word
 
-#### 模組組裝
+#### Assemble Modules
 
-將主機板模組和熒幕模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Put the screen module and the main controller together, and connect the main controller and a computer via a USB data cable:
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_2.jpg" width="40%" /></div>
 
-#### 積木編程
-**關鍵點：** 使用黑色的圖形對文字進行覆蓋，達到更換文字的效果
+#### Code by CocoBlockly
+**Focus:** Realize the change of words by using the black graphic to cover the previous words.
 
-![screen](../media/screen_20.png)
+![screen](../media/screen_20_en.png)
 
-#### 最終效果
-先顯示文字“CocoRobo Inc.”，覆蓋文字后再顯示“CocoRobo”
+#### Effects
+Present the "CocoRobo Inc.", overwrite it and then present "CocoRobo" again:
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_17.gif" width="40%" /></div>
+
+---
+Updated in August 2019

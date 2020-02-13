@@ -1,94 +1,98 @@
-# 使用教學模組
+# Apply Sensor 101 Module
 
 ---
 
-## 模組簡介
-教學模組是 CocoMod 中一套輸入/輸出模組，利於學生使用該模組學習電子和 Arduino 的基礎知識。
+## Introduction
+Sensor 101 module, an input/output module of the CocoMod, can facilitate students in learning the basic knowledge of electronics and Arduino.
 
-## 模組主要部件
+## Main Components
 <img src="../media/sensor101_1.jpg" width="350"/><br>
 
-| 編號 | 接口位置 | 接口描述           |
+| Number | Pinout Position | Pinout Description           |
 | ---- | -------- | ------------------ |
-| 1.   | (數位訊號) D0 至 D6    | LED 燈       |
-| 2.   | (類比訊號) A3    | 電位器，又稱旋鈕 |
-| 3.   | (數位訊號) D8、D9     | 按鈕       |
-| 4.   | (數位訊號) D12、D13  | 切換開關     |
-| 5.   | (數位訊號) D11   | 蜂鳴器          |
-| 6.   | (類比訊號) A2 | 紅外訊號           |
+| 1.   | (digital signals) D0 to D6    | LED Light       |
+| 2.   | (analog signal) A3    | Potentiometer, also known as Rotary Knob |
+| 3.   | (digital signals) D8, D9     | Button       |
+| 4.   | (digital signals) D12、D13  | Switch     |
+| 5.   | (digital signals) D11   | Buzzer          |
+| 6.   | (analog signal) A2 | Infrared Signal Receiver           |
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
+> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
 
-## 模組使用說明
+## Instructions
 
-1. 教學模組上有 7 粒單色 LED 燈（D0 至 D6），可以呈現從 0 至 255 的亮度，數值越大，亮度越強。
-2. 教學模組上有 1 個電位器（A3），作爲類比輸入有 0~1023 控制範圍。
-3. 教學模組上分別有 2 組切換開關(switch)與按鈕(button)，可用來在兩種狀態間切換。
-4. 教學模組上有 1 個蜂鳴器（D11），可以發出任意頻率（Hz）的聲響。
-5. 教學模組上有 1 個紅外訊號接收器，可以接收紅外缐訊號。
+1. The 7 unicolor LED lights (D0 to D6) can take on different brightnesses ranging from 0 to 255; the bigger the number, the higher the brightness.
+2. The potentiometer (A3) is used as an analog input with a control range of 0~1023.
+3. The two buttons (D8 and D9) and two switches (D12 and D13) are used to toggle between two states.
+4. The Buzzer (D11) can emit sounds of any frequency (Hz).
+5. The infrared signal receiver (A2) can receive infrared signals.
 
 ---
 
-## 教學模組基礎使用
+## Basic Application
 
-### 用按鈕與切換開光控制 LED 燈
+### Use Buttons and Switches to Control LED lights
 
-#### 模組組裝
+#### Assemble Modules
 
-將教學模組與主機板模組組裝起來，並讓主機板模組用 USB 數據線和電腦連接起來，模組組裝的方法如下：
-* 仔細觀察模組正反兩面,分別有兩種不同的接口（部分模組只有一面有接口），而且接口的長短不一。正反兩面的一種接口為「公」接口，另一種為「母」接口。模組之間的組裝方法則是將長短一致的兩種接口緊密結合。
+Put the sensor 101 module and the main controller together, and connect the main controller and a computer via a USB data cable. The method is as follows:
+* Look carefully at the two sides of the modules. There are two different interfaces in the modules. Some modules have the two interfaces on two sides; some have them on only one side. The two interfaces have different lengths. One of them is male; the other is female. You have to put two interfaces of equal length together.
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_2.jpg" width="40%" /></div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-( **提示：** 點擊「如果......執行......」積木左上角的藍色小齒輪按鈕，可添加「否則如果」和「否則」積木 ）
+**Tip:** Click the「if......do......」button on the upper left corner of the block, and add the「else if」block and the「else」block
 
-<div style="border: 1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 13-22-56.gif" width="60%" /></div>
+<div style="border: 1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 13-22-56_en.gif" width="60%" /></div>
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_3.png" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_3_en.png" width="100%" /></div>
 
-#### 最終效果
+#### Effects
 
-將程式上傳後：
-* 按下位於 D8 的按鈕，將會點亮位於 D0 和 D2 的 LED 燈；
-* 撥動位於 D12 的開關，將可以控制位於 D1 和 D3 的 LED 燈的亮和滅
+After the program is uploaded successfully, you can see the following effects：
+* Press the button D8, you can turn on the LED lights D0 and D2;
+* Turn on the switch D12, you can control the brightness of the LED lights D1 and D2.
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_4.gif" width="40%" /></div>
 
 ---
 
-### 用電位器控制蜂鳴器
+### Use Potentiometer to Control the Buzzer
 
-#### 模組組裝
+#### Assemble Modules
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_2.jpg" width="40%" /></div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-![sensor101](../media/sensor101_5.png)
+![sensor101](../media/sensor101_5_en.png)
 
-#### 最終效果
+#### Effects
 
-隨著電位器的旋轉，蜂鳴器會發出不同音調的聲音。
+With the turning of the potentiometer, the buzzer will emit sounds of different frequencies.
 
 ---
 
-## 教學模組進階使用
+## Advanced Application
 
-### 用教學模組接受紅外訊號
+### Use Sensor 101 Module to Receive Infrared Signals
 
-#### 模組組裝
+#### Assemble Modules
 
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_6.jpg" width="50%" /></div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
 ![sensor101](../media/sensor101_7.png)
 
-#### 最終效果
+#### Effects
 
-將程式上傳後，使用如圖的紅外遙控器，按下數字 2 後將會讓位於 D0、D1、D2 的 LED 燈全部亮起來，按下數字 1 後將會讓位於 D0、D1、D2 的 LED 燈全部滅掉：
+After the program is uploaded successfully, you can turn on the LED lights D0, D1 and D2 by pressing the button “2” in the infrared remote and turn off the LED lights D0, D1 and D2 by pressing the button “1” in the infrared remote:
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_8.png" width="40%" /></div>
+
+
+---
+Updated in August 2019

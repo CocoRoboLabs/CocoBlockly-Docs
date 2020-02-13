@@ -1,94 +1,141 @@
+# Cloud Storage
+
 <div class="headerInProgress">
-	本部分內容仍在更新中，如有任何疑問，請聯繫 support-hk@cocorobo.cc，帶來的不便，請您諒解。
+	This part is still being updated. Please contact our staff at support-hk@cocorobo.cc if you have any questions. Please accept our apologies for any inconvenience this might cause.
 </div>
 
-# 雲端存取檔案
 ---
-## 簡介
-除了在計算機本地存儲積木文件外，用戶還可以在CocoBlockly上創建其個人賬戶、從CocoRobo公司的雲端服務器上存儲和隨時隨地調用其所撰寫的編程積木檔案。教師或學生將能夠根據需要在不同終端上傳和下載其檔案。
-<img src="../media/cloudStorage_panel.png" width="500"/>
+## Introduction
 
----
+Apart from storing files in the computer locally, you can create an account in CocoBlockly, store files in the Cloud server of CocoRobo and retrieve block program files at any time. Teachers and students can upload or download their files from different terminals on the basis of their own needs.
 
-## 使用說明
-使用雲端存取檔案功能需要用戶先進行賬戶登錄
-點擊頁面右上角的賬戶圖標
-
-<img src="../media/cloudStorage_nav_account.png" width="500"/>
-
-彈出登錄窗口，進行登入操作
-
-<img src="../media/cloudStorage_account_beforeLogin.png" width="500"/>
-
-<img src="../media/cloudStorage_account_login.png" width="500"/>
-
-登錄成功後，點擊導航欄的**雲端存儲**
-
-
-<img src="../media/cloudStorage_nav.png" width="500"/>
-
-即會彈出雲端存儲界面
-
-<img src="../media/cloudStorage_personalPanel.png" width="500"/>
-
-雲端存儲界面分爲三部分從上至下依次爲:*檔案命名區*，*檔案列表顯示區*，*檔案操作區*
-
-<img src="../media/cloudStorage_personalPanel_info.png" width="350"/>
+<div style="text-align:center;margin:0 0 10px 0";>
+<img src="../media/cloudStorage_personalPanel.png" width=100%/>
+</div>
 
 ---
-## 上傳檔案
-在雲端存儲界面的檔案命名區對要保存的檔案進行命名
 
-<img src="../media/cloudStorage_save_name.png" width="500"/>
+## Instructions
+You need to click the account icon on the upper right corner and log into your account before using Cloud storage.
 
-點擊保存按鈕，儅檔案成功上傳至雲端時，界面右上方會彈出提示，雲端存儲檔案顯示區會新增已保存文件
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_nav_account.png" width=100%/>
+</div>
 
-<img src="../media/cloudStorage_save_success.png" width="500"/>
+Fill the blanks when login window pops up.
 
----
-## 更新檔案
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_account_beforeLogin.png" width=100%/>
+</div>
 
-對已存在雲端的檔案進行更新，點擊**列表顯示區**要更新的檔案，檔案選中後會顯示爲藍色高亮，**檔案操作區**的按鈕會自動更換
+After successful login, click "Storage" and "Cloud Storage".
 
-<img src="../media/cloudStorage_update_file.png" width="500"/>
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_nav.png" width=100%/>
+</div>
 
-點擊更新按鈕，檔案會自動更新到對應的雲端存儲的檔案文件內。成功更新後，界面右上方會彈出提示。
+Then the Cloud storage interface will pop up.
 
-<img src="../media/cloudStorage_update_success.png" width="500"/>
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_personalPanel.png" width=100%/>
+</div>
 
----
-## 打開檔案
-
-點擊**列表顯示區**要打開的檔案，檔案選中後會顯示爲藍色高亮，**檔案操作區**的按鈕會自動更換，點擊打開按鈕
-
-<img src="../media/cloudStorage_open_file.png" width="500"/>
-
-成功打開檔案後，雲端存儲界面會自動關閉，積木工作區會根據文件類型自動切換模式（主機板模式/WiFi模式），並且自動生成對應積木，界面右上角會彈出提示。
-
-<img src="../media/cloudStorage_open_success.png" width="500"/>
 
 ---
-## 刪除檔案
+## Upload Files
 
-點擊**列表顯示區**要刪除的檔案，檔案選中後會顯示爲藍色高亮，**檔案操作區**的按鈕會自動更換，點擊刪除按鈕
+Click "New file" to create a file for storing the present program.
 
-<img src="../media/cloudStorage_delete_file.png" width="500"/>
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_new.png" width=100%/>
+</div>
 
-成功刪除檔案後，列表顯示區內已刪除文件會消失，界面右上角會彈出提示。
+You need to name the stored file in the name blank.
 
-<img src="../media/cloudStorage_delete_success.png" width="500"/>
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_save_name.png" width="100%"/>
+</div>
+
+Click the "save" button to upload the file to the Cloud. Then "Upload successfully" will be shown at the upper right corner. And new file will appear in the Cloud storage file demonstration area.
+
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_save_success.png" width="100%"/>
+</div>
 
 ---
-### 常見檔案打開錯誤：
+## Update Files
 
-CocoBlockly版本更新後，雲端存儲檔案版本與CocoBlockly版本不匹配。部分積木已被更改，且不能正常加載
+To update a stored file, you need to open the Cloud storage window, find the file and click the "save" button. Then the file will be updated automatically to its corresponding Cloud folder.
 
-<img src="../media/localStorage_import_invalidBlocks.png" width="500"/>
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_update_file.png" width="100%"/>
+</div>
 
-### 導入錯誤解決方案
+"update successfully" will be shown on the upper right corner after successful update.
 
- 1. 點擊導航欄的*垃圾桶*圖標刪除工作區所有積木
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_update_success.png" width="100%"/>
+</div>
 
-<img src="../media/localStorage_import_errorHandle.png" width="500"/>
+---
+## Open Files
 
- 2. 刷新頁面即可
+You can open a file by opening the Cloud storage window, finding the file and directly clicking the "open" button.
+
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_open_file.png" width="100%"/>
+</div>
+
+After successfully opening the file, the Cloud storage interface will close automatically; block area will, based on the type of the file, automatically switch mode (main controller mode or WiFi mode) and generate corresponding blocks. And a prompt will be displayed on the upper right corner.
+
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_open_success.png" width="100%"/>
+</div>
+
+---
+## Delete Files
+
+You can delete a file by opening the Cloud storage window, finding the file and directly clicking the "delete" button.
+
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_delete_file.png" width="100%"/>
+</div>
+
+After successful deletion, the file will disappear from the list. And a prompt will be displayed on the upper right corner.
+
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_delete_success.png" width="100%"/>
+</div>
+
+---
+## Edit File Information
+
+You can edit the information of a file by opening the Cloud storage window, finding the file and directly clicking the "edit" button.
+
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/cloudStorage_edict_file.png" width="100%"/>
+</div>
+
+---
+
+### Common Mistakes of Opening Files
+
+In case CocoBlockly is updated, the previously stored files will not be compatible with the new version. In addition, some blocks are changed and cannot be uploaded normally.
+<!--
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/localStorage_import_invalidBlocks.png" width="100%"/>
+</div>
+-->
+### Solution to Importing Mistakes
+
+ 1. Delete the icon as shown in the picture to delete all blocks in the working area.
+
+<div style="text-align:center;margin:0 0 20px 0";>
+<img src="../media/localStorage_import_errorHandle.png" width="100%"/>
+</div>
+
+ 2. Refresh the page.
+
+
+ ---
+ Updated in August 2019

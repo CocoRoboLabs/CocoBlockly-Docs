@@ -1,72 +1,87 @@
-# 使用伺服馬達轉接模組
+# Apply Servo Hub Module
 
-## 模組簡介
+## Introduction
 
-伺服馬達轉接模組能夠同時控制六個伺服馬達，提供兩種供電方式，分別是主機板供電和外接電源控制。
+Servo hub module can control six servo motors simultaneously. It has two ways of supplying power: supply power through main controller and supply power through external power.
 
-## 模組主要部件
+## Main Components
 
 <div style="margin-bottom:10px;"><img src="/media/cocomod/modPic_0014_Layer 8 copy2.jpg" width="40%"/>
-<img style="padding-left:10px;" src="/media/servoHub--withDescription.jpg" width="40%"/></div>
+<img style="padding-left:10px;" src="/media/servoHub--withDescription_en.jpg" width="40%"/></div>
 
-|編號 |部件名稱 | 部件描述  |
+|No. |Name | Description  |
 |-  |-  |-  |
-|1. |外接電源接口  | 5V/2A 輸入|
-|2. |D3 Pin |D3, VCC, GND （外接電源用）|
-|3. |D5 Pin |D5, VCC, GND （外接電源用）|
-|4. |D6 Pin |D6, VCC, GND （外接電源用）|
-|5. |D9 Pin |D9, VCC, GND （外接電源用）|
-|6. |D10 Pin |D10, VCC, GND （外接電源用）|
-|7. |D11 Pin |D11, VCC, GND （外接電源用）|
-|8. |D3 Pin |D3, VCC, GND （主機板供電）|
-|9. |D5 Pin |D5, VCC, GND （主機板供電）|
-|10. |D6 Pin |D6, VCC, GND （主機板供電）|
-|11. |D9 Pin |D9, VCC, GND （主機板供電）|
-|12. |D10 Pin |D10, VCC, GND （主機板供電）|
-|13. |D11 Pin |D11, VCC, GND （主機板供電）|
+|1. |External Power Interface | 5V/2A input|
+|2. |D3 Pin |D3, VCC, GND (used by external power)|
+|3. |D5 Pin |D5, VCC, GND (used by external power)|
+|4. |D6 Pin |D6, VCC, GND (used by external power)|
+|5. |D9 Pin |D9, VCC, GND (used by external power)|
+|6. |D10 Pin |D10, VCC, GND (used by external power)|
+|7. |D11 Pin |D11, VCC, GND (used by external power)|
+|8. |D3 Pin |D3, VCC, GND (used by main controller)|
+|9. |D5 Pin |D5, VCC, GND (used by main controller)|
+|10. |D6 Pin |D6, VCC, GND (used by main controller)|
+|11. |D9 Pin |D9, VCC, GND (used by main controller)|
+|12. |D10 Pin |D10, VCC, GND (used by main controller)|
+|13. |D11 Pin |D11, VCC, GND (used by main controller)|
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
-
----
-
-## 注意事項
-
-當主機板控制 3 個伺服馬達時，會產生電流過高的現象，需要外置電源纔來穩定控制
+> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
 
 ---
 
-## 伺服馬達轉接模組基礎使用
+## Notes
 
-### 調整伺服馬達角度
+1. When the main controller controls 3 servo motors simultaneously, there will be excessive current. External power is needed to stabilize the power supply.
 
-#### 所需模組與材料
+2. Pinout D13 is by default used for controlling the built-in LED light on the main controller. So there is not Pinout D13 in the servo hub module. If you still want to use Pinout D13 to control servo motors, you can connect steering engine to the Pinout D13 of the hub module and set the Pinout D13 to the mode of controlling servo motors.
 
-主機板模組、伺服馬達轉接模組和伺服馬達
+<div style="text-align:center;margin:0 0 20px 0;">
+<img src="../media/servo_D13_en.png" width=70%/>
+<img src="../media/servo_D13_transfer.jpg" width=50%/>
+</div>
+
+>Note: If Pinout D13 is used to control servo motor, it cannot be used to control the built-in LED light on the main controller.
+
+<div style="text-align:center;">
+<img src="../media/servo_D13_conflict_en.png" width=70%/>
+</div>
+
+---
+
+## Basic Application
+
+### Adjust the Angle of Servo Motors
+
+#### Moudules and Components
+
+mian controller, servo hub module and servo motors
 
 <div style="text-align:center;">
 <img src="../media/servo.jpeg" width="200"/>
 <img src="../media/servoHub__main--split.jpeg" width="200"/>
 </div>
 
-#### 模組組裝
+#### Assemble Modules
 
-首先將伺服馬達轉接模組和主機板模組拼接在一起，然後再將伺服馬達連接到伺服馬達轉接模組上。
-連著伺服馬達的有 3 根線，依次為「橙/紅/棕咖」，即「訊號／正極／負極」對應地，將伺服馬達連接至伺服馬達轉接模組上，如下圖所示：
+Put the main controller and the servo hub module together first, and then connect the servo motors to the servo hub module.
+There are 3 cables connecting to the servo motors: the orange, red and brown ones. They are linked to the signal, the positive electrode and the negative electrode respectively.
 
 <div style="text-align:center;">
-<img src="../media/servoHub_assemble.png" height="200" width="200"/>
+<img src="../media/servoHub_assemble_en.png" height="200" width="200"/>
 <img src="../media/servoHub__main--assemble.jpeg" width="200"/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-![env__main--blockly](../media/servoHub_program.png)
+![env__main--blockly](../media/servoHub_program_en.png)
 
 
-#### 最終效果
+#### Effects
 
 <div style="text-align:center;">
 <img src="../media/servoHub__sample--1.gif" width="400"/>
 </div>
 
 ---
+
+Updated in August 2019

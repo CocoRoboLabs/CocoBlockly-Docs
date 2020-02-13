@@ -1,46 +1,46 @@
-# 使用音樂模組
+# Apply Music Module
 
 ---
 
-## 模組簡介
+## Introduction
 
-音樂模組為播放樂器聲音和音樂文檔所用，音樂模組可以發出超過 100 種樂器的聲音，模組也有1個SD卡擴展插口，支援播放 **.ogg** 或者 **.mp3** 的音樂檔。目前版本的 CocoBlockly 中，我們已經支持使用者通過音樂模組，演奏出不同樂器的聲音，以及播放單個音樂文件。
+Music module is used for playing the sounds of musical instruments and music files. The module can emit the sounds of more than 100 musical instruments. It has a SD card socket and supports playing music of ".ogg" format or ".mp3" format. In the current version of CocoBlockly, users can play the sounds of various musical instruments and music files through music module.
 
-## 模組主要部件
+## Main Components
 
 <img src="../media/music_1.jpg" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">部件名稱</td>
-		<td style="font-weight: bold;">部件描述</td>
+		<td width="20%" style="font-weight: bold;">Name</td>
+		<td style="font-weight: bold;">Description</td>
 	</tr>
 	<tr>
 		<td>1.</td>
-		<td>音頻輸出接口</td>
-		<td>通過音訊線將音箱和音樂模組連接起來</td>
+		<td>Audio Output Interface</td>
+		<td>Connect the speaker and the music module via an audio line.</td>
 	</tr>
 	<tr>
 		<td>2.</td>
-		<td>音頻處理芯片</td>
-		<td>用於處理 MIDI 音樂、音樂文件播放的芯片</td>
+		<td>Audio Processing Chip</td>
+		<td>Used for dealing with MIDI music and playing music files</td>
 	</tr>
 </table>
 
-#### 模組接口示意
+#### Pinout
 
-| 接口位置 | 接口描述           |
+| Pinout Position | Pinout Description           |
 | -------- | ------------------ |
-| D10, A0, A1, A2, A3   | 音樂模組芯片所使用到的接口       |
-| (類比信號) A5   | 音頻接口使用的接口，用户也可自己外接至揚聲器模組播放音頻  |
+| D10, A0, A1, A2, A3   | used by music module       |
+| (analog signal) A5   | an audio pinout, through which a speaker or an earphone can be connected to the music module  |
 
-> 為了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
+> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
 
 ---
 
-## 模組使用説明
-1. 使用前的準備：1 個音箱、1 條音訊線，使用音訊線將音箱和「音樂模組」連接在一起，確保音箱的模式為「線輸入」模式。
+## Instructions
+1. Preparation: a speaker and an audio line. The speaker is to be connected with the "music module" via the line. So it has to be made sure that the speaker is compatible with the line.
 
 
 <div style="text-align: center;">
@@ -49,7 +49,7 @@
 
 </div>
 
-2. MIDI 的全稱為「音樂數位接口」，其原理是將各個樂器的音色加以編號，但這些音色並不儲存於 MIDI 的檔案中，相對的，為了減少檔案大小，MIDI檔案裏面只記錄了音樂的代號及一些高低音的設定，這些檔案就存置於音樂模組中。
+2. MIDI, short for Musical Instrument Digital Interface, numbers the tones of various musical instruments. But the tones are not stored in MIDI files. Instead, to reduce the size of the files, only the numbers and the pitch settings are stored in them. The files are in the music module.
 
 <div style="text-align: center;">
 
@@ -57,7 +57,7 @@
 
 </div>
 
-3. 當你聆聽歌曲或音樂片段的時候，有時會不知不覺地跟著歌曲或音樂片段拍手或跺腳——這就是這首歌曲或音樂片段的拍子。拍子在曲譜中透過音符來表示，以某一音符為一拍能説明這一拍子在音樂片段中持續的時間。以形態各異的音符為一拍的拍子高高低低地組合在一起，使得歌曲或音樂片段具有輕重緩急的豐盈與流動之感，其有規律地循環往復則構成音樂的節拍。
+3. When listening to a piece of music, you may sometimes clap your hands or stamp your foot with the music, which manifests the beats of the music. The beats are made up of notes. In a piece of music, different notes (be it high or low) repeat regularly forming the beats.
 
 
 <div style="text-align: center;">
@@ -68,23 +68,23 @@
 
 ---
 
-##  音樂模組基礎使用
+##  Basic Application
 
-### MIDI音樂
+### MIDI Music
 
-#### 模組組裝
+#### Assemble Modules
 
-將主機板模組和音樂模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Put the music module and the main controller together, and connect the main controller and a computer via a USB data cable.
 
 <div style="text-align: center;">
 <img src="../media/music_5.jpg" width="250"/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-![music](../media/music_6.png)
+![music](../media/music_6_en.png)
 
-#### 最終效果
+#### Effects
 
 <div style="text-align: center;">
 <img style="margin:10px 0px 10px 0px;" src="../media/music_7.png" width="600"/>
@@ -92,40 +92,40 @@
 
 ---
 
-### MP3音樂
+### MP3 Music
 
-#### 積木示意圖
-| 積木圖示  | 簡介  |
+#### Blocks
+| Block Image  | Description  |
  |-  |-  |
-|![music](../media/music_mp3_setup.png)  |  a.MP3初始化積木: 可設置初始音量高低 |
-|![music](../media/music_mp3_playSingle.png) | a.音樂播放積木: 播放指定名稱音樂  |
-|![music](../media/music_mp3_playSetting.png) | a.音樂播放設置積木: 可設置音樂播放暫停、啟動、終止、上一首、下一首  |
+|![music](../media/music_mp3_setup_en.png)  |  a. MP3 player initialization block: set the initial volume |
+|![music](../media/music_mp3_playSingle_en.png) | a. music-playing block: play a piece of music with a specific name  |
+|![music](../media/music_mp3_playSetting_en.png) | a. music player setting block: set "pause", "play", "stop", "previous" or "next" for the player  |
 
 
-#### 模組組裝
+#### Assemble Modules
 
 <div style="text-align: center;">
 <img src="../media/music_5.jpg" width="250"/>
 </div>
 
-音樂模組支持MP3音樂播放功能，須配合TF卡使用，歌曲存放在TF卡中，將TF卡插入到SD卡擴展插口，然後將主機板模組和音樂模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Music module supports playing music of MP3 format. It has to be used in combination with TF card in which the music is stored. Insert the TF card into the SD card socket, put the music module and the main controller together, and connect the main controller and a computer via a USB data cable:
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 	<img style="margin-right:20px;" src="../media/music_mp3_material1.jpg" width="40%" />
 	<img src="../media/music_mp3_material2.jpg" width="40%" />
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
 <div style="text-align: center;">
 
-![music](../media/music_mp3_demo1.png)
+![music](../media/music_mp3_demo1_en.png)
 
 </div>
 
-#### 最終效果
+#### Effects
 
-播放TF卡內命名為E1.mp3的歌曲
+Play the piece of music named E1.mp3 in the TF card:
 
 <div style="text-align: center;">
 <img style="margin:10px 0px 10px 0px;" src="../media/music_7.png" width="600"/>
@@ -133,33 +133,33 @@
 
 ---
 
-##  音樂模組進階使用
+##  Advanced Application
 
-### 觸摸電子琴
+### Touch Electronic Oragn
 
-#### 模組組裝
+#### Assemble Modules
 
 
-將主機板模組、音樂模組和觸摸感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Put the music module, touch analysing module and the main controller together, and connect the main controller and a computer via a USB data cable.
 
 <div style="text-align: center;">
 <img src="../media/music_8.jpg" width="250"/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-![music](../media/music_10.png)
+![music](../media/music_10_en.png)
 
-##### 提示
-使用觸摸感應模塊時，為「當觸碰傳感接口」積木添加按鍵接口可參考下圖提示：
+##### Tip
+When adding keys to the “When Touch Pins” block in a touch analyzing module, you can refer to the picture below:
 
 <div style="text-align: center;">
-<img style="margin:10px 0px 20px 0px;" src="../media/touch1.gif" width="400"/>
+<img style="margin:10px 0px 20px 0px;" src="../media/touch1_en.gif" width="400"/>
 </div>
 
-#### 最終效果
+#### Effects
 
-程式上傳成功後，觸摸觸摸感應模組上的針腳，來發出不同的音階；
+After the program is uploaded successfully, touch the pins on the touch analyzing module to produce different scales:
 
 <div style="text-align: center;">
 <img style="margin:10px 0px 10px 0px;" src="../media/music_9.png" width="600"/>
@@ -167,26 +167,29 @@
 
 ---
 
-### 製作 MP3 Player
+### Make an MP3 Player
 
-#### 模組組裝
-將TF卡插入音樂模組對應位置上，然後將主機板模組、音樂模組和觸摸感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+#### Assemble Modules
+Insert TF card into the music module, then put the music module, the touch analyzing module and the main controller together, and connect the main controller and a computer via a USB data cable.
 
 <div style="text-align: center;">
 <img src="../media/music_8.jpg" width="250"/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-觸摸感應模組和音樂模組結合而成的簡易MP3播放器,積木程式:
+Program for making a MP3 player by combining touch analyzing module and music module:
 
 
-![music](../media/music_mp3_demo2.png)
+![music](../media/music_mp3_demo2_en.png)
 
-#### 最終效果
+#### Effects
 
-不同按鍵實現三個歌曲的切換和歌曲啟動暫停功能
+You can switch among the three pieces of music and realize the function of "play" and "stop" by pressing different buttons:
 
 <div style="text-align: center;">
 <img style="margin:10px 0px 10px 0px;" src="../media/music_9.png" width="600"/>
 </div>
+
+---
+Updated in August 2019

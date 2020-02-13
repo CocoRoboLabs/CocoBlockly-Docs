@@ -1,88 +1,91 @@
-# 使用ThingSpeak
+# Apply ThingSpeak
 
-### 關於ThingSpeak
+### Introduction
 
-ThingSpeak(https://thingspeak.com) 是由 MathWorks 開發的一款雲端資料整合器的平臺，只需要透過簡單 RESTful API 請求，用戶可以使用自己的智慧產品向 ThinkSpeak 進行數據傳輸，同時 ThingSpeak 提供足夠強大的數據分析和處理能力，比如在線編輯／調校數據，或者結合 MATLAB 進行數據可視化，是目前比較流行的在線數據分析／可視化工具之一。可擴展 CocoBlockly 的數據可視化能力，是 CocoBlockly 提升學生對大數據學科的理解能力的輔助工具之一。
+ThingSpeak (https://thingspeak.com), developed by MathWorks, is a cloud integrator platform. You can use your smart products to transmit data to ThinkSpeak through a simple RESTful API request. In addition, ThingSpeak provides you with a powerful capacity of data analysis and processing, such as online editing/data proofreading and data visualization (realized by working in combination with MATLAB). It is a popular online data analysis and visualization tool that expands CocoBlockly’s capacity of data visualization. It is one of CocoBlockly’s assistant tools that improve students’ ability of understanding big data.
 
 ![ThingSpeak](../media/ThingSpeak_info.png)
 
-### 注冊&登錄ThingSpeak
+### Sign up for and Log into ThingSpeak
 
-輸入網址：https://thingspeak.com/
+Enter the website: https://thingspeak.com/
 
-使用email創建賬戶:
+Use your email account to create a ThingSpeak account:
 ![ThingSpeak](../media/ThingSpeak_signup.png)
 
-登錄ThingSpeak:
+Log into ThingSpeak:
 ![ThingSpeak](../media/ThingSpeak_signin.png)
 
 
-### 創建Channel
+### Create Channel
 
-點擊 「Channels」 > 「My channels」
+Click "Channels" > "My channels"
 ![ThingSpeak](../media/ThingSpeak_channel_click.png)
 
-在 Channels 面板中點擊 「NEW Channel」
+Click "NEW Channel" in the Channels panel
 ![ThingSpeak](../media/ThingSpeak_channel_new.png)
 
-進入 New Channel 面板，點擊 Field 後面的勾選框，設定 Channels 的數據域名稱
+Enter New Channel panel, click the boxes Field in the following picture and set the data domain name of the Channels.
 ![ThingSpeak](../media/ThingSpeak_channel_setField.png)
 
-點擊底部的 「Save Channel」 ,完成 Channel 創建
+Click the "Save Channel" at the bottom of the picture to complete Channel creation.
 ![ThingSpeak](../media/ThingSpeak_channel_create.png)
 
-完成創建 Channel 后, 可查看關於 Channel 的屬性
+You can view the attributes of Channel after the completion of Channel creation.
 ![ThingSpeak](../media/ThingSpeak_channel_option.png)
 
-### 查看Channel數據
+### Check Channel Data
 
-點擊 Private View, 可以看到前面創建的 Field 數據域
+Click "Private View", then you can see the Field data domain established previously.
 ![ThingSpeak](../media/ThingSpeak_channel_show.png)
 
 
-### 清除Channel數據
+### Clear Channel Data
 
-點擊 「Channel Setting」 進入到 「Channel」 設置面板
+Click "Channel Setting" to enter setting panel of the "Channel".
 ![ThingSpeak](../media/ThingSpeak_channel_setting_2.png)
 
-* Clear Channel : 清除每個 Field 的數據
+* Clear Channel: Clear the data of every Field.
 
-* Delete Channel : 刪除整個 Channel
+* Delete Channel: Delete the whole Channel.
 ![ThingSpeak](../media/ThingSpeak_channel_setting.png)
 
-### 關於API Keys
+### API Keys
 
-點擊 API Keys , 其中 「Write API Key」 的值是用来填入 CocoBlockly 中關於 ThingSpeak 的程式積木，用來聲明將數據發送往 ThingSpea k中該 Channel 事件中
-![ThingSpeak](../media/ThingSpeak_channel_apikey.png)
+Click API Keys. The value of "Write API Key" is to be entered into the ThingSpeak program blocks of the CocoBlockly so as to show that the data is sent to the Channel event of ThingSpeak.
+![ThingSpeak](../media/ThingSpeak_channel_apikey_en.png)
 
-### 案例
+### Example
 
-項目: 獲取環境感應模組的數據，向 ThingSpeak 發送並進行監測
+Project: Get the data of the environmental sensing module. Send the data to ThingSpeak and monitor the data.
 
-#### 模組組裝
+#### Assemble Modules
 
-將主機板模組、WiFi 通訊模組以及環境感應模組拼接在一起
+Put the main controller, WiFi communication module and environmental sensing module together.
 
-> 注：必須先對主機板模組和 WiFi 通訊模組分別上傳對應模式下的積木程式后，再將這些模組拼接在一起
+> Note: You need to upload programs to the main controller and the WiFi communication module in their respective modes before putting them together.
 
 <div style="text-align:center;margin:0px 0 20px 0;">
   <img src="../media/cocoCloud_project_1.jpg" width=40%/>
   </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-##### 主機板模式:
+##### Main Controller Mode:
 
-![ThingSpeak](../media/ThingSpeak_example_main.png)
+![ThingSpeak](../media/ThingSpeak_example_main_en.png)
 
-##### WiFi模式:
+##### WiFi Mode:
 
-> 注：編寫程式時，請注意將聯網積木中的 WiFi 名稱和密碼改成你自己要連接的
+> Note: When writing programs please change the WiFi name and password of the network block to that of yours.
 
-![ThingSpeak](../media/ThingSpeak_example_wifi.png)
+![ThingSpeak](../media/ThingSpeak_example_wifi_en.png)
 
-##### 最終效果
+##### Effects
 
-程式上傳完成後，前往 ThingSpeak 查看收集到的數據結果:
+After the program is successfully uploaded, you can go to ThingSpeak to see the collected data:
 
 ![ThingSpeak](../media/ThingSpeak_example_res.png)
+
+---
+Updated in August 2019

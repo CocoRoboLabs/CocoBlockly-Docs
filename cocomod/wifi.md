@@ -1,24 +1,24 @@
-# 使用 WiFi 通訊模組
+# Apply WiFi Communication Module
 ---
 
-## 模組簡介
+## Introduction
 
-Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT 通訊協議，有了它，結合 CocoBlockly 的 WiFi 模式，用戶可以非常直觀地搭建屬於自己的智慧家居小應用。
+WiFi communication module is used for transmitting data wirelessly. It supports HTTP/WebSocket/MQTT communication protocol. You can build your own smart home Apps easily with this module and the WiFi mode of the the CocoBlockly.
 
-## 模組主要部件
+## Main Components
 
 <img src="/media/cocomod/modPic_0003_R0010176.jpg" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">部件名稱</td>
-		<td style="font-weight: bold;">部件描述</td>
+		<td width="20%" style="font-weight: bold;">Name</td>
+		<td style="font-weight: bold;">Description</td>
 	</tr>
 	<tr>
 		<td>1.</td>
-		<td>USB 接口</td>
-		<td>用於WiFi程式上傳/供電</td>
+		<td>USB interface</td>
+		<td>Used for uploading WiFi programs and supplying power</td>
 	</tr>
 	<tr>
 		<td>2.</td>
@@ -27,42 +27,42 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
 	</tr>
 	<tr>
 		<td>3.</td>
-		<td>重置按鍵</td>
-		<td>點擊重置按鍵後將會讓 WiFi 通訊模組重啓</td>
+		<td>Resetting button</td>
+		<td>The module can be restarted by pressing this button</td>
 	</tr>
 	<tr>
 		<td>4.</td>
-		<td>Flash 按鍵</td>
+		<td>Flash button</td>
 		<td>/</td>
 	</tr>
 </table>
 
 
-#### 模組接口示意
+#### Pinout
 
-| 接口位置 | 接口描述           |
+| Pinout Position | Pinout Description           |
 | -------- | ------------------ |
-| (數位訊號) D0: 主機板 Rx    | Tx:  WiFi 通訊模組端 (UART 通訊)       |
-| (數位訊號) D1: 主機板 Tx   | Rx:  WiFi 通訊模組端 (UART 通訊) |
+| (digital signal) D0: main controller Rx    | Tx:  WiFi communication module terminal (UART communication)       |
+| (digital signal) D1: main controller Tx   | Rx:  WiFi communication module terminal (UART communication) |
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
-
----
-
-## 模組使用說明
-
-1. 切勿使用超過 5V/2A 的電源供電
-2. 當 ESP8266模組上的 LED 燈持續閃爍時，意味著模組正處於重置狀態，該狀態會持續到上傳結束；
+> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
 
 ---
 
-## 主機板模組基礎使用
+## Instructions
 
-### 主機板數據通訊
+1. Do not use any power supply greater than 5V/2A.
+2. If the LED light on the ESP8266 module keeps blinking, the module is in the state of being reset. And the state will last until the program is uploaded completely.
 
-#### 模組組裝
+---
 
-將 WiFi 通訊模組和主機板模組拼接在一起
+## Basic Application of Main Controller
+
+### Data Communication
+
+#### Assemble Modules
+
+Put the WiFi communication module and the main controller together.
 
 <div style="text-align:center;">
 <img src="/media/wifi/wifi__main--split.jpeg" width="250"/>
@@ -71,453 +71,455 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
 
 ---
 
-## 主機板模式與 WiFi 模式
+## Main Controller Mode and WiFi Mode
 
-### 什麼是 WiFi 通訊模組
+### What is WiFi communication module?
 
 ![wifi](../media/wifi/intro_wifi_1.png)
 
-### 什麼是 WiFi 模式
+### What is WiFi mode?
 
-給 WiFi 通訊模組進行編程時，我們需要在 CocoBlockly 的界面右下角「程式上傳區」中，點擊紅色框中的切換按鈕，切換爲 WiFi 模式。
+When uploading programs for WiFi communication module, we need to click the button in the red box of the "Upload Area" of the CocoBlockly (at right lower corner) to switch to WiFi mode.
 
-![wifi](../media/wifi/intro_wifi_3.png)
-![wifi](../media/wifi/intro_wifi_2.png)
+![wifi](../media/wifi/intro_wifi_3_en.png)
+![wifi](../media/wifi/intro_wifi_2_en.jpg)
 
-**當我們製作一個與外接通訊的 IoT （物聯網） 項目時，需要給項目中的主機板模組和 WiFi 通訊模組分別上傳對應模式下所編寫的程式，上傳程式成功后再將主機板模組與 WiFi 通訊模組拼接在一起。**下圖示範了製作一個 IoT 項目所需要的程式開發流程。
+**When making an IoT (Internet of Things) project that communicates externally, you need to upload programs (written in corresponding modes) for the WiFi communication module and the main controller respectively. Put the WiFi communication module and the main controller together after successful uploading.** The picture below demonstrates the development process of making an IoT project.
 
 ![wifi](../media/wifi/intro_wifi_4.png)
 
-**注**：切換模式時，因爲兩個模式工作空間的積木都會同時保存，所以當用戶再切換回去時，之前的編寫的積木程式不會丟失。
+**Note**：In the process of switching mode, the blocks of the two modes will be saved alike. Therefore, when you switch back, the previous programs will not be lost.
 
-目前的 CocoBlockly Wi-Fi 模式支持以下兩種傳送模式：
+At present, two kinds of transmissions are supported in the CocoBlockly Wi-Fi mode:
 
-1. 將數據傳送至遠端；
-2. 從遠端獲取數據；
+1. Transmit data to far end.
+2. Receive data from far end.
 
 <!-- pagebreak -->
 
-同時，用戶還可以選擇接入 CocoCloud，或者 IFTTT、Thingspeak 這些第三方服務，來完成左邊兩種操作模式。
+
+Meanwhile, you can also choose to connect to CocoCloud or third-party services such as IFTTT and Thingspeak to complete the above two transmissions.
 
 ![wifi](../media/wifi/intro_wifi_5.png)
 
 ---
 
-### WiFi積木示意圖
+### WiFi Blocks
 
 <table width="800">
   <tr>
-    <th>積木圖示</th>
-    <th>簡介</th>
+    <th>Blocks</th>
+    <th>Description</th>
   </tr>
   <tr  >
-    <td> <img src="../media/wifi/wifi_network_detail_1.png"> </td>
-    <td> a.聯網積木: 設置連接的熱點名稱與密碼 <br> b.連接判斷積木: 判斷是否連接成功 <br> c.本地IP積木:獲取連接無線網絡的WIFI的IP地址</td>
+    <td> <img src="../media/wifi/wifi_network_detail_1_en.png"> </td>
+    <td> a. Network block: set name and password for the hotspot connected. <br> b. Confirmation block: see if the wifi communication module is successfully connected to the network. <br> c. Local IP block: get the WiFi IP address.</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_network_detail_2.png"> </td>
-    <td> a.熱點積木: 設置自身熱點名稱與密碼(密碼不小於八位) </td>
+    <td> <img src="../media/wifi/wifi_network_detail_2_en.png"> </td>
+    <td> a. Hotspot block: set name and password (at least 8 characters) for itself. </td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi_new_1.png"> </td>
-    <td> a.發送積木: 與主控通訊積木，向主機板發送包含數據的數字數組(注意：單個數據取值範圍為0~255) </td>
+    <td> <img src="../media/wifi_new_1_en.png"> </td>
+    <td> a. Sending block: work with the main communication block to send data (single number ranges from 0 to 255) to the main controller. </td>
   </tr>
     <tr>
-    <td> <img src="../media/wifi_new_2.png"> </td>
-    <td> a.接收積木:與主控通訊積木，接收主機板傳輸過來的數據，需設置長度 <br> b.取值積木: 與接收積木同用，獲取主機板傳輸過來的單個數據，以0為起始位數 <br> c. 可設定接受到的字符串類型：字符串（String）、整數數值（Number）、帶小數點的數值（Float）</td>
+    <td> <img src="../media/wifi_new_2_en.png"> </td>
+    <td> a. Receiving block: work with the main communication block to receive data (length needs to be set) from the main controller. <br> b. Value block: work with the receiving block to get from the main controller single data with an initial digit of "0". <br> c. Set the type of the receivable string: String, Number and Float. </td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webservice_detail_1.png"> </td>
-    <td> a. ThingSpeak積木: 向ThingSpeak項目發送數據，需從ThingSpeak項目獲取API-Key </td>
+    <td> <img src="../media/wifi/wifi_webservice_detail_1_en.png"> </td>
+    <td> a. ThingSpeak block: to send data to ThingSpeak project; API-Key needs to be obtained from ThingSpeak project. </td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webservice_detail_2.png"> </td>
-    <td> a. IFTTT積木: 向IFTTT項目發送數據，需從IFTTT項目獲取API-Key；Webhood類型：選擇獲取數據或者發送數據，發送的數據最多為三個</td>
+    <td> <img src="../media/wifi/wifi_webservice_detail_2_en.png"> </td>
+    <td> a. IFTTT block: to send data to IFTTT project; API-Key needs to be obtained from IFTTT project; Webhood type: choose to receive or send data (a maximum of 3 data can be sent).</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webservice_detail_3.png"> </td>
-    <td> a.CocoCloud發送積木:向CocoCloud發送數據，需要設置項目API-key以及發送數據的屬性名</td>
+    <td> <img src="../media/wifi/wifi_webservice_detail_3_en.png"> </td>
+    <td> a. CocoCloud sending block: send data to CocoCloud; the API-key of the project and the property name of the data need to be set.</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webservice_detail_4.png"> </td>
-    <td> a.CocoCloud獲取積木: 從CocoCloud獲取項目數據 <br> b.按屬性名獲取數據合集中的數據</td>
+    <td> <img src="../media/wifi/wifi_webservice_detail_4_en.png"> </td>
+    <td> a. CocoCloud receiving block: get the data of the project from CocoCloud. <br> b. Get the data according to the property name.</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_1.png"> </td>
-    <td> a.服務器初始化積木: 設置服務器</td>
+    <td> <img src="../media/wifi/wifi_server_detail_1_en.png"> </td>
+    <td> a. Server setup block: set up the server.</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_2.png"> </td>
-    <td> a.設置主頁積木: 設置主頁積木，主頁進入網址"http://192.168.4.1" (注意:需要連接服務器所在WiFi板設置的熱點,才能進入主頁)</td>
+    <td> <img src="../media/wifi/wifi_server_detail_2_en.png"> </td>
+    <td> a. Homepage setting block: the website of homepage is "http://192.168.4.1" (Note: the hotspot set by the wifi communication module (where the server is located) has to be connected before the homepage is open)</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_3.png"> </td>
-    <td> a. 服務器路由設置積木:設置不同路徑與對應響應事件</td>
+    <td> <img src="../media/wifi/wifi_server_detail_3_en.png"> </td>
+    <td> a. Server router setting block: set different paths and their corresponding events.</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_4.png"> </td>
-    <td> a.服務器發送積木: 向請求服務器設定路徑的客戶端發送對應指定數據</td>
+    <td> <img src="../media/wifi/wifi_server_detail_4_en.png"> </td>
+    <td> a. Server sending block: send specified data to clients via the path set by the request server.</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_5.png"> </td>
-    <td> a.服務器接收積木: 接收客戶端向指定路徑發送的數據 <br> b.數據獲取積木: 從接收到的數據合集中獲取指定下標的數據</td>
+    <td> <img src="../media/wifi/wifi_server_detail_5_en.png"> </td>
+    <td> a. Server receiving block: receive data from clients via the path set by clients. <br> b. Data getting block: get the data with subscript from the received data array.</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_client_detail_1.png"> </td>
-    <td> a.客戶端初始化積木： 初始化客戶端</td>
+    <td> <img src="../media/wifi/wifi_client_detail_1_en.png"> </td>
+    <td> a. Client setup block: set up the client.</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_client_detail_2.png"> </td>
-    <td> a. 客戶端GET請求積木: 設置路徑，向服務端發起對應HTTP請求，并獲得數據(注意: 路徑與服務端路由路徑格式一致) <br> b.數據獲取積木: 從接收到的數據合集中獲取指定下標的數據</td>
+    <td> <img src="../media/wifi/wifi_client_detail_2_en.png"> </td>
+    <td> a. Client GET request block: set up a path and send corresponding HTTP requests to the server and get data (Note: the path must be consistent with the server router path.) <br> b. Data getting block: get the data with subscript from the received data array.</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_client_detail_3.png"> </td>
-    <td> a.客戶端POST請求積木: 設置路徑，向服務端發起對應HTTP請求，并發送數據(注意: 路徑與服務端路由路徑格式一致)</td>
+    <td> <img src="../media/wifi/wifi_client_detail_3_en.png"> </td>
+    <td> a. Client POST request block: set up a path and send corresponding HTTP requests to the server and send the data (Note: the path must be consistent with the server router path.)</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webpage_detail_1.png"> </td>
-    <td> a. 網頁構建Label積木：可構建一個網頁，顯示對應Label與設定數據，網頁網址為"http://192.168.4.1"</td>
+    <td> <img src="../media/wifi/wifi_webpage_detail_1_en.png"> </td>
+    <td> a. Web page creating Label block: a web page can be created showing corresponding Label and setup data. The website is "http://192.168.4.1"</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webpage_detail_2.png"> </td>
-    <td> a.網頁構建Button積木：可構建一個網頁，顯示對應命名的按鈕，點擊按鈕觸發HTTP請求事件，向設定的服務器路徑發送按鈕命名。網頁網址為"http://192.168.4.1"</td>
+    <td> <img src="../media/wifi/wifi_webpage_detail_2_en.png"> </td>
+    <td> a. Web page creating Button block: a web page can be created showing corresponding button. Click the button to activate the HTTP request event and send the button name via the path set by the server. The website is "http://192.168.4.1"</td>
   </tr>
 </table>
 
 ***
 
-### WiFi積木介紹
+### WiFi Blocks
 
-#### 聯網積木單元
+#### Network Block Unit
 
-##### 單元簡介
+##### Introduction
 
- WiFi 通訊模組可以通過這類積木接入現有網絡，或者建立本地網絡(AP模式)。
+ WiFi communication module can connect to the Internet or establish a local network (AP mode) via the blocks in this unit.
 
-##### 積木簡介
+##### The Blocks
 
-1. 連網積木 : 設置連接的網絡名稱與密碼
+1. Connection block: set name and password for the Internet.
 
-* 連接網絡 : 網絡連接成功，序列埠會在第一時間打印“WiFi connected”, 但如果未能觀察到該提示也屬正常情況，具體看打開序列埠通訊的時間是否及時。
+*
+Connect to the Internet: If the Internet is successfully connected, "WiFi connected" will be printed instantly in the serial port. But it is still normal if you do not see this hint. The reason may be that you do not open the serial port in time.
 
-![wifi__main](../media/wifi/wifi_network_1_connect.png)
+![wifi__main](../media/wifi/wifi_network_1_connect_en.png)
 
-* 連接網絡失敗 : 序列埠會持續打印 “ . ”, 表示在嘗試網絡連接
+* If the Internet is not successfully connected, " . " will be printed repeatedly, indicating that it is trying to connect to the Internet.
 
-![wifi__main](../media/wifi/wifi_network_1_unconnect.png)
+![wifi__main](../media/wifi/wifi_network_1_unconnect_en.png)
 
-2. 熱點積木 : 設置熱點網絡名稱和密碼，并建立本地網絡
+2. Hotspot block: set name and password for the hotspot and establish a local network.
 
-* 建立熱點
+* Establish hotspot
 
-![wifi__main](../media/wifi/wifi_network_2_success.png)
+![wifi__main](../media/wifi/wifi_network_2_success_en.png)
 
-* 密碼設置應大於8位, 否則無法建立熱點
+* Password must be at least 8 characters or the hotspot cannot be connected.
 
-![wifi__main](../media/wifi/wifi_network_2_wrongSetting.png)
+![wifi__main](../media/wifi/wifi_network_2_wrongSetting_en.png)
 
-3. 連接判斷積木 : 判斷網絡是否連接
+3. Connection confirmation block: see if the Internet is successfully connected.
 
-4. 獲取IP積木 : 連接網絡成功后, 可獲取 WiFi 通訊模組在該網絡中的IP地址
+4. Get IP block: After the Internet is successfully connected, the IP address of the WiFi module can be obtained.
 
-* 連接網絡，打印IP地址
+* Connect to the Internet and print IP address.
 
-![wifi__main](../media/wifi/wifi_network_3_IPaddr.png)
+![wifi__main](../media/wifi/wifi_network_3_IPaddr_en.png)
 
 ---
 
-#### 通訊積木單元
+#### Data Transfer Block Unit
 
-##### 單元簡介
+##### Introduction
 
- WiFi 通訊模組與主機板模組進行數據通訊使用,即是可以向主機板模組發送數據或者從主機板模組接收數據
+ The unit is used for transferring data between the main controller and the WiFi communication module, namely send data to the main controller or receive data from the main controller.
 
-##### 積木簡介
+##### The Blocks
 
-1. 發送積木 : 與主控通訊積木，向主機板發送包含數據的數字數組(*注意：單個數據取值範圍為0~255*)
-* 提示：為發送積木的數組增加長度的方式參見下圖：
+1. Sending block: work with main communication block to send data (single number ranges from 0 to 255) to the main controller.
+* Tip: you can refer to the following picture for increasing the array length of the sending block:
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="../media/wifi/wifi_transfer_1_help.gif" width=40%/>
+<img src="../media/wifi/wifi_transfer_1_help_en.gif" width=40%/>
 </div>
 
-*  發送數據数组[1,"cocorobo"]至主機板模組
+*  Send the array [1,"cocorobo"] to the main controller
 
-**注意：**
-1. 使用 WiFi 通訊模組時需要先分別給項目中的主機板模組和 WiFi 通訊模組上傳對應模式下所編寫的程式，上傳程式成功后再將主機板模組與 WiFi 通訊模組拼接在一起；
-2.數據除了可以使用基礎類型的數字積木來直接賦值，也可以使用變量積木來間接賦值（變量是計算機語言中能儲存計算結果或能表示值的抽象概念）。
+**Note:**
+1. When using WiFi communication module, you need to first upload programs (written in corresponding modes) for the WiFi communication module and the main controller respectively. And put the them together after successful uploading.
+2. The data can be assigned both directly by basic type number block, and indirectly by variable block (variable refers to the computing result that can be stored by computer language or the abstract concept that can show value).
 
-上傳程式成功后，用 USB 綫連接好主機板模組至電腦，然後打開序列埠監控視窗點擊「連接」
+After the program is successfully uploaded, connect the main controller to a computer via a USB data cable. Then open the serial port monitor window and click "connect".
 
 <div style="text-align:center;margin:0 0 10px 0;">
-<img src="../media/wifi/wifi_transfer_1_sendvar.png"/>
+<img src="../media/wifi/wifi_transfer_1_sendvar_en.png"/>
 </div>
 
-![wifi__main](../media/wifi/wifi_transfer_1_sendvar_main.png)
+![wifi__main](../media/wifi/wifi_transfer_1_sendvar_main_en.png)
 
-2. 接收積木 : 與主機板模組進行通訊的積木，接收主機板傳輸過來的數據，需要設置接收數據的數組長度
+2. Receiving block: used for receiving data from the main controller; the length of the data array to be received should be set.
 
-* 傳輸失敗 : 接收主機板模組傳輸的數據出錯。通常是 WiFi 通訊模組未與主機板模組拼接在一起時出現
+* Transfer failure: error in receiving the data from the main controller; the problem usually lies in that the WiFi communication module is not connected to the main controller.
 
-![wifi__main](../media/wifi/wifi_transfer_2_receivefail.png)
+![wifi__main](../media/wifi/wifi_transfer_2_receivefail_en.png)
 
-3. 取值積木 : 與接收積木一起使用，獲取主機板傳輸過來的單個數據，以0為所獲取數組的起始位
+3. Value block: work with receiving block to get single data (with "0" as the start bit of the array) from the main controller.
 
-* 提示：為傳輸數據積木的數組增加長度的方式參見下圖：
+* Tip: you can refer to the following picture for increasing the array length of the sending block:
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="../media/wifi/wifi_transfer_3_help.gif" width=40%/>
+<img src="../media/wifi/wifi_transfer_3_help_en.gif" width=40%/>
 </div>
 
-*  WiFi 通訊模組接收主機板模組傳輸的數組數據[100,"cocorobo"]，并且打印到序列埠
+*  WiFi communication module receives 100,"cocorobo" from the main controller and prints it on the serial port.
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="../media/wifi/wifi_transfer_3_print_main.png"/>
+<img src="../media/wifi/wifi_transfer_3_print_main_en.png"/>
 </div>
 
-![wifi__main](../media/wifi/wifi_transfer_3_print.png)
+![wifi__main](../media/wifi/wifi_transfer_3_print_en.png)
 
 ---
 
-#### WEB服務積木單元
+#### WEB Services Block Unit
 
-##### 單元簡介
+##### Introduction
 
-WEB服務包含IFTTT，Thingspeak，CocoCloud相關積木，允許模組與這三類網絡服務交互，該單元積木的使用需要配合「連接網絡積木」才能成功連接到網絡服務。
+This unit includes IFTTT block, Thingspeak block and CocoCloud blocks. It enables the module to communicate with the three web services. And to connect to the Internet, the blocks of this unit have to work with "network blocks".
 
-##### 積木簡介
+##### The Blocks
 
-1. Thingspeak積木 : ThingSpeak是一個數據可視化網站，能將模組收集的數據傳輸到該網站以圖表的方式顯示規範時間內數據變化情況。詳情可見 [Thingspeak使用介紹](/cocomod/coco-cloud)
+1. Thingspeak block: ThingSpeak is a data visualization website. It can receive the data collected by the module and show in diagram the change of the data within a particular time. Please refer to [Instructions of Thingspeak](/cocomod/thingspeak) for more information.
 
-* 積木顯示
+* Block Demonstration
 
-![wifi__main](../media/wifi/wifi_webservice_1_intro.png)
+![wifi__main](../media/wifi/wifi_webservice_1_intro_en.png)
 
-2. IFTTT積木 : IFTTT是一個多功能網絡服務平台，可通過收集的模組信息設置特定的其他網絡服務反饋，如發送Email。詳情可見 [IFTTT使用介紹](/cocomod/coco-cloud)
+2. IFTTT block: IFTTT is a multifunctional network service platform. It can set other fixed network service feedback such as sending email by collecting the information of the module. Please refer to [Instructions of IFTTT](/cocomod/ifttt) for more information.
 
-* 積木顯示 : 獲取數據選項,向IFTTT特定項目獲取信息
+* Block Demonstration: get data options and collect information from particular projects of the IFTTT.
 
-![wifi__main](../media/wifi/wifi_webservice_2_intro1.png)
+![wifi__main](../media/wifi/wifi_webservice_2_intro1_en.png)
 
-* 積木顯示 : 發送數據選項，向IFTTT特定項目發送數據，可發送的數據個數為三個
+* Block Demonstration: send data options and send data (three data at most) to particular projects of the IFTTT.
 
-![wifi__main](../media/wifi/wifi_webservice_2_intro2.png)
+![wifi__main](../media/wifi/wifi_webservice_2_intro2_en.png)
 
-3. CocoCloud發送積木 : Cococloud是cocorobo自主研發的雲端平台，可用於存儲模組收集的信息與可視化。詳情可見 [CocoCloud使用介紹](/cocomod/coco-cloud)
+3. CocoCloud sending block: Cococloud is the cloud platform researched and developed by CocoRobo. It can be used to store the information collected by the module and can realize visualization. Please refer to [Instructions of CocoCloud](/cocomod/coco-cloud) for more information.
 
-* 發送數據設置:向特定雲端項目發送數據{屬性名為“EM_data0”，值為 0}
+* Sending data settings: send data to particular cloud projects {the property name is "EM_data0" and the value is "0"}
 
-![wifi__main](../media/wifi/wifi_webservice_3_intro.png)
+![wifi__main](../media/wifi/wifi_webservice_3_intro_en.png)
 
-4. CocoCloud獲取積木 :
+4. CocoCloud receiving block:
 
-* 獲取雲端數據設置:從特定雲端項目獲取數據，并存到rxCloud中
+* Getting cloud data settings: get data from particular cloud projects and store them in rxCloud.
 
-![wifi__main](../media/wifi/wifi_webservice_4_intro.png)
+![wifi__main](../media/wifi/wifi_webservice_4_intro_en.png)
 
-5. CocoCloud取值積木 :
+5. CocoCloud value block:
 
-* 根據屬性取值:從rxCloud中獲取屬性名為“EM_data0”,並且類型為Text的數據
+* On the basis of property value: get the data whose property name is "EM_data0" and type is "Text".
 
-![wifi__main](../media/wifi/wifi_webservice_5_intro.png)
+![wifi__main](../media/wifi/wifi_webservice_5_intro_en.png)
 
 ---
 
-#### 服務端積木單元
+#### Server Side Block Unit
 
-##### 單元簡介
+##### Introduction
 
-服務端積木用於 WiFi 通訊模組建立本地服務器。透過設置服務器的指定路徑，以及指定行為方式來搭建一個能夠響應的簡易的本地服務器。通常是需要與「建立熱點積木」一起使用
+This unit is used to establish a local server for the WiFi communication module. It makes a simple and responsive server by specifying paths and behaviors. And the unit is usually used together with "hotspot block".
 
-##### 積木簡介
+##### The Blocks
 
-1. 服務器初始化積木 :
+1. Server setup block
 
-* 積木顯示
+* Block Demonstration
 
-![wifi__main](../media/wifi/wifi_server_1_intro.png)
+![wifi__main](../media/wifi/wifi_server_1_intro_en.png)
 
-1. 設置主頁積木 :
+2. Set homepage block
 
-* 設置一個簡單的網站 :使用電腦連接至服務器對應熱點，在瀏覽器輸入主頁網址：“192.168.4.1”即可進去主頁。
+* Set up a simple website: connect a computer to the hotspot of the server, enter the website of the homepage (192.168.4.1), then you can go to the homepage.
 
-> 關於網頁製作的積木介紹請參見 [網頁製作積木單元](#網頁製作積木單元)
+> For more information about web blocks, please refer to [Web block unit](#網頁製作積木單元).
 
-![wifi__main](../media/wifi/wifi_server_2_intro.png)
+![wifi__main](../media/wifi/wifi_server_2_intro_en.png)
 
-![wifi__main](../media/wifi/wifi_server_2_intro2.png)
+![wifi__main](../media/wifi/wifi_server_2_intro2_en.png)
 
-3.設置路徑積木 :
+3. Set path block
 
-* 設置簡單的路徑: 設置路徑“/hi”, 當客戶端在瀏覽器訪問該路徑（192.168.4.1/hi）時，該服務端 WiFi 通訊模組在序列埠打印 “Hello world”。 *注意電腦要先連接熱點"CocoRobo"*
+* Set a simple path: set the path of "/hi"; the serial port of the WiFi communication module prints "Hello world", when a client visits the path (192.168.4.1/hi) on the browser. *The computer should connect to the hotspot "CocoRobo" in advance.*
 
-![wifi__main](../media/wifi/wifi_server_3_intro.png)
+![wifi__main](../media/wifi/wifi_server_3_intro_en.png)
 
-最終結果：
+Effects:
 
 ![wifi__main](../media/wifi/wifi_server_3_intro_result.gif)
 
-4.服務器發送數據積木 :
+4. Server send data block
 
-* 服務器響應發送數據 “1”: 設置路徑“/hi”, 當客戶端訪問該路徑（192.168.4.1/hi）時，該服務端 WiFi 通訊模組服務器向客戶端發送數據 “1”
+* The server responds and sends "1": set the path of "/hi"; the server side of the WiFi communication module sends "1" to the client when a client visits the path (192.168.4.1/hi).
 
-![wifi__main](../media/wifi/wifi_server_4_intro.png)
+![wifi__main](../media/wifi/wifi_server_4_intro_en.png)
 
-最終結果：
+Effects:
 
 <div style="text-align:center;margin:0 0 10px 0">
 <img src="../media/wifi/wifi_server_4_intro_result.png" width=50%/>
 </div>
 
-5.服務器接收數據積木 :
+5. Server receive data block
 
-* 服務器響應接收數據:設置路徑“/hi”, 當客戶端通過該路徑（192.168.4.1/hi）向該 WiFi 通訊模組服務器發送數據的時候，服務器端接收數據，並存到命名為Data_receive的數組中
+* The server responds and receives data: set the path of "/hi"; when the client sends data to the WiFi communication module via the path (192.168.4.1/hi), the receiving side of the server receives the data and stores them in the array named "Data_receive".
 
-![wifi__main](../media/wifi/wifi_server_5_intro.png)
+![wifi__main](../media/wifi/wifi_server_5_intro_en.png)
 
-6.服務器接收數據的取值積木 :
+6. Server received data value block
 
-* 從服務器接收的數據中取值積木：從數組Data_receive中獲取第一位類型為數字的值。與「服務器接收數據積木」一起使用
+* The block is used together with the server receive data block to get the value of the first number in the array “Data_receive”.
 
-![wifi__main](../media/wifi/wifi_server_6_intro.png)
-
----
-
-#### 客戶端積木單元
-
-##### 單元簡介
-
-客戶端積木用於 WiFi 通訊模組與已經建立起的本地服務器進行通訊的積木。向對應本地服務器發起請求，完成發送數據或者接收數據的操作。通常是需要與「連接網絡積木」一起使用，並且需要連接至本地服務器對應熱點網絡中。
-
-##### 積木簡介
-
-1. 客戶端初始化積木 :
-
-* 積木顯示
-
-![wifi__main](../media/wifi/wifi_client_1_intro.png)
-
-2. 客戶端接收數據積木 : GET請求積木
-
-* 向服務器請求獲取數據: 向服務器路徑為“/hi”的地址（即192.168.4.1/hi）請求數據，并存到客戶端 WiFi 通訊模組的Data_receive數組中
-
-![wifi__main](../media/wifi/wifi_client_2_intro.png)
-
-* 從獲取的數據中取第一位類型為數字的值：從數組Data_receive中獲取第一位類型為數字的值
-
-![wifi__main](../media/wifi/wifi_client_2_intro2.png)
-
-3. 客戶端發送數據積木  : POST請求積木
-
-* 向服務器發送數據： 向服務器路徑為“/hi”的地址（即192.168.4.1/hi）發送數據[12]
-
-![wifi__main](../media/wifi/wifi_client_3_intro.png)
+![wifi__main](../media/wifi/wifi_server_6_intro_en.png)
 
 ---
 
-#### 網頁製作積木單元
+#### Client Side Block Unit
 
-##### 單元簡介
+##### Introduction
 
-網頁製作積木，用於構建簡單的網頁顯示，通常是與「服務器設置主頁積木」一起使用
+This unit is used to establish communication between WiFi communication module and local server: send requests to local server and implement operations of sending or receiving data. It is usually used in combination with “network module” and needs to connect to the hotspot of local server.
 
-##### 積木簡介  
+##### The Blocks
 
-1. 設置網址-LABEL顯示積木 :可以設置網頁上顯示的内容標簽名稱和對應的數據（字符串）
+1. Client setup block
 
-* 設置一個網站，内容標簽為“Data”，对应數據為“123456”的字符串 :
+* Block Demonstration
 
-![wifi__main](../media/wifi/wifi_webpage_1_intro.png)
+![wifi__main](../media/wifi/wifi_client_1_intro_en.png)
 
-![wifi__main](../media/wifi/wifi_webpage_1_intro2.png)
+2. Get data block: GET request block
 
-* 提示：為「設置網址-LABEL顯示積木」增加 LABEL 的方法如下圖：
+* Request to the server for data: request data from the server whose path is "/hi" (namely, 192.168.4.1/hi) and store the data in the array "Data_receive" of the WiFi communication module.
+
+![wifi__main](../media/wifi/wifi_client_2_intro_en.png)
+
+* The block is used to get the value of the first number in the array "Data_receive".
+
+![wifi__main](../media/wifi/wifi_client_2_intro2_en.png)
+
+3. Send data block: POST request block
+
+* Send data to the server: send "12" to the server via the path "/hi" (namely, 192.168.4.1/hi).
+
+![wifi__main](../media/wifi/wifi_client_3_intro_en.png)
+
+---
+
+#### Web Block Unit
+
+##### Introduction
+
+This unit is used together with "Set homepage block" to make simple webpage displays.
+
+##### The Blocks
+
+1. Set website-LABEL display block: The block can be used to set the label name and the data (string) of the contents displayed on the website.
+
+* Set a website whose contents are labeled "Data" and have a string of "123456":
+
+![wifi__main](../media/wifi/wifi_webpage_1_intro_en.png)
+
+![wifi__main](../media/wifi/wifi_webpage_1_intro2_en.png)
+
+* Tip: Please refer to the following picture to know more about how to add LABEL to the block:
 
 <div style="text-align:center;margin:0 0 15px 0;">
-<img src="../media/wifi/wifi_webpage_1_help.gif" width=50%/>
+<img src="../media/wifi/wifi_webpage_1_help_en.gif" width=50%/>
 </div>
 
-**注意：「設置網址-LABEL顯示積木」只允許使用一次，不可以將多個此類積木拼接在一起，想要添加多個 LABEL 可參見上圖；此外，也不可以與「設置網址-Button設置積木」拼接在一起**
+**Note: "Set website-LABEL display block" can only be used once and cannot be used with other such blocks; In addition, it cannot be used together with "Set website-set button block" either**
 
-2. 設置網址-Button設置積木 : 每一個按鈕有對應一個名稱設置，和一個路徑設置。路徑設置的是反饋路徑。指當點擊網址中顯示的該按鈕時候，觸發一個HTTP請求發送，請求對應路徑為設置的反饋路徑。發送的數據內容為當前按鈕名稱的字符串。
+2. Set website-set button block: Every button has its own name setting and path setting. The path is a feedback path, which means that when you click a button displayed in a website, a HTTP request will be sent; and the request path is the feedback path. And the contents of the sent data is the name string of the button.
 
-* 設置按鈕名稱為 “Test”，路徑為 “/1” :應當配合使用「服務器設置主頁積木」，并且設置「Wed Dashboard-按鈕積木」的路徑為 “/1”,作為響應處理
+* Set button name as "Test" and path as "/1": The block should be used together with "server set homepage block"; the path of "Wed Dashboard-button block" should be set as "/1".
 
-![wifi__main](../media/wifi/wifi_webpage_2_intro.png)
+![wifi__main](../media/wifi/wifi_webpage_2_intro_en.png)
 
-![wifi__main](../media/wifi/wifi_webpage_2_intro2.png)
+![wifi__main](../media/wifi/wifi_webpage_2_intro2_en.png)
 
-* 提示：為「設置網址-Button設置積木」增加 Button 的方法如下圖：
+* Tip: Please refer to the following picture to know more about how to add Button to the block:
 
 <div style="text-align:center;margin:0 0 15px 0;">
-<img src="../media/wifi/wifi_webpage_2_help.gif" width=50%/>
+<img src="../media/wifi/wifi_webpage_2_help_en.gif" width=50%/>
 </div>
 
-**注意：「設置網址-Button設置積木」只允許使用一次，不可以將多個此類積木拼接在一起，想要添加多個 Button 可參見上圖；此外，也不可以與「設置網址-LABEL顯示積木」拼接在一起**
+**Note: "Set website-set button block" can only be used once and cannot be used with other such blocks; In addition, it cannot be used together with "Set website-LABEL display block" either.**
 
 ***
 
-### 項目目錄
+### Catalogue of the Projects
 
-| 項目類型 | 項目內容 | 備註 |
+| Tyoe | Contents | Notes |
 | :------ | :------ | :------: |
-| (本地)AP模式 | 教學模組控制 LED 燈屏模組 | [查看此處](#項目一) |
-| (本地)AP模式 | 網頁呈現環境模組數據 | [查看此處](#項目二) |
-| (本地)AP模式 | 網頁控制LED開關 | [查看此處](#項目三)  |
-|(聯網) CocoCloud | 雲端呈現環境模組數據 | [查看此處](/cocomod/coco-cloud?id=項目一)  |
-|(聯網) Thingspeak | 環境模組數據上傳與可視化 | [查看此處](/cocomod/thingspeak?id=案例)  |
-|(聯網) IFTTT| 電位器觸發email提醒 | [查看此處](/cocomod/ifttt?id=案例)  |
+| (local) AP mode | Sensor 101 module controls LED matrix module. | [click here](#項目一) |
+| (local) AP mode | Display the data of the environmental sensing module on webpage. | [click here](#項目二) |
+| (local) AP mode | Webpage controls LED switch. | [click here](#項目三)  |
+|(online) CocoCloud | Display the data of the environmental sensing module on the Cloud. | [click here](/cocomod/coco-cloud?id=項目一)  |
+|(online) Thingspeak | Upload and visualize the data of the environmental sensing module. | [click here](/cocomod/thingspeak?id=案例)  |
+|(online) IFTTT| Potentiometer activates email reminder. | [click here](/cocomod/ifttt?id=案例)  |
 
 
-<!--|(聯網) CocoCloud | 雲端控制LED亮暗 | [查看此處](/cocomod/coco-cloud?id=項目二)  |
-|(聯網) IFTTT| 環境數據觸發google助手 | 查看此處  |-->
+<!--|(online) CocoCloud | 雲端控制LED亮暗 | [click here](/cocomod/coco-cloud?id=項目二)  |
+|(online) IFTTT| 環境數據觸發google助手 | click here  |-->
 
 ***
 
-### 項目
+### Project
 
-#### 項目一
+#### Project 1
 
-#####  項目簡介 : 教學模組控制 LED 燈屏模組（ WiFi 對 WiFi ）
+#####  Introduction: Sensor 101 module controls LED matrix module (WiFi to WiFi)
 
-教學模組控制 LED 燈屏模組：使用的是AP模式,即是通過兩個 WiFi 通訊模組進行數據傳輸，達到遠程控制的效果。兩個 WiFi 通訊模組，其中一個作為服務端，另一個作為客戶端。
-此項目以與教學模組拼接的 WiFi 通訊模組為服務端，與 LED 燈屏模組拼接的 WiFi 通訊模組為客戶端。此項目選用教學模組上的 pin 12 開關，通過撥動教學模組上 pin 12 的開關，來遠程決定 LED 燈的閉合。
+Sensor 101 module controls LED matrix module: The operation is carried out in AP mode. Two WiFi communication modules (a server and a client) are involved in the data transmission to realize remote control.
+In this project, the WiFi communication module connected with the sensor 101 module is the server and that connected with the LED matrix module is client. Pin 12 in the sensor 101 module is selected as the switch to remotely control the LED light.
 
-| 服務端 | 客戶端 |
+| Server | Client |
 | :------ | :------ |
-| 教學模組 |  LED 燈屏模組 |
-| 主機板模組 | 主機板模組 |
-|  WiFi 通訊模組 |  WiFi 通訊模組 |
+| Sensor 101 module |  LED matrix module |
+| Main controller | Main controller |
+|  WiFi communication module |  WiFi communication module |
 
-##### 服務端程式預覽
+##### Server Program Preview
 
-* 主機板模式 - 傳輸教學模組 pin 12 開關的數據至 WiFi 通訊模組
-  程式下載： <a href="../xml/project1/BASIC_main.xml" download >BASIC_main.xml</a>
+* Main controller mode - Transmit the data of the pin 12 in the sensor 101 module to the WiFi communication module.
+   Download program: <a href="../xml/project1/BASIC_main.xml" download >BASIC_main.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_1_S_main.png)
+![wifi__main](../media/wifi/wifi_project_1_S_main_en.png)
 
-* WiFi模式 - 設置熱點，設置本地服務器，接收主機板傳輸過來的數據，設置響應路徑
-  程式下載： <a href="../xml/project1/BASIC_wifi.xml" download >BASIC_wifi.xml</a>
+* WiFi mode - set hotspot and local server, receive data from the main controller and set responding path.
+  Download program: <a href="../xml/project1/BASIC_wifi.xml" download >BASIC_wifi.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_1_S_wifi.png)
+![wifi__main](../media/wifi/wifi_project_1_S_wifi_en.png)
 
-##### 客戶端程式預覽
+##### Client Program Preview
 
-* 主機板模式 - 接收在此客戶端上的 WiFi 通訊模組傳輸過來的數據，根據數據對應内容設置 LED 燈
-  程式下載： <a href="../xml/project1/LED_main.xml" download >LED_main.xml</a>
+* Main controller mode - receive the data from the WiFi communication module to the client and set LED light on the basis of the data contents.
+  Download program: <a href="../xml/project1/LED_main.xml" download >LED_main.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_1_C_main.png)
+![wifi__main](../media/wifi/wifi_project_1_C_main_en.png)
 
-* WiFi模式 - 設置連網，設置客戶端發起請求，請求從服務端獲取數據，並把發送請求到的數據再傳輸到主機板
-  程式下載： <a href="../xml/project1/LED_wifi.xml" download >LED_wifi.xml</a>
+* WiFi mode - set network connection and client request, request data from the server and send the data to the main controller.
+  Download program: <a href="../xml/project1/LED_wifi.xml" download >LED_wifi.xml</a>
 
-> 注意：此處獲取服務器端傳過來的數值需要先賦值給變量才可以正常使用
+> Note: Before using the number got from the server, you need to assign values to the variables.
 
-![wifi__main](../media/wifi/wifi_project_1_C_wifi.png)
+![wifi__main](../media/wifi/wifi_project_1_C_wifi_en.png)
 
-##### 最終結果
+##### Effects:
 
-撥動教學模組上 pin 12 的開關，可以遠程決定 LED 燈的閉合
+The LED light can be controlled by toggling the Pin 12 switch in the sensor 101 module.
 
 <div style="text-align:center;margin:10px 0 10px 0;">
 <img src="../media/wifi/wifi_project_1_result.gif" width=50%/>
@@ -525,68 +527,70 @@ WEB服務包含IFTTT，Thingspeak，CocoCloud相關積木，允許模組與這�
 
 ***
 
-#### 項目二
+#### Project 2
 
-#####  項目簡介 : 網頁呈現環境模組數據
+#####  Introduction: Display the data of the environmental sensing module on webpage
 
-網頁呈現環境模組數據：使用的是AP模式,即是通過 WiFi 通訊模組設置服務器，設置主頁，在網頁上顯示環境數據。
+Display the data of the environmental sensing module on webpage: The operation is carried out in AP mode. Set the server and the homepage via WiFi communication module, then display the data of the environmental sensing module on webpage.
 
-| 服務端 | 客戶端 |
+| Server | Client |
 | :------ | :------ |
-| 環境模組 | 瀏覽器 |
-| 主機板模組 |  |
-|  WiFi 通訊模組 | |
+| Environmental sensing module | Browser |
+| Main controller |  |
+|  WiFi communication module | |
 
-##### 服務端程式預覽
+##### Server Program Preview
 
-* 主機板模式 - 傳輸環境模組讀取的數據至 WiFi 通訊模組
-  程式下載： <a href="../xml/project2/ENV_dashboard_main.xml" download >Env_dashboard_main.xml</a>
+* Main controller mode - transmit the data of the environmental sensing module to the WiFi communication module.
+  Download program: <a href="../xml/project2/ENV_dashboard_main.xml" download >Env_dashboard_main.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_2_S_main.png)
+![wifi__main](../media/wifi/wifi_project_2_S_main_en.png)
 
-* WiFi模式 - 設置熱點，設置本地服務器，接收主機板傳輸的數據，設置主頁
-  程式下載： <a href="../xml/project2/ENV_dashboard_wifi.xml" download >Env_dashboard_wifi.xml</a>
+* WiFi mode - set hotspot and local server, receive the data from the main controller and set the homepage.
+  Download program: <a href="../xml/project2/ENV_dashboard_wifi.xml" download >Env_dashboard_wifi.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_2_S_wifi.png)
+![wifi__main](../media/wifi/wifi_project_2_S_wifi_en.png)
 
-##### 效果展示（客戶端）
+##### Effects (Client)
 
-電腦先連接至服務端建立的熱點，然後在瀏覽器地址欄輸入 192.168.4.1 即可看到讀取的四個環境參數
+Connect the computer to the hotspot of the server, enter "192.168.4.1" to the address bar of the browser and then you can see the four environmental parameters.
 
 ![wifi__main](../media/wifi/wifi_project_2_effect.png)
 
 ***
 
-#### 項目三
+#### Project 3
 
-#####  項目簡介 : 網頁控制LED開關
+#####  Introduction: Webpage controls LED switch
 
-網頁呈現環境模組數據：使用的是AP模式，即是通過WiFi設置主頁，通過主頁上面按鈕點擊效果，達到遠程控制與 WiFi 通訊模組連接的 LED 燈的亮暗。
+Webpage controls LED switch: The operation is carried out in AP mode. Set homepage via WiFi communication module, click the button on the homepage to remotely control the brightness of the LED lights.
 
-| 服務端 | 客戶端 |
+| Server | Client |
 | :------ |:------ |
-|  LED 燈屏模組 | 瀏覽器 |
-| 主機板模組 |  |
-|  WiFi 通訊模組 |  |
+|  LED matrix module | Browser |
+| Main controller |  |
+|  WiFi communication module |  |
 
-##### 服務端程式預覽
+##### Server Program Preview
 
-* 主機板模式 - 接收從 WiFi 通訊模組傳輸過來的數據，設置 LED 燈
-  程式下載： <a href="../xml/project3/LIGHT_dashboard_main.xml" download >LIGHT_dashboard_main.xml</a>
+* Main controller mode - receive the data from the WiFi communication module and set LED light.
+  Download program: <a href="../xml/project3/LIGHT_dashboard_main.xml" download >LIGHT_dashboard_main.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_3_S_main.png)
+![wifi__main](../media/wifi/wifi_project_3_S_main_en.png)
 
-* WiFi模式 - 設置熱點，設置本地服務器，設置主頁，設置響應路徑，傳輸數據至主機板模組
-  程式下載： <a href="../xml/project1/LIGHT_dashboard_wifi.xml" download >LIGHT_dashboard_wifi.xml</a>
+* WiFi mode - Set hotspot, local server, homepage and responding path, and transmit data to the main controller.
+  Download program: <a href="../xml/project1/LIGHT_dashboard_wifi.xml" download >LIGHT_dashboard_wifi.xml</a>
 
-> 注意：此處獲取服務器端傳過來的數值需要先賦值給變量才可以正常使用
+> Note: Before using the number got from the server, you need to assign values to the variables.
 
-![wifi__main](../media/wifi/wifi_project_3_S_wifi.png)
+![wifi__main](../media/wifi/wifi_project_3_S_wifi_en.png)
 
-##### 效果展示（客戶端）
+##### Effects (Client)
 
 ![wifi__main](../media/wifi/wifi_project_3_C.png)
 
 ![wifi__main](../media/wifi/wifi_project_3_show.gif)
 
 ***
+
+Updated in August 2019
