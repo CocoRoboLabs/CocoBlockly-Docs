@@ -57,6 +57,8 @@ find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/户口/账户/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'support-hk@cocorobo.cc'/'support@cocorobo.cc'/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'cocorobo.hk'/'cocorobo.cn'/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'api.cocorobo.cn'/'api.cocorobo.hk'/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'https://api.cocorobo.hk/releases/uploaderv2/download/mac'/'http://cocorobo.cn/downloads/CocoBlocklyUploader_v3.0.6_macOS.dmg'/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'https://api.cocorobo.hk/releases/uploaderv2/download/windows'/'http://cocorobo.cn/downloads/CocoBlocklyUploader_v3.0.6_Windows.exe'/g'
 
 echo "Pushing updated content to remote..."
 

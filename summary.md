@@ -1,4 +1,5 @@
 - [關於 CocoBlockly](index)
+- [常見問題解答](faq)
 - [開始使用 CocoBlockly](/getting-started/info)
 	- [軟件安裝指引](/getting-started/installation)
 	- [編程界面介紹](/getting-started/gui)
@@ -39,7 +40,6 @@
 	- [機械類](/projects/mechanical-device)
 	- [智能家居類](/projects/smart-home)
 	- [人工智能類](/projects/ai)
-- [常用問題解答](faq)
 - [版本更新日誌](changelog)
 
 	<!---  [可穿戴類](/projects/wearable-device)[物聯網類](/projects/iot)

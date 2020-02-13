@@ -86,6 +86,13 @@ Coco Cloud平臺上：
 
 ## 儀表板
 
+[ 儀錶盤] 的操作視頻
+
+<div style="margin:0px 0 20px 0;">
+  <video src="../media/cloud.mp4" width=100% controls="controls"></video>
+</div>
+
+
 在 「儀表板」 中，用戶可以創建數據可視化的面板，在面板中觀察數據的變化，也可以創建插件「切換按鈕」 ，用來對事件的某個屬性進行開關的控制。「儀表板」 建立於 「事件」 之上。
 
 ![cocoCloud](../media/cocoCloud__2.jpg)
@@ -105,7 +112,7 @@ Coco Cloud平臺上：
 
 輸入要創建的可視化類型或按鍵類型，目前支持
 
-* 數據可視化
+* 數據可視化（數據可視化可以對所看到的數據進行縮放，可以對數據的觀看更為清晰）
   * 線型圖
 <div style="margin:0px 0 20px 0;">
 <img src="../media/cocoCloud__dashboard_3.png" width=40%/>
@@ -122,7 +129,7 @@ Coco Cloud平臺上：
   <img src="../media/cocoCloud__dashboard_4.png" width=40%/>
   </div>
 
-選擇事件的名稱，選擇欲觀察或改變的屬性，點擊創建後即可看見數據的歷史數據所構成的圖表
+選擇事件的名稱，選擇欲觀察或改變的屬性，點擊創建後即可看見數據的歷史數據所構成的圖表；還可以對新創建的儀錶盤進行修改。
 
 
 
