@@ -12,8 +12,8 @@
 
 | 操作系统                            | 下载     | 系统要求                   |  安装说明 |
 | ----------------------------------- | -------- | -------------------------- |----|
-| CocoBlockly Uploader v3 for MacOS   | [点此下载](https://api.cocorobo.hk/releases/uploaderv2/download/mac) | 要求系统版本高于 macOS 10.10 | [查看](/getting-started/installation?id=macOS-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
-| CocoBlockly Uploader v3 for Windows | [点此下载](https://api.cocorobo.hk/releases/uploaderv2/download/windows) | 要求系统版本高于 Windows 7 | [查看](/getting-started/installation?id=windows-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
+| CocoBlockly Uploader v3 for MacOS   | [点此下载](http://cocorobo.cn/downloads/CocoBlocklyUploader_v3.0.6_macOS.dmg) | 要求系统版本高于 macOS 10.10 | [查看](/getting-started/installation?id=macOS-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
+| CocoBlockly Uploader v3 for Windows | [点此下载](http://cocorobo.cn/downloads/CocoBlocklyUploader_v3.0.6_Windows.exe) | 要求系统版本高于 Windows 7 | [查看](/getting-started/installation?id=windows-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
 
 **详细的安装指引请参见 [此页面](/getting-started/installation)**
 
