@@ -1,15 +1,15 @@
-# Course Kit Overview
+# 課程套件教學
 
-You can use the modules in the kits and their corresponding materials in combination with 3D printing and programming to complete a hands-on project. The themes of the kits are different from one another, with each kit having its module, sensor, accessories and so on. Users can learn to use the electronic modules in the CocoMod better and faster through their matched courses.
+用戶可以利用課程套件中的模組及對應的材料，結合 3D 打印和編程完成一個項目的製作。各個課程套件的主題都不盡相同，每個套件都依據各自的主題包含相對應的模組、傳感器和配件等材料物件，用戶通過學習相配套的課程，就能更好、更快地學習使用 CocoMod 電子模組。
 
-> Note: For information on how to use CocoBlockly, you can refer to previous parts such as [Start to Use CocoBlockly](/getting-started/info), [CocoBlockly Interface](/getting-started/gui) and [Electronic Modules](/cocomod/overview).
+> 注：關於 CocoBlockly 的使用教程請前往前面的部分，如：[「開始使用CocoBlockly」](/getting-started/info)、[「編程界面介紹」](/getting-started/gui)、[「電子模組基本教學」](/cocomod/overview)等章節進行學習
 
-## Kit Introduction
+## 課程套件説明
 
-| No. | Name | Pictures | Description| Details|
+| No. | 套件名稱 | 套件圖片 | 套件描述 | 詳細介紹|
 | :------: | :------: | :------: | :------ | :------: |
-| 1. | Creative Electronics | <img src="/media/kit_info_1.png" width="300"/> | "Creative Electronics" is one of the basic courses of the CocoRobo STEAM system. In the course, students begin with interesting creative electronic interaction arts and gradually learn basic electronic module and graphical programming methods. Then they can design and make unique creative electronic products by using their programming methods and creativity in combination with software and hardware. | [Click here](/kit/creative-electronics)
-| 2. | Robot Car | <img src="/media/kit_info_2.png" width="300"/> | "Robot Car" is one of the basic courses of the CocoRobo STEAM system. In the course, students will use robot car as a learning and research object, from which they learn how to use electronic modules, to write controlling programs and to apply rapid manufacturing technologies such as 3D printing. Students design and establish robot cars from scratch and show their products in the competition at the end of the course. |  [Click here](/kit/robot-car) |
-| 3. | Smart Home | <img src="/media/kit_info_3.png" width="300"/>  | "Smart Home" is one of the basic courses of the CocoRobo STEAM system. In the course, students will deeply study smart products at home and the systematic methods to design smart products. Then in combination with the electronic modules and programs, they can design smart home products to solve practical problems in life. | [Click here](/kit/smart-home) |
-| 4. | AI | <img src="/media/kit_info_4.jpg" width="300"/> | "AI" is one of the basic courses of the CocoRobo STEAM system. In the course, students establish and experience simple AI APP by learning simple programming and familiarizing themselves with using Cloud platform. It enables students to know more about basic knowledge and application fields of the AI. |  [Click here](/kit/aiot)  |
-| 5. | Robot Arm | <img src="/media/kit_info_5.png" width="300"/> | "Robot Arm" is one of the basic courses of the CocoRobo STEAM system. In the course, students need to learn and use electronic module programming and structural design. Then they will work in a team to design a competitive robot thus realizing mechatronic discipline integration. | [Click here](/kit/robot-arm) |
+| 1. | 創意電子套件 | <img src="/media/kit_info_1.png" width="300"/> | 《創意電子》課程是 CocoRobo 的 STEAM 課程體系中的基礎課程之一，在本課程中，學生將從好玩有趣的創意電子交互藝術開始，逐步在小作品的設計和創作中學習基礎的電子模組和圖形化編程方法，結合軟件和硬件，在設計思維的指導下發揮創意，設計和製作出獨一無二的創意電子小作品 | [此頁面](/kit/creative-electronics)
+| 2. | 動力小車套件 | <img src="/media/kit_info_2.png" width="300"/> | 《動力小車》課程是 CocoRobo 的 STEAM 課程體系中的基礎課程之一，在課程中，學生將以小車作爲學習和探究的對象，學習使用電子模組，編寫控制程序，使用 3D 打印等快速製造技術，從零開始設計和搭建一臺小車，并且在課程最後的比賽中一展身手 |  [此頁面](/kit/robot-car) |
+| 3. | 智能家居套件 | <img src="/media/kit_info_3.png" width="300"/>  | 《智能家居》課程是 CocoRobo 的 STEAM 課程體系中的進階課程之一，在本課程中，學生將深入探究家居環境中的智能家居產品，通過學習智能產品的系統設計方法，藉助電子模組和程式，設計出智能家居產品來解決真實家居環境中的問題 | [此頁面](/kit/smart-home) |
+| 4. | 人工智能套件 | <img src="/media/kit_info_4.jpg" width="300"/> | 《人工智能》課程是 CocoRobo 的 STEAM 課程體系中的進階課程之一，學生通過簡單的編程學習和調用云平臺功能，搭建和體驗簡單的人工智能應用，幫助學生理解正在發展中的人工智能的基礎知識和應用領域 |  [此頁面](/kit/aiot)  |
+| 5. | 機械達人套件 | <img src="/media/kit_info_5.png" width="300"/> | 《創意點子》課程是 CocoRobo 的 STEAM 課程體系中的進階課程之一，在本課程中，學生需要學習和綜合運用電子模組編程和結構設計知識，在團隊中協作設計一臺競技機器人，實踐機電一體化的學科融合學習 | [此頁面](/kit/robot-arm) |

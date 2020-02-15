@@ -1,4 +1,4 @@
-# Creative Electronics
+# 創意電子
 
 ---
 
@@ -6,197 +6,197 @@
 <img src="../media/kit_ce_1.png" width="65%" />
 </div>
 
-## Course Introduction
+## 課程簡介
 
-Students can use the modules in the kits and their corresponding materials in combination with 3D printing and programming to make a program. The themes of the kits are different from one another, with each kit having its module, sensor, accessories and so on. Students can learn to use the electronic modules in the CocoMod better and faster through their matched courses.
+學生可以利用課程套件中的模組及對應的材料，結合 3D 打印和編程完成一個項目的製作。各個課程套件的主題都不盡相同，每個套件都依據各自的主題包含相對應的模組、傳感器和配件等材料物件，學生通過學習相配套的課程，就能更好、更快地學習使用 CocoMod 電子模組。
 
-## Syllabus
+## 課程大綱
 
 <table>
    <tr>
-      <td><strong>No.</td>
-      <td><strong>Unit</td>
-      <td><strong>Contents</td>
+      <td><strong>序號</td>
+      <td><strong>單元</td>
+      <td><strong>課程内容</td>
    </tr>
    <tr>
       <td>1</td>
-      <td rowspan=3>Basic Learning</td>
-      <td>Introduction: creative electronic interaction arts</td>
+      <td rowspan=3>基礎學習</td>
+      <td>引入：創意電子交互藝術</td>
    </tr>
    <tr>
       <td>2</td>
-      <td>Learn electronic modules, programming platform and light matrix</td>
+      <td>認識電子模組和編程平臺，認識燈屏</td>
    </tr>
    <tr>
       <td>3</td>
-      <td>Project: familiarize yourself with matrix and electronic badges</td>
+      <td>小項目：玩轉燈屏，電子徽章</td>
    </tr>
    <tr>
       <td>4</td>
-      <td rowspan=4>Interaction Lights</td>
-      <td>Blinking lights</td>
+      <td rowspan=4>互動燈光</td>
+      <td>呼吸燈 </td>
    </tr>
    <tr>
       <td>5</td>
-      <td>Color-changing lights</td>
+      <td>變色燈</td>
    </tr>
    <tr>
       <td>6</td>
-      <td>Touching Lights</td>
+      <td>觸摸燈光</td>
    </tr>
    <tr>
       <td>7</td>
-      <td>Project: interaction light games</td>
+      <td>小項目：互動燈光游戲</td>
    </tr>
    <tr>
       <td>8</td>
-      <td rowspan=4>Digital Instruments</td>
-      <td>touch analyzing module and music module</td>
+      <td rowspan=4>電子樂器</td>
+      <td>觸摸感應模組和音樂模組</td>
    </tr>
    <tr>
       <td>9</td>
-      <td>MIDI music</td>
+      <td>MIDI 音樂</td>
    </tr>
    <tr>
       <td>10</td>
-      <td>Project: design digital instrument (1)</td>
+      <td>小項目：設計電子樂器（一）</td>
    </tr>
    <tr>
       <td>11</td>
-      <td>Project: design digital instrument (2)</td>
+      <td>小項目：設計電子樂器（二）</td>
    </tr>
    <tr>
       <td>12</td>
-      <td rowspan=3>Music Picture Book</td>
-      <td>MP3 music module</td>
+      <td rowspan=3>音樂繪本</td>
+      <td>MP3 音樂模組</td>
    </tr>
    <tr>
       <td>13</td>
-      <td>Project: music picture book (1)</td>
+      <td>小項目：音樂繪本（一）</td>
    </tr>
    <tr>
       <td>14</td>
-      <td>Project: music picture book (2)</td>
+      <td>小項目：音樂繪本（二）</td>
    </tr>
    <tr>
       <td>15</td>
-      <td rowspan=4>Design of Creative Electronic Products</td>
-      <td>Design Thinking: creative electronics</td>
+      <td rowspan=4>創意電子產品設計</td>
+      <td>設計思維：創意電子</td>
    </tr>
    <tr>
       <td>16</td>
-      <td>Final Project: Design and make a creative electronic product (1)</td>
+      <td>結題項目：創意電子作品設計和製作（一）</td>
    </tr>
    <tr>
       <td>17</td>
-      <td>Final Project: Design and make a creative electronic product (2)</td>
+      <td>結題項目：創意電子作品設計和製作（二）</td>
    </tr>
    <tr>
       <td>18</td>
-      <td>Final Project: Design and make a creative electronic product (3)</td>
+      <td>結題項目：創意電子作品設計和製作（三）</td>
    </tr>
    <tr>
       <td>19</td>
-      <td rowspan=2>Demonstration and Appraisal of the Products</td>
-      <td>Product demonstration</td>
+      <td rowspan=2>產品展示和評比</td>
+      <td>作品展示</td>
    </tr>
    <tr>
       <td>20</td>
-      <td>Product appraisal</td>
+      <td>作品評比</td>
    </tr>
    <tr>
-      <td>Optional Modules</td>
-      <td>Strip of Lights</td>
-      <td>1) Familiarize yourself with strip of lights, learn connection methods and realize simple effect.<br>2)	Realize complicated effects such as revolving lantern.<br>3)	Proect of interaction strip of lights.</td>
+      <td>選修模塊</td>
+      <td>燈帶</td>
+      <td>1) 認識燈帶，學習連接方法，實現簡單效果<br>2)	實現走馬燈等複雜效果<br>3)	互動燈帶項目</td>
    </tr>
    <tr>
-      <td>Optional Modules</td>
-      <td>Assembly of Multiple Matrices</td>
-      <td>1)	Learn how to connect two LED matrix modules and realize simple effect.<br>2)	Learn how to connect over two LED matrix modules and realize relatively complicated animated effect.<br>3)	Animated effect of multiple matrices.</td>
+      <td>選修模塊</td>
+      <td>多屏拼接</td>
+      <td>1)	學習兩個 LED 燈屏的連接方法，實現簡單效果<br>2)	學習兩個以上 LED 燈屏的連接方法，實現較爲複雜的動畫效果<br>3)	多屏動畫效果</td>
    </tr>
    <tr>
-      <td>Optional Modules</td>
-      <td>Finger-guessing Artifact</td>
-      <td>1)	Learn touch analyzing module, conditional statements, variables and random numbers thoroughly.<br>2)	Interaction Program: finger-guessing Artifact</td>
+      <td>選修模塊</td>
+      <td>猜拳神器</td>
+      <td>1)	深入學習觸摸感應模組，條件判斷語句、變量、隨機數<br>2)	互動項目：猜拳神器</td>
    </tr>
    <tr>
-      <td>Optional Modules</td>
-      <td>Gamepad</td>
-      <td>1)	Touching and gamepad<br>2)	Interaction Program: gamepad and scratch game</td>
+      <td>選修模塊</td>
+      <td>游戲手柄</td>
+      <td>1)	觸摸和游戲手柄<br>2)	互動項目：手柄和 scratch 小游戲</td>
    </tr>
 </table>
 
-## Module Instruction
+## 模組介紹
 
-The following table shows the modules involved in this course kit:
+本課程套件所涉及的模組請見下表：
 
-|No. |Modules | Pictures |Introduction | Details |
+|No. |模組 | 圖片 |簡介 | 詳細介紹 |
 |-  |-  |-  |- |- |
-|1. | Main Controller  | <img src="../media/cocomod/modPic_0006_Layer16.jpg" width=180 style="margin:5px 5px"/> | Main Controller can be regarded as "the brain" if electronic modules were the human body. Programs written in CocoBlockly are "the ideas" aiming to tell "the brain" (main controller) what to do. Once "the ideas" are transmitted to "the brain", the main controller will control other modules to do what is commanded. | [Click here](/cocomod/main-controller) |
-|2. | LED Matrix Module  | <img src="../media/cocomod/modPic_0005_R0010171.jpg" width=180 style="margin:5px 5px"/> | LED matrix module is an electronic module with multiple LED lights in it. You can create various pictures by turning on different lights and controlling the colors of the lights. | [Click here](/cocomod/led-matrix) |
-|3. | Music Module  | <img src="../media/cocomod/modPic_0018_Layer 23.jpg" width=180 style="margin:5px 5px"/> | Music module is used for playing the sounds of musical instruments and music files. The module can emit the sounds of more than 100 musical instruments. It has a SD card socket and supports playing music of ".ogg" format or ".mp3" format. In the current version of CocoBlockly, users can play the sounds of various musical instruments and music files through music module. | [Click here](/cocomod/music) |
-|4. | Touch Analyzing Module  | <img src="../media/cocomod/modPic_0018_Layer 4.jpg" width=180 style="margin:5px 5px"/> | Touch analyzing module is usually used in combination with conductive paper. The conductive paper is connected to the pins on the module via Dupont jumper wire. After connecting the conductive paper to the pins, you can send a potential signal to the module by either touching the pins or the conductive paper. The position of the potential signal is where you touch. | [Click here](/cocomod/touch) |
+|1. | 主機板模組  | <img src="../media/cocomod/modPic_0006_Layer16.jpg" width=180 style="margin:5px 5px"/> | 如果將電子模組類比爲人的身體，主機板模組就是電子模組的「大腦」(brain)，<br>我們在CocoBlockly中撰寫的程式則是主機板模組「大腦」思考要做什麼動作或<br>發出什麼指令時產生的各種「想法」；當「想法」傳輸至「大腦」後，主機板<br>模組從而控制其他模組並令其做出相應的動作或指令。 | [此頁面](/cocomod/main-controller) |
+|2. | LED 燈屏模組  | <img src="../media/cocomod/modPic_0005_R0010171.jpg" width=180 style="margin:5px 5px"/> | LED 燈屏模組是將多個 LED 燈排列一起而成的電子模組，我們可以通過點亮不<br>同的燈，用不同的顏色，去繪製自己想要的圖案 | [此頁面](/cocomod/led-matrix) |
+|3. | 音樂模組  | <img src="../media/cocomod/modPic_0018_Layer 23.jpg" width=180 style="margin:5px 5px"/> | 音樂模組為播放樂器聲音和音樂文檔所用，音樂模組可以發出超過 100 種樂器<br>的聲音，模組也有1個 SD 卡擴展插口，支援播放 .ogg 或者 .mp3 的音樂檔。<br>目前版本的 CocoBlockly 中，我們已經支持使用者通過音樂模組，演奏出不同<br>樂器的聲音，以及播放單個音樂文件。 | [此頁面](/cocomod/music) |
+|4. | 觸摸感應模組  | <img src="../media/cocomod/modPic_0018_Layer 4.jpg" width=180 style="margin:5px 5px"/> | 觸摸感應模組通常與導電紙同用，可以通過觸摸接口或者與接口相連的導電紙<br>来向模組發送一個電位訊號，這樣的電訊號就可以表示觸摸的位置。 | [此頁面](/cocomod/touch) |
 
-## Assemble Mini Electronic Organ with Lights
+## 迷你燈光電子琴組裝
 
-### Preparations
+### 準備材料
 
-Electronic Modules:
+電子模組：
 
-- main controller
-- music module
-- LED matrix module
-- touch analyzing module
+- 主機板模組
+- 音樂模組
+- LED 燈屏模組
+- 觸碰感應模組
 
-3D printing materials
-- white key x 7
-- black key x 5
-- Main Structure: the base of electronic organ, module holder and module container
+3D打印材料：
+- 白色琴鍵 x 7
+- 黑色琴鍵 x 5
+- 琴身組件：電子琴底座、模組支架、模組容器
 
 ![kit](../media/kit_168.png)
 
-Tool:
-- pliers
-- conductive paper
+工具：
+- 剪線鉗
+- 導電紙
 
 ![kit](../media/kit_10.jpg)
 
-### Procedures
+### 組裝步驟
 
-1. Use pliers to cut one side of the Dupont jumper wires and expose 2-3cm of copper wire.
+1. 首先，用剪線鉗將杜邦線的一頭去掉，露出大約2-3cm的銅絲。
 
-2. Connect the Dupont jumper wire to touch analyzing module.
+2. 將處理過的杜邦線全部接到觸碰感應模組中。
 
-3. Put the four electronic modules together: LED matrix module, main controller, touch analyzing module and music module from top to bottom respectively.
+3. 將4個電子模組組合起來。由上到下，分別是 LED 燈屏模組，主機板模組，觸碰感應模組和音樂模組。
 ![kit](../media/kit_169.png)
 
-4. Thread the Dupont jumper wires to the holes at the bottom of the electronic organ. The Dupont jumper wires correspond to the pins of touch analyzing module whose numbers are 0 to 11 respectively from left to right.
+4. 然後，將杜邦線從電子琴底部的孔中穿過去。從左至右，杜邦線對應在觸摸感應上的引針的數位編號爲從0到11。
 
-5. Thread the exposed copper wires of the Dupont jumper wires to the holes of the white (or black) keys.
+5. 將杜邦線中暴露出來的銅絲穿過白色琴鍵（或黑色琴鍵）中的孔。
 
-6. Cut a piece of proper-size conductive paper and paste it on a key together with a exposed copper wires.
+6. 剪下一塊尺寸合適的導電紙，並且和銅絲一起貼在琴鍵上。
 ![kit](../media/kit_170.png)
 
-7. Repeat the 6th procedure until all keys are set successfully.
+7. 此步驟重複至所有琴鍵觸摸設置完成。
 
-8. Put electronic modules into the module container.
+8. 將電子模組放入模組容器中。
 
-9. Put the module container into the module holder and fix the holder on the base of the electronic organ.
+9. 最後，將模組容器穿過模組支架，並且將支架固定在電子琴底座上。
 
-10. The assembly is finished.
+10. 迷你燈光電子琴組裝完成。
 ![kit](../media/kit_171.png)
 
-11. The following picture shows the complete mini electronic organ with lights
+11. 完整的迷你燈光電子琴就如下圖。
 <img src="../media/kit_11.png" width=500/>
 
-## Program the Mini Electronic Organ with Lights
+## 迷你電子琴編程
 
-Go to  [CocoBlockly](https://cocorobo.hk/cocoblockly/dev/?lang=zh-hant) and use the blocks in "Music" to do the programming. You can see the effect after the program is successfully uploaded to the main controller.
+前往 [CocoBlockly](https://cocorobo.hk/cocoblockly/dev/?lang=zh-hant)，使用「音樂」一欄的積木，完成迷你電子琴的程式設計，上傳至主機板模組後即可出現電子琴的效果
 
 <img src="../media/kit_172.png" width=550/>
 
-###### Should you have any enquiries, please email to support-hk@cocorobo.cc.
+###### 若您有其他疑問，請電郵至 support-hk@cocorobo.cc 詢問
 
 ***
 
-Updated in August 2019
+更新日期：2019年8月

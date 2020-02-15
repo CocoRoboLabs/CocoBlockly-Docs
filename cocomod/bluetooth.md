@@ -1,12 +1,12 @@
 
-# Apply Bluetooth Communication Module
+# 藍牙通訊模組
 ---
 
-## Introduction
- Bluetooth communication module is used in combination with the equipment that is compatible with it. It is used to remotely control output. The status indicator blinks at a high frequency before successful paring with other equipment while after successful paring with other equipment it blinks at a relatively low frequency.
+## 模組簡介
+ 藍牙通訊模組是用於能與藍牙配對的設備，遠端控制輸出。藍牙配對前狀態燈會以較快的頻率閃爍，當成功連接後狀態燈以較慢頻率閃爍
 
 
-## Main Components
+## 模組主要部件
 
 <img src="../media/bluetooth.jpg" width="350"/>
 <br>
@@ -14,108 +14,109 @@
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">Name</td>
-		<td style="font-weight: bold;">Description</td>
+		<td width="20%" style="font-weight: bold;">部件名稱</td>
+		<td style="font-weight: bold;">部件描述</td>
 	</tr>
 	<tr>
 		<td>1.</td>
-		<td>Bluetooth chip</td>
-		<td>Bluetooth 2.0 chip (HC-05)</td>
+		<td>藍牙芯片</td>
+		<td>藍牙 2.0 芯片 (HC-05)</td>
 	</tr>
 	<tr>
 		<td>2.</td>
-		<td>status light</td>
-		<td>There are normally two states: Blinking at a high frequency (waiting to pair with other equipment) and Blinking at a relatively low frequency (paired or connected)</td>
+		<td>狀態指示燈</td>
+		<td>正常情況下分兩種狀態：<br>快速閃爍（等待配對狀態）和稍慢閃爍（已配對或已連接）</td>
 	</tr>
 	<tr>
 		<td>3.</td>
-		<td>AT mode button</td>
-		<td>Long press the button before electrification. You can refer to the  <a href="http://help.cocorobo.hk/#/cocomod/bluetooth?id=藍牙改名：at模式">"go to AT mode"</a> at the end of this chapter to learn more about operations such as "rename the module's radio name", "set a paring password" and "get the physical address".</td>
+		<td>AT模式按鈕</td>
+		<td>在通電前長按此按鈕，可前往本章後面部分的<a href="http://help.cocorobo.hk/#/cocomod/bluetooth?id=藍牙改名：at模式">進入AT模式</a>瞭解，以進行「修改藍牙通訊模組廣播名稱」、「配對密碼」、「獲取藍牙物理地址」等操作</td>
 	</tr>
 </table>
 
-#### Pinout
+#### 模組接口示意
 
-| Pinout Position | Pinout Description           |
+| 接口位置 | 接口描述           |
 | -------- | ------------------ |
-| (digital signal) D0: main controller Rx    | Tx: Bluetooth communication module terminal (UART Communication)       |
-| (digital signal) D1: main controller Tx   | Rx: Bluetooth communication module terminal  (UART Communication) |
+| (數位訊號) D0: 主機板 Rx    | Tx: 藍牙通訊模組端 (UART 通訊)       |
+| (數位訊號) D1: 主機板 Tx   | Rx: 藍牙通訊模組端 (UART 通訊) |
 
-> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
+> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
 
 ---
 
-## Instructions
+## 模組使用說明
 
-1. The status indicator blinks at a high frequency before successful paring with other equipment while after successful paring with other equipment it blinks at a relatively low frequency.
-2. The initial name and pin of the Bluetooth communication module is "HC-05" and "1234" respectively.
-3. You need to electrify the module before resetting it. Press the resetting button for 5s till the status indicator begins to blink at a high frequency.
-4. Besides, CocoRobo provides the following examples of Bluetooth remote control for your reference.
+1. 藍牙未連接前，狀態燈會快速閃爍，儅成功配對連接後，狀態燈閃爍變慢；
+2. 藍牙出廠設置的命名HC-05，連接pin碼爲「1234」；
+3. 藍牙重置需要先通電，長按重置按鈕5s，直至狀態燈快速閃爍；
+4. 用戶可根據擬藍牙遙控之功用，使用App Inventor來製作遙控App；
+5. 此外，CocoRobo亦提供下述藍牙遙控實例以供參考。
 
-###  MIT - App Inventor - App Example
+###  MIT - App Inventor - 示例App
 
-Bluetooth controls, based on the functions concerned, are realized in respective Apps. For example, you need to download "Coco BT Slider" if you want to use slider to control a module.
-Please use the browser in your Android mobile phone to scan the QR code below and download the App you need.
+不同功能的藍牙控制是在不同的App上實現的，如：若要使用滑動條來控制模組，需下載對應的 Coco BT Slider。
+請根據您的需要，使用 Android 手機的瀏覽器掃描下表的二維碼下載對應的示例App：
 
-|No.| QR Code       | App Name    |   Introduction   |     Using Method    |
+|編號| 二維碼       | App名稱    |   應用介紹   |     使用方法    |
 |---|-------------------------|----------|------------------|------------------|
-|1. | <img src="../media/Coco_BT_Switch.png" width="80"/>     |   Coco BT Switch          |    Bluetooth control: button switch   | use switch button; send the data (a number) |
-|2. | <img src="../media/Coco_BT_Slider.png" width="80"/>              | Coco BT Slider  |  Bluetooth control: slider    | control the position of pointer in the slider; send the data (a number ranging from 0 to 100) |
-|3. | <img src="../media/Coco_BT_Motor_Control.png" width="80"/>                 | Coco BT Motor Controller    |  Bluetooth control: motor controller    | control the two motors' rotation direction and speed; send the data (the number or text shown on the button) |
-|4. | <img src="../media/Coco_BT_Servo_Control.png" width="80"/>                  | Coco BT Servo Controller    |  Bluetooth control: servo motor controller    | control the angles of the 6 servo motors simultaneously; send the data (a number) |
-|5. |  <img src="../media/Coco_Robot_Arm.png" width="80"/>               | Coco Robot Arm    |  Bluetooth control: robot arm        | open "Bluetooth" in the CocoBlockly and then select "Robot Arm Remote Control"; send the data (a number in the slider) |
-|6. | <img src="../media/Coco_Robot_Car.png" width="80"/>                 | Coco Robot Car    | Bluetooth control: robot car    | open "Bluetooth" in the CocoBlockly and then select "Robot Remote Control"; send the data (a text shown on the button) |
+|1. | <img src="../media/Coco_BT_Switch.png" width="80"/>     |   Coco BT Switch          |    藍牙控制：按鈕開關   | 使用按鈕，發出單個數值數據 |
+|2. | <img src="../media/Coco_BT_Slider.png" width="80"/>              | Coco BT Slider  |  藍牙控制：滑動條    | 通過滑動條上指針的所處位置，發出單個數值數據（0~100） |
+|3. | <img src="../media/Coco_BT_Motor_Control.png" width="80"/>                 | Coco BT Motor Controller    |  藍牙控制：馬達    | 操控兩個馬達的正轉、反轉和速度，發出數據為按鈕上顯示的單個文本或數值 |
+|4. | <img src="../media/Coco_BT_Servo_Control.png" width="80"/>                  | Coco BT Servo Controller    |  藍牙控制：伺服馬達    | 可同時操控 6 個伺服馬達的角度（0~180度），發出單個數值數據 |
+|5. |  <img src="../media/Coco_Robot_Arm.png" width="80"/>               | Coco Robot Arm    |  藍牙控制：機械臂        | 在 CocoBlockly 中打開「藍牙」，選擇「藍牙控制機械臂」，發出數據為滑動條的單個數值 |
+|6. | <img src="../media/Coco_Robot_Car.png" width="80"/>                 | Coco Robot Car    |  藍牙控制：小車    | 在 CocoBlockly 中打開「藍牙」，選擇「藍牙控制小車」，發出數據為按鈕上顯示的單個文本 |
 
 ---
 
-## Basic Application
+## 藍牙通訊模組基礎使用
 
-Control the Main Controller by Connecting Android App to Bluetooth Communication Module
+使用 Android 手機 App 來與藍牙通訊模組進行連接，由此來控制主控模組。
 
-### Receive the Data Sent by Android App via Bluetooth
+### 藍牙接收 Android App 發送的數據
 
-#### Assemble Modules
+#### 模組組裝
 
-Put the Bluetooth communication module and the main controller together, and connect the main controller to a computer via a USB data cable.
+將藍牙通訊模組和主機板模組拼在一起，並讓主機板模組連接好 USB 綫至電腦：
 
 <div style="text-align:center;">
 <img src="../media/bluetooth_main.jpg" width="350"/>
 </div>
 
-#### Connection Configuration
+#### 連接配置
 
-For more information about how to connect Android mobile phone and Bluetooth communication module, please refer to the following document:
+關於如何讓 Android 手機與藍牙通訊模組配對連接，請參考下面這個文檔：
 
 <object width="100%" height="500px" data="../media/移動端(Android)配對藍牙通訊模組教程.pdf" type="application/pdf">
 	<embed src="../media/移動端(Android)配對藍牙通訊模組教程.pdf" type="application/pdf" />
 </object>
 
-After successful connecting, you can use Android app to control the module:
+配對連接成功後，便可以使用 Android app 控制模組了：
 
 <div style="text-align:center;">
 <img style="border-radius:5px;border: 1px #ddd solid; " align="center" src="../media/bluetooth_app.png" width="30%"/>
 </div>
 
-#### Code by CocoBlockly
+#### 積木編程
 
 <div style="text-align:center;">
-<img src="../media/bluetooth_block_send_en.png" width=100%/>
+<img src="../media/bluetooth_block_send.png" width=100%/>
 </div>
 
 
-#### Effects
+#### 最終效果
 
 <div style="text-align:center;">
-<img src="../media/bluetooth_result_send_en.png" width=100%/>
+<img src="../media/bluetooth_result_send.png" width=100%/>
 </div>
 
 ---
 
-### Learn to Use MIT App Inventor to Make Android App
+### 學習如何使用 MIT App Inventor 製作 Android App
 
-You can, based on the remote control function of Bluetooth, use App Inventor to make remote control App.
+用戶可根據擬藍牙遙控之功用，使用App Inventor來製作遙控App
 
-#### Reference
+#### 參考鏈接
 
 * https://web.17coding.net/
 * https://www.jianshu.com/p/9c462581bbcf
@@ -123,68 +124,68 @@ You can, based on the remote control function of Bluetooth, use App Inventor to 
 ---
 
 <!--
-## Advanced Application
+## 藍牙通訊模組進階使用
 
-**This section introduces how to transmit data between two Bluetooth communication modules:**
+**本小節介紹如何進行兩個蓝牙通訊模組之間的數據傳輸：**
 
-To transmit data between two Bluetooth communication modules, you need to configure the AT modes of the two modules first. And after successfully pairing the two modules, you can transmit data between them.
+要使兩個蓝牙通訊模組能夠進行數據傳輸，首先要分別進入兩個藍牙通訊模組的AT模式進行配置，儅兩個藍牙通訊模組配對成功后便可傳輸數據
 
-* Download the corresponding Arduino program of the AT mode:
+* AT 模式對應 Arduino 程式下載：
 	* https://cocorobo.hk/downloads/Bluetooth_AT_Mode.ino
 
 <object width="100%" height="800px" data="../media/CocoRobo藍牙通訊模組間配對流程.pdf" type="application/pdf">
 	<embed src="../media/CocoRobo藍牙通訊模組間配對流程.pdf" type="application/pdf" />
 </object>
 
-<b>video：「How to go to the AT mode of the Bluetooth Communication Module」</b>
+<b>視頻：「如何進入藍牙通訊模組的 AT 模式」</b>
 <video width="100%" height="480px" controls>
   <source src="media/entering_at-mode.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-<b>video：「After linking to the Bluetooth Communication Module, electrify the module and you will see the results」</b>
+<b>視頻：「藍牙通訊模組綁定完成，再次通電後連接的效果」</b>
 <video width="100%" height="480px" controls>
   <source src="media/bluetooth_comm-pairing.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-#### Assemble Modules
+#### 模組組裝
 
-##### Bluetooth Communication Module 1
+##### 藍牙通訊模組1
 
-Put the Bluetooth communication module, the sensor 101 module and the main controller together, and connect the main controller to a computer via a USB data cable.
+將教學模組、藍牙通訊模組及主機板模組拼在一起，並讓主機板模組連接好 USB 綫至電腦：
 
 <div style="text-align:center;">
 <img src="../media/bluetooth_main_screen.jpg" width="350"/>
 </div>
 
-##### Bluetooth Communication Module 2
+##### 藍牙通訊模組2
 
-Put the Bluetooth communication module, the LED matrix module and the main controller together, and connect the main controller to a computer via a USB data cable.
+將LED燈屏模組、藍牙通訊模組及主機板模組拼在一起，並讓主機板模組連接好 USB 綫至電腦：
 
 <div style="text-align:center;">
 <img src="../media/bluetooth_main_led.jpg" width="350"/>
 </div>
 
-#### Code by CocoBlockly
+#### 積木編程
 
-Program Bluetooth Communication Module 1 and Bluetooth Communication Module 2 respectively and upload the programs to their corresponding main controller.
+分別對藍牙通訊模組1、藍牙通訊模組2編寫程序並上載到對應模組的主機板模組中
 
-##### Bluetooth Communication Module 1
+##### 藍牙通訊模組1
 
 <div style="text-align:center;">
 <img style="margin:0px 0px 10px 0px;" src="../media/bluetooth2BT_block_BT1.jpg" width=100%/>
 </div>
 
-##### Bluetooth Communication Module 2
+##### 藍牙通訊模組2
 
 <div style="text-align:center;">
 <img style="margin:0px 0px 10px 0px;" src="../media/bluetooth2BT_block_BT2.jpg" width=100%/>
 </div>
 
-#### Effects
+#### 最終效果
 
 to be edited.
 -->
 
-Updated in August 2019
+更新時間：2019年8月

@@ -40,11 +40,13 @@ find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/伺服马达/舵�
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/数位/数字/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/类比/模拟/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/序列埠/串口/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/通讯/通信/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/讯号/信号/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/通讯/通信/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/主机板/主控/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/荧幕/屏幕/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/感应/传感/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/透过/通过/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/程式/程序/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/软体/软件/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/硬体/硬件/g'
@@ -55,6 +57,8 @@ find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/户口/账户/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'support-hk@cocorobo.cc'/'support@cocorobo.cc'/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'cocorobo.hk'/'cocorobo.cn'/g'
 find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'api.cocorobo.cn'/'api.cocorobo.hk'/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'https://api.cocorobo.hk/releases/uploaderv2/download/mac'/'http://cocorobo.cn/downloads/CocoBlocklyUploader_v3.0.6_macOS.dmg'/g'
+find . -type f -name "*.md" -print0 | xargs -0 sed -i '' -e 's/'https://api.cocorobo.hk/releases/uploaderv2/download/windows'/'http://cocorobo.cn/downloads/CocoBlocklyUploader_v3.0.6_Windows.exe'/g'
 
 echo "Pushing updated content to remote..."
 

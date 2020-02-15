@@ -1,73 +1,73 @@
-# Programming Environment
+# 關於編程環境
 
 ---
 
 ## CocoBlockly Uploader
 
-CocoBlockly Uploader is a trans-platform uploading plugin which is targeted to enable communication between browser and the main controller. You can visit CocoBlockly and upload programs to electronic modules after downloading and installing the plugin.
+爲了能夠讓 CocoBlockly 能夠從瀏覽器和主機板模組進行通訊，我們推出一款跨平臺的上傳插件（Uploader），用戶下載該插件並安裝，隨後即可訪問 CocoBlockly，對我們的電子模組進行上傳編程。
 
-Please download the CocoBlockly Uploader installation package of respective platforms.
+首先請下載對應作業平臺的 CocoBlockly Uploader 安裝包：
 
-#### Download Installation Packages
+#### 安裝包下載
 
-| Platforms                            | Download    | System Requirements                   |  Instructions |
+| 作業平臺                            | 下載     | 系統要求                   |  安装说明 |
 | ----------------------------------- | -------- | -------------------------- |----|
-| CocoBlockly Uploader v3 for MacOS   | [click here](https://api.cocorobo.hk/releases/uploaderv2/download/mac) | System version should be newer than macOS 10.10 | [Check](/getting-started/installation?id=macOS-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
-| CocoBlockly Uploader v3 for Windows | [click here](https://api.cocorobo.hk/releases/uploaderv2/download/windows) | System version should be newer than Windows 7 | [Check](/getting-started/installation?id=windows-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
+| CocoBlockly Uploader v3 for MacOS   | [點此下載](https://api.cocorobo.hk/releases/uploaderv2/download/mac) | 要求系統版本高於 macOS 10.10 | [查看](/getting-started/installation?id=macOS-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
+| CocoBlockly Uploader v3 for Windows | [點此下載](https://api.cocorobo.hk/releases/uploaderv2/download/windows) | 要求系統版本高於 Windows 7 | [查看](/getting-started/installation?id=windows-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
 
-**For more information on installation, please refer to [CocoBlockly Uploader Installation Instructions](/getting-started/installation)**
+**詳細的安裝指引請參見 [此頁面](/getting-started/installation)**
 
-* Note: Make sure that the CocoBlockly Uploader is started when you are using CocoBlockly to write programs. Or you cannot upload programs to the electronic modules.
-* Browser Compatibility
-    * <b style="background-color:orangered; margin-right: 3px; padding: 2px 5px; color: #fff; font-size: 12px; border-radius: 4px;">Recommend</b> Google Chrome, and the version number should be bigger than 55
-    * Opera, and the version number should be bigger than 50
-    * Firefox, and the version number should be bigger than 55
-    * Safari, and the version number should be bigger than 12
-    * 360 Browser, and the version number should be bigger than 9.5
-    * Sogou Browser, and the version number should be bigger than 8
+* 註：使用 CocoBlockly 編程時，務必確保本機的 CocoBlockly Uploader 打開了，否則將無法給電子模組上傳程式；
+* 瀏覽器兼容性
+    * <b style="background-color:orangered; margin-right: 3px; padding: 2px 5px; color: #fff; font-size: 12px; border-radius: 4px;">推薦使用</b> Google Chrome，版本號需要大於 55
+    * Opera，版本號需要大於 50
+    * Firefox，版本號需要大於 55
+    * Safari，版本號需要大於 12
+    * 360 安全瀏覽器，版本號需要大於 9.5
+    * 搜狗瀏覽器，版本號需要大於 8
 
 ---
 
-#### Upload Programs via Uploader
+#### 使用 Uploader 上傳程式
 
-1. Open the plugin "CocoBlockly Uploader".
+1. 打開已安裝好的插件「CocoBlockly Uploader」
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_icon.png" width="20%" /></div>
 
-2. Open the webpage: http://cocorobo.hk/cocoblockly/dev/
+2. 打開網頁：http://cocorobo.hk/cocoblockly/dev/
 
-3. After the plugin is successfully uploaded to CocoBlockly, "Plugin is connected successfully!" will be shown at the upper right of the interface.
+3. CocoBlockly 完成載入後，界面右上方會提示「插件已經成功連接！」
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_1.png" width="40%" /></div>
 
-  - At the same time, successful connection is also shown in the "Upload Area".
+  - 同時，「程式上傳區」也會顯示連接成功
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_2.png" width="70%" /></div>
 
-4. Connect the main controller to a computer via a USB data cable. The port name of the main controller will be shown after a short time.
-  - **Note 1**: For more information on the main controller, please refer to [Apply Main Controller](/cocomod/main-controller)
-  - **Note 2**：The port of Windows usually begins with "COM" while the port of MacOS usually begins with "/dev/tty.usb".
+4. 將主機板模組通過 USB 線接入電腦，經過一小段時間后，將會顯示主機板模組的端口名。
+  - **注1**：關於主機板模組的資料，請查閲：[使用主機板模組](/cocomod/main-controller)
+  - **注2**：Windows 裏的端口名通常以 COM 開頭，MacOS 裏的通常以 /dev/tty.usb 開頭。
 
- <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_3.png" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_3.png" width="70%" /></div>
 
-5. Click "Upload" and begin to upload the Arduino source code of the "Arduino Source Code" to the main controller. Three steps will be involved:
+5. 點擊「上載」開始將「積木對應原始碼參考區」中的 Arduino 原始碼上傳至主機板中，此時會經歷3個步驟：
 
-  - Compiling
+  - 編譯中（Compiling）
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_4.png" width="70%" /></div>
 
-  - Uploading
+  - 上傳中（Uploading）
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_5.png" width="70%" /></div>
 
-  - Upload successfully
+  - 上傳成功（Upload successfully）
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_6.png" width="70%" /></div>
 
-6. The completion of the above three steps means that the program is successfully uploaded to the main controller.
+6. 完成以上3個步驟，就意味著我們已經將程式上傳至主機板中
 
-  - **Note**: Similar to the "Verify code" of the Arduino IDE, the option of "Compile" is also provided here to test if the program is correctly written.
+  - **注**：與 Arduino IDE 的「Verify code」類似，我們提供「編譯（Compile）」這個選項，供大家測試編寫的程式是否能夠正確編譯
 
 
   <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_7.png" width="70%" /></div>
 
   ---
-  Updated in August 2019
+  更新時間：2019年8月

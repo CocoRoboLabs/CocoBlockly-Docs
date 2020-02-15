@@ -1,83 +1,83 @@
-# Apply Environmental Sensing Module
+# 使用環境感應模組
 
-## Introduction
+## 模組簡介
 
-Environmental sensing module can get and react to the environmental data of temperature, moisture, sound and light.
+環境感應模組既能夠獲取包括溫度、濕度、聲音的強弱程度、光線的強弱程度等環境數據，也可以根據環境數據變化作出反應。
 
-## Main Components
+## 模組主要部件
 
 <img src="/media/cocomod/modPic_0007_Layer 15.jpg" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">Name</td>
-		<td style="font-weight: bold;">Description</td>
+		<td width="20%" style="font-weight: bold;">部件名稱</td>
+		<td style="font-weight: bold;">部件描述</td>
 	</tr>
 	<tr>
 		<td>1.</td>
-		<td>Light Sensing Component</td>
-		<td>used for monitoring the surrounding light intensity; relevant data range from 0 to 1023.</td>
+		<td>光照感應元件</td>
+		<td>用於監測周邊環境的光照強度，數據範圍在0至1023之間</td>
 	</tr>
 	<tr>
 		<td>2.</td>
-		<td>Sound Sensing Component</td>
-		<td>used for monitoring the surrounding sound intensity; relevant data range from 0 to 1023.</td>
+		<td>聲音感應元件</td>
+		<td>用於監測周邊環境的聲音強度，數據範圍在0至1023之間</td>
 	</tr>
 	<tr>
 		<td>3.</td>
-		<td>Temperature/Moisture Sensing Component</td>
-		<td>used for monitoring the surrounding temperature (the unit can be "Celsius" or "Fahrenheit") and moisture (the unit is "%").</td>
+		<td>溫度/溼度感應元件</td>
+		<td>用於監測周邊環境的溫度（可選攝氏或者華氏）和溼度（單位是%）</td>
 	</tr>
 	<tr>
 		<td>4.</td>
-		<td>Temperature/Moisture Sensing Component<br>Sensitivity Adjustment Button</td>S
-		<td>used for adjusting the sensitivity of sensing components only when something is wrong with the components.</td>
+		<td>溫度/溼度感應元件<br>靈敏度調節旋鈕</td>
+		<td>用於調節改感應元件的靈敏度，一般在該元件出問題的情況下進行調整，但正常情況下請不要轉動</td>
 	</tr>
 	<tr>
 		<td>5.</td>
-		<td>Buzzer</td>
-		<td>used to generating sounds of different frequencies; data is expressed in HZ.</td>
+		<td>蜂鳴器</td>
+		<td>用於產生震動音頻，數值通過赫茲來控制</td>
 	</tr>
 	<tr>
 		<td>6.</td>
-		<td>RGB LED Light Component</td>
-		<td>used for generating lights of different colors through RGB value.</td>
+		<td>RGB燈光元件</td>
+		<td>通過RGB數值發出不同顏色燈光</td>
 	</tr>
 	<tr>
 		<td>7.</td>
-		<td>Third-party Sensor<br>Pin A3</td>
-		<td>used for connecting to sensors produced by other manufactures; the pin receives analog signals.（A3）</td>
+		<td>第三方感應器<br>接口 A3</td>
+		<td>可接入其他廠商生產的感應器，該接口爲類比數據類型（A3）</td>
 	</tr>
 	<tr>
 		<td>8.</td>
-		<td>Third-party Sensor<br>Pin A0</td>
-		<td>used for connecting to sensors produced by other manufactures; the pin receives analog signals.（A0）</td>
+		<td>第三方感應器<br>接口 A0</td>
+		<td>可接入其他廠商生產的感應器，該接口爲類比數據類型（A0）</td>
 	</tr>
 </table>
 
-#### Pinout
+#### 模組接口示意
 
-| Pinout Position | Pinout Description           |
+| 接口位置 | 接口描述           |
 | -------- | ------------------ |
-| (analog signal) A1    |    Light Sensing Component    |
-| (analog signal) A2   | Sound Sensing Component |
-| (digital signal) D4    | Temperature/Moisture Sensing Component       |
-| (digital signal) D7   | Buzzer |
-| (digital signal) D9, D10, D11    | RGB LED Light Component: D9, the brightness of red light; D10, the brightness of green light; D11, the brightness of blue light     |
+| (類比訊號) A1    |    光照感應元件    |
+| (類比訊號) A2   | 聲音感應元件 |
+| (數位訊號) D4    | 溫度/溼度感應元件       |
+| (數位訊號) D7   | 蜂鳴器 |
+| (數位訊號) D9,D10,D11    | RGB燈光元件：D9爲紅色量控制接口，D10爲綠色量控制，D11爲藍色量控制      |
 
-> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
+> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
 
 ---
 
 
-## Environmental Sensing Module
+## 環境感應模組
 
-### Get the Data of Temperature and Moisture
+### 獲取溫度和溼度數據
 
-#### Assemble Modules
+#### 模組組裝
 
-Put the environmental sensing module and the main controller together, and connect the main controller and a computer via a USB data cable:
+將主機板模組和環境感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
@@ -86,135 +86,135 @@ Put the environmental sensing module and the main controller together, and conne
 
 
 
-#### Code by CocoBlockly
+#### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-1_en.png)
+![env__main--blockly](../media/env__main--blockly-1.png)
 
 
-#### Effects
+#### 最終效果
 
 <div style="text-align:center;">
-<img src="../media/env__main--result-1_en.png" width=80%/>
+<img src="../media/env__main--result-1.png" width=80%/>
 </div>
 
 
 ---
 
 <div style="padding: 16px 20px; background-color:#004be1; border-radius:5px; color:#fff; font-size:18px; text-align: center; font-weight:bold;">
-	FAQ: Why can't the program be successfully uploaded after using the serial port window?
+	常見問題請注意：使用完序列埠窗口後上傳程式失敗
 </div>
 
-The reason is that the serial port tool is connecting to development board port so that the port of the main controller is occupied.
+這是因爲序列埠工具連接著開發板端口，導致「主機板模組」端口被佔用，所以無法上傳成功。
 
 <div align=center><img src="../media/portBeUsed.png" width="450"/></div>
 
-#### Solution:
+#### 解決方法:
 
-Switch to serial port tool connection area and disconnect the serial port tool, then you can upload the program successfully.
+切換到序列埠工具連接區，斷開序列埠連接，再重新上傳即可。
 
 <div align=center>
-<img src="../media/serialConnWhenupload_en.gif" width="250"/>
+<img src="../media/serialConnWhenupload.gif" width="250"/>
 </div>
 
 ---
 
-### Get the Data of Light
+### 獲取光照數據
 
-#### Assemble Modules
+#### 模組組裝
 
-Put the environmental sensing module and the main controller together, and connect the main controller and a computer via a USB data cable:
+將主機板模組和環境感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
 <img src="../media/env__main--assemble.jpeg" width="250"/>
 </div>
 
-#### Code by CocoBlockly
+#### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-2_en.png)
+![env__main--blockly](../media/env__main--blockly-2.png)
 
-#### Effects
+#### 最終效果
 
 <div align=center>
-<img src="../media/env__main--result-2_en.png" width=80%/>
+<img src="../media/env__main--result-2.png" width=80%/>
 </div>
 
 ---
 
-### Get the Data of Sound
+### 獲取聲音數據
 
 
-#### Assemble Modules
+#### 模組組裝
 
-Put the environmental sensing module and the main controller together, and connect the main controller and a computer via a USB data cable:
+將主機板模組和環境感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
 <img src="../media/env__main--assemble.jpeg" width="250"/>
 </div>
 
-#### Code by CocoBlockly
+#### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-3_en.png)
+![env__main--blockly](../media/env__main--blockly-3.png)
 
-#### Effects
+#### 最終效果
 
 <div align=center>
-<img src="../media/env__main--result-3_en.png" width=80%/>
+<img src="../media/env__main--result-3.png" width=80%/>
 </div>
 
 ---
 
-### Turn on RGB LED Light
+### 點亮 RGB LED 燈
 
-#### Assemble Modules
+#### 模組組裝
 
-Put the environmental sensing module and the main controller together, and connect the main controller and a computer via a USB data cable:
+將主機板模組和環境感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
 <img src="../media/env__main--assemble.jpeg" width="250"/>
 </div>
 
-#### Code by CocoBlockly
+#### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-4_en.png)
+![env__main--blockly](../media/env__main--blockly-4.png)
 
 
-#### Effects
+#### 最終效果
 <div style="text-align:center;">
 <img src="../media/env__main--result-4.jpeg" width="500"/>
 </div>
 
 ---
 
-### Activate the Buzzer
+### 響起蜂鳴器
 
-#### Assemble Modules
+#### 模組組裝
 
-Put the environmental sensing module and the main controller together, and connect the main controller and a computer via a USB data cable:
+將主機板模組和環境感應模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="text-align:center;">
 <img src="../media/env__main--split.jpeg" width="250"/>
 <img src="../media/env__main--assemble.jpeg" width="250"/>
 </div>
 
-#### Code by CocoBlockly
+#### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-5_en.png)
+![env__main--blockly](../media/env__main--blockly-5.png)
 
 
-#### Effects
+#### 最終效果
 
-Buzzer Emits Sounds
+蜂鳴器發出聲音
 
 ---
 
-### Print the Environmental Data on the Screen Module
+### 將環境數據打印在熒幕模組上
 
-#### Assemble Modules
+#### 模組組裝
 
-Put the environmental sensing module, screen module and the main controller together, and connect the main controller and a computer via a USB data cable:
+將主機板模組、環境感應模組以及熒幕模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
 
 <div style="text-align:center;">
 <img src="../media/env__main--split-6.jpeg" width="250"/>
@@ -222,16 +222,16 @@ Put the environmental sensing module, screen module and the main controller toge
 </div>
 
 
-#### Code by CocoBlockly
+#### 積木編程
 
-![env__main--blockly](../media/env__main--blockly-6_en.png)
+![env__main--blockly](../media/env__main--blockly-6.png)
 
 
-#### Effects
+#### 最終效果
 
 <div style="text-align:center;">
 <img src="../media/env__main--result-6.jpeg" width="500"/>
 </div>
 
 ---
-Updated in August 2019
+更新時間：2019年8月

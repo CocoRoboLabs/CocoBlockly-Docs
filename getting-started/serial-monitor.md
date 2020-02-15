@@ -1,33 +1,33 @@
-# Serial Monitor Window
+# 序列埠監視器
 ---
-## Introduction
+## 簡介
 
-Serial monitor window, which provides good assistance in debugging data (sensor and network request), is used to show the data on the development board. It can also support the export of the displayed data in the format of TXT and CSV.
+序列埠監視器用於顯示查看開發板上的數據，是調試數據（感應器、網絡請求）的好幫手，該功能亦支持將顯示的數據以 TXT 和 CSV 格式導出。
 
-## Interface
+## 界面介紹
 
-### Switch to Serial Monitor Window
-You can switch to serial monitor window by clicking the second icon shown in the right toolbar.
+### 序列埠監視器切換
+右側工具欄懸浮顯示，點擊第二個按鈕即可切換爲序列埠監視器
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_switch.png" width="100%" /></div>
 
-Click the icon and then the **Arduino Source Code Area** and the **program uploading area** will be switched into **serial monitor window**
+點擊切換，會將**程式代碼生成區**和**程式上傳區**切換成**序列埠監視器**
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card.png" width="100%" /></div>
 
 ---
 
 <div style="padding: 16px 20px; background-color:#004be1; border-radius:5px; color:#fff; font-size:18px; text-align: center; font-weight:bold;">
-	Common Mistake: The program cannot be uploaded successfully after using serial monitor window.
+	常見問題請注意：使用完序列埠窗口後上傳程式失敗
 </div>
 
-The reason is that the serial port is connected to development board port. So the port of the main controller is occupied thus causing uploading failure.
+這是因爲序列埠工具正在連接著開發板端口，導致「主機板模組」端口被佔用，所以無法上傳成功。
 
 <div align=center><img src="../media/portBeUsed.png" width="450"/></div>
 
-#### Solution
+#### 解決方法:
 
-Switch to serial monitor window, disconnect the serial port and then you can upload programs.
+切換到序列埠監控視窗，斷開序列埠連接，再重新上傳程式即可。
 
 <div align=center>
 <img src="../media/serialConnWhenupload.gif" width="250"/>
@@ -36,56 +36,56 @@ Switch to serial monitor window, disconnect the serial port and then you can upl
 
 ---
 
-### Function Partitions
+### 功能分區
 
-#### Serial port tool connection partition: connect to development board port, print data, connect to Baud rate and send data.
+#### 序列埠工具連接區：連接開發板端口，數據打印方式，連接波特率，數據發送
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_1.png" width="100%" /></div>
 
-##### Print Data
+##### 數據打印方式
 
-1. No Line End: Print in the same line if there is no end mark.
-2. NL (New Line): Begin in a new line to print the end.
-3. CR (Carriage Return): Print ends with return key.
-4. NL & CR: Print ends with return key and begins in a new line.
+1. 沒有行結尾 : 沒有結束符，打印在同一行
+2. NL(New Line) : 打印結尾新起一行
+3. CR(Carriage Return) : 打印以回車方式結束
+4. NL & CR : 打印以回車方式結束，並另起一行
 
-##### Baud Rate
-   Baud rate refers to the amount of data a piece of equipment sends (or receives) in a second. The Baud rate of the serial port should be consistent with that of the development board so that the serial port can receive the data sent by the board. The common Baud rate is 9600 bits/s.
+##### 波特率
+   波特率，通俗理解爲一個設備在一秒鐘內發送（或接收）的數據量。序列埠的波特率設置需要與開發板設置的波特率一致，這樣才能正確地接收到開發板傳送過來的數據。常用的波特率數值爲：9600 比特/秒
 
-Serial port data print area
+序列埠數據打印區
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_2.png" width="100%" /></div>
 
-Serial port tool function partition: automatically change line for data, export data and clear the data in the demonstration area.
+序列埠工具功能區：數據顯示自動換行，導出數據，顯示區域數據清除
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_3.png" width="100%" /></div>
 
-## Instruction
+## 使用介紹
 
-### Blocks
+### 使用積木
 
-Serial monitor window needs to be used in combination with serial port communication blocks. As is shown in the following picture, the first block is the setup block which can set the Baud rate. The second block is the print block. To avoid printing the data too fast, serial port communication blocks usually need to be used in combination with time blocks.
+序列埠監視器的使用需要配合序列埠通訊積木。在下圖中，第一個積木爲初始化積木，可以設置波特率，第二個積木爲打印數據積木。并且，爲了避免數據打印過快，序列埠通訊積木通常需要和時間積木一同使用
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_block.png" width="100%" /></div>
 
-Upload the blocks in the working area to the main controller, switch to serial monitor window and click the connection button.
+上傳工作區所示積木樣例至主機板，切換至序列埠監視器（序列埠監控視窗），點擊連接按鈕
 
-> Note: To avoid printing the data too fast, please add at least 50 milliseconds of delay to the print block when using serial monitor window.
+> 此處請注意：使用序列埠監視器時，請記得在打印積木後加入不少於 50 毫秒的延時，避免數據顯示過快
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_connect.png" width="100%" /></div>
 
-After successful connection, the connection button will be replaced by disconnection button. Data will be printed constantly in the serial port data print area.
+成功連接後，連接按鈕會被替換爲斷開按鈕，序列埠數據打印區會開始不斷打印數據
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_show.png" width="100%" /></div>
 
-An interface for choosing the type of data will pop up after clicking data export button. This enables the data in the serial monitor window to be exported in corresponding format.
+點擊導出數據按鈕，會彈出一個數據導出樣式選擇的簡易界面，會將當前序列埠數據打印區數據導出成對應數據格式
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_export.png" width="100%" /></div>
 
-Choose a name and a location for the file to be stored.
+選擇保存文件命名和位置
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_fileselector.png" width="80%" /></div>
 
 
 ---
-Updated in August 2019
+更新時間：2019年8月

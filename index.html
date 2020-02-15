@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CocoBlockly | Online Help</title>
+    <title>CocoBlockly 幫助文檔</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description">
     <meta name="viewport"
@@ -54,9 +54,9 @@
 
 <body>
     <nav class="body-nav">
-        <a href="#/" id="aa">繁</a>
+        <a href="#/" id="aa" class="active">繁</a>
         <a href="#/" id="cn">简</a>
-        <a href="#/" id="aa" class="active">EN</a>
+        <a href="#/" id="english" >EN</a>
     </nav>
     <div id="app">Please wait...</div>
     <script>
@@ -111,18 +111,18 @@
             search: {
                 maxAge: 86400000, // Expiration time, the default one day
                 paths: 'auto', // or 'auto'
-                placeholder: 'Click here to search',
+                placeholder: '點此處搜尋內容',
 
                 // Localization
                 placeholder: {
-                    '/': 'Click here to search'
+                    '/': '點此處搜尋內容'
                 },
 
-                noData: 'No results found.',
+                noData: '沒有搜尋到結果',
 
                 // Localization
                 noData: {
-                    '/': 'No results found.'
+                    '/': '沒有搜尋到結果'
                 },
 
                 // Headline depth, 1 - 6
@@ -133,10 +133,11 @@
         }
     </script>
     <!-- docsify -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.9.4/docsify.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/docsify/4.9.4/plugins/search.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
     <!-- docsify-themeable -->
     <!-- <script src="//unpkg.com/docsify-themeable"></script>-->
+
     <script>
         var hash = window.location.hash;
         if (window.addEventListener) {
@@ -151,11 +152,11 @@
         function myFunction() {
             hash = window.location.hash
         }
+        document.getElementById('english').onclick = function () {
+            window.location.href = `http://help-english.cocorobo.hk/${hash}`
+        }
         document.getElementById('cn').onclick = function () {
             window.location.href = `http://help.cocorobo.cn/${hash}`
-        }
-        document.getElementById('aa').onclick = function () {
-            window.location.href = `http://help.cocorobo.hk/${hash}`
         }
     </script>
 </body>
