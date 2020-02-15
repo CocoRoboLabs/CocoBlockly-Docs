@@ -1,66 +1,66 @@
-# 本地存取檔案
+# Local Storage
 ---
-## 簡介
-通過 CocoBlockly 的本地存儲功能，可以將工作區的積木以 XML 文件或 png 圖片格式保存到本地電腦上，或者是將本地電腦的 XML 格式的積木文件導入並還原積木樣式至工作區。
+## Introduction
+CocoBlockly has a function of local storage. The blocks in the working area can be stored locally in a computer in the form of XML file or png-format picture. The XML files of blocks in the computer can be imported into working area and reinstated as blocks.
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_en.png" width="100%" /></div>
 
-點擊「存儲」按鈕,彈出本地導入、本地導出和雲端存儲選項：
+Click the "save" button, then three options can be shown: local import, local export and Cloud storage.
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_nav.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_nav_en.png" width="100%" /></div>
 
 ---
 
-## 導入檔案
+## Import Files
 
-#### 導入檔案操作
+#### Instructions
 
-- 方法一：點擊 “本地導入”選項，瀏覽器自動彈出文件選擇器：
+- Option 1: Click "local import", then the Browser will pop up file selector.
 
 <div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_fileSelector.png" width="80%" /></div>
 
-選擇點擊我們想要的積木文件。__（注意:導入文件格式必須爲 XML 格式，以及內容是 CocoBlockly 積木相關的，才能正確導入）__
+Select the block files we need. __(Note: The imported files must be in the XML format and be related to CocoBlockly blocks)__
 
-- 方法二：直接將積木文件拖入 CocoBlockly 界面中即可
+- Option 2: Directly drag blocks into the CocoBlockly interface.
 
-<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_import_2.png" width="100%" /></div>
+<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_import_2_en.png" width="100%" /></div>
 
-成功導入積木文件，CocoBlockly 的工作區會自動生成對應積木，代碼產生區會自動產生對應代碼
+After the block file is successfully imported, corresponding blocks will be generated automatically in the working area; Arduino source code will also be generated automatically in the code area.
 
-<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_import.png" width="100%" /></div>
+<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_import_en.png" width="100%" /></div>
 
-同時，成功導入的檔案名會自動更新到導航欄上的**程式檔案名稱**位置
+At the same time, the name of the successfully imported file will be updated in the position of **program file name**.
 
-<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_import_sketchName.png" width="100%" /></div>
+<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_import_sketchName_en.png" width="100%" /></div>
 
-#### 常見導入錯誤：
+#### Common Mistakes of Importing Files
 
-<b style="background-color:#d40000; color:white; padding: 4px 5px; margin-right: 5px; border-radius:2px;">錯誤 1</b> 導入錯誤類型文件：如*txt*，*docs*，以及*非CocoBlockly積木相關的xml文件*等
+<b style="background-color:#d40000; color:white; padding: 4px 5px; margin-right: 5px; border-radius:2px;">Mistake 1</b> Import files of incorrect formats such as *txt* and *docs*. Or import *XML files that are not related to CocoBlockly blocks*.
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img style="margin:0 0 10px 0;" src="../media/localStorage_import_fileError.png" width="100%" /><img src="../media/localStorage_import_fileError_2.png" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img style="margin:0 0 10px 0;" src="../media/localStorage_import_fileError_en.png" width="100%" /><img src="../media/localStorage_import_fileError_2.png" width="100%" /></div>
 
-<b style="background-color:#d40000; color:white; padding: 4px 5px; margin-right: 5px; border-radius:2px;">錯誤 2</b> 導入積木文件不完整，或者包含不存在積木，常見於CocoBlockly中積木更新後，項目文件中的積木與當前 CocoBlockly 的積木不匹配，工作區可以生成部分積木，但無效積木將會需要重新編寫
+<b style="background-color:#d40000; color:white; padding: 4px 5px; margin-right: 5px; border-radius:2px;">Mistake 2</b> The imported blocks are incomplete or do not exist. This mistake is common after CocoBlockly block update. In case the blocks in the file are not compatible with CocoBlockly blocks, some blocks can also be generated in the working area. But these invalid blocks need to be written.
 
 
-#### 導入錯誤解決方案
- - 方法一：點擊導航欄的*垃圾桶*圖標刪除工作區所有積木
+#### Solution to Importing Mistakes
+ - Option 1: click the *bin (Delete all blocks)* icon in the navigation bar to delete all blocks.
 
-<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_import_errorHandle.png" width="100%" /></div>
+<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_import_errorHandle_en.png" width="100%" /></div>
 
- - 方法二：刷新頁面即可
-
----
-
-## 導出檔案
-#### 導出檔案操作
-先於**程式檔案名稱**更改檔案名稱，點擊選擇**本地導出**按鈕
-
-<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_export_before.png" width="100%" /></div>
-
-隨後將會彈出導出選項窗口，此處可以選擇「導出項目文件 (XML 格式)」或者「導出項目積木截圖 (PNG 格式)」：
-
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/localStorage_export_after.png" width="100%" /></div>
-
+ - Option 2: Refresh the page.
 
 ---
-更新時間：2019年8月
+
+## Exporting Files
+#### Instructions
+Change file name in the **program file name** and then click the **local export** button.
+
+<div style="margin: 0px 0 20px 0;text-align: center;"><img src="../media/localStorage_export_before_en.png" width="100%" /></div>
+
+Then a window with export options will pop up, where you can choose "export program file (XML format)" or "export program block snapshot (PNG format)".
+
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/localStorage_export_after_en.png" width="100%" /></div>
+
+
+---
+Updated in August 2019

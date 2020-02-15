@@ -1,213 +1,213 @@
-# 使用 NB-IoT 通訊模組
+# Apply NB-IoT Communication Module
 
 ---
 
-## 模組簡介
+## Introduction
 
-NB-IoT 通訊模組可以通過移動互聯網訪問 Coco Cloud 平臺或 IFTTT 平臺，實現向平臺進行無綫數據傳輸，因此用戶也可以利用此模組搭建智慧家居小應用。
+NB-IoT communication module can visit Coco Cloud platform or IFTTT platform via mobile Internet and transmit data to these platforms by wireless communication. Therefore, you can use it to build various apps, such as "smart home".
 
-## 模組主要部件
+## Main Components
 
-<img src="/media/cocomod/modPic_0020_R0010176.png" width="350"/>
+<img src="/media/nbiot1_en.png" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">部件名稱</td>
-		<td style="font-weight: bold;">部件描述</td>
+		<td width="20%" style="font-weight: bold;">Name</td>
+		<td style="font-weight: bold;">Description</td>
 	</tr>
 	<tr>
 		<td>1.</td>
-		<td>天綫</td>
-		<td>延伸 NB-IoT 通訊模組訊號的擴展部件，建議將天綫與模組連接后再使用</td>
+		<td>Antenna</td>
+		<td>Antenna is an extension part of the module; it is better to connect it to the NB-IoT communication module before using the module.</td>
 	</tr>
 	<tr>
 		<td>2.</td>
-		<td>重置按鍵</td>
-		<td>點擊重置按鍵後將會讓 NB-IoT 通訊模組重啓</td>
+		<td>resetting button</td>
+		<td>Press the button to reset the NB-IoT communication module.</td>
 	</tr>
 	<tr>
 		<td>3.</td>
-		<td>Power on 按鍵</td>
-		<td>通電以後，按住2秒才能讓模組開機</td>
+		<td>"Power on" button</td>
+		<td>After electrifying the module, you can start the module by pressing the button for no less than 2 seconds.</td>
 	</tr>
 	<tr>
 		<td>4.</td>
-		<td>網絡指示燈</td>
-		<td>儅 NB-IoT 通訊模組通電以後，若模組未聯網成功時，該指示燈閃爍較快，若模組聯網成功時，指示燈閃爍變慢</td>
+		<td>Internet indicator</td>
+		<td>After electrifying the module, the indicator blinks at a low frequency if the module is connected to the Internet and at a high frequency if not.</td>
 	</tr>
 </table>
 
 
-#### 模組接口示意
+#### Pinout
 
-| 接口位置 | 接口描述           |
+| Pinout Position | Pinout Description        |
 | -------- | ------------------ |
-| (數位訊號) D0: 主機板 Rx    | Tx:  NB-IoT 通訊模組端 (UART 通訊)       |
-| (數位訊號) D1: 主機板 Tx   | Rx:  NB-IoT 通訊模組端 (UART 通訊) |
+| (digital signals) D0: main controller Rx    | Tx:  NB-IoT communication module terminal (UART communication)       |
+| (digital signals) D1: main controller Tx   | Rx:  NB-IoT communication module terminal (UART communication) |
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
+> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
 
 ---
 
-## 模組使用說明
+## Instructions
 
-1. 切勿使用超過 5V/2A 的電源供電
-2. NB-IoT 擁有一個特性，叫休眠模式，也稱作低功耗模式，若連續十秒鐘未使用該模組的情況下，模組會自動休眠，直到下一次發起請求時，模組便會重新開機，這種模式的作用是爲了省電
+1. Do not use any power supply greater than 5V/2A.
+2. The module has a sleep mode or energy-saving mode. The module would enter the sleep mode automatically if it is not used for more than 10 minutes. And the module will restart when a request is sent to it.
 
 
-### NB-IoT 積木示意圖
+### NB-IoT Blocks
 
 <table width="800">
   <tr>
-    <th>積木圖示</th>
-    <th>簡介</th>
+    <th>Pictures of the Blocks</th>
+    <th>Introduction</th>
   </tr>
   <tr  >
-    <td> <img src="../media/nbiot_block1.png"> </td>
-    <td> NB-IoT 通訊模組初始化積木：初始化設置 NB-IoT 通訊模組，</td>
+    <td> <img src="../media/nbiot_setup_en.png"> </td>
+    <td> NB-IoT communication module initialization block</td>
   </tr>
 	<tr>
-	<td> <img src="../media/nbiot_block4.png"> </td>
-	<td>主機板模組控制 NB-IoT 通訊模組必須使用的積木</td>
+	<td> <img src="../media/nbiot_enable_en.png"> </td>
+	<td>Block that is indispensable for main controller to control the NB-IoT communication module</td>
 </tr>
 <tr>
-	<td> <img src="../media/nbiot_block5.png"> </td>
-	<td> 連接判斷積木：判斷模組與移動互聯網是否連接成功 </td>
+	<td> <img src="../media/nbiot_connect_en.png"> </td>
+	<td> Connection confirmation block: see if the module is successfully connected to mobile Internet </td>
 </tr>
 <tr>
-	<td> <img src="../media/nbiot_block6.png"> </td>
-	<td> 獲取 IP 積木： 用於獲取 NB-IoT 通訊模組的網絡 IP 地址，比如：10.10.10.10 </td>
+	<td> <img src="../media/nbiot_getid_en.png"> </td>
+	<td> GET IP block: used to get the IP address of the NB-IoT communication module such as 10.10.10.10 </td>
 </tr>
   <tr>
-    <td> <img src="../media/nbiot_block2.png"> </td>
-    <td> NB-IoT 與 Coco Cloud 數據傳輸積木： 向 Coco Cloud 發送數據，需要設置項目 API-key 以及發送數據的屬性名</td>
+    <td> <img src="../media/nbiot_datacoco_en.png"> </td>
+    <td> Block for transmitting data from NB-IoT communication module to Coco Cloud: The API-key of the project and the attribute name of the data need to be set.</td>
   </tr>
   <tr>
-    <td> <img src="../media/nbiot_block3.png"> </td>
-    <td> NB-IoT 與 IFTTT 數據傳輸積木：向 IFTTT 項目發送數據，需從 IFTTT 項目獲取項目的名稱及對應的 API-Key </td>
+    <td> <img src="../media/nbiot_dataifttt_en.png"> </td>
+    <td> Block for transmitting data from NB-IoT communication module to IFTTT: The IFTTT project name and its corresponding API-Key should be obtained from the IFTTT project. </td>
   </tr>
 </table>
 
-為 NB-IoT 與 Coco Cloud 數據傳輸積木（左圖）以及 NB-IoT 與 IFTTT 數據傳輸積木（右圖）增添發送數據的方法如下：
+Please refer to the following pictures to add data when transmitting data from NB-IoT communication module to Coco Cloud (the first one) and from NB-IoT communication module to IFTTT (the second one):
 
 <div style="text-align:center;">
-<img src="/media/nbiot_block_cococloud.gif" width="250"/>
-<img src="/media/nbiot_block_ifttt.gif" width="250"/>
+<img src="/media/nbiot_datacoco_en.gif" width="250"/>
+<img src="/media/nbiot_dataifttt_1_en.gif" width="250"/>
 </div>
 
 ***
 
-## NB-IoT 通訊模組使用
+## Apply NB-IoT Communication Module
 
-### 組裝 NB-IoT 通訊模組
+### Assemble NB-IoT Communication Module
 
-拿出 NB-IoT 通訊模組和天綫
+The NB-IoT Communication Module and the Antenna
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_assembled_1.png" width="400"/>
+<img src="/media/nbiot2_en.png" width="400"/>
 </div>
 
-組裝 NB-IoT 通訊模組
+Assemble NB-IoT Communication Module
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_assembled_2.png" width=90%/>
+<img src="/media/nbiot3_en.png" width=90%/>
 </div>
 
-將 sim 卡放入 NB-IoT 通訊模組的卡槽中
+Put the sim card into the slot of the NB-IoT communication module
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_assembled_3.png" width=70%/>
+<img src="/media/nbiot4_en.png" width=70%/>
 </div>
 
-### 与主機板模组进行數據通訊
+### Data Communication between the module and the main controller
 
-#### 模組組裝
+#### Assemble Modules
 
-將 NB-IoT 通訊模組和主機板模組拼接在一起
+Put the NB-IoT communication module and the main controller together.
 
 <div style="text-align:center;">
-<img src="/media/nbiot_main_assemble.jpg" width="400"/>
-<img src="/media/nbiot_main_split.jpg" width="230"/>
+<img src="/media/nbiot5_en.jpg" width="400"/>
+<img src="/media/nbiot6_en.jpg" width="230"/>
 </div>
 
 ---
 
-### 序列埠顯示網絡 IP
+### Show Internet IP on Serial Monitor Window
 
-#### 模組組裝
+#### Assemble Modules
 
-將 NB-IoT 通訊模組和主機板模組拼接在一起，並用 USB 綫連接好主機板模組至電腦
+Put the NB-IoT communication module and the main controller together, and connect the main controller to a computer via a USB data cable.
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_main_split.jpg" width=300/>
+<img src="/media/nbiot7_en.jpg" width=300/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project1_1.png" width=100%/>
+<img src="/media/nbiot_code1_en.png" width=100%/>
 </div>
 
-**注意：**給 NB-IoT 通訊模組通電后需按住 power on 按鈕2秒才能讓模組開機，模組開機后會在序列埠監控視窗打印開機提示
+**Note:** To start the NB-IoT communication module, you need to press the “power on” button for at least 2 seconds after it is electrified. And the tip of starting up can be printed on the serial monitor window after the module is started.
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project1_2.png" width=60%/>
+<img src="/media/nbiot_project1_2_en.png" width=60%/>
 </div>
 
-##### 最終結果
+##### Effects
 
-上傳程式后打開序列埠監控視窗並連接主機板模組，可以看到此時正在打印 NB-IoT 通訊模組連接移動互聯網后的網絡IP
+After the program is uploaded successfully, you can see on the serial monitor window that the Internet IP of the NB-IoT communication module is being printed.
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project1_3.png" width=60%/>
+<img src="/media/nbiot_project1_3_en.png" width=60%/>
 </div>
 
 ***
 
-### 雲端呈現環境模組數據
+### Show the Data of the Environmental Sensing Module on the Cloud
 
-使用環境模組獲取環境中的聲音、光照、溫度、濕度的數據，NB-IoT 通訊模組通過移動互聯網訪問 Coco Cloud 平臺，並將環境模組獲取的數據發送到平臺
+Use environmental sensing module to get the surroundings’ data of sound, light, temperature and humidity. The NB-IoT communication module visits the Coco Cloud platform via mobile Internet and transmits the data to the platform.
 
-#### 模組組裝
+#### Assemble Modules
 
-將 NB-IoT 通訊模組和主機板模組、正反轉接模組、環境模組拼接在一起，並用 USB 綫連接好主機板模組至電腦
+Put NB-IoT communication module, reverse adapting module, environmental sensing module and the main controller together, and connect the main controller to a computer via a USB data cable.
 
-> 注意：由於模組的公母接口的原因，連接環境模組時要使用正反轉接模組，保證環境模組位於最外側，這樣讀取的光照數值才是環境中的數值
+> Note: Due to the clash between the male and female interfaces, reverse adapting module is needed when connecting the environmental sensing module. This puts the environmental sensing module in the outside thus ensuring the light data is that of the surroundings.
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project2.jpg" width=300/>
+<img src="/media/nbiot_8_en.jpg" width=300/>
 </div>
 
-#### Coco Cloud 事件創建
+#### Create Coco Cloud Event
 
-在 Coco Cloud 雲端平臺上為環境模組收集的數據創建一個事件「Environment」
+Create an event “Environment” for the data collected by the environmental sensing module in the Coco Cloud platform.
 
 ![wifi__main](../media/cocoCloud_project_1_1.png)
 
-#### 積木編程
+#### Code by CocoBlockly
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project2_2.png" width=100%/>
+<img src="/media/nbiot_code2_en.png" width=100%/>
 </div>
 
-**注意：**給 NB-IoT 通訊模組通電后需按住 power on 按鈕2秒才能讓模組開機，模組開機后會在序列埠監控視窗打印開機提示
+**Note:** To start the NB-IoT communication module, you need to press the “power on” button for at least 2 seconds after it is electrified. And the tip of starting up can be printed on the serial monitor window after the module is started.
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project1_2.png" width=60%/>
+<img src="/media/nbiot_project1_2_en.png" width=60%/>
 </div>
 
-##### 最終結果
+##### Effects
 
-上傳程式后打開序列埠監控視窗並連接主機板模組，在序列埠中可以看到 NB-IoT 通訊模組目前的狀態
+After the program is uploaded successfully, you can see the current state of the NB-IoT communication module on the serial monitor window.
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project2_1.png" width=60%/>
+<img src="/media/nbiot_project2_1_en.png" width=60%/>
 </div>
 
-查看 Coco Cloud 平臺上「Environment」事件的數據
+Check the data of the event “Environment” in the Coco Cloud platform.
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project2_3.png" width=100%/>
+<img src="/media/nbiot9_en.png" width=100%/>
 </div>
 
 ***
 
-更新時間：2019年8月
+Updated in August 2019

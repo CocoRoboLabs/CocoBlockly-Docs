@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>CocoBlockly 幫助文檔</title>
+    <title>CocoBlockly | Online Help</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Description">
     <meta name="viewport"
@@ -54,9 +54,9 @@
 
 <body>
     <nav class="body-nav">
-        <a href="#/" id="aa" class="active">繁</a>
+        <a href="#/" id="aa">繁</a>
         <a href="#/" id="cn">简</a>
-        <a href="#/" id="english" >EN</a>
+        <a href="#/" id="aa" class="active">EN</a>
     </nav>
     <div id="app">Please wait...</div>
     <script>
@@ -111,18 +111,18 @@
             search: {
                 maxAge: 86400000, // Expiration time, the default one day
                 paths: 'auto', // or 'auto'
-                placeholder: '點此處搜尋內容',
+                placeholder: 'Click here to search',
 
                 // Localization
                 placeholder: {
-                    '/': '點此處搜尋內容'
+                    '/': 'Click here to search'
                 },
 
-                noData: '沒有搜尋到結果',
+                noData: 'No results found.',
 
                 // Localization
                 noData: {
-                    '/': '沒有搜尋到結果'
+                    '/': 'No results found.'
                 },
 
                 // Headline depth, 1 - 6
@@ -137,7 +137,6 @@
     <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
     <!-- docsify-themeable -->
     <!-- <script src="//unpkg.com/docsify-themeable"></script>-->
-
     <script>
         var hash = window.location.hash;
         if (window.addEventListener) {
@@ -152,11 +151,11 @@
         function myFunction() {
             hash = window.location.hash
         }
-        document.getElementById('english').onclick = function () {
-            window.location.href = `http://help-english.cocorobo.hk/${hash}`
-        }
         document.getElementById('cn').onclick = function () {
             window.location.href = `http://help.cocorobo.cn/${hash}`
+        }
+        document.getElementById('aa').onclick = function () {
+            window.location.href = `http://help.cocorobo.hk/${hash}`
         }
     </script>
 </body>

@@ -1,67 +1,66 @@
-## 電子模組接口示意參考
+## Pinouts Electronic Modules
 
-因爲 CocoRobo 電子模組爲順序連接的組合，所以模組間在使用時可能會有接口使用衝突，請注意參考下表的接口示意，再進行程式編寫。
+CocoRobo electronic modules are sequentially connected so there may be some pinout clashes between the modules. Please refer to the following table before writing programs.
 
 ---
 
-### 接口定義
+### Definition of Pinouts
 
 <div style="text-align:center;">
 <img src="../media/pinout-about.jpg" width="500px" />
 </div>
 
-1. __當模組間有接口衝突的時候，可以通過任意一個轉接模組外接使用：__
-	* 比如：「馬達驅動模組」不可直接與「 LED 燈屏模組」使用，由於「 LED 燈屏模組」的默認接口爲 D6，我們可以將「 LED 燈屏模組」接在「轉接模組 A1 」的 D3 接口上，然後在 CocoBlockly 裏中將 LED 設定積木的接口從 D6 改成 D3，便可以與馬達驅動模組一起使用了；
-	* **特別注意：**有部分模組是無法透過轉接模組來轉接引脚的，這部分模組有：觸摸感應模組、運動感應模組、顔色分析模組、熒幕模組以及音樂模組。
+1. __When pinout clashes arise between different modules, you can turn to any of the hub modules to perform the external connection:__
+	* For example, motor driver module cannot be used directly in combination with LED matrix module. LED matrix module uses Pinout D6 as pinout by default but it can be connected to the hub module A1 via the hub module's Pinout D3. Then change the LED setting block pinout from D6 to D3 in CocoBlockly and you can use motor driver module and LED matrix module together.
+	* **Important Note:** Some modules cannot use hub module as adapter. They are touch analyzing module, motion sensing module, color analyzing module, screen module and music module.
 
-2. __關於 SPI 或者 I²C 通訊方式的原理，可從下方鏈接進行了解__
-	* <a href="http://magicjackting.pixnet.net/blog/post/164725144-spi-(serial-peripheral-interface)-串列-(序列)-周邊介" target="_blank">SPI (Serial Peripheral Interface) 串列 (序列) 周邊介面</a>
-	* <a href="http://magicjackting.pixnet.net/blog/post/173061691-i2c-bus-簡介-%28inter-integrated-circuit-bus%29-" target="_blank">I2C bus 簡介 (Inter-Integrated Circuit Bus)</a>
+2. __Please click the following link for knowledge on the principle of SPI or I²C communication.__
+	* <a href="http://magicjackting.pixnet.net/blog/post/164725144-spi-(serial-peripheral-interface)-串列-(序列)-周邊介" target="_blank">SPI (Serial Peripheral Interface)</a>
+	* <a href="http://magicjackting.pixnet.net/blog/post/173061691-i2c-bus-簡介-%28inter-integrated-circuit-bus%29-" target="_blank">I2C bus Introduction (Inter-Integrated Circuit Bus)</a>
 
 ---
 
-### 各模組接口示意
+### Pinouts of Each Module
 
 <br>
 
 ![](../media/cocorobo-modules-pinout-map_v2.jpg)
 
-高解析度的版本可從[點擊此處](https://cocorobo.hk/downloads/pinout.html)查看。
+Please click [here](https://cocorobo.hk/downloads/pinout.html) for high-definition version.
 
-### 轉接接口
+### Pinouts
 
-儅產生接口使用衝突時，可以通過轉接模組將其中的某一個模組的接口轉接到另一個接口，這樣就可以同時使用有接口衝突的兩個模組。此處以教學模組和 LED 燈屏模組爲例：教學模組使用 D6 接口作爲一粒 LED 燈，并且 LED 燈屏模組使用的接口也是 D6 ，這兩個模組同時使用就會產生接口衝突
+Hub module can be used as adapter to connect the pinout of a particular module to that of another when pinout clash arises. Let’s take sensor 101 module and LED matrix module as example (The Pinout D6 of the sensor 101 module is used to connect to LED light, and LED matrix module also uses Pinout D6).
 
-#### 模組組裝
+#### Assemble Modules
 
-將教學模組、主機板模組及轉接模組 B1 拼接在一起，用杜邦綫連接在轉接模組 B1 的 D10 接口上
+Put sensor 101 module, hub module B1 and the main controller together, and connect the Pinout D10 of hub module B1 to one end of a Dupont jumper wire.
 
 <div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_1.jpg" width="50%" /></div>
 
-將 LED 燈屏模組及轉接模組 A2 拼接在一起，把杜邦綫的另一端連接在轉接模組 A2 的 D6 接口上
+Put an LED matrix module and a hub module A2 together, and connect the Pinout D6 of the hub module A2 to other end of the Dupont jumper wire.
 
 <div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_2.jpg" width="50%" /></div>
 
-##### 模組拼接效果
+##### Demonstration
 
 <div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_3.jpg" width="60%" /></div>
 
 <div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_4.jpg" width="60%" /></div>
 
-用 USB 綫連接好主機板模組至電腦
+Connect the main controller to a computer via a USB data cable.
 
-#### 積木編程
+#### Code by CocoBlockly
+Follow the hints of the red boxes and find the block in the picture below.
 
-在紅框提示処找出下圖中的積木
+<div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_5_en.png"/></div>
 
-<div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_5.png"/></div>
+#### Effects
 
-#### 最終效果
-
-按下 D8 的按鈕可以控制 LED 燈屏亮紅色，不按時燈光滅，并且教學模組上 D6 接口処的 LED 燈可以正常發光
+Use Button D8 to control the lights on the LED matrix: the lights on the matrix will be turned on by pressing the button and the light on the Pinout D6 of the sensor 101 module is on.
 
 <div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_5.gif" width=60%/></div>
 
 
 ---
-更新時間：2019年8月
+Updated in August 2019

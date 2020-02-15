@@ -1,147 +1,147 @@
-# 使用運動感應模組
+# Apply Motion Sensing Module
 
 ---
 
-## 模組簡介
+## Introduction
 
-運動感應模組用於反映物體在空間座標系 X，Y，Z 三軸上的運動變化參數。
+Motion sensing module is used to show an object's motion changing parameter in the Axes X, Y and Z of a 3-D coordinate system.
 
 ![motion](../media/motion_2.png)
 
 ---
 
-## 模組主要部件
+## Main Components
 
 <img src="../media/motion_1.jpg" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">部件名稱</td>
-		<td style="font-weight: bold;">部件描述</td>
+		<td width="20%" style="font-weight: bold;">Name</td>
+		<td style="font-weight: bold;">Description</td>
 	</tr>
 	<tr>
 		<td>1.</td>
-		<td>運動感應芯片</td>
-		<td>可以得到物體在空間座標系 X，Y，Z 三軸上的運動變化參數。</td>
+		<td>motion sensing chip</td>
+		<td>used for obtaining an object's motion changing parameter in the Axes X, Y and Z of a 3-D coordinate system</td>
 	</tr>
 </table>
 
-#### 模組接口示意
+#### Pinout
 
-| 接口位置 | 接口描述           |
+| Pinout Position | Pinout Description           |
 | -------- | ------------------ |
-| (數位訊號) D2, D3, D7    | 運動感應元件使用的接口 |
+| (digital signal) D2, D3, D7    | used by motion sensing components |
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
-
----
-
-## 模組使用說明
-
-1. 通常反映運動變化的參數爲加速度和陀螺儀(角速度）。
-2. 加速度：反映單位時間內物體在某個方向上速度變化的快慢。
-3. 角速度：反映單位時間內物體在某個方向上旋轉的角度。
+> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
 
 ---
 
-## 運動感應模組基礎使用
+## Instructions
 
-### 獲取 XYZ 的加速度值
+1. Acceleration and angular velocity are usually used as parameters to show motion changes.
+2. Acceleration: the rate at which the velocity of an object changes.
+3. Angular velocity: the rate at which an object rotates in a particular direction.
 
-加速度 (acceleration)表示單位時間内速度改變程度的矢量。一般情況下，加速度是個瞬時概念，它的常用單位是米/秒²，即 m/s²
+---
 
-#### 模組組裝
+## Basic Application
 
-將主機板模組和運動感應模組拼接在一起，並讓主機板模組連接好 USB 數據線至電腦：
+### Get the Acceleration Value in the Axes X, Y and Z
+
+Acceleration is a vector expressing the rate at which the velocity of an object changes. For the most part, acceleration, whose unit is m/s², is a concept of instantaneous change.
+
+#### Assemble Modules
+
+Put the motion sensing module and the main controller together, and connect the main controller and a computer via a USB data cable.
 
 <div style="text-align:center;">
 <img src="../media/motion_7.jpg" width="250"/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
 <div style="text-align:center;">
-<img src="../media/motion_8.png" width=80%/>
+<img src="../media/motion_8_en.png" width=80%/>
 </div>
 
-#### 最終效果
+#### Effects
 
-打開序列埠監控視窗，連接主機板並晃動模組，可以看到加速度的數值改變
+Open the serial monitor window, click to "CONNECT" establish communication between the module and the main controller, shake the module and you will see the change of the acceleration value.
 
 <div style="text-align:center;">
-<img src="../media/motion_8_1.png" width=50%/>
+<img src="../media/motion_8_1_en.png" width=50%/>
 </div>
 
 <!--
 ---
 
-## 運動感應模組基礎使用
+## Basic Application
 
-### 獲取 XYZ 的重力值
+### Get the Gravity Value in the Axes X, Y and Z
 
-#### 模組組裝
-
-Coming soon.
-
-#### 積木編程
+#### Assemble Modules
 
 Coming soon.
 
-#### 最終效果
+#### Code by CocoBlockly
+
+Coming soon.
+
+#### Effects
 
 Coming soon.
 -->
 ---
 
 
-## 運動感應模組基礎使用
+## Basic Application
 
-### 獲取 XYZ 的角度傾斜值
+### Get the Tilt Angle Value in the Axes X, Y and Z
 
-#### 模組組裝
+#### Assemble Modules
 
-將主機板模組和運動感應模組拼接在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Put the motion sensing module and the main controller together, and connect the main controller and a computer via a USB data cable.
 
 <div style="text-align:center;">
 <img src="../media/motion_7.jpg" width="250"/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
 <div style="text-align:center;">
-<img src="../media/motion_11.png" width=80%/>
+<img src="../media/motion_11_en.png" width=80%/>
 </div>
 
-#### 最終效果
+#### Effects
 
-打開序列埠監控視窗，連接主機板並向不同角度轉動模組，可以看到旋轉度的數值改變
+Open the serial monitor window, click "CONNECT" to establish communication between the module and the main controller, rotate the module in different directions and you will see the change of the angular velocity value.
 
 <div style="text-align:center;">
-<img src="../media/motion_12.png" width=50%/>
+<img src="../media/motion_12_en.png" width=50%/>
 </div>
 
 ---
 
-## 運動感應模組進階使用
+## Advanced Application
 
-### 製作運動感應 LED 燈
+### Make Motion Sensing LED Lights
 
-#### 模組組裝
+#### Assemble Modules
 
-將主機板模組和運動感應模組以及LED燈屏模組拼接在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Put the motion sensing module, the LED matrix module and the main controller together, and connect the main controller and a computer via a USB data cable.
 
 <div style="text-align:center;">
 <img src="../media/motion_3.jpg" width="250"/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-![motion](../media/motion_9.png)
+![motion](../media/motion_9_en.png)
 
-#### 最終效果
+#### Effects
 
-LED燈光會隨著模組的運動方向發生位置的變化。
+Different LED lights will be turned on or off with the change of the module's moving direction.
 
 <div style="text-align:center;">
 <img src="../media/motion_6.gif" width="400"/>
@@ -149,4 +149,4 @@ LED燈光會隨著模組的運動方向發生位置的變化。
 
 
 ---
-更新時間：2019年8月
+Updated in August 2019

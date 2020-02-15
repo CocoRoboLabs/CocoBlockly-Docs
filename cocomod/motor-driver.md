@@ -1,104 +1,104 @@
-# 使用馬達驅動模組
+# Apply Motor Driver Module
 
-## 模組簡介
+## Introduction
 
-馬達驅動模組能夠同時控制兩個馬達，另外設定了四個外接感應器接口，可供使用者接入第三方感應器。
+Motor driver module can control two motors simultaneously. And it is equipped with four sensor pinouts, which can be used to connect to third-party sensors.
 
-## 模組主要部件
+## Main Components
 
 <img src="/media/cocomod/modPic_0014_Layer 8 copy.jpg" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
 		<td width="6%" style="font-weight: bold;">No.</td>
-		<td width="20%" style="font-weight: bold;">部件名稱</td>
-		<td style="font-weight: bold;">部件描述</td>
+		<td width="20%" style="font-weight: bold;">Name</td>
+		<td style="font-weight: bold;">Description</td>
 	</tr>
 	<tr>
 		<td>1.</td>
-		<td>馬達接口A</td>
-		<td>在此處接入馬達的兩極</td>
+		<td>Motor Pinout A</td>
+		<td>used for connecting to the two electrodes of the motor</td>
 	</tr>
 	<tr>
 		<td>2.</td>
-		<td>馬達接口B</td>
-		<td>在此處接入馬達的兩極</td>
+		<td>Motor Pinout B</td>
+		<td>used for connecting to the two electrodes of the motor</td>
 	</tr>
 	<tr>
 		<td>3.</td>
-		<td>外接第三方<br>感應器接口 A3</td>
-		<td>支持接入類比訊號讀入的感應器，接口爲 A3</td>
+		<td>External third-party<br>Sensor Pinout A3</td>
+		<td>used for connecting to sensors with analog signal</td>
 	</tr>
 	<tr>
 		<td>4.</td>
-		<td>外接第三方<br>感應器接口 A1</td>
-		<td>支持接入類比訊號讀入的感應器，接口爲 A1</td>
+		<td>External third-party<br>Sensor Pinout A1</td>
+		<td>used for connecting to sensors with analog signal</td>
 	</tr>
 	<tr>
 		<td>5.</td>
-		<td>外接第三方<br>感應器接口 A4</td>
-		<td>支持接入類比訊號讀入的感應器，接口爲 A4</td>
+		<td>External third-party<br>Sensor Pinout A4</td>
+		<td>used for connecting to sensors with analog signal</td>
 	</tr>
 	<tr>
 		<td>6.</td>
-		<td>外接第三方<br>感應器接口 A0</td>
-		<td>支持接入類比訊號讀入的感應器，接口爲 A0</td>
+		<td>External third-party<br>Sensor Pinout A0</td>
+		<td>used for connecting to sensors with analog signal</td>
 	</tr>
 	<tr>
 		<td>7.</td>
-		<td>外接供電 USB 接口</td>
-		<td>通過 MicroUSB 線來單獨供電，與主機板模組 USB 接口爲統一類型</td>
+		<td>Power supply selector switch</td>
+		<td>Two options are available: "+5V" (+5V: powered by main controller) and "VIN" (externally powered). When the motor's output current is too high, you need to put the switch to the "VIN" for the main controller may be reset.</td>
 	</tr>
 	<tr>
 		<td>8.</td>
-		<td>供電選擇切換開關</td>
-		<td>有「+5V：使用主機板模組供電」和「VIN：外接供電」的選擇，當馬達的輸出電流過高，以導致主機板模組可能重置時，需要撥動開關至「外接供電」處</td>
+		<td>External power supply USB interface</td>
+		<td>The interface is of the same type as that of the main controller. It is used as a single power supply for the motor via a MicroUSB cable.</td>
 	</tr>
 </table>
 
-#### 模組接口示意
+#### Pinout
 
-| 接口位置 | 接口描述           |
+| Pinout Position | Pinout Description           |
 | -------- | ------------------ |
-| (數位訊號) D5, D9, D10    | 控制馬達 A 所需要使用的接口 |
-| (數位訊號) D6, D4, D8    | 控制馬達 B 所需要使用的接口 |
-| (類比訊號) A5    | 馬達驅動芯片所需要使用的接口（STBY） |
+| (digital signals) D5, D9, D10    | Used for controlling Motor B |
+| (digital signals) D6, D4, D8    | Used for controlling Motor A |
+| (analog signal) A5    | Used by motor driver chip (STBY) |
 
-> 爲了避免不同類型的電子模組在使用時有接口（Pin out）的衝突，請注意前往[此頁面](/cocomod/pinout-map)查看接口示意圖
+> To avoid pinout clashes between different kinds of modules, please refer to [cocorobo-modules-pinout-map](/cocomod/pinout-map).
 
 ---
 
-## 馬達驅動模組基礎使用
+## Basic Application
 
-### 控制馬達的轉速與方向
+### Control the Motor's Rotation Speed and Rotation Direction
 
-#### 所需模組與材料
+#### Moudule and Components
 
-1個馬達驅動模組、1個主機板模組及1個馬達
+a motor driver module, a main controller and a motor
 
 <div style="text-align:center;">
 <img src="../media/motor__single.jpeg" width="250"/>
 <img src="../media/motorDriver__main--split-1.jpeg" width="250"/>
 </div>
 
-#### 模組組裝
+#### Assemble Modules
 
-將馬達上的杜邦綫連接到馬達驅動模組的A接口，然後將主機板模組和馬達驅動模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Connect the Dupont jumper wire in the motor to Pinout A in the motor driver module. And put the motor driver module and the main controller together, and connect the main controller and a computer via a USB data cable:
 
 <div style="text-align:center;">
 <img src="../media/motorDriver__mainAndMotor--assemble-1.jpeg" width="250"/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
 <div style="text-align:center;">
-<img src="../media/motorDriver__main--blockly-1.png" width=50%/>
+<img src="../media/motorDriver__main--blockly-1_en.png" width=50%/>
 </div>
 
 
-#### 最終效果
+#### Effects
 
-程式上傳成功後，請確保馬達驅動模組上的撥動開關處於「+5V」 一側的狀態（使用主機板模組供電）
+After the program is uploaded successfully, please make sure that the switch on the motor driver module is at the "+5V" (powered by the main controller).
 
 <div style="margin-bottom:20px;border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/motor_driver-power_switch.jpg" width="60%" /></div>
 
@@ -108,36 +108,36 @@
 
 ---
 
-### 控制兩個馬達：實現前後左右行動
+### Control Two Motors to Move Back and Forth, Left and Right
 
-#### 所需模組與材料
+#### Moudule and Components
 
-1個馬達驅動模組、1個主機板模組及2個馬達
+a motor driver module, a main controller and two motors
 
 <div style="text-align:center;">
 <img src="../media/motor__double.jpeg" width="250"/>
 <img src="../media/motorDriver__main--split-1.jpeg" width="250"/>
 </div>
 
-#### 模組組裝
+#### Assemble Modules
 
-將兩個馬達上的杜邦綫分別連接到馬達驅動模組的A接口和B接口，然後將主機板模組和馬達驅動模組組合在一起，並讓主機板模組連接好 USB 數據線至電腦：
+Connect the Dupont jumper wires in the two motors to Pinout A and Pinout B in the motor driver module respectively. And put the motor driver module and the main controller together, and connect the main controller and a computer via a USB data cable:
 
 <div style="text-align:center;">
 <img src="../media/motorDriver__mainAndMotor--assemble-2.jpeg" width="250"/>
 </div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-![env__main--blockly](../media/motorDriver__main--blockly-2.png)
+![env__main--blockly](../media/motorDriver__main--blockly-2_en.png)
 
-##### 注意事項
+##### Important Note
 
-正反轉間隔需大於 **400ms**，否則會引起主機板模組重置
+The interval between the motor's positive and negative rotation should be over **400ms**. Or the main controller will be reset.
 
-#### 最終效果
+#### Effects
 
-程式上傳成功後，請確保馬達驅動模組上的撥動開關處於+5V 一側的狀態（使用主機板模組供電）
+After the program is uploaded successfully, please make sure that the switch on the motor driver module is at the "+5V" (powered by the main controller).
 
 <div style="margin-bottom:20px;border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/motor_driver-power_switch.jpg" width="60%" /></div>
 
@@ -145,4 +145,4 @@
 <img src="../media/motorDriver__sample-2.gif" width="500"/>
 </div>
 ---
-更新時間：2019年8月
+Updated in August 2019

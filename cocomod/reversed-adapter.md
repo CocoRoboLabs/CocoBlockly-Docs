@@ -1,36 +1,36 @@
-# 使用正反轉接模組
+# Apply Reverse Adapting Module
 
 ---
 
-## 模組簡介
+## Introduction
 
-正反轉接模組兩邊均爲接出型插口，用於將模組按照相反接入。
+The joints on the two sides of a reverse adapting module are all output pinouts, which are used to assemble modules reversely.
 
-## 模組主要部件
+## Main Components
 
 <img src="../media/正反_1.jpg" width="400"/>
 
 ---
 
-## 正反轉接基礎使用
+## Basic Application
 
-### 轉接LED模組和教學模組
+### Reversely Assemble LED Matrix Module and Sensor 101 Module
 
-#### 模組組裝
+#### Assemble Modules
 
-將 4 塊模組按照下圖順序組裝起來（由後至前）：教學模組、主機板模組、正反轉接模組、LED燈屏模組，並將 USB 數據線連接主機板模組和電腦：
+Put the four modules together in the order shown in the following picture (from the last one to the first one): the sensor 101 module, the main controller, the reverse adapting module and the LED matrix module. And then connect the main controller to a computer via a USB data cable:
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/正反_2.jpg" width="50%" /></div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-![](../media/正反_4.jpg)
+![](../media/正反_4_en.png)
 
-#### 最終效果
+#### Effects
 
-程式上傳後，將可以使用教學模組上位於 D8 的按鈕來控制 LED 燈屏的燈的亮滅：
+After the program is uploaded successfully, you can use the Button D8 in the sensor 101 module to turn on or turn off the lights in the LED matrix module:
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/正反_5.jpg" width="30%" /></div>
 
 ---
-更新時間：2019年8月
+Updated in August 2019

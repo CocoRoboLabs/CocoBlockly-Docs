@@ -1,137 +1,136 @@
-# 使用 Coco Cloud
+# Apply Coco Cloud
 
 
-## 簡介
+## Introduction
 
-Coco Cloud 是 CocoRobo 推出的雲平臺。用戶可以在平臺上進行事件的管理，以及事件狀態的查看。Coco Cloud 亦支持數據可視化功能，用戶可以在 Dashboard 中創建，查看各類數據。
+Coco Cloud is a cloud platform developed by CocoRobo. You can manage events and check the status of events on this platform. In addition, Coco Cloud supports data visualization. You can establish and check various kinds of data in the Dashboard.
 
 https://cocorobo.hk/cloud
 
-## 平臺主要組件
+## Main Components
 
 
-|編號 |組件名稱 | 組件描述  |
+|No. |Name | Description  |
 |-  |-  |-  |
-|1. |事件  | 事件管理 |
-|2. |儀表板  | 數據可視化面板，控制按鈕面板 |
+|1. |Event  | Event management |
+|2. |Dashboard  | Data visualization panel and Controlling button panel |
 
 ![cocoCloud](../media/cocoCloud__1.png)
 ![cocoCloud](../media/cocoCloud__2.jpg)
 
-## 組件使用說明
+## Instructions
 
-## 賬號註冊
+## Create an Account
 
 ![cocoCloud__register](../media/cocoCloud__register--1.jpeg)
 
-### 方式一
+### Option One
 
-登入[Coco Cloud](https://cocorobo.hk/cloud),點擊註冊按鍵，填寫帳戶名同密碼， 點擊註冊以完成註冊。
+Log into [Coco Cloud](https://cocorobo.hk/cloud), click "register", then enter your email and password, and click "register" to finish the creation.
 
-### 方式二
+### Option Two
 
-點擊 Google Sign In，點選您的 Google 帳號，待Google Sign In 之後，頁面會跳轉到註冊頁面，在頁面中填入密碼，以完成註冊。之後便可使用 Google Sign In 一鍵登錄。
+Click "Google Sign In" and then click your Google account. It will jump to register page after successfully logging into your Google account. Enter password to finish the creation. From then on, you can use "Google Sign In" to log into "Coco Cloud" in one click.
 
 
 ---
 
-## 事件
+## Event
 
-在 「事件」 中，用戶可以創建命名事件，以此來對每個屬性以及數據進行管理。
+In "Event", you can create and name an event, by which you can manage properties and data.
 
-### 創建方法
+### Creation Method
 
 ![cocoCloud__events](../media/cocoCloud__event_1.png)
 
-點擊新增按鈕（ + ）
+Click the button "+" to add a new event.
 
 ![cocoCloud__events](../media/cocoCloud__event_2.png)
 
-輸入事件名稱，點擊創建即可完成事件的建立
+Enter the event name and click the "創建" to complete the creation.
 
-### 使用方法
+### Instruction
 
-#### 獲取 API Key
+#### Get API Key
 
-點擊「複製圖標」即可獲取該事件的 API Key，由此來對事件進行數據的新增。有關 API Key 的介紹請前往 [API Key](#APIKey) 查看。
+Click the copy icon to get the API Key of the event to add value data to the event. Please refer to [API Key](#APIKey) for more information on API Key。
 
 ![cocoCloud__events](../media/cocoCloud__event_3.png)
 
-#### 添加屬性
+#### Add Attributes
 
-初次添加屬性時，直接在CocoBlockly的wifi模式上向Coco Cloud發送數據，即可生成對應事件的屬性。
+In the first time you add attributes, you can directly send data to Coco Cloud in WiFi mode, and then the attributes of an event are generated.
 
-![cocoCloud__events](../media/cocoCloud_property_1.png)
+![cocoCloud__events](../media/cocoCloud_property_1_en.png)
 
-##### 積木編程
+##### Code by CocoBlockly
 
-在wifi模式中點擊右上角工具欄「登入」按鈕登錄自己的Coco Cloud賬號：
-![cocoCloud__events](../media/cocoCloud_property_3.png)
+In WiFi mode, click the "login" in the toolbar at the upper right corner to log into the Coco Cloud account: [cocoCloud__events](../media/cocoCloud_property_3.png)
 
-設置連接 Wi-Fi，設置 API Key，設置屬性名稱：
-![cocoCloud__events](../media/cocoCloud_property_2.png)
+Set the WiFi connection, the API Key and the attribute name:
+![cocoCloud__events](../media/cocoCloud_property_2_en.png)
 
-##### 最終效果
+##### Effects
 
-Coco Cloud平臺上：
-
-![cocoCloud__events](../media/cocoCloud_property_4.png)
-
-#### 事件查看
-
-點擊事件，即可看到事件的屬性，以及獲取到的屬性的最新數據
+You can see the following result in the Coco Cloud platform:
 
 ![cocoCloud__events](../media/cocoCloud_property_4.png)
 
+#### Check the Event
 
-## 儀表板
+Click the event, then you can see the properties of the event and their latest data.
 
-在 「儀表板」 中，用戶可以創建數據可視化的面板，在面板中觀察數據的變化，也可以創建插件「切換按鈕」 ，用來對事件的某個屬性進行開關的控制。「儀表板」 建立於 「事件」 之上。
+![cocoCloud__events](../media/cocoCloud_property_4.png)
+
+
+## Dashboard
+
+"Dashboard" is founded based on "Event". In "Dashboard", you can create a data visualization panel, on which you can see the change of the data. You can also create a "switch button" to control turn on or off a particular attribute of an event.
 
 ![cocoCloud](../media/cocoCloud__2.jpg)
 
-### 創建方法
+### Creation Method
 
 ![cocoCloud__dashboard](../media/cocoCloud__dashboard_1.png)
 
-點擊新增按鈕（ + ）
+Click the button "+" to add a new board.
 
 ![cocoCloud__dashboard](../media/cocoCloud__dashboard_2.png)
 
-選擇要創建的工具種類，目前支持的工具種類有：
+Choose the type of the tool to be created. Two tools are available at present:
 
-* 數據可視化
-* 插件
+* Data visualization
+* Plugin
 
-輸入要創建的可視化類型或按鍵類型，目前支持
+Enter the type of data visualization or plugin.
 
-* 數據可視化
-  * 線型圖
+* Data visualization
+  * line chart
 <div style="margin:0px 0 20px 0;">
 <img src="../media/cocoCloud__dashboard_3.png" width=40%/>
 </div>
 
-  * 區域圖
+  * area chart
   <div style="margin:0px 0 20px 0;">
   <img src="../media/cocoCloud__dashboard_5.png" width=40%/>
   </div>
 
-* 插件
-  * 切換按鈕
+* Plugin
+  * switch button
   <div style="margin:0px 0 20px 0;">
   <img src="../media/cocoCloud__dashboard_4.png" width=40%/>
   </div>
 
-選擇事件的名稱，選擇欲觀察或改變的屬性，點擊創建後即可看見數據的歷史數據所構成的圖表
+Choose an event name and its attributes to be observed or changed. Click "創建", then you can see a chart composed of the previous data.
 
 
 
 ## <span id="APIKey">API Key</span>
 
-用戶的唯一識別碼。用戶創建的每個事件都有獨立且唯一的 API Key ，在「Coco Cloud 積木」中填入對應事件的 API Key 即可向該事件發送或獲取屬性的數據。
+Every event has an API Key (the only indentification code). You can send or get the attribute data of an event by entering corresponding API Key to the "Coco Cloud blocks".
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-<img src="../media/cocoCloud_api_1.png" width=40%/>
+<img src="../media/cocoCloud_api_1_en.png" width=40%/>
 </div>
 
 ***
@@ -144,57 +143,57 @@ Coco Cloud平臺上：
 | CocoCloud | 雲端控制LED亮暗 | [查看此處](#項目二)  |
 -->
 
-## 項目
+## Project
 <!--
 ### 項目一
 -->
-####  項目簡介 : 雲端呈現環境模組數據並將數據可視化
+####  Introduction: Display the data of the environmental sensing module on the CocoCloud and visualize them.
 
-雲端呈現環境模組數據: 將數據從主機板傳輸至 WiFi 通訊模組，然後由 WiFi 通訊模組傳輸至 Coco Cloud 雲端，在 Coco Cloud 展示數據
+Display the data of the environmental sensing module on the CocoCloud: transmit data from the main controller to the WiFi communication module, and transmit the data from the WiFi communication module to Coco Cloud. Then the data can be shown on the Coco Cloud.
 
-#### 模組組裝
+#### Assemble Modules
 
-將主機板模組、WiFi 通訊模組以及環境感應模組拼接在一起
+Put the main controller, the WiFi communication module and the environmental sensing module together.
 
-> 注：必須先對主機板模組和 WiFi 通訊模組分別上傳對應模式下的積木程式后，再將這些模組拼接在一起
+> Note: You must upload programs separately to the main controller and the WiFi communication module before putting them together.
 
 <div style="text-align:center;margin:0px 0 20px 0;">
   <img src="../media/cocoCloud_project_1.jpg" width=40%/>
   </div>
 
-#### Coco Cloud 事件創建
+#### Coco Cloud Event Creation
 
-在 Coco Cloud 雲端平臺上為環境模組收集的數據創建一個事件「Environment」
+Create an event named "Environment" for the environmental sensing module on the Coco Cloud platform.
 
 ![wifi__main](../media/cocoCloud_project_1_1.png)
 
-#### 主機板程式預覽
+#### Main Controller Program Preview
 
-* 主機板模式 - 設置環境積木，設置數據傳輸至WiFi通訊模組
-  程式下載： <a href="../xml/cocoCloud_project1/project1_main.xml" download >project1_main.xml</a>
+* Main controller mode - set environmental blocks, set data and transmit the data to WiFi communication module, and
+  download program: <a href="../xml/cocoCloud_project1/project1_main.xml" download >project1_main.xml</a>
 
-![wifi__main](../media/cocoCloud_project_1_main.png)
+![wifi__main](../media/cocoCloud_project_1_main_en.png)
 
-#### WiFi程式預覽
+#### WiFi Program Preview
 
-* WiFi模式 - 設置連網，接收主機板數據，設置「 Coco Cloud 發送積木」發起請求發送數據至雲端
-  程式下載： <a href="../xml/cocoCloud_project1/project1_wifi.xml" download >project1_wifi.xml</a>
+* WiFi mode - set network connection, receive data, set "Coco Cloud sending block", request to send the data to the cloud, and
+  download program: <a href="../xml/cocoCloud_project1/project1_wifi.xml" download >project1_wifi.xml</a>
 
-> 注：編寫程式時，請注意將聯網積木中的 WiFi 信息和密碼改成你自己要連接的
+> Note: Please change the WiFi information and password to serve your own connection when writing programs.
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-  <img src="../media/cocoCloud_project_1_wifi_1.png" width=40%/>
+  <img src="../media/cocoCloud_project_1_wifi_1_en.png" width=40%/>
   </div>
 
-![wifi__main](../media/cocoCloud_project_1_wifi.png)
+![wifi__main](../media/cocoCloud_project_1_wifi_en.png)
 
-#### 數據可視化
+#### Data Visualization
 
-在 Coco Cloud 雲端平臺上的「儀表板」列表中為事件「Environment」的屬性依次創建可視化工具
+Create visualization tool for the attribute of the event "Environment" in the "Dashboard" list of the Coco Cloud platform.
 
 ![wifi__main](../media/cocoCloud_project_1_4.png)
 
-#### 最終效果
+#### Effects
 
 ![wifi__main](../media/cocoCloud_project_1_2.png)
 
@@ -224,4 +223,4 @@ Coco Cloud平臺上：
 ![wifi__main](../media/cocoCloud_project_2_wifi.png)
 -->
 ---
-更新時間：2019年8月
+Updated in August 2019

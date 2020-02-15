@@ -1,40 +1,40 @@
-# 使用平行轉接模組
+# Apply Parallel Adapting Module
 
 ---
 
-## 模組簡介
+## Introduction
 
-平行轉接模組適用於將垂直拼接的模組轉換成爲平行拼接，更易於觀察使用。
+Parallel adapting module is used to change vertically assembled modules to horizontally assembled ones so as to be more conducive to observation.
 
-## 模組主要部件
+## Main Components
 
 <img src="../media/平行_1.jpg" width="400"/>
 
 ---
 
-## 平行轉接基礎使用
+## Basic Application
 
-### 熒幕模組和環境感應模組平行拼接
+### Horizontally Assemble Screen Module and Environmental Sensing Module
 
-#### 模組組裝
+#### Assemble Modules
 
-將主機板模組、環境感應模組、熒幕模組和平行轉接模組搭在一起，並用 USB 線連接主機板模組和電腦：
+Put the environmental sensing module, the screen module, the parallel adapting module and the main controller together, and connect the main controller to a computer via a USB data cable.
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/平行_2.jpg" width="60%" /></div>
 
-#### 積木編程
+#### Code by CocoBlockly
 
-> 註：也可以從工具欄中的「熒幕」一項中，選擇示例「環境參數顯示」
+> Note: You can also choose the “ENV SHOW SCREEN” in the “SCREEN” toolbar.
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hrizontal_blockly_1.png" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hrizontal_blockly_1_en.png" width="70%" /></div>
 
 
-#### 最終效果
+#### Effects
 
-程式上傳成功後，熒幕模組上將會顯示由環境感應模組得到的 4 組數據：聲音強度、光照強度、溼度和溫度：
+After the program is successfully uploaded, four data obtained by the environmental sensing module will be shown on the screen module: the data of sound, light, humidity and temperature:
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/平行_5.jpg" width="60%" /></div>
 
 
 ---
-更新時間：2019年8月
+Updated in August 2019
