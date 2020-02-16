@@ -1,0 +1,50 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wifiNetwork_AP" id="t-gS}8~(~8dg:IrcDXGz" x="68" y="29">
+    <field name="SSID">CocoRobo</field>
+    <field name="PW">cocorobo</field>
+  </block>
+  <block type="wifiServer_setup" id="G}0A8wWKrYnupx.eOj{;" x="258" y="28"></block>
+  <block type="wifiServer_setRootPage" id="pQ./Ty(({9oyVlKP![6p" x="410" y="28">
+    <statement name="STATEMENT0">
+      <block type="webpage_button" id="X!:JBZ24[#RX[P)u/NHw">
+        <mutation items="2"></mutation>
+        <field name="BUTTON0">on</field>
+        <field name="URL0">/light</field>
+        <field name="BUTTON1">off</field>
+        <field name="URL1">/light</field>
+      </block>
+    </statement>
+  </block>
+  <block type="wifiServer_setRouter" id="4s3]{6kb_*za;dpK2Icm" x="69" y="254">
+    <mutation items="1"></mutation>
+    <field name="URL0">/light</field>
+    <statement name="STATEMENT0">
+      <block type="wifiServer_Receive" id="ZMv.q=72@H0qcA%Xc-%_">
+        <field name="VAR">Data_receive</field>
+        <field name="LENGTH">1</field>
+      </block>
+    </statement>
+    <next>
+      <block type="variables_set" id="+-wel2K[PX?vpTmDAP|5">
+        <field name="VAR">item</field>
+        <value name="VALUE">
+          <block type="wifiServer_Receive_getValue" id="mFB2#lV2wNb^@xDP~_5F">
+            <field name="VAR">Data_receive</field>
+            <field name="INDEX">0</field>
+            <field name="TYPE">String</field>
+          </block>
+        </value>
+        <next>
+          <block type="wifiTransfer_send" id="Ga^Bt+:Vm21zAGyErvA9">
+            <mutation items="1"></mutation>
+            <value name="ADD0">
+              <block type="variables_get" id="ZpVLbh)x,B3@!OdHlzHk">
+                <field name="VAR">item</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

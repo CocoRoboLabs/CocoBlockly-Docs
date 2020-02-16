@@ -1,0 +1,131 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wifiNetwork_network" id="2Bw438uhi3{MYKY@RRb=" x="-62" y="-231">
+    <field name="wifi_ssid">CocoRobo</field>
+    <field name="wifi_pw">cocorobo</field>
+  </block>
+  <block type="time_everySecond" id="R(9hUFSw0TTf7]V4=D?I" x="115" y="-229">
+    <value name="TIME">
+      <block type="math_number" id="05{).ShJq2HZ@,@!9UNh">
+        <field name="NUM">2</field>
+      </block>
+    </value>
+    <statement name="STACK">
+      <block type="wifiServices_cococloud_get" id="3B(5Wsi[(dSu]ScgVgt@">
+        <field name="event0">ab43b67940ce68bf3b2fac4223fe0bc8</field>
+        <field name="VAR">rxCloud</field>
+        <next>
+          <block type="variables_set" id="nQgj5v%%lcRO)N,McQJ9">
+            <field name="VAR">data_0</field>
+            <value name="VALUE">
+              <block type="wifiServices_cococloud_get_data" id="pyHs5[=k]7r[Q-%NZK{q">
+                <field name="VAR">rxCloud</field>
+                <field name="KEY">EM_data</field>
+                <field name="VAR_TYPE">Text</field>
+              </block>
+            </value>
+            <next>
+              <block type="controls_if" id="dmfMp)Ryjrp+/]3k-8;D">
+                <mutation elseif="2" else="1"></mutation>
+                <value name="IF0">
+                  <block type="logic_compare" id="RBLUXXu4j3FqEf?XvzG#">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="variables_get" id="U[O{As,lG+j*/i0PK@1i">
+                        <field name="VAR">data_0</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="ROq.?LYW[QM:cQQt]/F/">
+                        <field name="TEXT">happy</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="variables_set" id="c+5r]j3d!lrwK~sm#xa*">
+                    <field name="VAR">emotionState</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="Q;~C0^r,z:-M#FAHQTEa">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <value name="IF1">
+                  <block type="logic_compare" id="*V0a_%(~%bx=3QK6K6R4">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="variables_get" id="rW4;**V2?P7sR:8i|~i8">
+                        <field name="VAR">data_0</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="Eg3=X@^2MPB+nw^9B8n6">
+                        <field name="TEXT">sad</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO1">
+                  <block type="variables_set" id="L#Ur.C0~ujz1?Ixj~4Tr">
+                    <field name="VAR">emotionState</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="anDmCB4y]jvOgOU6M55m">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <value name="IF2">
+                  <block type="logic_compare" id="[(*8ju`3SGwd@4RX{@{q">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="variables_get" id="Ee0jMArCCkbVI,KIh@Sh">
+                        <field name="VAR">data_0</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="q|AD.e)D#N42#U1~s-p7">
+                        <field name="TEXT">normal</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO2">
+                  <block type="variables_set" id="icVapCUSNJFNeLBRCj=5">
+                    <field name="VAR">emotionState</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="r_Av{fDeuZCFX5.m:pZ;">
+                        <field name="NUM">3</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <statement name="ELSE">
+                  <block type="variables_set" id="0V]5B1#T}+:Z#nq!y3R9">
+                    <field name="VAR">emotionState</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="%9`0byi_!=fAD7UdoQjx">
+                        <field name="NUM">4</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="wifiTransfer_send" id="2cD#O(:b%?U=u-~/PK)@">
+        <mutation items="1"></mutation>
+        <value name="ADD0">
+          <block type="variables_get" id="ugYUO:Etno+Ukgou3p4u">
+            <field name="VAR">emotionState</field>
+          </block>
+        </value>
+      </block>
+    </next>
+  </block>
+</xml>

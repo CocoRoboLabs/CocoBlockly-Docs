@@ -1,0 +1,60 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wifiNetwork_AP" id="t-gS}8~(~8dg:IrcDXGz" x="70" y="25">
+    <field name="SSID">CocoRobo</field>
+    <field name="PW">cocorobo</field>
+  </block>
+  <block type="wifiServer_setup" id="G}0A8wWKrYnupx.eOj{;" x="256" y="75"></block>
+  <block type="wifiTransfer_receive" id="3tDl,bQ%[I)BF(tF:).n" x="70" y="193">
+    <field name="LENGTH">4</field>
+  </block>
+  <block type="wifiServer_setRootPage" id="pQ./Ty(({9oyVlKP![6p" x="66" y="319">
+    <statement name="STATEMENT0">
+      <block type="webpage_label" id="TBAN4%!KB-uw`OVn6wqB">
+        <mutation items="1"></mutation>
+        <field name="LABLE0">sound</field>
+        <value name="ADD0">
+          <block type="wifiTransfer_receive_getValue" id="yQnmF:VCT?z_iYu%7w+{">
+            <field name="INDEX">0</field>
+            <field name="TYPE">.toInt()</field>
+          </block>
+        </value>
+        <next>
+          <block type="webpage_label" id="e9e3dZ6Tq_qpm)w^cZ3K">
+            <mutation items="1"></mutation>
+            <field name="LABLE0">light</field>
+            <value name="ADD0">
+              <block type="wifiTransfer_receive_getValue" id="lZLxmm0xiaphmXV4WumN">
+                <field name="INDEX">1</field>
+                <field name="TYPE">.toInt()</field>
+              </block>
+            </value>
+            <next>
+              <block type="webpage_label" id="v3ax/Ioi-B~Y|]0e{w5J">
+                <mutation items="1"></mutation>
+                <field name="LABLE0">humid</field>
+                <value name="ADD0">
+                  <block type="wifiTransfer_receive_getValue" id="4J:!cVetwGR9Hm[33vWh">
+                    <field name="INDEX">2</field>
+                    <field name="TYPE">.toInt()</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="webpage_label" id="M)EHpcXyLV3p,@}36OPF">
+                    <mutation items="1"></mutation>
+                    <field name="LABLE0">temperature</field>
+                    <value name="ADD0">
+                      <block type="wifiTransfer_receive_getValue" id="}-b2/[3..0?ktR@eqc#X">
+                        <field name="INDEX">3</field>
+                        <field name="TYPE">.toInt()</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

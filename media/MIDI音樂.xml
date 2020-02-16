@@ -1,0 +1,165 @@
+main$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="MusicMidiSetup" id="P=KdMQ7+rnIe?M||^x#s" x="251" y="24">
+    <field name="INSTRUMENT">1</field>
+    <field name="VOLUME">0</field>
+  </block>
+  <block type="MusicPlayTone" id="T6T^ty4zDlS2:A;bVknC" x="254" y="156">
+    <value name="NOTE">
+      <shadow type="MusicNote" id="vCQ1g*RC(M~`gP~wgk-S">
+        <field name="NOTE">60</field>
+      </shadow>
+    </value>
+    <value name="DURATION">
+      <shadow type="MusicBeat" id="w-Cu*l2.)gw9G9fp=zbI">
+        <field name="BEAT">1000</field>
+      </shadow>
+    </value>
+    <next>
+      <block type="MusicRest" id="7X]Dh.CQtNMtSk_T_LL!">
+        <value name="BEAT">
+          <shadow type="MusicBeat" id="h%m`m}ljJ%FJl6NYDSyb">
+            <field name="BEAT">1000</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="MusicPlayTone" id="m_5rG0r.O0I}DbrypEXU">
+            <value name="NOTE">
+              <shadow type="MusicNote" id="-zKqQE^_VVtYf`E4oq,[">
+                <field name="NOTE">62</field>
+              </shadow>
+            </value>
+            <value name="DURATION">
+              <shadow type="MusicBeat" id="gE{szU~qfJiPS6v9hXbX">
+                <field name="BEAT">1000</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="MusicRest" id="lOtAlG9#o%pIm*suLWu9">
+                <value name="BEAT">
+                  <shadow type="MusicBeat" id="UqItXbb@1K%kU+shPZvP">
+                    <field name="BEAT">1000</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="MusicPlayTone" id="i6:;0@|?C)2/McrahtMX">
+                    <value name="NOTE">
+                      <shadow type="MusicNote" id="_b(2AB74um+8#Fi}gJdq">
+                        <field name="NOTE">64</field>
+                      </shadow>
+                    </value>
+                    <value name="DURATION">
+                      <shadow type="MusicBeat" id="L0~pbI5L|o|GX:{JE,Iq">
+                        <field name="BEAT">1000</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="MusicRest" id="C?9Utn{eyyy?%KS3!z1}">
+                        <value name="BEAT">
+                          <shadow type="MusicBeat" id="QES;1_I~sZR(^+CZ*y1]">
+                            <field name="BEAT">1000</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="MusicPlayTone" id="n(/o0;:93r|/pT=|gY)S">
+                            <value name="NOTE">
+                              <shadow type="MusicNote" id="6@}.sp4-5v`Li(|J]H9@">
+                                <field name="NOTE">65</field>
+                              </shadow>
+                            </value>
+                            <value name="DURATION">
+                              <shadow type="MusicBeat" id="{+,B)q)kK@._IzrA#89S">
+                                <field name="BEAT">1000</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="MusicRest" id="O-oNz^,?i!G,EKJz8d*S">
+                                <value name="BEAT">
+                                  <shadow type="MusicBeat" id="+;]l,,X=BUZCqUG-q_s.">
+                                    <field name="BEAT">1000</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="MusicPlayTone" id="Z]cHcxf,Urdvft=:,D[]">
+                                    <value name="NOTE">
+                                      <shadow type="MusicNote" id="KEIgAv9{P,9w).DYm]fl">
+                                        <field name="NOTE">67</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="DURATION">
+                                      <shadow type="MusicBeat" id="2cCDIzQcWcf^p3W*Uryw">
+                                        <field name="BEAT">1000</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="MusicRest" id="1.NC[4,V`@N3;@)%%Txb">
+                                        <value name="BEAT">
+                                          <shadow type="MusicBeat" id="auH:+qwbd)(4=oS!E0O?">
+                                            <field name="BEAT">1000</field>
+                                          </shadow>
+                                        </value>
+                                        <next>
+                                          <block type="MusicPlayTone" id="/H%kMarv@3@vJXp`PE7S">
+                                            <value name="NOTE">
+                                              <shadow type="MusicNote" id="Oaq,2p?^jRuD4^BYBpx{">
+                                                <field name="NOTE">69</field>
+                                              </shadow>
+                                            </value>
+                                            <value name="DURATION">
+                                              <shadow type="MusicBeat" id="B4_9Ur}`+A1cRXh+3`3L">
+                                                <field name="BEAT">1000</field>
+                                              </shadow>
+                                            </value>
+                                            <next>
+                                              <block type="MusicRest" id="3+1.~tJb23`%FDQ3hdB!">
+                                                <value name="BEAT">
+                                                  <shadow type="MusicBeat" id="LJU?VDrq;UQlk15Dtm1m">
+                                                    <field name="BEAT">1000</field>
+                                                  </shadow>
+                                                </value>
+                                                <next>
+                                                  <block type="MusicPlayTone" id="3:#Ir5[jca)=aCUp,,8e">
+                                                    <value name="NOTE">
+                                                      <shadow type="MusicNote" id="v!emrnSK)cy8}4x=b}DP">
+                                                        <field name="NOTE">71</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <value name="DURATION">
+                                                      <shadow type="MusicBeat" id="1{Y*7{d5~I~Y}},U,-Hs">
+                                                        <field name="BEAT">1000</field>
+                                                      </shadow>
+                                                    </value>
+                                                    <next>
+                                                      <block type="MusicRest" id="uF`OE|p/NHWW,pRT4HDI">
+                                                        <value name="BEAT">
+                                                          <shadow type="MusicBeat" id="^Gi`,u#1j~}d~Vdo5.F(">
+                                                            <field name="BEAT">1000</field>
+                                                          </shadow>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

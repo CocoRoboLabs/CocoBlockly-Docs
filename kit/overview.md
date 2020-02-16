@@ -1,0 +1,15 @@
+# Course Kit Overview
+
+You can use the modules in the kits and their corresponding materials in combination with 3D printing and programming to complete a hands-on project. The themes of the kits are different from one another, with each kit having its module, sensor, accessories and so on. Users can learn to use the electronic modules in the CocoMod better and faster through their matched courses.
+
+> Note: For information on how to use CocoBlockly, you can refer to previous parts such as [Start to Use CocoBlockly](/getting-started/info), [CocoBlockly Interface](/getting-started/gui) and [Electronic Modules](/cocomod/overview).
+
+## Kit Introduction
+
+| No. | Name | Pictures | Description| Details|
+| :------: | :------: | :------: | :------ | :------: |
+| 1. | Creative Electronics | <img src="/media/kit_info_1.png" width="300"/> | "Creative Electronics" is one of the basic courses of the CocoRobo STEAM system. In the course, students begin with interesting creative electronic interaction arts and gradually learn basic electronic module and graphical programming methods. Then they can design and make unique creative electronic products by using their programming methods and creativity in combination with software and hardware. | [Click here](/kit/creative-electronics)
+| 2. | Robot Car | <img src="/media/kit_info_2.png" width="300"/> | "Robot Car" is one of the basic courses of the CocoRobo STEAM system. In the course, students will use robot car as a learning and research object, from which they learn how to use electronic modules, to write controlling programs and to apply rapid manufacturing technologies such as 3D printing. Students design and establish robot cars from scratch and show their products in the competition at the end of the course. |  [Click here](/kit/robot-car) |
+| 3. | Smart Home | <img src="/media/kit_info_3.png" width="300"/>  | "Smart Home" is one of the basic courses of the CocoRobo STEAM system. In the course, students will deeply study smart products at home and the systematic methods to design smart products. Then in combination with the electronic modules and programs, they can design smart home products to solve practical problems in life. | [Click here](/kit/smart-home) |
+| 4. | AI | <img src="/media/kit_info_4.jpg" width="300"/> | "AI" is one of the basic courses of the CocoRobo STEAM system. In the course, students establish and experience simple AI APP by learning simple programming and familiarizing themselves with using Cloud platform. It enables students to know more about basic knowledge and application fields of the AI. |  [Click here](/kit/aiot)  |
+| 5. | Robot Arm | <img src="/media/kit_info_5.png" width="300"/> | "Robot Arm" is one of the basic courses of the CocoRobo STEAM system. In the course, students need to learn and use electronic module programming and structural design. Then they will work in a team to design a competitive robot thus realizing mechatronic discipline integration. | [Click here](/kit/robot-arm) |

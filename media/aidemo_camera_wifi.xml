@@ -1,0 +1,269 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wificomms_setup" id="nU=VPU`=EeI*N%^GlhB!" x="137" y="286"></block>
+  <block type="wifinetwork_connect_setup" id="dhu^kZx+T5ZPGLzr{t#5" x="139" y="375">
+    <value name="SSID">
+      <shadow type="text" id=")Zw]YSRjA|vGZ1ZEyCj{">
+        <field name="TEXT">CocoRobo_SZ</field>
+      </shadow>
+    </value>
+    <value name="PW">
+      <shadow type="text" id="X4BM%34Ms+X[vpny4z[,">
+        <field name="TEXT">yezicoco</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="serial_setup" id="j};wypH5HE~B,L}/t+53" x="329" y="408">
+    <field name="SERIAL_ID">Serial</field>
+    <field name="SPEED">9600</field>
+  </block>
+  <block type="wificlient_http_setup" id="c{=CnXV57{jc/L]NFwAy" x="139" y="521"></block>
+  <block type="lists_variable_set" id="gET#3gU3[P6f-Qebb@9n" x="141" y="607">
+    <field name="VAR">dataOut</field>
+    <value name="VALUE">
+      <block type="lists_create_with" id="_vyMmB5*,=kUSkP2g@+W">
+        <mutation items="1"></mutation>
+        <value name="ADD0">
+          <block type="math_number" id="Jk/H*ROeHb6fgluh4*=E">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+    </value>
+    <next>
+      <block type="controls_if" id=".ei,Q~X1ae!z5t!P?RFK">
+        <value name="IF0">
+          <block type="wifinetwork_isConnected" id="2HE_s~=r:V{@9njo}W4C"></block>
+        </value>
+        <statement name="DO0">
+          <block type="wificlient_http_get" id="@RaF3W/qdQ4mB{`J`1UU">
+            <value name="URL">
+              <shadow type="text" id="g@,W+hc|8HVS.V!(@ZZ~">
+                <field name="TEXT">http://api.cocorobo.hk/iot/data/apikey/8682c97e408b29622de238b692bf79bdc63478de50c31ddf8fbec13f50ba1d8f/event/camera</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="clouddata_json_parser_setup" id="jQ;k(~-x[h;lnQ*gZ_Hl">
+                <field name="DATA">Data</field>
+                <value name="PAYLOAD">
+                  <shadow type="text" id="hT1c]5GbL^S7#`+5:7J`">
+                    <field name="TEXT"></field>
+                  </shadow>
+                  <block type="wificlient_http_response" id="@*^U72WgGe+,SyX9y8EX"></block>
+                </value>
+                <next>
+                  <block type="serial_print" id="]7Q+gFWDFK|qneFm/Cpj">
+                    <field name="SERIAL_ID">Serial</field>
+                    <field name="NEW_LINE">TRUE</field>
+                    <value name="CONTENT">
+                      <block type="variables_set_type" id="M,SDh7AHLcS`mDE!}Ts4">
+                        <field name="VARIABLE_SETTYPE_TYPE">TEXT</field>
+                        <value name="VARIABLE_SETTYPE_INPUT">
+                          <block type="clouddata_json_parser" id="D6I(fx:?g:SxV%/{IDmV">
+                            <field name="KEY">emotion</field>
+                            <field name="VAR_TYPE">Text</field>
+                            <field name="DATA">Data</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="controls_if" id="JnLsk+r|LayL4/OU8]#r">
+                        <mutation elseif="2" else="1"></mutation>
+                        <value name="IF0">
+                          <block type="logic_compare" id="=fGrUABv]_1`E016Q0!g">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_set_type" id="jdyIYq*^Oqn@`;_^5^9J">
+                                <field name="VARIABLE_SETTYPE_TYPE">TEXT</field>
+                                <value name="VARIABLE_SETTYPE_INPUT">
+                                  <block type="clouddata_json_parser" id="Dv~Cd~K~-j[7IO2/700!">
+                                    <field name="KEY">emotion</field>
+                                    <field name="VAR_TYPE">Text</field>
+                                    <field name="DATA">Data</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="text" id="Bl(4)LU7r)u#}Acz9o:d">
+                                <field name="TEXT">Happy Face</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="variables_set" id="(ky9t=8%^iBp5R.!UswB">
+                            <field name="VAR">emotionState</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="atl.uUKVs1C!ow0N#)DI">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="serial_print" id="+.p%s#cQ[zO`yAt5O6J+">
+                                <field name="SERIAL_ID">Serial</field>
+                                <field name="NEW_LINE">TRUE</field>
+                                <value name="CONTENT">
+                                  <block type="text" id="2}*,#z!~c27HJm;8f@:l">
+                                    <field name="TEXT">Happy</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <value name="IF1">
+                          <block type="logic_compare" id="SrCN-U|nF|*ezvF!{TjZ">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_set_type" id="{#S!RMIt!Z|iQ0rWp1Z*">
+                                <field name="VARIABLE_SETTYPE_TYPE">TEXT</field>
+                                <value name="VARIABLE_SETTYPE_INPUT">
+                                  <block type="clouddata_json_parser" id="lPvJ04dX-^h)%dsz-[+Q">
+                                    <field name="KEY">emotion</field>
+                                    <field name="VAR_TYPE">Text</field>
+                                    <field name="DATA">Data</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="text" id="CR#bZ7]%=J#i61{iFRCv">
+                                <field name="TEXT">Sad Face</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO1">
+                          <block type="variables_set" id="kV0z~dM,7*a^lGtyVR+p">
+                            <field name="VAR">emotionState</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="@q?4{%AGDQ/7ImQjN{M?">
+                                <field name="NUM">2</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="serial_print" id="yoL6Z.H0C]z]/:NYU3{#">
+                                <field name="SERIAL_ID">Serial</field>
+                                <field name="NEW_LINE">TRUE</field>
+                                <value name="CONTENT">
+                                  <block type="text" id="pn+2XB2al8e*_Tr@xC8P">
+                                    <field name="TEXT">Sad</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <value name="IF2">
+                          <block type="logic_compare" id="s`d(VvPfAE(oOK@gA^,`">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="variables_set_type" id="C(m4S4H4.K]E3mUNToX3">
+                                <field name="VARIABLE_SETTYPE_TYPE">TEXT</field>
+                                <value name="VARIABLE_SETTYPE_INPUT">
+                                  <block type="clouddata_json_parser" id="mZLrtNXs^@2R,.t~!]@x">
+                                    <field name="KEY">emotion</field>
+                                    <field name="VAR_TYPE">Text</field>
+                                    <field name="DATA">Data</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="text" id="^d1aLiDuP7=8()_a#J=!">
+                                <field name="TEXT">No smiley face nor sad face detected.</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO2">
+                          <block type="variables_set" id="/3^c04P:egKsa7WNi7mS">
+                            <field name="VAR">emotionState</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="}f[qqU]o63~[fjLe7S[w">
+                                <field name="NUM">0</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="serial_print" id="u*M26]r%x8!7.MWO}HVz">
+                                <field name="SERIAL_ID">Serial</field>
+                                <field name="NEW_LINE">TRUE</field>
+                                <value name="CONTENT">
+                                  <block type="text" id="Ogq:=sv`6aBA9c~8cW5{">
+                                    <field name="TEXT">Normal</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <statement name="ELSE">
+                          <block type="variables_set" id="Zjbh7.a@hVLE#:{iIJf/">
+                            <field name="VAR">emotionState</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="]q}1,|u]zI;^J;W`iVWJ">
+                                <field name="NUM">4</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="serial_print" id="HRnV~=t1L8#Mfxxod8(`">
+                                <field name="SERIAL_ID">Serial</field>
+                                <field name="NEW_LINE">TRUE</field>
+                                <value name="CONTENT">
+                                  <block type="text" id="%edsHL;j,6-uPruG#*t^">
+                                    <field name="TEXT">Error</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="lists_setIndex" id=";t}{^Ce;`86CIn)Zxd,`">
+                            <value name="VAR">
+                              <shadow type="variables_get" id="D?pYSFdfp%)7gebOeMw]">
+                                <field name="VAR">dataOut</field>
+                              </shadow>
+                            </value>
+                            <value name="AT">
+                              <shadow type="math_number" id="2-3p1~yA-LL!T0/?OH5h">
+                                <field name="NUM">0</field>
+                              </shadow>
+                            </value>
+                            <value name="TO">
+                              <shadow type="math_number" id="%:G_Z(Yy~k=kk-V}@R8v">
+                                <field name="NUM">0</field>
+                              </shadow>
+                              <block type="variables_get" id="c*u3@Koj}aVl6V,y.)l-">
+                                <field name="VAR">emotionState</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="time_delay" id=";0WZ~Z[/TDHwpPyNOor=">
+                                <value name="DELAY_TIME_MILI">
+                                  <block type="math_number" id="2dP%bDOF#((!nyQK%c:_">
+                                    <field name="NUM">500</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="wificomms_sendMsg" id="C}||gZJg47QW}=mAweng">
+                                    <field name="dataVar">dataOut</field>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </next>
+  </block>
+</xml>
