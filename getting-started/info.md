@@ -36,38 +36,38 @@ Please download the CocoBlockly Uploader installation package of respective plat
 2. Open the webpage: http://cocorobo.hk/cocoblockly/dev/
 
 3. After the plugin is successfully uploaded to CocoBlockly, "Plugin is connected successfully!" will be shown at the upper right of the interface.
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_1.png" width="40%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_1_en.png" width="40%" /></div>
 
   - At the same time, successful connection is also shown in the "Upload Area".
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_2.png" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_2_en.png" width="70%" /></div>
 
 4. Connect the main controller to a computer via a USB data cable. The port name of the main controller will be shown after a short time.
   - **Note 1**: For more information on the main controller, please refer to [Apply Main Controller](/cocomod/main-controller)
   - **Note 2**：The port of Windows usually begins with "COM" while the port of MacOS usually begins with "/dev/tty.usb".
 
- <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_3.png" width="70%" /></div>
+ <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_3_en.png" width="70%" /></div>
 
 5. Click "Upload" and begin to upload the Arduino source code of the "Arduino Source Code" to the main controller. Three steps will be involved:
 
   - Compiling
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_4.png" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_4_en.png" width="70%" /></div>
 
   - Uploading
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_5.png" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_5_en.png" width="70%" /></div>
 
   - Upload successfully
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_6.png" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_6_en.png" width="70%" /></div>
 
 6. The completion of the above three steps means that the program is successfully uploaded to the main controller.
 
   - **Note**: Similar to the "Verify code" of the Arduino IDE, the option of "Compile" is also provided here to test if the program is correctly written.
 
 
-  <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_7.png" width="70%" /></div>
+  <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/intro_upload_7_en.png" width="70%" /></div>
 
   ---
   Updated in August 2019

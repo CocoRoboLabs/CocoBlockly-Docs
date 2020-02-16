@@ -1,7 +1,7 @@
 ## CocoBlockly Interface
 ---
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_en.png" width="100%" /></div>
 
 1. **Program Name**: The name of the currently written program will also be the name of downloaded program. The two buttons on the right are "delete all blocks" and "take a snapshot" respectively.
 2. **General Tools**: Include some common functions such as import/export program, online assistance and so on.
@@ -18,16 +18,16 @@
 	- F: Upload: Upload the successfully compiled programs to the well-connected main controller or WiFi communication module.
 	- G: Relaunch Uploader: You can click here to relaunch CocoBlockly Uploader in case of uploading problems.
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_1.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_1_en.png" width="100%" /></div>
 
 8. **Serial Monitor Window**: You can switch to serial monitor window by clicking the "Serial Monitor Area" in the sidebar. You can use "serial monitor window" together with "Upload Area" to test the electronic modules.
 9. **Sidebar**: Include the functions of "Arduino Code Area & Upload Area", "Serial Monitor Area" and "Full Screen Mode".
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_2.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_2_en.png" width="100%" /></div>
 
 10. **Full Screen Mode**: Click the "Full Screen Mode" in the sidebar to magnify the whole "block designing are" to full screen.
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_3.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_3_en.png" width="100%" /></div>
 
 11. **Language**: Click the "Language" in the sidebar to switch to a different language.
 12. **Application Center**: Click the "Application Center" in the sidebar to pop up the window of "Application Center".
