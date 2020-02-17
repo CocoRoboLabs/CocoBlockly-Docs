@@ -7,19 +7,19 @@
 
 1. Double click the installation package and choose a folder to begin the installation.
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_2.png" width="80%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_2_en.png" width="80%" /></div>
 
 2. In the process of installation, the Arduino driver interface and WiFi communication module driver interface will pop up in turn. You can install them accordingly (you can skip them if you have already done the installation).
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_2.png" width="80%" /></div>
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_3.png" width="80%" /></div>
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_4.png" width="80%" /></div>
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_5.png" width="80%" /></div>
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_6.png" width="80%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_2_en.png" width="80%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_3_en.png" width="80%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_4_en.png" width="80%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_5_en.png" width="80%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_6_en.png" width="80%" /></div>
 
 3. At last, click "Finish" to finish the installation of Uploader.
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_8.png" width="80%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/installer_win_8_en.png" width="80%" /></div>
 
 ---
 

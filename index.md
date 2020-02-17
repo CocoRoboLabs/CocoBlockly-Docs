@@ -1,6 +1,6 @@
 # CocoBlockly
 
-![](/media/about-cocoblockly.png)
+![](/media/about-cocoblockly-308.png)
 
 CocoBlockly is a program design and development environment based on Blockly visualization programming blocks. It supports three languages (simplified Chinese, traditional Chinese and English). You can write programs and endow electronic products with multiple functions just by dragging blocks with specific functions.
 

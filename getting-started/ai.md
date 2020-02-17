@@ -17,15 +17,15 @@ AI system can identify a person’s words from the recording captured by microph
 ## The Interface
 
 AI Entry in CocoBlockly Interface
-  ![AI](../media/AI_blockly_intro_1.png)
+  ![AI](../media/AI_blockly_intro_1_en.png)
 
-  ![AI](../media/AI_blockly_intro_1.1.png)
+  ![AI](../media/AI_blockly_intro_1.1_en.png)
 
 #### 1. Teachable Machine: You can expand the page by clicking the icon of "Teachable Machine"
 
 You need to log into the account before entering the interface of “teachable machine”.
 
-![AI](../media/AI_TeaMa_1.png)
+![AI](../media/AI_TeaMa_1_en.png)
 
 Teachable machine consists of three modules:
 
@@ -42,7 +42,7 @@ This part is used to capture pictures for model drill or to do model checking.
 * Input module needs to use the camera of the browser. If the following message is presented, the front camera cannot be started and you need to change to the link (https://cocorobo.hk/cocoblockly/)
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-<img src="../media/AI_TeaMa_Cam_wrong.png" width=60%/>
+<img src="../media/AI_TeaMa_Cam_wrong_en.png" width=60%/>
 </div>
 
 * Currently, the function can only be used in the Chrome browser.
@@ -106,7 +106,7 @@ This event sends the recognition result to Coco Cloud and Cloud event. When “G
 a. Switching button: You can click this button to start the front camera. If the following message is presented, the front camera cannot be started and you need to change to the link (https://cocorobo.hk/cocoblockly/).
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-<img src="../media/AI_TeaMa_Cam_wrong.png" width=60%/>
+<img src="../media/AI_TeaMa_Cam_wrong_en.png" width=60%/>
 </div>
 
 b. Event choice: You can click to choose an event established in Coco Cloud (Please make sure that the CocoBlockly is logged into before choosing event).
@@ -116,7 +116,7 @@ c. Clicking button: Click the “ANALYZE FACE” or the front camera of the comp
 
 #### 3. Speech Recognition: You can Expand the Page by Clicking the Icon of "Speech Recognition"
 
-![AI](../media/AI_voice_1.1.png)
+![AI](../media/AI_voice_1.1_en.png)
 
 a. Event choice: You can click to choose an event established in Coco Cloud (Please make sure that the CocoBlockly is logged into before choosing event).
 
@@ -129,7 +129,7 @@ c. If the computer cannot recognize or accurately recognize your words after You
 * If you want to get data from remote sites (including Coco Cloud, IFTTT and so on), you need to use the block of “every ? seconds” so as to prevent data-getting failure caused by too many requests. And the interval should not be too short.
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-  <img src="../media/AI_millis.png" width=40%/>
+  <img src="../media/AI_millis_en.png" width=40%/>
   </div>
 
 ## A Case Study of Teachable Machine
@@ -142,7 +142,7 @@ Use teachable machine to train different events. Trigger an event and send data 
 
 After logging into an account, go to Coco Cloud (https://cocorobo.hk/cloud/) from the user panel.
 
-![AI](../media/AI_blockly_ToCloud.png)
+![AI](../media/AI_blockly_ToCloud_en.png)
 
 #### Create a Cloud Project
 
@@ -159,7 +159,7 @@ Go to the website of Coco Cloud, create a new event and name it "Coco Cloud".
 Download the program: <a href="../xml/ai_project1/teachable_machine_main.xml" download>teachable_machine_main.xml</a>
 **Please upload program for the main controller separately.**
 
-![AI](../media/AI_TeaMa_project_1.png)
+![AI](../media/AI_TeaMa_project_1_en.png)
 
 
 #### WiFi Mode
@@ -169,11 +169,11 @@ Download the program: <a href="../xml/ai_project2/teachable_machine_wifi.xml" do
 
 > Note: Please change the WiFi name and password of the network block to those you want to connect.
 
-![AI](../media/AI_TeaMa_project_2.png)
+![AI](../media/AI_TeaMa_project_2_en.png)
 
 Change the API Key of the project.
 
-![AI](../media/AI_TeaMa_project_3.png)
+![AI](../media/AI_TeaMa_project_3_en.png)
 
 #### Assemble Modules
 
@@ -210,7 +210,7 @@ Use “emotion recognition” to identify the motion manifested through a face. 
 
 After logging into an account, go to Coco Cloud (https://cocorobo.hk/cloud/) from the user panel.
 
-![AI](../media/AI_blockly_ToCloud.png)
+![AI](../media/AI_blockly_ToCloud_en.png)
 
 
 #### Create a Cloud Project
@@ -227,7 +227,7 @@ After logging into an account, go to Coco Cloud (https://cocorobo.hk/cloud/) fro
 Download the program: <a href="../xml/ai_project2/emotion_main.xml" download>emotion_main.xml</a>
 **Please separately upload program for the main controller.**
 
-![AI](../media/AI_camera_main.png)
+![AI](../media/AI_camera_main_en.png)
 
 
 #### WiFi Mode
@@ -237,11 +237,11 @@ Download the program: <a href="../xml/ai_project2/emotion_wifi.xml" download>emo
 
 > Note: Please change the WiFi name and password of the network block to those you want to connect.
 
-![AI](../media/AI_camera_wifi.png)
+![AI](../media/AI_camera_wifi_en.png)
 
 Change the API Key of the project.
 
-![AI](../media/AI_camera_wifi_1.png)
+![AI](../media/AI_camera_wifi_1_en.png)
 
 #### Assemble Modules
 
@@ -278,7 +278,7 @@ Use "speech recognition" to identify the English order. Transmit the data to mod
 #### Log into an Account
 After logging into an account, go to Coco Cloud (https://cocorobo.hk/cloud/) from the user panel.
 
-![AI](../media/AI_blockly_ToCloud.png)
+![AI](../media/AI_blockly_ToCloud_en.png)
 
 
 #### Create a Cloud Project
@@ -295,7 +295,7 @@ After logging into an account, go to Coco Cloud (https://cocorobo.hk/cloud/) fro
 Download the program: <a href="../xml/ai_project3/speech_main.xml" download>speech_main.xml</a>
 **Please separately upload program for the main controller.**
 
-![AI](../media/AI_speech_main.png)
+![AI](../media/AI_speech_main_en.png)
 
 #### WiFi Mode
 
@@ -304,11 +304,11 @@ Download the program: <a href="../xml/ai_project3/speech_wifi.xml" download >spe
 
 > Note: Please change the WiFi name and password of the network block to those you want to connect.
 
-![AI](../media/AI_speech_wifi.png)
+![AI](../media/AI_speech_wifi_en.png)
 
 Change the API Key of the project.
 
-![AI](../media/AI_speech_wifi_1.png)
+![AI](../media/AI_speech_wifi_1_en.png)
 
 #### Assemble Modules
 

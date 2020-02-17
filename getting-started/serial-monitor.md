@@ -9,11 +9,11 @@ Serial monitor window, which provides good assistance in debugging data (sensor 
 ### Switch to Serial Monitor Window
 You can switch to serial monitor window by clicking the second icon shown in the right toolbar.
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_switch.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_switch_en.png" width="100%" /></div>
 
 Click the icon and then the **Arduino Source Code Area** and the **program uploading area** will be switched into **serial monitor window**
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_en.png" width="100%" /></div>
 
 ---
 
@@ -23,14 +23,14 @@ Click the icon and then the **Arduino Source Code Area** and the **program uploa
 
 The reason is that the serial port is connected to development board port. So the port of the main controller is occupied thus causing uploading failure.
 
-<div align=center><img src="../media/portBeUsed.png" width="450"/></div>
+<div align=center><img src="../media/portBeUsed_en.png" width="450"/></div>
 
 #### Solution
 
 Switch to serial monitor window, disconnect the serial port and then you can upload programs.
 
 <div align=center>
-<img src="../media/serialConnWhenupload.gif" width="250"/>
+<img src="../media/serialConnWhenupload_en.gif" width="250"/>
 </div>
 
 
@@ -40,7 +40,7 @@ Switch to serial monitor window, disconnect the serial port and then you can upl
 
 #### Serial port tool connection partition: connect to development board port, print data, connect to Baud rate and send data.
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_1.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_1_en.png" width="100%" /></div>
 
 ##### Print Data
 
@@ -54,11 +54,11 @@ Switch to serial monitor window, disconnect the serial port and then you can upl
 
 Serial port data print area
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_2.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_2_en.png" width="100%" /></div>
 
 Serial port tool function partition: automatically change line for data, export data and clear the data in the demonstration area.
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_3.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_card_3_en.png" width="100%" /></div>
 
 ## Instruction
 
@@ -66,13 +66,13 @@ Serial port tool function partition: automatically change line for data, export 
 
 Serial monitor window needs to be used in combination with serial port communication blocks. As is shown in the following picture, the first block is the setup block which can set the Baud rate. The second block is the print block. To avoid printing the data too fast, serial port communication blocks usually need to be used in combination with time blocks.
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_block.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_block_en.png" width="100%" /></div>
 
 Upload the blocks in the working area to the main controller, switch to serial monitor window and click the connection button.
 
 > Note: To avoid printing the data too fast, please add at least 50 milliseconds of delay to the print block when using serial monitor window.
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_connect.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_connect_en.png" width="100%" /></div>
 
 After successful connection, the connection button will be replaced by disconnection button. Data will be printed constantly in the serial port data print area.
 
@@ -80,7 +80,7 @@ After successful connection, the connection button will be replaced by disconnec
 
 An interface for choosing the type of data will pop up after clicking data export button. This enables the data in the serial monitor window to be exported in corresponding format.
 
-<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_export.png" width="100%" /></div>
+<div style="padding: 0px 0 20px 0;text-align: center;"><img src="../media/serialMonitor_export_en.png" width="100%" /></div>
 
 Choose a name and a location for the file to be stored.
 
