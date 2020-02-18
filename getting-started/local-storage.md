@@ -37,7 +37,8 @@ At the same time, the name of the successfully imported file will be updated in 
 
 <b style="background-color:#d40000; color:white; padding: 4px 5px; margin-right: 5px; border-radius:2px;">Mistake 1</b> Import files of incorrect formats such as *txt* and *docs*. Or import *XML files that are not related to CocoBlockly blocks*.
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img style="margin:0 0 10px 0;" src="../media/localStorage_import_fileError_en.png" width="100%" /><img src="../media/localStorage_import_fileError_2.png" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img style="margin:0 0 10px 0;" src="../media/localStorage_import_fileError_en.png" width="100%" /><!--<img src="../media/localStorage_import_fileError_2.png" width="100%" />--></div>
+
 
 <b style="background-color:#d40000; color:white; padding: 4px 5px; margin-right: 5px; border-radius:2px;">Mistake 2</b> The imported blocks are incomplete or do not exist. This mistake is common after CocoBlockly block update. In case the blocks in the file are not compatible with CocoBlockly blocks, some blocks can also be generated in the working area. But these invalid blocks need to be written.
 

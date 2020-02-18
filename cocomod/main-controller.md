@@ -87,7 +87,7 @@ Press the two buttons in the sensor 101 module to input the letter "A" and "B" a
 
 > Ps: In the macOS, the port number at the uploading area in the CocoBlockly interface will change into one with "HIDFG". It means that the main controller is detected as HCI device by the computer and the name change won't affect programs.
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_tip.jpg" width="50%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_tip_en.png" width="50%" /></div>
 
 
 ---

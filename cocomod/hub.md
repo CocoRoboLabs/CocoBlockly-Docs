@@ -58,7 +58,7 @@ To provide you with more possibilities of creation in the process of using smart
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_6.png" width="90%" /></div>
 
-<div style="padding: 10px 0 30px 0;text-align: center;"><img src="../media/hub_7.png" width="40%" /></div>
+<div style="padding: 10px 0 30px 0;text-align: center;"><img src="../media/hub_7_en.png" width="40%" /></div>
 
 <p style="color:rgba(0,0,0,.3);">Note: (the module is not incorporated in the kit again) laser sensor:
 used for emitting low power laser beam.

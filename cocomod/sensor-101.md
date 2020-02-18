@@ -85,7 +85,7 @@ With the turning of the potentiometer, the buzzer will emit sounds of different 
 
 #### Code by CocoBlockly
 
-![sensor101](../media/sensor101_7.png)
+![sensor101](../media/sensor101_7_en.png)
 
 #### Effects
 

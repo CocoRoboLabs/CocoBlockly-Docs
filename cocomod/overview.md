@@ -2,7 +2,7 @@
 
 ---
 
-![](../media/about-cocomod.png)
+![](../media/about-cocomod_en.png)
 
 CocoMod, developed by CocoRobo Ltd., is a series of “ready-to-use” electronic modules. At present, twenty kinds of such modules are available: one kind of controlling module, six kinds of input modules, six kinds of output modules, four kinds of hub modules (hub module A, hub module B, parallel adapting module, and reverse adapting module), and three kinds of communication modules (Bluetooth communication module, WiFi communication module, and NBloT communication module). CocoMod empowers your works to sense and control the real world. You can invent a variety of works by connecting the modules with other devices such as LED light, motor, switch, temperature and humidity sensor, display unit, and wireless communication modules.
 

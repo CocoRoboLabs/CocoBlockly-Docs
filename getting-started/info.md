@@ -4,7 +4,7 @@
 
 ## CocoBlockly Uploader
 
-CocoBlockly Uploader is a trans-platform uploading plugin which is targeted to enable communication between browser and the main controller. You can visit CocoBlockly and upload programs to electronic modules after downloading and installing the plugin.
+CocoBlockly Uploader is a cross-platform uploading plugin which is targeted to enable communication between browser and the main controller. You can visit CocoBlockly and upload programs to electronic modules after downloading and installing the plugin.
 
 Please download the CocoBlockly Uploader installation package of respective platforms.
 

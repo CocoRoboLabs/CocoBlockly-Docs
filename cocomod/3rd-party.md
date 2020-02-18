@@ -11,7 +11,7 @@
 
 Reason: The serial port tool is connecting to development board port so that the port of the main controller is occupied.
 
-<div align=center><img src="../media/portBeUsed.png" width="450"/></div>
+<div align=center><img src="../media/portBeUsed_en.png" width="450"/></div>
 
 #### Solution
 
