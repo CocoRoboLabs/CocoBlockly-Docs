@@ -12,7 +12,7 @@ Please download the CocoBlockly Uploader installation package of respective plat
 
 | Platforms                            | Download    | System Requirements                   |  Instructions |
 | ----------------------------------- | -------- | -------------------------- |----|
-| CocoBlockly Uploader v3 for MacOS   | [click here](https://api.cocorobo.hk/releases/uploaderv2/download/mac) | System version should be newer than macOS 10.10 | [Check](/getting-started/installation?id=macOS-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
+| CocoBlockly Uploader v3 for MacOS   | [click here](https://cocorobo.hk/downloads/uploaderv2_mac_v3.0.7.dmg) | System version should be newer than macOS 10.10 | [Check](/getting-started/installation?id=macOS-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
 | CocoBlockly Uploader v3 for Windows | [click here](https://api.cocorobo.hk/releases/uploaderv2/download/windows) | System version should be newer than Windows 7 | [Check](/getting-started/installation?id=windows-%e5%ae%89%e8%a3%9d%e8%aa%aa%e6%98%8e) |
 
 **For more information on installation, please refer to [CocoBlockly Uploader Installation Instructions](/getting-started/installation)**
