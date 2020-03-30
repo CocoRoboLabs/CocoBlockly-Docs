@@ -59,81 +59,85 @@
 请根据您的需要，使用 Android 手机的浏览器扫描下表的二维码下载对应的示例App：
 
 
-<table style="margin-top:20px;">
-	<tr>
-		<td style="font-weight: bold;">类别</td>
-		<td style="font-weight: bold;">二维码</td>
-		<td style="font-weight: bold;">App名称 </td>
-    <td style="font-weight: bold;">应用介绍</td>
-    <td style="font-weight: bold;">使用方法 </td>
-    <td style="font-weight: bold;">下载链接</td>
-    <td style="font-weight: bold;">AIA源文件</td>
-    <td style="font-weight: bold;">匹配程序</td>
-    <td style="font-weight: bold;">适配平台 </td>
-	</tr>
-	<tr>
-		<td>基础类</td>
-		<td><img src="../media/bluetooth_app_CocoBasicController.png" width="80"/></td>
-		<td>CocoRobo:</br>Basic Controller</td>
-    <td>蓝牙控制模组：8合1控制器</td>
-    <td>应用内提供按钮、滑动条、手机加速仪数据、收集接近传感器数据的控制选项。</br><u><strong>注意要将蓝牙初始化积木中的数据数量调整为8</strong></u></td>
-    <td>https://cocorobo.hk/downloads/apps/basic-controller.apk</td>
-    <td>NEW_CocoBasicController.aia</td>
-    <td>CocoBasicController.xml</td>
-    <td>Android</td>
-	</tr>
-	<tr>
-   <td rowspan="5">原型类</td>
-   <td><img src="../media/bluetooth_app_CocoEnvDashboard.png" width="80"/></td>
-   <td>CocoRobo:</br>Env Dashboard</td>
-   <td>蓝牙控制模组：</br>环境数据信息控制面板</td>
-   <td>应用内显示环境模块上的光照强度、声音强度、温度及湿度数值）</td>
-   <td>https://cocorobo.hk/downloads/apps/env-dashboard.apk</td>
-   <td>NEW_CocoEnvDashboard.aia</td>
-   <td>CocoEnvDashboard.ino</td>
-   <td>Android</td>
-	</tr>
-  <tr>
-   <td><img src="../media/bluetooth_app_CocoEnvControl.png" width="80"/> </td>
-   <td>ocoRobo:</br>Env Control</td>
-   <td>蓝牙控制模组：控制环境模组元件 </td>
-   <td>应用内控制环境模块上的RGB LED灯以及蜂鸣器。</br><u><strong>注意要将蓝牙初始化积木中的数据数量调整为4</strong></u> </td>
-   <td>https://cocorobo.hk/downloads/apps/env-control.apk </td>
-   <td>NEW_CocoEnvControl.aia</td>
-   <td>CocoEnvControl.xml</td>
-   <td>Android</td>
-  </tr>
-  <tr>
-   <td><img src="../media/bluetooth_app_CocoRobotArm.png" width="80"/></td>
-   <td>CocoRobo:</br>Arm Controller</td>
-   <td>蓝牙控制模组：机械臂控制</td>
-   <td>应用内通过滑动条控制插在舵机转接模组上的4个或者3个舵机。</br><u><strong>注意要将蓝牙初始化积木中的数据数量调整为4</strong></u></td>
-   <td>https://cocorobo.hk/downloads/apps/arm-controller.apk </td>
-   <td>NEW_CocoRobotArm.aia</td>
-   <td>CocoRobotArmController.xml</td>
-   <td>Android</td>
-  </tr>
-  <tr>
-   <td><img src="../media/bluetooth_app_CocoRobotCar.png" width="80"/></td>
-   <td>CocoRobo:</br>Car Controller</td>
-   <td>蓝牙控制模组：小车控制 </td>
-   <td>应用内通过4个按钮控制小车的前进后退以及左转右转。</td>
-   <td>https://cocorobo.hk/downloads/apps/car-controller.apk</td>
-   <td>NEW_CocoRobotCar.aia</td>
-   <td>CocoRobotCarController.xml</td>
-   <td>Android</td>
-  </tr>
-  <tr>
-   <td><img src="../media/bluetooth_app_CocoRoboShooter.png" width="80"/></td>
-   <td>CocoRobo:</br>Shooter </td>
-   <td>蓝牙控制模组：投射装置</td>
-   <td>应用内通过1个滑动条控制发射管的垂直角度（30-110度范围）和1个按钮来控制发射管上的送球用的舵机。</br><u><strong>注意要将蓝牙初始化积木中的数据数量调整为2</strong></u></td>
-   <td>https://cocorobo.hk/downloads/apps/shooter.apk</td>
-   <td>NEW_CocoRoboShooter.aia</td>
-   <td>CocoRoboShooter.xml</td>
-   <td>Android</td>
-  </tr>
-</table>
+<div style="overflow: auto;width: 100%;">
+	<table style="margin-top:20px;width:1600px;">
+		<tr>
+			<td width="90" style="font-weight: bold;text-align:center;">类别</td>
+			<td width="120" style="font-weight: bold;text-align:center;">二维码</td>
+			<td width="130" style="font-weight: bold;text-align:center;">App名称</td>
+			<td width="200" style="font-weight: bold;text-align:center;">应用介绍</td>
+			<td width="210" style="font-weight: bold;text-align:center;">使用方法</td>
+			<td width="410" style="font-weight: bold;text-align:center;">下载链接</td>
+			<td width="180" style="font-weight: bold;text-align:center;">AIA源文件</td>
+			<td width="180" style="font-weight: bold;text-align:center;">匹配程序</td>
+			<td width="80" style="font-weight: bold;text-align:center;">适配平台</td>
+		</tr>
+		<tr>
+			<td>基础类</td>
+			<td> <img src="../media/Coco_BT_Switch.png" width="100%"/> </td>
+			<td>Cocorobo: <br/>Basic controller</td>
+			<td>蓝牙控制模块：8合1控制器</td>
+			<td>应用内提供按钮、滑动条、手机加速仪数据、首季接近传感器数据的控制选项。</br><u><strong>注意要将蓝牙初始化及木中的数据数量调整为8</strong></u></td>
+			<td>https://cocorobo.hk/downloads/apps/basic-controller.apk</td>
+			<td>NEW_CocoBasicController.aia</td>
+			<td>CocoBasicController.xml</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td rowspan="5">原型类</td>
+			<td> <img src="../media/Coco_BT_Slider.png" width="100%"/> </td>
+			<td>CocoRobo:</br>Env Dashboard</td>
+			<td>蓝牙控制模块：</br>环境数据信息控制面板</td>
+			<td>应用内显示环境模块上的光照强度、声音强度、温度及温度数值</td>
+			<td>https://cocorobo.hk/downloads/apps/env-dashboard.apk</td>
+			<td>NEW_CocoEnvDashboard.aia</td>
+			<td>CocoEnvDashboard.ino</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td> <img src="../media/Coco_BT_Motor_Control.png" width="100%"/> </td>
+			<td>CocoRobo:</br>Env Control</td>
+			<td>蓝牙控制模块：控制环境模块组件</td>
+			<td>应用内显示环境模块上的RGB LED灯以及蜂鸣器。</br><u><strong>注意要将蓝牙初始化及木中的数据数量调整为4</strong></u></td>
+			<td>https://cocorobo.hk/downloads/apps/env-control.apk</td>
+			<td>NEW_CocoEnvControl.aia</td>
+			<td>CocoEnvControl.xml</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td> <img src="../media/Coco_BT_Servo_Control.png" width="100%"/> </td>
+			<td>CocoRobo:</br>Arm Controller</td>
+			<td>蓝牙控制模块：机械臂控制</td>
+			<td>应用内通过滑动条控制插在舵机转接模块上的4个或者三个舵机<br/><u><strong>注意要将蓝牙初始化及木中的数据数量调整为4</strong></u>
+			</td>
+			<td>https://cocorobo.hk/downloads/apps/arm-controller.apk</td>
+			<td>NEW_CocoRobotArm.aia</td>
+			<td>CocoRobotArmController.xml</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td> <img src="../media/Coco_Robot_Arm.png" width="100%"/> </td>
+			<td>Cocorobo: <br/>Car Controller</td>
+			<td>蓝牙控制模块：小车控制</td>
+			<td>应用内通过4个按钮控制小车的前进后退以及左转右转</td>
+			<td>https://cocorobo.hk/downloads/apps/car-controller.apk</td>
+			<td>NEW_CocoRobotCar.aia</td>
+			<td>CocoRobotCarController.xml</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td> <img src="../media/Coco_Robot_Car.png" width="100%"/> </td>
+			<td>Cocorobo: <br/>Shooter</td>
+			<td>蓝牙控制模块：投射装置</td>
+			<td>应用内通过1个滑动条控制发射管的垂直角度（30-110）度范围和1个按钮来控制发射管上的送球用的舵机<u><strong>注意要将蓝牙初始化及木中的数据数量调整为2</strong></u></td>
+			<td>https://cocorobo.hk/downloads/apps/shooter.apk</td>
+			<td>NEW_CocoRoboShooter.aia</td>
+			<td>CocoRoboShooter.xm</td>
+			<td>Android</td>
+		</tr>
+	</table>
+</div>
+
 
 
 ---
