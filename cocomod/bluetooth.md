@@ -58,81 +58,84 @@
 不同功能的藍牙控制是在不同的App上實現的，如：若要使用滑動條來控制模組，需下載對應的 Coco BT Slider。
 請根據您的需要，使用 Android 手機的瀏覽器掃描下表的二維碼下載對應的示例App：
 
-<table style="margin-top:20px;">
-	<tr>
-		<td style="font-weight: bold;">類別</td>
-		<td style="font-weight: bold;">二維碼</td>
-		<td style="font-weight: bold;">App名稱</td>
-    <td style="font-weight: bold;">應用介紹</td>
-    <td style="font-weight: bold;">使用方法</td>
-    <td style="font-weight: bold;">下載鏈接/td>
-    <td style="font-weight: bold;">AIA原始檔案</td>
-    <td style="font-weight: bold;">匹配程式</td>
-    <td style="font-weight: bold;">適配平臺</td>
-	</tr>
-  <tr>
-    <td>基礎類</td>
-    <td><img src="../media/Coco_BT_Switch.png" width="80"/></td>
-    <td>CocoRobo:</br>Basic Controller</td>
-    <td>藍牙控制模組：8合1控制器</td>
-    <td>應用內提供按鈕、滑動條、手機加速儀資料、收集接近感測器資料的控制選項。</br><u><strong>注意要將藍牙初始化積木中的資料數量調整為8</strong></u></td>
-    <td>https://cocorobo.hk/downloads/apps/basic-controller.apk</td>
-    <td>NEW_CocoBasicController.aia</td>
-    <td>CocoBasicController.xml</td>
-    <td>Android</td>
-</tr>
-<tr>
-  <td rowspan="5">原型類</td>
-  <td><img src="../media/Coco_BT_Slider.png" width="80"/></td>
-  <td>CocoRobo:</br>Env Dashboard</td>
-  <td>藍牙控制模組：</br>環境資料資訊控制台</td>
-  <td>應用內顯示環境模組上的光照強度、聲音強度、溫度及濕度數值</td>
-  <td>https://cocorobo.hk/downloads/apps/env-dashboard.apk</td>
-  <td>NEW_CocoEnvDashboard.aia</td>
-  <td>CocoEnvDashboard.ino</td>
-  <td>Android</td>
-</tr>
-<tr>
-  <td><img src="../media/Coco_BT_Motor_Control.png" width="80"/></td>
-  <td>CocoRobo:</br>Env Control</td>
-  <td>藍牙控制模組：控制環境模組元件</td>
-  <td>應用內控制環境模組上的RGB LED燈以及蜂鳴器。</br><u><strong>注意要將藍牙初始化積木中的資料數量調整為4</strong></u></td>
-  <td>https://cocorobo.hk/downloads/apps/env-control.apk</td>
-  <td>NEW_CocoEnvControl.aia</td>
-  <td>CocoEnvControl.xml</td>
-  <td>Android</td>
-</tr>
-<tr>
-  <td><img src="../media/Coco_BT_Servo_Control.png" width="80"/></td>
-  <td>CocoRobo:</br>Arm Controller</td>
-  <td>藍牙控制模組：機械臂控制</td>
-  <td>應用內通過滑動條控制插在舵機轉接模組上的4個或者3個舵機。</br><u><strong>注意要將藍牙初始化積木中的資料數量調整為4</strong></u></td>
-  <td>https://cocorobo.hk/downloads/apps/arm-controller.apk</td>
-  <td>NEW_CocoRobotArm.aia</td>
-  <td>CocoRobotArmController.xml</td>
-  <td>Android</td>
-</tr>
-<tr>
-  <td><img src="../media/Coco_Robot_Arm.png" width="80"/></td>
-  <td>CocoRobo:</br>Car Controller</td>
-  <td>藍牙控制模組：小車控制</td>
-  <td>應用內通過4個按鈕控制小車的前進後退以及左轉右轉。</td>
-  <td>https://cocorobo.hk/downloads/apps/car-controller.apk</td>
-  <td>NEW_CocoRobotCar.aia</td>
-  <td>CocoRobotCarController.xml</td>
-  <td>Android</td>
-</tr>
-<tr>
-  <td><img src="../media/Coco_Robot_Car.png" width="80"/></td>
-  <td>CocoRobo:</br>Shooter</td>
-  <td>藍牙控制模組：投射裝置</td>
-  <td>應用內通過1個滑動條控制發射管的垂直角度（30-110度範圍）和1個按鈕來控制發射管上的送球用的舵機。</br><u><strong>注意要將藍牙初始化積木中的資料數量調整為2</strong></u></td>
-  <td>https://cocorobo.hk/downloads/apps/shooter.apk</td>
-  <td>NEW_CocoRoboShooter.aia</td>
-  <td>CocoRoboShooter.xml</td>
-  <td>Android</td>
-</tr>
-</table>
+<div style="overflow: auto;width: 100%;">
+	<table style="margin-top:20px;width:1600px;">
+		<tr>
+			<td width="90" style="font-weight: bold;text-align:center;">類別</td>
+			<td width="120" style="font-weight: bold;text-align:center;">二維碼</td>
+			<td width="130" style="font-weight: bold;text-align:center;">App名稱</td>
+			<td width="200" style="font-weight: bold;text-align:center;">應用介紹</td>
+			<td width="210" style="font-weight: bold;text-align:center;">使用方法</td>
+			<td width="410" style="font-weight: bold;text-align:center;">下載鏈接</td>
+			<td width="180" style="font-weight: bold;text-align:center;">AIA源文件</td>
+			<td width="180" style="font-weight: bold;text-align:center;">匹配程序</td>
+			<td width="80" style="font-weight: bold;text-align:center;">適配平台</td>
+		</tr>
+		<tr>
+			<td>基礎類</td>
+			<td> <img src="../media/Coco_BT_Switch.png" width="100%"/> </td>
+			<td>Cocorobo: <br/>Basic controller</td>
+			<td>藍牙控制模組：8合1控制器</td>
+			<td>應用內提供按鈕、滑動條、手機加速儀數據、首季接近傳感器數據的控制選項。</br><u><strong>注意要將藍牙初始化及木中的數據數量調整為8</strong></u></td>
+			<td>https://cocorobo.hk/downloads/apps/basic-controller.apk</td>
+			<td>NEW_CocoBasicController.aia</td>
+			<td>CocoBasicController.xml</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td rowspan="5">原型類</td>
+			<td> <img src="../media/Coco_BT_Slider.png" width="100%"/> </td>
+			<td>CocoRobo:</br>Env Dashboard</td>
+			<td>藍牙控制模組：</br>環境數據信息控制面板</td>
+			<td>應用內顯示環境模塊上的光照強度、聲音強度、溫度及溫度數值</td>
+			<td>https://cocorobo.hk/downloads/apps/env-dashboard.apk</td>
+			<td>NEW_CocoEnvDashboard.aia</td>
+			<td>CocoEnvDashboard.ino</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td> <img src="../media/Coco_BT_Motor_Control.png" width="100%"/> </td>
+			<td>CocoRobo:</br>Env Control</td>
+			<td>藍牙控制模組：控制環境模組元件</td>
+			<td>應用內顯示環境模塊上的RGB LED燈以及蜂鳴器。</br><u><strong>注意要將藍牙初始化及木中的數據數量調整為4</strong></u></td>
+			<td>https://cocorobo.hk/downloads/apps/env-control.apk</td>
+			<td>NEW_CocoEnvControl.aia</td>
+			<td>CocoEnvControl.xml</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td> <img src="../media/Coco_BT_Servo_Control.png" width="100%"/> </td>
+			<td>CocoRobo:</br>Arm Controller</td>
+			<td>藍牙控制模組：機械臂控制</td>
+			<td>應用內通過滑動條控制插在舵機轉接模組上的4個或者三個舵機<br/><u><strong>注意要將藍牙初始化及木中的數據數量調整為4</strong></u>
+			</td>
+			<td>https://cocorobo.hk/downloads/apps/arm-controller.apk</td>
+			<td>NEW_CocoRobotArm.aia</td>
+			<td>CocoRobotArmController.xml</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td> <img src="../media/Coco_Robot_Arm.png" width="100%"/> </td>
+			<td>Cocorobo: <br/>Car Controller</td>
+			<td>藍牙控制模組：小車控制</td>
+			<td>應用內通過4個按鈕控制小車的前進後退以及左轉右轉</td>
+			<td>https://cocorobo.hk/downloads/apps/car-controller.apk</td>
+			<td>NEW_CocoRobotCar.aia</td>
+			<td>CocoRobotCarController.xml</td>
+			<td>Android</td>
+		</tr>
+		<tr>
+			<td> <img src="../media/Coco_Robot_Car.png" width="100%"/> </td>
+			<td>Cocorobo: <br/>Shooter</td>
+			<td>藍牙控制模組：投射裝置</td>
+			<td>應用內通過1個滑動條控制發射管的垂直角度（30-110）度範圍和1個按鈕來控制發射管上的送球用的舵機<u><strong>注意要將藍牙初始化及木中的數據數量調整為2</strong></u></td>
+			<td>https://cocorobo.hk/downloads/apps/shooter.apk</td>
+			<td>NEW_CocoRoboShooter.aia</td>
+			<td>CocoRoboShooter.xm</td>
+			<td>Android</td>
+		</tr>
+	</table>
+</div>
 ---------
 
 ## 藍牙通訊模組基礎使用
