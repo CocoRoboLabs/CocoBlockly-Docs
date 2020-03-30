@@ -23,7 +23,7 @@ Wi-Fi 通訊模組負責進行數據的無線傳輸，支持 HTTP/WebSocket/MQTT
 	<tr>
 		<td>2.</td>
 		<td>ESP8266</td>
-		<td><a href='https://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf' target='_blank'>ESP-12E</a></td>
+		<td>一款集成WIFI功能（2.4GHz）的控制器</td>
 	</tr>
 	<tr>
 		<td>3.</td>
