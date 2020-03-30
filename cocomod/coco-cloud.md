@@ -22,16 +22,11 @@ https://cocorobo.cn/cloud
 
 ## 账号注册
 
-![cocoCloud__register](../media/cocoCloud__register--1.jpeg)
+![cocoCloud__register](../media/cocoCloud__register--3.png)
 
-### 方式一
+### 方法
 
 登入[Coco Cloud](https://cocorobo.cn/cloud),点击注册按键，填写帐户名同密码， 点击注册以完成注册。
-
-### 方式二
-
-点击 Google Sign In，点选您的 Google 帐号，待Google Sign In 之后，页面会跳转到注册页面，在页面中填入密码，以完成注册。之后便可使用 Google Sign In 一键登录。
-
 
 ---
 

@@ -23,7 +23,7 @@ Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT
 	<tr>
 		<td>2.</td>
 		<td>ESP8266</td>
-		<td><a href='https://www.kloppenborg.net/images/blog/esp8266/esp8266-esp12e-specs.pdf' target='_blank'>ESP-12E</a></td>
+		<td>一款集成WIFI功能（2.4GHz）的控制器</td>
 	</tr>
 	<tr>
 		<td>3.</td>
@@ -243,17 +243,18 @@ Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT
 
 *  发送数据数组[1,"cocorobo"]至主控模块
 
-**注意：**
-1. 使用 WiFi 通信模块时需要先分别给项目中的主控模块和 WiFi 通信模块上传对应模式下所编写的程序，上传程序成功后再将主控模块与 WiFi 通信模块拼接在一起；
-2.数据除了可以使用基础类型的数字积木来直接赋值，也可以使用变量积木来间接赋值（变量是计算机语言中能储存计算结果或能表示值的抽象概念）。
-
-上传程序成功后，用 USB 线连接好主控模块至电脑，然后打开串口监控视窗点击「连接」
-
 <div style="text-align:center;margin:0 0 10px 0;">
 <img src="../media/wifi/wifi_transfer_1_sendvar.png"/>
 </div>
 
 ![wifi__main](../media/wifi/wifi_transfer_1_sendvar_main.png)
+
+上传程序成功后，用 USB 线连接好主控模块至电脑，然后打开串口监控视窗点击「连接」
+
+*注意：*
+* 使用 WiFi 通信模块时需要先分别给项目中的主控模块和 WiFi 通信模块上传对应模式下所编写的程序，上传程序成功后再将主控模块与 WiFi 通信模块拼接在一起；
+* 数据除了可以使用基础类型的数字积木来直接赋值，也可以使用变量积木来间接赋值（变量是计算机语言中能储存计算结果或能表示值的抽象概念）。
+
 
 2. 接收积木 : 与主控模块进行通信的积木，接收主控传输过来的数据，需要设置接收数据的数组长度
 

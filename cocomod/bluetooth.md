@@ -58,14 +58,83 @@
 不同功能的蓝牙控制是在不同的App上实现的，如：若要使用滑动条来控制模块，需下载对应的 Coco BT Slider。
 请根据您的需要，使用 Android 手机的浏览器扫描下表的二维码下载对应的示例App：
 
-|编号| 二维码       | App名称    |   应用介绍   |     使用方法    |
-|---|-------------------------|----------|------------------|------------------|
-|1. | <img src="../media/Coco_BT_Switch.png" width="80"/>     |   Coco BT Switch          |    蓝牙控制：按钮开关   | 使用按钮，发出单个数值数据 |
-|2. | <img src="../media/Coco_BT_Slider.png" width="80"/>              | Coco BT Slider  |  蓝牙控制：滑动条    | 通过滑动条上指针的所处位置，发出单个数值数据（0~100） |
-|3. | <img src="../media/Coco_BT_Motor_Control.png" width="80"/>                 | Coco BT Motor Controller    |  蓝牙控制：电机    | 操控两个电机的正转、反转和速度，发出数据为按钮上显示的单个文本或数值 |
-|4. | <img src="../media/Coco_BT_Servo_Control.png" width="80"/>                  | Coco BT Servo Controller    |  蓝牙控制：伺服电机    | 可同时操控 6 个伺服电机的角度（0~180度），发出单个数值数据 |
-|5. |  <img src="../media/Coco_Robot_Arm.png" width="80"/>               | Coco Robot Arm    |  蓝牙控制：机械臂        | 在 CocoBlockly 中打开「蓝牙」，选择「蓝牙控制机械臂」，发出数据为滑动条的单个数值 |
-|6. | <img src="../media/Coco_Robot_Car.png" width="80"/>                 | Coco Robot Car    |  蓝牙控制：小车    | 在 CocoBlockly 中打开「蓝牙」，选择「蓝牙控制小车」，发出数据为按钮上显示的单个文本 |
+
+<table style="margin-top:20px;">
+	<tr>
+		<td style="font-weight: bold;">类别</td>
+		<td style="font-weight: bold;">二维码</td>
+		<td style="font-weight: bold;">App名称 </td>
+    <td style="font-weight: bold;">应用介绍</td>
+    <td style="font-weight: bold;">使用方法 </td>
+    <td style="font-weight: bold;">下载链接</td>
+    <td style="font-weight: bold;">AIA源文件</td>
+    <td style="font-weight: bold;">匹配程序</td>
+    <td style="font-weight: bold;">适配平台 </td>
+	</tr>
+	<tr>
+		<td>基础类</td>
+		<td><img src="../media/bluetooth_app_CocoBasicController.png" width="80"/></td>
+		<td>CocoRobo:</br>Basic Controller</td>
+    <td>蓝牙控制模组：8合1控制器</td>
+    <td>应用内提供按钮、滑动条、手机加速仪数据、收集接近传感器数据的控制选项。</br><u><strong>注意要将蓝牙初始化积木中的数据数量调整为8</strong></u></td>
+    <td>https://cocorobo.hk/downloads/apps/basic-controller.apk</td>
+    <td>NEW_CocoBasicController.aia</td>
+    <td>CocoBasicController.xml</td>
+    <td>Android</td>
+	</tr>
+	<tr>
+   <td rowspan="5">原型类</td>
+   <td><img src="../media/bluetooth_app_CocoEnvDashboard.png" width="80"/></td>
+   <td>CocoRobo:</br>Env Dashboard</td>
+   <td>蓝牙控制模组：</br>环境数据信息控制面板</td>
+   <td>应用内显示环境模块上的光照强度、声音强度、温度及湿度数值）</td>
+   <td>https://cocorobo.hk/downloads/apps/env-dashboard.apk</td>
+   <td>NEW_CocoEnvDashboard.aia</td>
+   <td>CocoEnvDashboard.ino</td>
+   <td>Android</td>
+	</tr>
+  <tr>
+   <td><img src="../media/bluetooth_app_CocoEnvControl.png" width="80"/> </td>
+   <td>ocoRobo:</br>Env Control</td>
+   <td>蓝牙控制模组：控制环境模组元件 </td>
+   <td>应用内控制环境模块上的RGB LED灯以及蜂鸣器。</br><u><strong>注意要将蓝牙初始化积木中的数据数量调整为4</strong></u> </td>
+   <td>https://cocorobo.hk/downloads/apps/env-control.apk </td>
+   <td>NEW_CocoEnvControl.aia</td>
+   <td>CocoEnvControl.xml</td>
+   <td>Android</td>
+  </tr>
+  <tr>
+   <td><img src="../media/bluetooth_app_CocoRobotArm.png" width="80"/></td>
+   <td>CocoRobo:</br>Arm Controller</td>
+   <td>蓝牙控制模组：机械臂控制</td>
+   <td>应用内通过滑动条控制插在舵机转接模组上的4个或者3个舵机。</br><u><strong>注意要将蓝牙初始化积木中的数据数量调整为4</strong></u></td>
+   <td>https://cocorobo.hk/downloads/apps/arm-controller.apk </td>
+   <td>NEW_CocoRobotArm.aia</td>
+   <td>CocoRobotArmController.xml</td>
+   <td>Android</td>
+  </tr>
+  <tr>
+   <td><img src="../media/bluetooth_app_CocoRobotCar.png" width="80"/></td>
+   <td>CocoRobo:</br>Car Controller</td>
+   <td>蓝牙控制模组：小车控制 </td>
+   <td>应用内通过4个按钮控制小车的前进后退以及左转右转。</td>
+   <td>https://cocorobo.hk/downloads/apps/car-controller.apk</td>
+   <td>NEW_CocoRobotCar.aia</td>
+   <td>CocoRobotCarController.xml</td>
+   <td>Android</td>
+  </tr>
+  <tr>
+   <td><img src="../media/bluetooth_app_CocoRoboShooter.png" width="80"/></td>
+   <td>CocoRobo:</br>Shooter </td>
+   <td>蓝牙控制模组：投射装置</td>
+   <td>应用内通过1个滑动条控制发射管的垂直角度（30-110度范围）和1个按钮来控制发射管上的送球用的舵机。</br><u><strong>注意要将蓝牙初始化积木中的数据数量调整为2</strong></u></td>
+   <td>https://cocorobo.hk/downloads/apps/shooter.apk</td>
+   <td>NEW_CocoRoboShooter.aia</td>
+   <td>CocoRoboShooter.xml</td>
+   <td>Android</td>
+  </tr>
+</table>
+
 
 ---
 
@@ -85,13 +154,29 @@
 
 #### 连接配置
 
-关于如何让 Android 手机与蓝牙通信模块配对连接，请参考下面这个文档：
-
-<object width="100%" height="500px" data="../media/移动端(Android)配对蓝牙通信模块教程.pdf" type="application/pdf">
-	<embed src="../media/移动端(Android)配对蓝牙通信模块教程.pdf" type="application/pdf" />
-</object>
-
-配对连接成功后，便可以使用 Android app 控制模块了：
+关于如何让 Android 手机与蓝牙通信模块配对连接，请参考连接步骤：
+1、确定APP已安装成功（这里以Coco Robot Car应用为例），且蓝牙处于通电状态，蓝牙未连接前，状态灯会快速闪烁。
+<div style="text-align:center;">
+<img style="border-radius:5px;border: 1px #ddd solid; " align="center" src="../media/bluetooth_connect1.png" width="30%"/>
+</div>
+2、移动终端开启蓝牙，搜索蓝牙模组的信号（出厂设置的命名为HC-05）
+<div style="text-align:center;">
+<img style="border-radius:5px;border: 1px #ddd solid; " align="center" src="../media/bluetooth_connect2.png" width="30%"/>
+</div>
+3、点击连接，输入密码（连接pin码为「1234」），当成功配对连接后，状态灯闪烁变慢
+<div style="text-align:center;">
+<img style="border-radius:5px;border: 1px #ddd solid; " align="center" src="../media/bluetooth_connect3.png" width="30%"/>
+</div>
+4、打开app，点击黄色区域「Click here to connect to Bluetooth Module」
+<div style="text-align:center;">
+<img style="border-radius:5px;border: 1px #ddd solid; " align="center" src="../media/bluetooth_connect4.png" width="30%"/>
+</div>
+5、选择连接蓝牙（出厂设置的命名为 HC-05），当显示「Bluetooth is now connected」则代表连接成功
+<div style="text-align:center;">
+<img style="border-radius:5px;border: 1px #ddd solid; " align="center" src="../media/bluetooth_connect5.png" width="30%"/>
+<img style="border-radius:5px;border: 1px #ddd solid; " align="center" src="../media/bluetooth_connect6.png" width="30%"/>
+</div>
+6、配对连接成功后，便可以使用 Android app 控制模块了：
 
 <div style="text-align:center;">
 <img style="border-radius:5px;border: 1px #ddd solid; " align="center" src="../media/bluetooth_app.png" width="30%"/>
