@@ -8,7 +8,7 @@
 
 ## 模块主要部件
 
-<img src="../media/music_1.jpg" width="350"/>
+<img src="../media/music_1_cn.png" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
@@ -82,7 +82,7 @@
 
 #### 积木编程
 
-![music](../media/music_6.png)
+![music](../media/music_6_cn.png)
 
 #### 最终效果
 
@@ -97,9 +97,9 @@
 #### 积木示意图
 | 积木图示  | 简介  |
  |-  |-  |
-|![music](../media/music_mp3_setup.png)  |  a.MP3初始化积木: 可设置初始音量高低 |
-|![music](../media/music_mp3_playSingle.png) | a.音乐播放积木: 播放指定名称音乐  |
-|![music](../media/music_mp3_playSetting.png) | a.音乐播放设置积木: 可设置音乐播放暂停、启动、终止、上一首、下一首  |
+|![music](../media/music_mp3_setup_cn.png)  |  a.MP3初始化积木: 可设置初始音量高低 |
+|![music](../media/music_mp3_playSingle_cn.png) | a.音乐播放积木: 播放指定名称音乐  |
+|![music](../media/music_mp3_playSetting_cn.png) | a.音乐播放设置积木: 可设置音乐播放暂停、启动、终止、上一首、下一首  |
 
 
 #### 模块组装
@@ -119,7 +119,7 @@
 
 <div style="text-align: center;">
 
-![music](../media/music_mp3_demo1.png)
+![music](../media/music_mp3_demo1_cn.png)
 
 </div>
 
@@ -148,13 +148,13 @@
 
 #### 积木编程
 
-![music](../media/music_10.png)
+![music](../media/music_10_cn.png)
 
 ##### 提示
 使用触摸传感模块时，为「当触碰传感接口」积木添加按键接口可参考下图提示：
 
 <div style="text-align: center;">
-<img style="margin:10px 0px 20px 0px;" src="../media/touch1.gif" width="400"/>
+<img style="margin:10px 0px 20px 0px;" src="../media/touch_1_cn.gif" width="400"/>
 </div>
 
 #### 最终效果
@@ -181,7 +181,7 @@
 触摸传感模块和音乐模块结合而成的简易MP3播放器,积木程序:
 
 
-![music](../media/music_mp3_demo2.png)
+![music](../media/music_mp3_demo2_cn.png)
 
 #### 最终效果
 

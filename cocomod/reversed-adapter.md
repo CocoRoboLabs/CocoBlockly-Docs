@@ -8,7 +8,7 @@
 
 ## 模块主要部件
 
-<img src="../media/正反_1.jpg" width="400"/>
+<img src="../media/正反1_cn.jpg" width="400"/>
 
 ---
 
@@ -24,7 +24,7 @@
 
 #### 积木编程
 
-![](../media/正反_4.jpg)
+![](../media/正反4_cn.png)
 
 #### 最终效果
 

@@ -64,13 +64,13 @@
 
 #### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/colorAnalysize_block_getRGB.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/colorAnalysize_block_getRGB_cn.png" width="100%" /></div>
 
 #### 最终效果
 
 程序上传成功后，请点击右侧工具栏的串口窗口来查看触摸传感的数据输出：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/colorAnalysize_result_getRGB.jpg" width="50%" /></div>
 
@@ -85,13 +85,13 @@
 将主控模块与颜色分析模块、LED 灯屏模块、平行转接模块结合在一起，并将主控模块好 USB 数据线至电脑端：
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
-	<img style="margin-right:20px;" src="../media/colorAnalysize_module_setLED.jpg" width="40%" />
-	<img src="../media/colorAnalysize_assembly_setLED.jpg" width="40%" />
+	<img style="margin-right:20px;" src="../media/colorAnalysize_module_setLED_cn.png" width="40%" />
+	<img src="../media/colorAnalysize_assembly_setLED_cn.png" width="40%" />
 </div>
 
 #### 积木编程
 
-<img src="../media/colorAnalysize_block_setLED.jpg" width="100%"/>
+<img src="../media/colorAnalysize_block_setLED_cn.png" width="100%"/>
 
 #### 最终效果
 

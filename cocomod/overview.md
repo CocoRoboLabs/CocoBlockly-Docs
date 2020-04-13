@@ -2,7 +2,7 @@
 
 ---
 
-![](../media/about-cocomod.jpg)
+![](../media/about-cocomod_cn.jpg)
 
 CocoMod 是一系列由 CocoRobo 研发的「即插即用式」的电子模块，目前已研发 20 余款，控制类模块是 1 种，输入类模块 6 种，输出类模块 6 种，转接模块 4 种（转接模块 A／转接模块 B／平行转接模块／正反转接模块），通信模块 3 种（蓝牙通信模块、WiFi 通信模块、NB-IoT 通信模块 )。CocoMod 可以让你的作品能够拥有传感、控制真实世界的能力，只要接上各种输入/输出模块或元件， 例如 LED 灯、电机、开关、温湿度传感器、显示装置，或是接上无线通信模块，就可以做出各式各样的小发明。
 
@@ -16,7 +16,7 @@ CocoMod 是一系列由 CocoRobo 研发的「即插即用式」的电子模块�
 
 在CocoBlockly平台上拖拽出一个积木后，可以在「积木对应原始码参考区」看到这个模块当前所占用的接口，每使用多一个接口，就会同步更新在「积木对应原始码参考区」中
 
-<div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_exam.png"/></div>
+<div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serialexam_cn.png"/></div>
 
 **请注意参考下表的接口示意，再进行程序编写：**
 ![](../media/cocorobo-modules-pinout-map_v2.jpg)

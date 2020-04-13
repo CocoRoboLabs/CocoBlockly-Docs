@@ -8,7 +8,7 @@
 
 ## 模块主要部件
 
-<img src="../media/maincontroller_1.jpg" width="350"/>
+<img src="../media/maincontroller_1_cn.png" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
@@ -56,7 +56,7 @@
 
 #### 积木编程
 
-![main controller](../media/maincontroller_3.png)
+![main controller](../media/maincontroller_3_cn.png)
 
 #### 最终效果
 
@@ -79,7 +79,7 @@
 
 本项目中，我们将制作一个迷你键盘。对应积木可以从下图红圈处找到：
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_1.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_1_cn.png" width="100%" /></div>
 
 #### 最终效果
 

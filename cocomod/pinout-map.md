@@ -15,7 +15,7 @@
 	* **特别注意：**有部分模块是无法通过转接模块来转接引脚的，这部分模块有：触摸传感模块、运动传感模块、颜色分析模块、屏幕模块以及音乐模块。
 
 2. __关于 SPI 或者 I²C 通信方式的原理，可从下方链接进行了解__
-	* <a href="http://magicjackting.pixnet.net/blog/post/164725144-spi-(serial-peripheral-interface)-串列-(序列)-周边介" target="_blank">SPI (Serial Peripheral Interface) 串列 (序列) 周边介面</a>
+	* <a href="http://magicjackting.pixnet.net/blog/post/164725144-spi-(serial-peripheral-interface)-串列-(序列)-周边介" target="_blank">SPI (Serial Peripheral Interface) 串列 (序列) 周边界面</a>
 	* <a href="http://magicjackting.pixnet.net/blog/post/173061691-i2c-bus-简介-%28inter-integrated-circuit-bus%29-" target="_blank">I2C bus 简介 (Inter-Integrated Circuit Bus)</a>
 
 ---
@@ -44,7 +44,7 @@
 
 ##### 模块拼接效果
 
-<div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_3.jpg" width="60%" /></div>
+<div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_3_cn.png" width="60%" /></div>
 
 <div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_4.jpg" width="60%" /></div>
 
@@ -52,13 +52,13 @@
 
 #### 积木编程
 
-在红框提示処找出下图中的积木
+在红框提示处找出下图中的积木
 
-<div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_5.png"/></div>
+<div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_5_cn.png"/></div>
 
 #### 最终效果
 
-按下 D8 的按钮可以控制 LED 灯屏亮红色，不按时灯光灭，并且教学模块上 D6 接口処的 LED 灯可以正常发光
+按下 D8 的按钮可以控制 LED 灯屏亮红色，不按时灯光灭，并且教学模块上 D6 接口处的 LED 灯可以正常发光
 
 <div style="padding: 5px 0 40px 0;text-align: center;"><img src="../media/serial_5.gif" width=60%/></div>
 

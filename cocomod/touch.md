@@ -9,7 +9,7 @@
 
 ## 模块主要部件
 
-<img src="../media/touch_1.jpg" width="350"/>
+<img src="../media/touch_1_cn.png" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
@@ -41,8 +41,8 @@
 3.为「当触碰传感接口」积木或「当松开被触碰的接口」积木添加按键接口可参考下图提示：
 
 <div style="text-align: center;">
-<img style="margin:10px 0px 20px 0px;" src="../media/touch1.gif" width="300"/>
-<img style="margin:10px 0px 20px 0px;" src="../media/touch2.gif" width="300"/>
+<img style="margin:10px 0px 20px 0px;" src="../media/touch1_cn.gif" width="300"/>
+<img style="margin:10px 0px 20px 0px;" src="../media/touch2_cn.gif" width="300"/>
 </div>
 
 ---
@@ -61,13 +61,13 @@
 
 #### 积木编程
 
-![music](../media/touch__sample--blockly.png)
+![music](../media/touch__sample--blockly_cn.png)
 
 #### 最终效果
 
 程序上传成功后，请点击右侧工具栏的串口窗口来查看触摸传感的数据输出：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
 <div style="margin-top:20px;padding: 10px 0 10px 0;text-align: center;"><img src="../media/touch__sample--1.gif" width="70%" /></div>
 

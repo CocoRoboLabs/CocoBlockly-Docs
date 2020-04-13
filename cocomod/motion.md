@@ -12,7 +12,7 @@
 
 ## 模块主要部件
 
-<img src="../media/motion_1.jpg" width="350"/>
+<img src="../media/motion_2_cn.jpg" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
@@ -62,7 +62,7 @@
 #### 积木编程
 
 <div style="text-align:center;">
-<img src="../media/motion_8.png" width=80%/>
+<img src="../media/motion_8_cn.png" width=80%/>
 </div>
 
 #### 最终效果
@@ -110,7 +110,7 @@ Coming soon.
 #### 积木编程
 
 <div style="text-align:center;">
-<img src="../media/motion_11.png" width=80%/>
+<img src="../media/motion_11_cn.png" width=80%/>
 </div>
 
 #### 最终效果
@@ -137,7 +137,7 @@ Coming soon.
 
 #### 积木编程
 
-![motion](../media/motion_9.png)
+![motion](../media/motion_9_cn.png)
 
 #### 最终效果
 

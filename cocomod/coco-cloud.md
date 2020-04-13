@@ -15,7 +15,7 @@ https://cocorobo.cn/cloud
 |1. |事件  | 事件管理 |
 |2. |仪表板  | 数据可视化面板，控制按钮面板 |
 
-![cocoCloud](../media/cocoCloud__1.png)
+![cocoCloud](../media/cocoCloud__1_cn.png)
 ![cocoCloud](../media/cocoCloud__2.jpg)
 
 ## 组件使用说明
@@ -56,15 +56,15 @@ https://cocorobo.cn/cloud
 
 初次添加属性时，直接在CocoBlockly的wifi模式上向Coco Cloud发送数据，即可生成对应事件的属性。
 
-![cocoCloud__events](../media/cocoCloud_property_1.png)
+![cocoCloud__events](../media/cocoCloud_property_1_cn.png)
 
 ##### 积木编程
 
 在wifi模式中点击右上角工具栏「登入」按钮登录自己的Coco Cloud账号：
-![cocoCloud__events](../media/cocoCloud_property_3.png)
+![cocoCloud__events](../media/cocoCloud_property_3_cn.png)
 
 设置连接 Wi-Fi，设置 API Key，设置属性名称：
-![cocoCloud__events](../media/cocoCloud_property_2.png)
+![cocoCloud__events](../media/cocoCloud_property_2_cn.png)
 
 ##### 最终效果
 
@@ -126,7 +126,7 @@ Coco Cloud平台上：
 用户的唯一识别码。用户创建的每个事件都有独立且唯一的 API Key ，在「Coco Cloud 积木」中填入对应事件的 API Key 即可向该事件发送或获取属性的数据。
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-<img src="../media/cocoCloud_api_1.png" width=40%/>
+<img src="../media/cocoCloud_api_1_cn.png" width=40%/>
 </div>
 
 ***
@@ -168,7 +168,7 @@ Coco Cloud平台上：
 * 主控模式 - 设置环境积木，设置数据传输至WiFi通信模块
   程序下载： <a href="../xml/cocoCloud_project1/project1_main.xml" download >project1_main.xml</a>
 
-![wifi__main](../media/cocoCloud_project_1_main.png)
+![wifi__main](../media/cocoCloud_project_1_main_cn.png)
 
 #### WiFi程序预览
 
@@ -178,10 +178,10 @@ Coco Cloud平台上：
 > 注：编写程序时，请注意将联网积木中的 WiFi 信息和密码改成你自己要连接的
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-  <img src="../media/cocoCloud_project_1_wifi_1.png" width=40%/>
+  <img src="../media/cocoCloud_project_1_wifi_1_cn.png" width=40%/>
   </div>
 
-![wifi__main](../media/cocoCloud_project_1_wifi.png)
+![wifi__main](../media/cocoCloud_project_1_wifi_cn.png)
 
 #### 数据可视化
 

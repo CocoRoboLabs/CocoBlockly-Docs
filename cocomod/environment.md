@@ -88,13 +88,13 @@
 
 #### 积木编程
 
-![env__main--blockly](../media/env__main--blockly-1.png)
+![env__main--blockly](../media/env__main--blockly-1_en.png)
 
 
 #### 最终效果
 
 <div style="text-align:center;">
-<img src="../media/env__main--result-1.png" width=80%/>
+<img src="../media/env__main--result-1_en.png" width=80%/>
 </div>
 
 
@@ -106,14 +106,14 @@
 
 这是因为串口工具连接著开发板端口，导致「主控模块」端口被占用，所以无法上传成功。
 
-<div align=center><img src="../media/portBeUsed.png" width="450"/></div>
+<div align=center><img src="../media/portBeUsed_en.png" width="450"/></div>
 
 #### 解决方法:
 
 切换到串口工具连接区，断开串口连接，再重新上传即可。
 
 <div align=center>
-<img src="../media/serialConnWhenupload.gif" width="250"/>
+<img src="../media/serialConnWhenupload_en.gif" width="250"/>
 </div>
 
 ---
@@ -131,12 +131,12 @@
 
 #### 积木编程
 
-![env__main--blockly](../media/env__main--blockly-2.png)
+![env__main--blockly](../media/env__main--blockly-2_en.png)
 
 #### 最终效果
 
 <div align=center>
-<img src="../media/env__main--result-2.png" width=80%/>
+<img src="../media/env__main--result-2_en.png" width=80%/>
 </div>
 
 ---
@@ -155,12 +155,12 @@
 
 #### 积木编程
 
-![env__main--blockly](../media/env__main--blockly-3.png)
+![env__main--blockly](../media/env__main--blockly-3_en.png)
 
 #### 最终效果
 
 <div align=center>
-<img src="../media/env__main--result-3.png" width=80%/>
+<img src="../media/env__main--result-3_en.png" width=80%/>
 </div>
 
 ---
@@ -178,7 +178,7 @@
 
 #### 积木编程
 
-![env__main--blockly](../media/env__main--blockly-4.png)
+![env__main--blockly](../media/env__main--blockly-4_en.png)
 
 
 #### 最终效果
@@ -201,7 +201,7 @@
 
 #### 积木编程
 
-![env__main--blockly](../media/env__main--blockly-5.png)
+![env__main--blockly](../media/env__main--blockly-5_en.png)
 
 
 #### 最终效果
@@ -224,7 +224,7 @@
 
 #### 积木编程
 
-![env__main--blockly](../media/env__main--blockly-6.png)
+![env__main--blockly](../media/env__main--blockly-6_en.png)
 
 
 #### 最终效果

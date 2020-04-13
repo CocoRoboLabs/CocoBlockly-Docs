@@ -6,8 +6,8 @@
 
 ## 模块主要部件
 
-<div style="margin-bottom:10px;"><img src="/media/cocomod/modPic_0014_Layer 8 copy2.jpg" width="40%"/>
-<img style="padding-left:10px;" src="/media/servoHub--withDescription.jpg" width="40%"/></div>
+<div style="margin-bottom:10px;"><img src="/media/伺服转接_cn.jpg" width="40%"/>
+<img style="padding-left:10px;" src="/media/servoHub--withDescription_cn.png" width="40%"/></div>
 
 |编号 |部件名称 | 部件描述  |
 |-  |-  |-  |
@@ -36,14 +36,14 @@
 2. 主控上的 D13 接口默认用于控制主控上的内置 LED 灯，所以舵机转接模块上不含有 D13 接口，但如果希望用 D13 接口控制伺服电机，请使用转接模块，将舵机连接到转接模块的 D13 接口処，并定义舵机接口积木将 D13 接口设置为控制伺服电机模式
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="../media/servo_D13.png" width=70%/>
+<img src="../media/servo_D13_cn.png" width=70%/>
 <img src="../media/servo_D13_transfer.jpg" width=50%/>
 </div>
 
 >注意：相应地，当使用 D13 接口控制伺服电机时，此时就不能使用 D13 接口来控制主控模块的内置 LED 灯
 
 <div style="text-align:center;">
-<img src="../media/servo_D13_conflict.png" width=70%/>
+<img src="../media/servo_D13_conflict_cn.png" width=70%/>
 </div>
 
 ---
@@ -67,13 +67,13 @@
 连著伺服电机的有 3 根线，依次为「橙/红/棕咖」，即「信号／正极／负极」对应地，将伺服电机连接至伺服电机转接模块上，如下图所示：
 
 <div style="text-align:center;">
-<img src="../media/servoHub_assemble.png" height="200" width="200"/>
+<img src="../media/servoHub_assemble_cn.png" height="200" width="200"/>
 <img src="../media/servoHub__main--assemble.jpeg" width="200"/>
 </div>
 
 #### 积木编程
 
-![env__main--blockly](../media/servoHub_program.png)
+![env__main--blockly](../media/servoHub_program_cn.png)
 
 
 #### 最终效果

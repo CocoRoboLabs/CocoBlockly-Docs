@@ -6,7 +6,7 @@
 教学模块是 CocoMod 中一套输入/输出模块，利于学生使用该模块学习电子和 Arduino 的基础知识。
 
 ## 模块主要部件
-<img src="../media/sensor101_1.jpg" width="350"/><br>
+<img src="../media/sensor101_1_cn.png" width="350"/><br>
 
 | 编号 | 接口位置 | 接口描述           |
 | ---- | -------- | ------------------ |
@@ -44,9 +44,9 @@
 
 ( **提示：** 点击「如果......执行......」积木左上角的蓝色小齿轮按钮，可添加「否则如果」和「否则」积木 ）
 
-<div style="border: 1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 13-22-56.gif" width="60%" /></div>
+<div style="border: 1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/否则如果.gif" width="60%" /></div>
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_3.png" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/sensor101_3_cn.png" width="100%" /></div>
 
 #### 最终效果
 
@@ -66,7 +66,7 @@
 
 #### 积木编程
 
-![sensor101](../media/sensor101_5.png)
+![sensor101](../media/sensor101_5_cn.png)
 
 #### 最终效果
 
@@ -85,7 +85,7 @@
 
 #### 积木编程
 
-![sensor101](../media/sensor101_7.png)
+![sensor101](../media/sensor101_7_cn.png)
 
 #### 最终效果
 

@@ -34,7 +34,7 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
 	<tr>
 		<td>4.</td>
 		<td>网络指示灯</td>
-		<td>儅 NB-IoT 通信模块通电以后，若模块未联网成功时，该指示灯闪烁较快，若模块联网成功时，指示灯闪烁变慢</td>
+		<td>当 NB-IoT 通信模块通电以后，若模块未联网成功时，该指示灯闪烁较快，若模块联网成功时，指示灯闪烁变慢</td>
 	</tr>
 </table>
 
@@ -64,27 +64,27 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
     <th>简介</th>
   </tr>
   <tr  >
-    <td> <img src="../media/nbiot_block1.png"> </td>
+    <td> <img src="../media/nbiot_block1_cn.png"> </td>
     <td> NB-IoT 通信模块初始化积木：初始化设置 NB-IoT 通信模块，</td>
   </tr>
 	<tr>
-	<td> <img src="../media/nbiot_block4.png"> </td>
+	<td> <img src="../media/nbiot_block4_cn.png"> </td>
 	<td>主控模块控制 NB-IoT 通信模块必须使用的积木</td>
 </tr>
 <tr>
-	<td> <img src="../media/nbiot_block5.png"> </td>
+	<td> <img src="../media/nbiot_block5_cn.png"> </td>
 	<td> 连接判断积木：判断模块与移动互联网是否连接成功 </td>
 </tr>
 <tr>
-	<td> <img src="../media/nbiot_block6.png"> </td>
+	<td> <img src="../media/nbiot_block6_cn.png"> </td>
 	<td> 获取 IP 积木： 用于获取 NB-IoT 通信模块的网络 IP 地址，比如：10.10.10.10 </td>
 </tr>
   <tr>
-    <td> <img src="../media/nbiot_block2.png"> </td>
+    <td> <img src="../media/nbiot_block2_cn.png"> </td>
     <td> NB-IoT 与 Coco Cloud 数据传输积木： 向 Coco Cloud 发送数据，需要设置项目 API-key 以及发送数据的属性名</td>
   </tr>
   <tr>
-    <td> <img src="../media/nbiot_block3.png"> </td>
+    <td> <img src="../media/nbiot_block3_cn.png"> </td>
     <td> NB-IoT 与 IFTTT 数据传输积木：向 IFTTT 项目发送数据，需从 IFTTT 项目获取项目的名称及对应的 API-Key </td>
   </tr>
 </table>
@@ -92,8 +92,8 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
 为 NB-IoT 与 Coco Cloud 数据传输积木（左图）以及 NB-IoT 与 IFTTT 数据传输积木（右图）增添发送数据的方法如下：
 
 <div style="text-align:center;">
-<img src="/media/nbiot_block_cococloud.gif" width="250"/>
-<img src="/media/nbiot_block_ifttt.gif" width="250"/>
+<img src="/media/nbiot_block_cococloud_cn.gif" width="250"/>
+<img src="/media/nbiot_block_ifttt_cn.gif" width="250"/>
 </div>
 
 ***
@@ -109,12 +109,12 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
 
 组装 NB-IoT 通信模块
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_assembled_2.png" width=90%/>
+<img src="/media/nbiot_assembled_2_cn.png" width=90%/>
 </div>
 
 将 sim 卡放入 NB-IoT 通信模块的卡槽中
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_assembled_3.png" width=70%/>
+<img src="/media/nbiot_assembled_3_cn.png" width=70%/>
 </div>
 
 ### 与主控模块进行数据通信
@@ -143,7 +143,7 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
 #### 积木编程
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project1_1.png" width=100%/>
+<img src="/media/nbiot_project1_1_cn.png" width=100%/>
 </div>
 
 **注意：**给 NB-IoT 通信模块通电后需按住 power on 按钮2秒才能让模块开机，模块开机后会在串口监控视窗打印开机提示
@@ -180,12 +180,12 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
 
 在 Coco Cloud 云端平台上为环境模块收集的数据创建一个事件「Environment」
 
-![wifi__main](../media/cocoCloud_project_1_1.png)
+![wifi__main](../media/cocoCloud_project_1_1_cn.png)
 
 #### 积木编程
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project2_2.png" width=100%/>
+<img src="/media/nbiot_project2_2_cn.png" width=100%/>
 </div>
 
 **注意：**给 NB-IoT 通信模块通电后需按住 power on 按钮2秒才能让模块开机，模块开机后会在串口监控视窗打印开机提示

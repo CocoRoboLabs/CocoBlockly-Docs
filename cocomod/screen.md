@@ -38,7 +38,7 @@
 
 1. 碰撞屏幕容易导致屏幕损坏，需要小心使用；
 2. 使用 OLED 屏幕模块时需要先使用初始化设置 OLED 屏幕模块的积木，「 OLED 屏幕设置积木」如下图：
-<div style="padding:0px 0px 10px 0px;text-align: center;"><img src="../media/oled_setup.png" width="18%" /></div>
+<div style="padding:0px 0px 10px 0px;text-align: center;"><img src="../media/oled_setup_cn.png" width="18%" /></div>
 
 ---
 
@@ -79,7 +79,7 @@
 
 ##### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_8.png" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/screen_8_cn.png" width="100%" /></div>
 
 > 注意：矩形绘制的起点为图案左上角的顶点
 
@@ -93,7 +93,7 @@
 
 ##### 积木编程
 
-![screen](../media/screen_10.png)
+![screen](../media/screen_10_cn.png)
 
 > 注意：圆形绘制的起点为图案最上方的顶点
 
@@ -107,7 +107,7 @@
 
 ##### 积木编程
 
-![screen](../media/screen_12.png)
+![screen](../media/screen_12_cn.png)
 
 ##### 最终效果
 
@@ -120,7 +120,7 @@
 
 ##### 积木编程
 
-![screen](../media/screen_14.png)
+![screen](../media/screen_14_cn.png)
 
 > 注意：尺寸为1的文字高度是 7 px ，尺寸为2的文字高度是 14 px ，以此类推
 
@@ -142,7 +142,7 @@
 
 #### 积木编程
 
-![screen](../media/screen_19.png)
+![screen](../media/screen_19_cn.png)
 
 #### 最终效果
 
@@ -163,7 +163,7 @@
 #### 积木编程
 **关键点：** 使用黑色的图形对文字进行覆盖，达到更换文字的效果
 
-![screen](../media/screen_20.png)
+![screen](../media/screen_20_cn.png)
 
 #### 最终效果
 先显示文字“CocoRobo Inc.”，覆盖文字后再显示“CocoRobo”

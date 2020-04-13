@@ -8,7 +8,7 @@
 
 ## 模块主要部件
 
-<img src="../media/hub_1.jpg" width="400"/>
+<img src="../media/hub1_cn.jpg" width="400"/>
 
 | 编号 | 部件名称 | 部件描述                                             |
 | ---- | -------- | ---------------------------------------------------- |
@@ -41,14 +41,14 @@
    - 模拟信号接口：A0~A3
    - MISO、MOSI、SCK、SS、RST 和3.3V供电接口
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_4.png" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_4_cn.png" width="70%" /></div>
 
 6. 转接模块B1、转接模块B2提供
    - 数字信号接口：D6~D13
    - 模拟信号接口：A4~A7
    - MISO、MOSI、SCK、SS、RST 和3.3V供电接口
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_5.png" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_5_cn.png" width="70%" /></div>
 
 ## 转接模块基础使用
 
@@ -58,7 +58,7 @@
 
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_6.png" width="90%" /></div>
 
-<div style="padding: 10px 0 30px 0;text-align: center;"><img src="../media/hub_7.png" width="40%" /></div>
+<div style="padding: 10px 0 30px 0;text-align: center;"><img src="../media/hub_7_cn.png" width="40%" /></div>
 
 <p style="color:rgba(0,0,0,.3);">注：（套件中不再含有该模块） 激光头模块：
 用于发射低功率的激光光束。

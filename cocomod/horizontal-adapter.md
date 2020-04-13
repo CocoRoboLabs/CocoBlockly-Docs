@@ -8,7 +8,7 @@
 
 ## 模块主要部件
 
-<img src="../media/平行_1.jpg" width="400"/>
+<img src="../media/平行_1_cn.jpg" width="400"/>
 
 ---
 
@@ -26,7 +26,7 @@
 
 > 注：也可以从工具栏中的「屏幕」一项中，选择示例「环境参数显示」
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hrizontal_blockly_1.png" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hrizontal_blockly_1_cn.png" width="70%" /></div>
 
 
 #### 最终效果

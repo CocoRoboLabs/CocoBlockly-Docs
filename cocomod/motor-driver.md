@@ -92,7 +92,7 @@
 #### 积木编程
 
 <div style="text-align:center;">
-<img src="../media/motorDriver__main--blockly-1.png" width=50%/>
+<img src="../media/motorDriver__main--blockly-1_cn.png" width=50%/>
 </div>
 
 
@@ -129,7 +129,7 @@
 
 #### 积木编程
 
-![env__main--blockly](../media/motorDriver__main--blockly-2.png)
+![env__main--blockly](../media/motorDriver__main--blockly-2_cn.png)
 
 ##### 注意事项
 

@@ -40,9 +40,9 @@ LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们�
 2. 需要连接主控模块使用
 3.  LED 模块默认占用D6引脚，拼接到转接模块可以设定其他数字引脚
 4.使用 LED 灯屏模块时需要先使用初始化设置 LED 灯组的积木，「 LED 灯组设置积木」如下图：
-<div style="padding:0px 0px 12px 0px;text-align: center;"><img src="../media/led_setup.png" width="18%" /></div>
+<div style="padding:0px 0px 12px 0px;text-align: center;"><img src="../media/led_setup_cn.png" width="18%" /></div>
 5.需要使用「显示图案」积木才能让绘制的图案显示在 LED 灯屏上，「显示图案」积木如下图：
-<div style="padding:0px 0px 12px 0px;text-align: center;"><img src="../media/led_show.png" width="15%" /></div>
+<div style="padding:0px 0px 12px 0px;text-align: center;"><img src="../media/led_show_cn.png" width="15%" /></div>
 
 ---
 
@@ -58,7 +58,7 @@ LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们�
 
 #### 积木编程
 
-<img src="../media/led_block.png" width="100%"/>
+<img src="../media/led_block_cn.png" width="100%"/>
 
 #### 最终效果
 
@@ -85,7 +85,7 @@ LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们�
 
 这里我们将在 LED 灯屏上绘制一条线
 
-<img src="../media/led_block_line.png" width="100%"/>
+<img src="../media/led_block_line_cn.png" width="100%"/>
 
 #### 最终效果
 
@@ -104,7 +104,7 @@ LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们�
 
 #### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_block_clean.png" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_block_clean_cn.png" width="100%" /></div>
 
 #### 最终效果
 
@@ -124,7 +124,7 @@ LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们�
 <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_light_assemble.jpg" width="40%" /></div>
 
 #### 积木编程
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_block_draw.png" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/led_block_draw_cn.png" width="100%" /></div>
 
 #### 最终效果
 
@@ -146,7 +146,7 @@ LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们�
 
 #### 积木编程
 
-<img src="../media/led_block_vocabulary.png" width="100%"/>
+<img src="../media/led_block_vocabulary_cn.png" width="100%"/>
 
 #### 最终效果
 
@@ -166,7 +166,7 @@ LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们�
 
 #### 积木编程
 
-<img src="../media/led_block_breathe.png" width="100%"/>
+<img src="../media/led_block_breathe_cn.png" width="100%"/>
 
 #### 最终效果
 
