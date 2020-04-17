@@ -53,7 +53,7 @@ ThingSpeak(https://thingspeak.com) 是由 MathWorks 开发的一款云端资料�
 ### 关于API Keys
 
 点击 API Keys , 其中 「Write API Key」 的值是用来填入 CocoBlockly 中关于 ThingSpeak 的程序积木，用来声明将数据发送往 ThingSpea k中该 Channel 事件中
-![ThingSpeak](../media/ThingSpeak_channel_apikey.png)
+![ThingSpeak](../media/ThingSpeak_channel_apikey_cn.png)
 
 ### 案例
 
@@ -73,13 +73,13 @@ ThingSpeak(https://thingspeak.com) 是由 MathWorks 开发的一款云端资料�
 
 ##### 主控模式:
 
-![ThingSpeak](../media/ThingSpeak_example_main.png)
+![ThingSpeak](../media/ThingSpeak_example_main_cn.png)
 
 ##### WiFi模式:
 
 > 注：编写程序时，请注意将联网积木中的 WiFi 名称和密码改成你自己要连接的
 
-![ThingSpeak](../media/ThingSpeak_example_wifi.png)
+![ThingSpeak](../media/ThingSpeak_example_wifi_cn.png)
 
 ##### 最终效果
 

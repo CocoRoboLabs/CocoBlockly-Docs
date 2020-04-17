@@ -1,6 +1,6 @@
 # 什么是 CocoBlockly
 
-![](/media/about-cocoblockly-308.png)
+![](/media/about-cocoblockly-308_cn.png)
 
 CocoBlockly 是一种基于 Blockly 视觉化编程积木的程序设计开发环境，支持多语言（简体中文、繁体中文和英文），用户通过拖拽具有特定功能的编程积木即可轻松撰写相关的程序，赋予电子产品以多种多样的功能。
 
@@ -10,8 +10,8 @@ CocoBlockly 是一种基于 Blockly 视觉化编程积木的程序设计开发�
 #### 准备事项：
 
 1. 安装 CocoBlockly Uploader（请从以下连结获取最新版本）:
-  1. Windows: https://api.cocorobo.hk/releases/uploaderv2/download/windows
-  2. macOS: https://api.cocorobo.hk/releases/uploaderv2/download/mac
+  1. Windows: http://cocorobo.cn/download
+  2. macOS: http://cocorobo.cn/download
 2. 开启浏览器，我们推荐使用 Google Chrome，请前往[此处](/getting-started/info?id=cocoblockly-uploader)检视完整的支援列表，如果您还没有安装合适的浏览器，可前往下方链接下载:
   1. 安装 Google Chrome：https://www.google.com/chrome/
 3. 以上步骤全部准备完成后，前往 [http://cocorobo.cn/cocoblockly/dev/](http://cocorobo.cn/cocoblockly/dev/) ，检查介面右下角的「上载区」是否有绿色的打勾图示，如有，则表示安装成功，这时你可以开始进行程序编写，并上传至你的电子模块中了。
@@ -24,7 +24,7 @@ CocoBlockly 是一种基于 Blockly 视觉化编程积木的程序设计开发�
 4. 请不要在上传过程中按到主控模块上的重置（Reset）按钮；
 5. 当主控已经连接，但页面仍然没有显示端口时，可以点击页面右下角的「重启Uploader」按钮，重启上传插件；
 <div style="text-align:center;margin:10px 0 10px 0;">
-<img src="./media/about-cocoblockly_1.png" width=60%/>
+<img src="./media/about-cocoblockly_1_cn.png" width=60%/>
 </div>
 6. 如果出现上传失败或者编译失败的情况，请将错误信息复制记下，寄信给 support@cocorobo.cc ，以便技术支持人员了解
 

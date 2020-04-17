@@ -11,14 +11,14 @@
 
 这是因为串口工具连接著开发板端口，导致「主控模块」端口被占用，所以无法上传成功。
 
-<div align=center><img src="../media/portBeUsed.png" width="450"/></div>
+<div align=center><img src="../media/portBeUsed_cn.png" width="450"/></div>
 
 #### 解决方法:
 
 切换到串口工具连接区，断开串口连接，再重新上载即可。
 
 <div align=center>
-<img src="../media/serialConnWhenupload.gif" width="250"/>
+<img src="../media/serialConnWhenupload_cn.gif" width="250"/>
 </div>
 
 ---
@@ -39,7 +39,7 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-![hub](../media/hub_8.png)
+![hub](../media/hub_8_cn.png)
 
 | 序号 |   参数   | 内容 |
 |-----|---------|--|
@@ -50,19 +50,19 @@
 
 #### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9_cn.png" width="60%" /></div>
 
 #### 最终效果
 
 程序上传后，将该传感器插入土壤中（如果不方便，可以使用湿的纸巾代替），然后打开 CocoBlockly 的串口监视窗，就可以查看到传感器读取的数据：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
 <div style="padding: 10px 0 20px 0;text-align: center;"><img src="../media/hub_10.jpg" width="40%" /></div>
 
 <p style="color:rgba(0,0,0,.3);">注：此处演示用湿的纸巾代替</p>
 
-<div style="padding: 10px 0 20px 0;text-align: center;"><img src="../media/hub_9_result.gif" width="70%" /></div>
+<div style="padding: 10px 0 20px 0;text-align: center;"><img src="../media/hub_9_result_cn.png" width="70%" /></div>
 
 儅湿的纸巾包裹在土壤湿度传感器上时，串口监控视窗上显示的数值变小
 
@@ -80,23 +80,23 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-![hub](../media/hub_11.png)
+![hub](../media/hub_11_cn.png)
 
 | 序号 | 参数         | 内容 |
 |-----|---------|--|
 | 1 | 可传感	面积 | 5.0*4.0 cm |
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9_cn.png" width="60%" /></div>
 
 #### 最终效果
 
 程序上传后，将湿的纸巾放在该传感器上，然后打开 CocoBlockly 的串口监视窗，就可以查看到传感器读取的数据：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
 <p style="color:rgba(0,0,0,.3);">注：此处演示用湿的纸巾代替</p>
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9_result2.gif" width="70%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9_result2_cn.png" width="70%" /></div>
 
 儅湿的纸巾包裹在雨滴传感器上时，串口监控视窗上显示的数值变小
 
@@ -110,7 +110,7 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-![hub](../media/hub_14_time.png)
+![hub](../media/hub_14_time_cn.png)
 
 <table style="margin-top:20px;">
 	<tr>
@@ -134,21 +134,21 @@
 
 1. 使用时钟模块前需要先上传初始时间设置的程序：
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_32_01.png" width="30%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_32_01_cn.png" width="30%" /></div>
 
 2. 设置好初始时间后，可以通过串口监视窗查询时间：
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_32.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_32_cn.png" width="60%" /></div>
 
 ### 最终效果
 
 程序上传后，打开 CocoBlockly 的串口监视窗，就可以查看到对应的数据：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="50%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="50%" /></div>
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 <img style="margin: 0px 10px 0px 0px;" src="../media/hub_32.jpg" width="40%" />
-<img src="../media/hub_32_result.png" width="35%" />
+<img src="../media/hub_32_result_cn.png" width="35%" />
 </div>
 
 ---
@@ -165,7 +165,7 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-![hub](../media/hub_14_02.png)
+![hub](../media/hub_14_02_cn.png)
 
 | 序号 | 参数         | 内容 |
 |-----|---------|--|
@@ -177,17 +177,17 @@
 
 ### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9_cn.png" width="60%" /></div>
 
 ### 最终效果
 
 程序上传后，将传感器靠近沾有酒精的纸巾（注意安全），打开 CocoBlockly 的串口监视窗，就可以查看到对应的数据：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 <img style="padding: 0px 10px 0px 0;" src="../media/hub_15.jpg" width="50%" />
-<img src="../media/hub_15_result.png" width="40%" />
+<img src="../media/hub_15_result_cn.png" width="40%" />
 </div>
 
 儅沾有酒精的纸巾靠近烟雾传感器时，串口监控视窗上显示的数值变大
@@ -221,7 +221,7 @@
 
 ### 模块组装
 
-![hub](../media/hub_19.png)
+![hub](../media/hub_19_cn.png)
 
 | 序号 | 参数         | 内容 |
 |----|---------|--|
@@ -237,20 +237,20 @@
 4. 传感器上有两个调节旋钮，分别是「灵敏度调节」旋钮和「延时调节」旋钮:
  - 「灵敏度调节」旋钮:顺时针旋转电位器，传感距离增大（最大约7米），反之，传感距离减小（最小约3米）
  - 「延时调节」旋钮:时针旋转电位器，传感延时加长（最长约200秒），反之，传感延时减短（最短约5秒）
- <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_19_2.png" width="60%" /></div>
+ <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_19_2_cn.png" width="60%" /></div>
 5. 跳线帽需扣在下图所示的位置，以此设置传感器为可重复触发的方式，即能够连续地检测到人体，若扣在靠外侧的两个引脚则为不重复触发的方式。
  <div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_19_3.png" width="60%" /></div>
 6. 此传感器自带延时，在人离开后，会有5秒（延时最短的情况下）的延时，并且即使传感器已传感到有人，人体需保持活动状态的情况下传感器才会认为此时有人，只要一停止不动5秒，传感器则视为未检测到人体。
 
 ### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_20.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_20_cn.png" width="60%" /></div>
 
 ### 最终效果
 
 数字0表示未检测到有人，数字1表示检测到有人
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_21.jpg" width="55%" style="margin:0 10px 0 0;"/><img src="../media/hub_21_2.png" width="35%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_21.jpg" width="55%" style="margin:0 10px 0 0;"/><img src="../media/hub_21_2_cn.png" width="35%" /></div>
 
 
 
@@ -271,7 +271,7 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-![hub](../media/hub_22.png)
+![hub](../media/hub_22_cn.png)
 
 | 序号 | 参数         | 内容 |
 |-----|---------|--|
@@ -283,17 +283,17 @@
 
 > 超声波积木需要从工具栏中的「第三方传感器」中拖出来
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_23.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_23_cn.png" width="60%" /></div>
 
 ### 最终效果
 
 程序上传后，将传感器靠近障碍物，打开 CocoBlockly 的串口监视窗，就可以查看到对应的数据：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 <img style="margin: 0px 10px 0px 0px;" src="../media/hub_24.jpg" width="40%" />
-<img src="../media/hub_23_result.png" width="35%" />
+<img src="../media/hub_23_result_cn.png" width="35%" />
 </div>
 
 串口监控视窗上显示超声波距离传感器测出来的与障碍物之间的距离值
@@ -314,7 +314,7 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-![hub](../media/hub_25.png)
+![hub](../media/hub_25_cn.png)
 
 **使用说明：**
 1. 火焰传感器对火焰最敏感，对普通光也是有反应的，一般用做火焰报警等用途。
@@ -322,15 +322,15 @@
 
 ### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9_cn.png" width="60%" /></div>
 
 ### 最终效果
 
 程序上传后，将传感器靠近有火烛附近（注意安全），打开 CocoBlockly 的串口监视窗，就可以查看到对应的数据。
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
-<div style="margin: 10px 0 10px 0;text-align: center;"><img src="../media/hub_fire_result.png" width="40%" /></div>
+<div style="margin: 10px 0 10px 0;text-align: center;"><img src="../media/hub_fire_result_cn.png" width="40%" /></div>
 
 儅打火机测试火焰靠近火焰传感器时，串口监控视窗上显示的数值变小
 
@@ -350,7 +350,7 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-![hub](../media/hub_26.png)
+![hub](../media/hub_26_cn.png)
 
 **使用说明：**
 1. 产品不震动时，震动开关呈闭合导通状态，输出端输出低电平，绿色指示灯亮。
@@ -358,17 +358,17 @@
 
 ### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_20.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_20_cn.png" width="60%" /></div>
 
 ### 最终效果
 
 程序上传后，打开 CocoBlockly 的串口监视窗，然后不断甩动传感器，就可以查看到对应的数据发生变化：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 <img style="padding: 0px 10px 0px 0;" src="../media/hub_27.jpg" width="43%" />
-<img src="../media/hub_27_result.png" width="45%" />
+<img src="../media/hub_27_result_cn.png" width="45%" />
 </div>
 
 儅晃动震动传感器时，串口监控视窗上显示的数值由0变为1
@@ -385,7 +385,7 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-![hub](../media/hub_28_02.png)
+![hub](../media/hub_28_02_cn.png)
 
 | 序号 | 参数         | 内容 |
 |-----|---------|--|
@@ -397,17 +397,17 @@
 ### 积木编程
 
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_20.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_20_cn.png" width="60%" /></div>
 
 ### 最终效果
 
 程序上传后，打开 CocoBlockly 的串口监视窗，将手掌盖住传感器上的红外线接收管和红外线发射管，就可以查看到对应的数据发生变化：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 <img style="padding: 0px 10px 0px 0;" src="../media/hub_29.jpg" width="40%" />
-<img src="../media/hub_29_result.png" width="40%" />
+<img src="../media/hub_29_result_cn.png" width="40%" />
 </div>
 
 儅传感器的检测方向遇到阻挡物时，串口监控视窗上显示的数值由1变为0
@@ -424,25 +424,25 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-![hub](../media/hub_30_02.png)
+![hub](../media/hub_30_02_cn.png)
 
 **使用说明：** 传感器可感知物体角度的变化，将传感器平轻放桌面上，将模块朝一个方向慢慢旋转，开关指示灯会点亮，然后再将模块朝相反的方向旋转，回到最初的状态，开关指示灯会灭
 
 ### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_20.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_20_cn.png" width="60%" /></div>
 
 ### 最终效果
 
 程序上传后，打开 CocoBlockly 的串口监视窗，倾斜该传感器，就可以查看到对应的数据发生变化：
 
 <div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;">
-<img style="margin: 0px 10px 0px 0;" src="../media/Mar-10-2019 19-55-22.gif" width="40%" />
+<img style="margin: 0px 10px 0px 0;" src="../media/打开序列埠.gif" width="40%" />
 </div>
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 <img style="margin: 0px 10px 0px 0;" src="../media/hub_20_1.jpg" width="50%" />
-<img src="../media/hub_20_1_result.png" width="40%" /></div>
+<img src="../media/hub_20_1_result_cn.png" width="40%" /></div>
 
 儅慢慢旋转传感器时，串口监控视窗上显示的数值由1变为0
 
@@ -460,21 +460,21 @@
 
 将主控模块和转接模块 A1（或 A2）组合在一起，并拿出几根杜邦线，将转接模块和第三方传感器如下图右边示意组装在一起：
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_31_02.png" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_31_02_cn.png" width="100%" /></div>
 
 ### 积木编程
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_9_cn.png" width="60%" /></div>
 
 ### 最终效果
 
 程序上传后，打开 CocoBlockly 的串口监视窗，将手掌盖在传感器上方，就可以查看到对应的数据发生变化：
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/Mar-10-2019 19-55-22.gif" width="40%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/打开序列埠.gif" width="40%" /></div>
 
 <div style="padding: 10px 0 10px 0;text-align: center;">
 <img style="margin: 0px 10px 0px 0;" src="../media/hub_31_02_1.jpg" width="50%" />
-<img src="../media/hub_31_02_result.png" width="40%" /></div>
+<img src="../media/hub_31_02_result_cn.png" width="40%" /></div>
 
 儅用手挡住传感器时，串口监控视窗上显示的数值变大
 

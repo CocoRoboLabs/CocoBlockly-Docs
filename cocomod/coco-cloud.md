@@ -16,7 +16,7 @@ https://cocorobo.cn/cloud
 |2. |仪表板  | 数据可视化面板，控制按钮面板 |
 
 ![cocoCloud](../media/cocoCloud__1_cn.png)
-![cocoCloud](../media/cocoCloud__2.jpg)
+![cocoCloud](../media/cocoCloud__2_cn.png)
 
 ## 组件使用说明
 
@@ -36,11 +36,11 @@ https://cocorobo.cn/cloud
 
 ### 创建方法
 
-![cocoCloud__events](../media/cocoCloud__event_1.png)
+![cocoCloud__events](../media/cocoCloud__event_1_cn.png)
 
 点击新增按钮（ + ）
 
-![cocoCloud__events](../media/cocoCloud__event_2.png)
+![cocoCloud__events](../media/cocoCloud__event_2_cn.png)
 
 输入事件名称，点击创建即可完成事件的建立
 
@@ -50,7 +50,7 @@ https://cocorobo.cn/cloud
 
 点击「复制图标」即可获取该事件的 API Key，由此来对事件进行数据的新增。有关 API Key 的介绍请前往 [API Key](#APIKey) 查看。
 
-![cocoCloud__events](../media/cocoCloud__event_3.png)
+![cocoCloud__events](../media/cocoCloud__event_3_cn.png)
 
 #### 添加属性
 
@@ -70,28 +70,28 @@ https://cocorobo.cn/cloud
 
 Coco Cloud平台上：
 
-![cocoCloud__events](../media/cocoCloud_property_4.png)
+![cocoCloud__events](../media/cocoCloud_property_4_cn.png)
 
 #### 事件查看
 
 点击事件，即可看到事件的属性，以及获取到的属性的最新数据
 
-![cocoCloud__events](../media/cocoCloud_property_4.png)
+![cocoCloud__events](../media/cocoCloud_property_4_cn.png)
 
 
 ## 仪表板
 
 在 「仪表板」 中，用户可以创建数据可视化的面板，在面板中观察数据的变化，也可以创建插件「切换按钮」 ，用来对事件的某个属性进行开关的控制。「仪表板」 建立于 「事件」 之上。
 
-![cocoCloud](../media/cocoCloud__2.jpg)
+![cocoCloud](../media/cocoCloud__2_cn.png)
 
 ### 创建方法
 
-![cocoCloud__dashboard](../media/cocoCloud__dashboard_1.png)
+![cocoCloud__dashboard](../media/cocoCloud__dashboard_1_cn.png)
 
 点击新增按钮（ + ）
 
-![cocoCloud__dashboard](../media/cocoCloud__dashboard_2.png)
+![cocoCloud__dashboard](../media/cocoCloud__dashboard_2_cn.png)
 
 选择要创建的工具种类，目前支持的工具种类有：
 
@@ -103,18 +103,18 @@ Coco Cloud平台上：
 * 数据可视化
   * 线型图
 <div style="margin:0px 0 20px 0;">
-<img src="../media/cocoCloud__dashboard_3.png" width=40%/>
+<img src="../media/cocoCloud__dashboard_3_cn.png" width=40%/>
 </div>
 
   * 区域图
   <div style="margin:0px 0 20px 0;">
-  <img src="../media/cocoCloud__dashboard_5.png" width=40%/>
+  <img src="../media/cocoCloud__dashboard_5_cn.png" width=40%/>
   </div>
 
 * 插件
   * 切换按钮
   <div style="margin:0px 0 20px 0;">
-  <img src="../media/cocoCloud__dashboard_4.png" width=40%/>
+  <img src="../media/cocoCloud__dashboard_4_cn.png" width=40%/>
   </div>
 
 选择事件的名称，选择欲观察或改变的属性，点击创建后即可看见数据的历史数据所构成的图表
@@ -161,7 +161,7 @@ Coco Cloud平台上：
 
 在 Coco Cloud 云端平台上为环境模块收集的数据创建一个事件「Environment」
 
-![wifi__main](../media/cocoCloud_project_1_1.png)
+![wifi__main](../media/cocoCloud_project_1_1_cn.png)
 
 #### 主控程序预览
 
@@ -187,13 +187,13 @@ Coco Cloud平台上：
 
 在 Coco Cloud 云端平台上的「仪表板」列表中为事件「Environment」的属性依次创建可视化工具
 
-![wifi__main](../media/cocoCloud_project_1_4.png)
+![wifi__main](../media/cocoCloud_project_1_4_cn.png)
 
 #### 最终效果
 
-![wifi__main](../media/cocoCloud_project_1_2.png)
+![wifi__main](../media/cocoCloud_project_1_2_cn.png)
 
-![wifi__main](../media/cocoCloud_project_1_3.png)
+![wifi__main](../media/cocoCloud_project_1_3_cn.png)
 <!--
 ---
 

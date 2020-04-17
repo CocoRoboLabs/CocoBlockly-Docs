@@ -162,7 +162,7 @@ IFTTT 网址：https://ifttt.com/
 程序下载： <a href="../xml/ifttt_project1/project1_main.xml" download >project1_main.xml</a>
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-  <img src="../media/ifttt_project1.main.png"/>
+  <img src="../media/ifttt_project1.main_cn.png"/>
   </div>
 
 ##### WiFi模式:
@@ -172,7 +172,7 @@ IFTTT 网址：https://ifttt.com/
 > 注：编写程序时，请注意将联网积木中的 WiFi 名称和密码改成你自己要连接的
 
 <div style="text-align:center;margin:0px 0 20px 0;">
-  <img src="../media/ifttt_project1.wifi.png"/>
+  <img src="../media/ifttt_project1.wifi_cn.png"/>
   </div>
 
 ##### 最终效果

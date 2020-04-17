@@ -132,11 +132,11 @@
 
 |No. |模块 | 图片 |简介 | 详细介绍 |
 |-  |-  |-  |- |- |
-|1. | 主控模块  | <img src="../media/cocomod/modPic_0006_Layer16.jpg" width=180 style="margin:5px 5px"/> | 如果将电子模块模拟为人的身体，主控模块就是电子模块的「大脑」(brain)，<br>我们在CocoBlockly中撰写的程序则是主控模块「大脑」思考要做什么动作或<br>发出什么指令时产生的各种「想法」；当「想法」传输至「大脑」后，主控<br>模块从而控制其他模块并令其做出相应的动作或指令。 | [此页面](/cocomod/main-controller) |
-|2. | 教学模块  | <img src="../media/cocomod/modPic_0012_Layer 10.jpg" width=180 style="margin:5px 5px"/> | 教学模块是 CocoMod 中一套输入/输出模块，利于学生使用该模块学习电子和 Arduino 的基础知识。 | [此页面](/cocomod/sensor-101) |
-|3. | 电机驱动模块  | <img src="../media/cocomod/modPic_0014_Layer 8.jpg" width=180 style="margin:5px 5px"/> | 电机驱动模块能够同时控制两个电机，另外设定了四个外接传感器接口，可供使用者接入第三方传感器。 | [此页面](/cocomod/motor-driver) |
-|4. | 转接模块A1/A2  | <img src="../media/cocomod/modPic_0011_Layer a1.jpg" width=180 style="margin:5px 5px"/> | 转接模块上嵌有多组接口，用于多种外接设备如伺服电机，电机的转接，还可以外接第三方传感器，如红外线传感器和超声波传感器等等。每组接口由地线（GND），电源输出（VCC），信号接口（Digital / Analog）组成。 | [此页面](/cocomod/hub) |
-|5. | 蓝牙通信模块  | <img src="../media/cocomod/modPic_0009_Layer 25.jpg" width=180 style="margin:5px 5px"/> | 蓝牙通信模块是用于能与蓝牙配对的设备，远端控制输出。蓝牙配对前状态灯会以较快的频率闪烁，当成功连接后状态灯以较慢频率闪烁。 | [此页面](/cocomod/bluetooth) |
+|1. | 主控模块  | <img src="../media/cocomod/主控.jpg" width=180 style="margin:5px 5px"/> | 如果将电子模块模拟为人的身体，主控模块就是电子模块的「大脑」(brain)，<br>我们在CocoBlockly中撰写的程序则是主控模块「大脑」思考要做什么动作或<br>发出什么指令时产生的各种「想法」；当「想法」传输至「大脑」后，主控<br>模块从而控制其他模块并令其做出相应的动作或指令。 | [此页面](/cocomod/main-controller) |
+|2. | 教学模块  | <img src="../media/cocomod/教学.jpg" width=180 style="margin:5px 5px"/> | 教学模块是 CocoMod 中一套输入/输出模块，利于学生使用该模块学习电子和 Arduino 的基础知识。 | [此页面](/cocomod/sensor-101) |
+|3. | 电机驱动模块  | <img src="../media/cocomod/电机驱动.jpg" width=180 style="margin:5px 5px"/> | 电机驱动模块能够同时控制两个电机，另外设定了四个外接传感器接口，可供使用者接入第三方传感器。 | [此页面](/cocomod/motor-driver) |
+|4. | 转接模块A1/A2  | <img src="../media/cocomod/A1.jpg" width=180 style="margin:5px 5px"/> | 转接模块上嵌有多组接口，用于多种外接设备如伺服电机，电机的转接，还可以外接第三方传感器，如红外线传感器和超声波传感器等等。每组接口由地线（GND），电源输出（VCC），信号接口（Digital / Analog）组成。 | [此页面](/cocomod/hub) |
+|5. | 蓝牙通信模块  | <img src="../media/cocomod/蓝牙通信.jpg" width=180 style="margin:5px 5px"/> | 蓝牙通信模块是用于能与蓝牙配对的设备，远端控制输出。蓝牙配对前状态灯会以较快的频率闪烁，当成功连接后状态灯以较慢频率闪烁。 | [此页面](/cocomod/bluetooth) |
 
 ## 迷你小车的组装
 
@@ -213,7 +213,7 @@
 
 前往 CocoBlockly，使用「电机」一栏的积木，拖入右侧的积木设计区来完成「向前、左转、右转、向后」的动作，上传至主控模块后即可实现让迷你小车移动的效果
 
-![kit](../media/kit_162.png)
+![kit](../media/kit_162_cn.png)
 
 ###### 若您有其他疑问，请电邮至 support@cocorobo.cc 询问
 

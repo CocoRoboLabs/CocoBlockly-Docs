@@ -10,7 +10,7 @@ CocoBlockly 是一种类似 MIT Scratch 的在线可视化积木式编程工具�
 
 平台特性 ：![](/assets/import2.png)在使用 CocoBlockly 时，需要配合 CocoBlockly Uploader 软件来进行程序的上传，下载安装后，以后再使用网页编程时只需保持该软件打开即可。
 
-第一次使用 CocoBlockly 的用户，请前往[该页面](https://blockly-help.cocorobo.cn/uploader-xia-zai-ji-an-zhuang.html)链接下载 **CocoBlockly Uploader 上传软件**，支持 Windows 及 macOS。
+第一次使用 CocoBlockly 的用户，请前往[该页面](http://cocorobo.cn/download)链接下载 **CocoBlockly Uploader 上传软件**，支持 Windows 及 macOS。
 
 安装完成后，前往 [http://cocorobo.cn/cocoblockly/dev/](http://cocorobo.cn/cocoblockly/dev/) ，检查界面右下角的「Upload Area」是否有绿色的打勾图标，如有，则表示安装成功，这时你可以开始进行程序编写，并上传至你的电子模块中了。
 

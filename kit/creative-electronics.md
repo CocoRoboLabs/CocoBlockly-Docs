@@ -132,10 +132,10 @@
 
 |No. |模块 | 图片 |简介 | 详细介绍 |
 |-  |-  |-  |- |- |
-|1. | 主控模块  | <img src="../media/cocomod/modPic_0006_Layer16.jpg" width=180 style="margin:5px 5px"/> | 如果将电子模块模拟为人的身体，主控模块就是电子模块的「大脑」(brain)，<br>我们在CocoBlockly中撰写的程序则是主控模块「大脑」思考要做什么动作或<br>发出什么指令时产生的各种「想法」；当「想法」传输至「大脑」后，主控<br>模块从而控制其他模块并令其做出相应的动作或指令。 | [此页面](/cocomod/main-controller) |
-|2. | LED 灯屏模块  | <img src="../media/cocomod/modPic_0005_R0010171.jpg" width=180 style="margin:5px 5px"/> | LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们可以通过点亮不<br>同的灯，用不同的颜色，去绘制自己想要的图案 | [此页面](/cocomod/led-matrix) |
-|3. | 音乐模块  | <img src="../media/cocomod/modPic_0018_Layer 23.jpg" width=180 style="margin:5px 5px"/> | 音乐模块为播放乐器声音和音乐文档所用，音乐模块可以发出超过 100 种乐器<br>的声音，模块也有1个 SD 卡扩展插口，支援播放 .ogg 或者 .mp3 的音乐档。<br>目前版本的 CocoBlockly 中，我们已经支持使用者通过音乐模块，演奏出不同<br>乐器的声音，以及播放单个音乐文件。 | [此页面](/cocomod/music) |
-|4. | 触摸传感模块  | <img src="../media/cocomod/modPic_0018_Layer 4.jpg" width=180 style="margin:5px 5px"/> | 触摸传感模块通常与导电纸同用，可以通过触摸接口或者与接口相连的导电纸<br>来向模块发送一个电位信号，这样的电信号就可以表示触摸的位置。 | [此页面](/cocomod/touch) |
+|1. | 主控模块  | <img src="../media/cocomod/主控.jpg" width=180 style="margin:5px 5px"/> | 如果将电子模块模拟为人的身体，主控模块就是电子模块的「大脑」(brain)，<br>我们在CocoBlockly中撰写的程序则是主控模块「大脑」思考要做什么动作或<br>发出什么指令时产生的各种「想法」；当「想法」传输至「大脑」后，主控<br>模块从而控制其他模块并令其做出相应的动作或指令。 | [此页面](/cocomod/main-controller) |
+|2. | LED 灯屏模块  | <img src="../media/cocomod/LED.jpg" width=180 style="margin:5px 5px"/> | LED 灯屏模块是将多个 LED 灯排列一起而成的电子模块，我们可以通过点亮不<br>同的灯，用不同的颜色，去绘制自己想要的图案 | [此页面](/cocomod/led-matrix) |
+|3. | 音乐模块  | <img src="../media/cocomod/音乐.jpg" width=180 style="margin:5px 5px"/> | 音乐模块为播放乐器声音和音乐文档所用，音乐模块可以发出超过 100 种乐器<br>的声音，模块也有1个 SD 卡扩展插口，支援播放 .ogg 或者 .mp3 的音乐档。<br>目前版本的 CocoBlockly 中，我们已经支持使用者通过音乐模块，演奏出不同<br>乐器的声音，以及播放单个音乐文件。 | [此页面](/cocomod/music) |
+|4. | 触摸传感模块  | <img src="../media/cocomod/触摸传感.jpg" width=180 style="margin:5px 5px"/> | 触摸传感模块通常与导电纸同用，可以通过触摸接口或者与接口相连的导电纸<br>来向模块发送一个电位信号，这样的电信号就可以表示触摸的位置。 | [此页面](/cocomod/touch) |
 
 ## 迷你灯光电子琴组装
 
@@ -193,7 +193,7 @@
 
 前往 [CocoBlockly](https://cocorobo.cn/cocoblockly/dev/?lang=zh-hant)，使用「音乐」一栏的积木，完成迷你电子琴的程序设计，上传至主控模块后即可出现电子琴的效果
 
-<img src="../media/kit_172.png" width=550/>
+<img src="../media/kit_172_cn.png" width=550/>
 
 ###### 若您有其他疑问，请电邮至 support@cocorobo.cc 询问
 

@@ -8,7 +8,7 @@
 
 ## 模块主要部件
 
-<img src="../media/bluetooth.jpg" width="350"/>
+<img src="../media/bluetooth_cn.png" width="350"/>
 <br>
 
 <table style="margin-top:20px;">
@@ -189,14 +189,14 @@
 #### 积木编程
 
 <div style="text-align:center;">
-<img src="../media/bluetooth_block_send.png" width=100%/>
+<img src="../media/bluetooth_block_send_cn.png" width=100%/>
 </div>
 
 
 #### 最终效果
 
 <div style="text-align:center;">
-<img src="../media/bluetooth_result_send.png" width=100%/>
+<img src="../media/bluetooth_result_send_cn.png" width=100%/>
 </div>
 
 ---

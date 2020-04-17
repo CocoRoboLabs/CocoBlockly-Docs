@@ -10,7 +10,7 @@
 除了在计算机本地存储积木文件外，用户还可以在 CocoBlockly 上创建个人账户、从CocoRobo公司的云端服务器上存储，然后即可随时随地调用其所撰写的编程积木档案。教师或学生将能够根据需要在不同终端上传和下载其档案。
 
 <div style="text-align:center;margin:0 0 10px 0";>
-<img src="../media/cloudStorage_personalPanel.png" width=100%/>
+<img src="../media/cloudStorage_personalPanel_cn.png" width=100%/>
 </div>
 
 ---
@@ -19,25 +19,25 @@
 使用云端存取档案功能需要用户先进行账户登录，点击页面右上角的账户图标
 
 <div style="text-align:center;margin:0 0 20px 0";>
-<img src="../media/cloudStorage_nav_account.png" width=100%/>
+<img src="../media/cloudStorage_nav_account_cn.png" width=100%/>
 </div>
 
 弹出登录窗口，进行登入操作
 
 <div style="text-align:center;margin:0 0 20px 0";>
-<img src="../media/cloudStorage_account_beforeLogin.png" width=100%/>
+<img src="../media/cloudStorage_account_beforeLogin_cn.png" width=100%/>
 </div>
 
 登录成功后，点击导航栏的「存储」->「云端存储」
 
 <div style="text-align:center;margin:0 0 20px 0";>
-<img src="../media/cloudStorage_nav.png" width=100%/>
+<img src="../media/cloudStorage_nav_cn.png" width=100%/>
 </div>
 
 即会弹出云端存储界面
 
 <div style="text-align:center;margin:0 0 20px 0";>
-<img src="../media/cloudStorage_personalPanel.png" width=100%/>
+<img src="../media/cloudStorage_personalPanel_cn.png" width=100%/>
 </div>
 
 
@@ -47,19 +47,19 @@
 点击「新建档案」按键，在云端新建一个档案来存储当前的项目
 
 <div style="text-align:center;margin:0 0 20px 0";>
-<img src="../media/cloudStorage_new.png" width=100%/>
+<img src="../media/cloudStorage_new_cn.png" width=100%/>
 </div>
 
 在云端存储界面的档案命名区对要保存的档案进行命名
 
 <div style="text-align:center;margin:0 0 20px 0";>
-<img src="../media/cloudStorage_save_name.png" width="100%"/>
+<img src="../media/cloudStorage_save_name_cn.png" width="100%"/>
 </div>
 
 点击保存按钮，儅档案成功上传至云端时，界面右上方会弹出提示，云端存储档案显示区会新增已保存文件
 
 <div style="text-align:center;margin:0 0 20px 0";>
-<img src="../media/cloudStorage_save_success.png" width="100%"/>
+<img src="../media/cloudStorage_save_success_cn.png" width="100%"/>
 </div>
 
 ---

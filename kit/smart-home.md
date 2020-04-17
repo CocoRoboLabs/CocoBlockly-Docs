@@ -131,12 +131,12 @@
 
 |No. |模块 | 图片 |简介 | 详细介绍 |
 |-  |-  |-  |- |- |
-|1. | 主控模块  | <img src="../media/cocomod/modPic_0006_Layer16.jpg" width=180 style="margin:5px 5px"/> | 如果将电子模块模拟为人的身体，主控模块就是电子模块的「大脑」(brain)，<br>我们在CocoBlockly中撰写的程序则是主控模块「大脑」思考要做什么动作或<br>发出什么指令时产生的各种「想法」；当「想法」传输至「大脑」后，主控<br>模块从而控制其他模块并令其做出相应的动作或指令。 | [此页面](/cocomod/main-controller) |
-|2. | WiFi 通信模块  | <img src="../media/cocomod/modPic_0018_Layer 26.jpg" width=180 style="margin:5px 5px"/> | Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT 通信协议，有了它，结合 CocoBlockly 的 WiFi 模式，用户可以非常直观地搭建属于自己的智能家居小应用。 | [此页面](/cocomod/wifi) |
-|3. | 环境传感模块  | <img src="../media/cocomod/modPic_0018_Layer 27.jpg" width=180 style="margin:5px 5px"/> | 环境传感模块既能够获取包括温度、湿度、声音的强弱程度、光线的强弱程度等环境数据，也可以根据环境数据变化作出反应。 | [此页面](/cocomod/environment) |
-|4. | 屏幕模块  | <img src="../media/cocomod/modPic_0019_Background.jpg" width=180 style="margin:5px 5px"/> | 模块上连有一个 OLED 屏幕，接通之后可以绘制不同颜色的不同图案，屏幕面积（长 x 宽）为 128 x 128 px (像素)。 | [此页面](/cocomod/screen) |
-|5. | 转接模块A1/A2  | <img src="../media/cocomod/modPic_0011_Layer a1.jpg" width=180 style="margin:5px 5px"/> | 转接模块上嵌有多组接口，用于多种外接设备如伺服电机，电机的转接，还可以外接第三方传感器，如红外线传感器和超声波传感器等等。每组接口由地线（GND），电源输出（VCC），信号接口（Digital / Analog）组成。 | [此页面](/cocomod/hub) |
-|6. | 正反转接模块  | <img src="../media/cocomod/modPic_0001_R0010192.jpg" width=180 style="margin:5px 5px"/> | 正反转接模块两边均为接出型插口，用于将模块按照相反接入。 | [此页面](/cocomod/reversed-adapter) |
+|1. | 主控模块  | <img src="../media/cocomod/主控.jpg" width=180 style="margin:5px 5px"/> | 如果将电子模块模拟为人的身体，主控模块就是电子模块的「大脑」(brain)，<br>我们在CocoBlockly中撰写的程序则是主控模块「大脑」思考要做什么动作或<br>发出什么指令时产生的各种「想法」；当「想法」传输至「大脑」后，主控<br>模块从而控制其他模块并令其做出相应的动作或指令。 | [此页面](/cocomod/main-controller) |
+|2. | WiFi 通信模块  | <img src="../media/cocomod/wifi.jpg" width=180 style="margin:5px 5px"/> | Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT 通信协议，有了它，结合 CocoBlockly 的 WiFi 模式，用户可以非常直观地搭建属于自己的智能家居小应用。 | [此页面](/cocomod/wifi) |
+|3. | 环境传感模块  | <img src="../media/cocomod/环境传感.jpg" width=180 style="margin:5px 5px"/> | 环境传感模块既能够获取包括温度、湿度、声音的强弱程度、光线的强弱程度等环境数据，也可以根据环境数据变化作出反应。 | [此页面](/cocomod/environment) |
+|4. | 屏幕模块  | <img src="../media/cocomod/屏幕.jpg" width=180 style="margin:5px 5px"/> | 模块上连有一个 OLED 屏幕，接通之后可以绘制不同颜色的不同图案，屏幕面积（长 x 宽）为 128 x 128 px (像素)。 | [此页面](/cocomod/screen) |
+|5. | 转接模块A1/A2  | <img src="../media/cocomod/A1.jpg" width=180 style="margin:5px 5px"/> | 转接模块上嵌有多组接口，用于多种外接设备如伺服电机，电机的转接，还可以外接第三方传感器，如红外线传感器和超声波传感器等等。每组接口由地线（GND），电源输出（VCC），信号接口（Digital / Analog）组成。 | [此页面](/cocomod/hub) |
+|6. | 正反转接模块  | <img src="../media/cocomod/正反转接.jpg" width=180 style="margin:5px 5px"/> | 正反转接模块两边均为接出型插口，用于将模块按照相反接入。 | [此页面](/cocomod/reversed-adapter) |
 
 更多关于 CocoMod 的资料请前往 [此页面](http://cocorobo.cn/product/cocomod) 查看
 
@@ -179,7 +179,7 @@ Coco Cloud 是由 CocoRobo 研发的物联网云端平台，用户可以将自�
 同时 Coco Cloud 支援与 IFTTT 连接，与超过 500 个在线应用结合，创作的可能更加丰富。另支持 Thingspeak，学生可以将数据传送至对应的 Thingspeak 监测面板中，进行科学学科的研究分析。
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="../media/cocoCloud__1.png" height="280px"/>　<img src="../media/cocoCloud__2.jpg" height="280px"/>
+<img src="../media/cocoCloud__1_cn.png" height="280px"/>　<img src="../media/cocoCloud__2_cn.png" height="280px"/>
 </div>
 
 Coco Cloud 云端分为两部分：
@@ -214,31 +214,31 @@ Coco Cloud 的特性：
    * 声音传感元件，对应接口为 A2
    * 温度/湿度传感元件，对应接口为 A4
    * 蜂鸣器元件，对应接口为 D7
-   * RGB灯光元件，对应接口分别为 D9, D10, D11，在 CocoBlockly 中，关于环境传感模块的程序积木在![kit](../media/kit_12.png)中，共有8个程序积木，具体如下：
+   * RGB灯光元件，对应接口分别为 D9, D10, D11，在 CocoBlockly 中，关于环境传感模块的程序积木在![kit](../media/kit_12_cn.png)中，共有8个程序积木，具体如下：
 1. 使用环境传感模块之前，都需要使用该积木进行初始化设置
-![kit](../media/kit_13.png)
+![kit](../media/kit_13_cn.png)
 2. 该积木能够读取周围声音的数值，数值范围为0~1023
-![kit](../media/kit_14.png)　![kit](../media/kit_15.png)
+![kit](../media/kit_14_cn.png)　![kit](../media/kit_15.png)
 3. 该积木能够读取周围光照强度的数值，数值范围为0~1023
-![kit](../media/kit_16.png)　![kit](../media/kit_17.png)
+![kit](../media/kit_16_cn.png)　![kit](../media/kit_17.png)
 4. 该积木能够读取周围温度的数值，温度数值范围是0-50 °C（误差± 2 °C）
-![kit](../media/kit_18.png)　![kit](../media/kit_19.png)
+![kit](../media/kit_18_cn.png)　![kit](../media/kit_19.png)
 5. 该积木能够读取周围环境湿度的数值，湿度数值范围是20-90% （误差± 5%）
-![kit](../media/kit_20.png)　![kit](../media/kit_19.png)
+![kit](../media/kit_20_cn.png)　![kit](../media/kit_19.png)
 6. 该积木能够设定环境传感模块中灯光的RGB数值
-![kit](../media/kit_22.png)　![kit](../media/kit_23.png)
+![kit](../media/kit_22_cn.png)　![kit](../media/kit_23.png)
 7. 该积木能够设定环境传感模块中蜂鸣器的音调频率
-![kit](../media/kit_24.png)　![kit](../media/kit_25.png)
+![kit](../media/kit_24_cn.png)　![kit](../media/kit_25.png)
 8. 该积木能够关闭环境传感模块中的蜂鸣器
-![kit](../media/kit_26.png)　![kit](../media/kit_25.png)
+![kit](../media/kit_26_cn.png)　![kit](../media/kit_25.png)
 
 #### 环境传感模块使用参考
 
 **读取并显示环境参数**：使用环境传感模块，拼合OLED屏幕模块，将读取的环境参数，例如温度、湿度、亮度等显示在OLED萤幕上。
 
-**知识储备**：OLED屏幕模块能够显示各种图案和字符，关于OLED屏幕模块的程序积木在![kit](../media/kit_28.png)中，共有 9 个积木，具体如下：
+**知识储备**：OLED屏幕模块能够显示各种图案和字符，关于OLED屏幕模块的程序积木在![kit](../media/kit_28_cn.png)中，共有 9 个积木，具体如下：
 
-![kit](../media/kit_29.png)
+![kit](../media/kit_29_cn.png)
 
 #### Blockly程序
 该项目中Blockly程序主要分为四个部分：
@@ -253,11 +253,11 @@ Coco Cloud 的特性：
 
 Blockly程序过长，下面以”显示声音参数“为例讲解：
 
-![kit](../media/kit_37.png)
+![kit](../media/kit_37_cn.png)
 #### 演示效果
 ![kit](../media/kit_38.jpg)
 
-前往下面网址，点击“环境参数显示”![kit](../media/kit_39.png)，查看完整程序
+前往下面网址，点击“环境参数显示”![kit](../media/kit_39_cn.png)，查看完整程序
 http://cocorobo.cn/cocoblockly/
 ### 使用第三方传感器
 #### 使用土壤湿度传感器
@@ -265,41 +265,41 @@ http://cocorobo.cn/cocoblockly/
 
 下面是土壤湿度传感器的组成部分：
 
-![kit](../media/kit_40.png)　![kit](../media/kit_41.png)
+![kit](../media/kit_40_cn.png)　![kit](../media/kit_41_cn.png)
 
 *使用示例
 1.  组装好电子模块部分：主控模块、转接模块
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「土壤湿度传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_42.png)
+![kit](../media/kit_42_cn.png)
 
 *程序示例
 
-![kit](../media/kit_43.png)
+![kit](../media/kit_43_cn.png)
 
 这段程序将会读取传感器传感到的模拟数值，并将数据打印在 Serial Monitor 中。数值将会在 0~1023 间变化。
 #### 使用雨滴传感器
 可用于不同天气状况的监测，并转换成数字信号或模拟信号；使用时，传感板上没有水滴时，数字输出为高电平，开关指示灯灭，滴上一滴水，数字输出为低电平，开关指示灯亮。下面是雨滴传感器的组成部分：
 
-![kit](../media/kit_44.png)
+![kit](../media/kit_44_cn.png)
 
 *使用示例
 1.  组装好电子模块部分：主控模块、转接模块
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「雨滴传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_42.png)
+![kit](../media/kit_42_cn.png)
 
 *程序示例
 
-![kit](../media/kit_43.png)
+![kit](../media/kit_43_cn.png)
 
 这段程序将会读取传感器传感到的模拟数值，并将数据打印在 Serial Monitor 中。数值将会在 0~1023 间变化。
 #### 使用时钟模块
 该模块具备时间功能，并且为了断电时依然可以保留时间。其使用 I2C 通信，能保存秒、分、时、星期、日期、月和年资讯。少于31天的月份，将自动调整月末的日期，包括闰年的修正。带可充电电池，保证系统断电后，时钟仍然正常走动。
 
-![hub](../media/hub_14_time.png)
+![hub](../media/hub_14_time_cn.png)
 
 *使用示例
 1.  组装好电子模块部分：主控模块、转接模块
@@ -308,7 +308,7 @@ http://cocorobo.cn/cocoblockly/
 
 *程序示例
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_32.png" width="60%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/hub_32_cn.png" width="60%" /></div>
 
 这段程序将会设置好初始时间后，通过串口监视窗打印所查询到的时间
 
@@ -317,18 +317,18 @@ http://cocorobo.cn/cocoblockly/
 
 支持：数字信号、模拟信号输入
 
-![kit](../media/kit_45.png)　![kit](../media/kit_46.png)
+![kit](../media/kit_45_cn.png)　![kit](../media/kit_46_cn.png)
 
 *使用示例
 1.  组装好电子模块部分：主控模块、转接模块
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「烟雾传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_42.png)
+![kit](../media/kit_42_cn.png)
 
 *程序示例
 
-![kit](../media/kit_43.png)
+![kit](../media/kit_43_cn.png)
 
 这段程序将会读取传感器传感到的模拟数值，并将数据打印在 Serial Monitor 中。数值将会在 0~1023 间变化。
 #### 使用激光头模块
@@ -343,11 +343,11 @@ http://cocorobo.cn/cocoblockly/
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「激光头模块」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_48.png)
+![kit](../media/kit_48_cn.png)
 
 *程序示例
 
-![kit](../media/kit_49.png)
+![kit](../media/kit_49_cn.png)
 
 这段程序将会让激光头模块每隔 1 秒发出激光光束。
 #### 使用人体红外传感器
@@ -355,36 +355,36 @@ http://cocorobo.cn/cocoblockly/
 
 支持：数字信号输入
 
-![kit](../media/kit_55.png)　![kit](../media/kit_56.png)
+![kit](../media/kit_55_cn.png)　![kit](../media/kit_56_cn.png)
 
 *使用示例
 1.  组装好电子模块部分：主控模块、转接模块
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「人体红外传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_48.png)
+![kit](../media/kit_48_cn.png)
 
 *程序示例
 
-![kit](../media/kit_50.png)
+![kit](../media/kit_50_cn.png)
 
 这段程序将会读取传感器传感到的数字数值，并将数据打印在 Serial Monitor 中。数值将会以 0 和 1呈现，代表附近有人或无人。
 
 #### 使用超声波距离传感器
 该传感器利用超声波测距离，多应用于机器人避开障碍物或其他距离测量的项目。传感距离的单位为 CM（厘米）
 
-![kit](../media/kit_51.png)　![kit](../media/kit_52.png)
+![kit](../media/kit_51_cn.png)　![kit](../media/kit_52_cn.png)
 
 *使用示例
 1.  组装好电子模块部分：主控模块、转接模块
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「超声波距离传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_53.png)
+![kit](../media/kit_53_cn.png)
 
 *程序示例
 
-![kit](../media/kit_54.png)
+![kit](../media/kit_54_cn.png)
 
 这段程序将会读取传感器传感到的距离数值（CM），并将数据打印在 Serial Monitor 中，同时用户可以设置最远的传感距离数值
 #### 使用火焰传感器
@@ -399,11 +399,11 @@ http://cocorobo.cn/cocoblockly/
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「火焰传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_42.png)
+![kit](../media/kit_42_cn.png)
 
 *程序示例
 
-![kit](../media/kit_43.png)
+![kit](../media/kit_43_cn.png)
 
 这段程序将会读取传感器传感到的模拟数值，并将数据打印在 Serial Monitor 中。数值将会在 0~1023 间变化。
 
@@ -412,18 +412,18 @@ http://cocorobo.cn/cocoblockly/
 
 支持：数字信号输入
 
-![kit](../media/kit_58.png)
+![kit](../media/kit_58_cn.png)
 
 *使用示例
 1.  组装好电子模块部分：主控模块、转接模块
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「震动传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_62.png)
+![kit](../media/kit_62_cn.png)
 
 *程序示例
 
-![kit](../media/kit_61.png)
+![kit](../media/kit_61_cn.png)
 
 这段程序将会读取传感器传感到的模拟数值，并将数据打印在 Serial Monitor 中。数值将会以 0 和 1呈现，代表传感器附属的物体是否有震动。
 
@@ -432,18 +432,18 @@ http://cocorobo.cn/cocoblockly/
 
 支持：数字信号输入
 
-![kit](../media/kit_59.png)　![kit](../media/kit_60.png)
+![kit](../media/kit_59_cn.png)　![kit](../media/kit_60_cn.png)
 
 *使用示例
 1.  组装好电子模块部分：主控模块、转接模块
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「红外避障传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_62.png)
+![kit](../media/kit_62_cn.png)
 
 *程序示例
 
-![kit](../media/kit_61.png)
+![kit](../media/kit_61_cn.png)
 
 这段程序将会读取传感器传感到的模拟数值，并将数据打印在 Serial Monitor 中。数值将会以 0 和 1呈现，代表传感器检测的距离内是否有障碍。
 #### 使用倾斜传感器
@@ -458,11 +458,11 @@ http://cocorobo.cn/cocoblockly/
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「倾斜传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_42.png)
+![kit](../media/kit_42_cn.png)
 
 *程序示例
 
-![kit](../media/kit_43.png)
+![kit](../media/kit_43_cn.png)
 
 这段程序将会读取传感器传感到的模拟数值，并将数据打印在 Serial Monitor 中。数值将会在 0~1023 间变化。
 
@@ -473,25 +473,25 @@ http://cocorobo.cn/cocoblockly/
 
 支持：数字信号、模拟信号输入
 
-![kit](../media/kit_64.png)　![kit](../media/kit_65.png)
+![kit](../media/kit_64_cn.png)　![kit](../media/kit_65_cn.png)
 
 *使用示例
 1.  组装好电子模块部分：主控模块、转接模块
 2.  拿出 USB 线连接计算机和主控模块；
 3.  将「光照传感器」的接口按照下图连接至「转接模块」上
 
-![kit](../media/kit_42.png)
+![kit](../media/kit_42_cn.png)
 
 *程序示例
 
-![kit](../media/kit_43.png)
+![kit](../media/kit_43_cn.png)
 
 这段程序将会读取传感器传感到的模拟数值，并将数据打印在 Serial Monitor 中。数值将会在 0~1023 间变化。
 ### 了解数组
 在计算机科学中，数组是由相同类型的元素的集合，所组成的资料。
 在 CocoBlockly 中，我们使用数组来存储一系列数据（适用于传输大于 1 个数据的情况）。
 
-![kit](../media/kit_66.png)
+![kit](../media/kit_66_cn.png)
 
 像上面的情况：
 第一个积木为创建数组所需要的积木，其中有 3 个数据；
@@ -501,12 +501,12 @@ http://cocorobo.cn/cocoblockly/
 
 本示例将向用户展示如何将数组中的数据，打印在 Serial Monitor 中
 
-<img src="../media/kit_67.png" width="1000px" height="350px"/>
+<img src="../media/kit_67_cn.png" width="1000px" height="350px"/>
 
 ### 数据收集
 本示例将向用户展示如何收集环境传感模块的数据，并将数据打印在 Serial Monitor 中
 
-<img src="../media/kit_68.png" width="1000px" height="350px"/>
+<img src="../media/kit_68_cn.png" width="1000px" height="350px"/>
 
 ## 使用蓝牙模块
 ### 关于蓝牙模块
@@ -516,12 +516,12 @@ CocoRobo 的蓝牙模块为一款通信类模块，使用蓝牙 2.0 为通信协
 
 使用蓝牙模块时，请结合主控模块一起使用。
 
-![kit](../media/kit_69.jpg) ![kit](../media/kit_71.png) ![kit](../media/kit_70.jpg)
+![kit](../media/cocomod/蓝牙通信.jpg) ![kit](../media/kit_71.png) ![kit](../media/cocomod/主控.jpg)
 ### 使用蓝牙接收指令
 #### 蓝牙控制LED 灯
 本项目结合以下模块／配件一起使用：LED 模块、主控模块
 
-![kit](../media/kit_73.png)
+![kit](../media/kit_73_cn.png)
 
 项目描述：本项目将结合特定 Android app 进行，使用 app 中的滑动条，将会控制 LED 模块上的亮度（蓝色灯光）。
 
@@ -532,13 +532,13 @@ CocoRobo 的蓝牙模块为一款通信类模块，使用蓝牙 2.0 为通信协
 
 ![kit](../media/kit_74.png)
 ##### 程序示例
-![kit](../media/kit_75.png)
+![kit](../media/kit_75_cn.png)
 #### 蓝牙控制电机
 **注：电机驱动模块不含在智能家居套件中，如欲使用，请联系销售购买或者获取样品**
 
 本项目结合以下模块／配件一起使用：电机驱动模块、主控模块、2 个 TT 电机
 
-![kit](../media/kit_76.png)
+![kit](../media/kit_76_cn.png)
 
 项目描述：本项目将结合特定 Android app 进行，使用 app 中的4个按钮，来控制两个电机的转动方向。
 
@@ -549,14 +549,14 @@ CocoRobo 的蓝牙模块为一款通信类模块，使用蓝牙 2.0 为通信协
 
 ![kit](../media/kit_78.png)
 ##### 程序示例
-<img src="../media/kit_79.png" width="250px" height="450px"/>
+<img src="../media/kit_79_cn.png" width="250px" height="450px"/>
 
 #### 蓝牙控制伺服电机
 **注：伺服电机转接驱动模块不含在智能家居套件中，如欲使用，请联系销售购买或者获取样品**
 
 本项目结合以下模块／配件一起使用：伺服电机转接模块、主控模块、1 个9g 伺服电机
 
-![kit](../media/kit_80.png)
+![kit](../media/kit_80_cn.png)
 
 项目描述：
 本项目将结合特定 Android app 进行，使用 app 中的滑动条，控制伺服电机转接模块上的所有 6 个接口的角度
@@ -568,7 +568,7 @@ CocoRobo 的蓝牙模块为一款通信类模块，使用蓝牙 2.0 为通信协
 
 ![kit](../media/kit_82.png)
 ##### 程序示例
-<img src="../media/kit_83.png" width="450px" height="400px"/>
+<img src="../media/kit_83_cn.png" width="450px" height="400px"/>
 
 ## 使用 WiFi 模块
 - [关于 Wi-Fi 模块](/cocomod/wifi)
@@ -577,19 +577,19 @@ CocoRobo 的蓝牙模块为一款通信类模块，使用蓝牙 2.0 为通信协
 
 实现的效果：【CocoCloud显示环境传感模块读取的实时数据】
 
-<img src="../media/kit_88.jpg" width="100px" height="100px" />　<img src="../media/kit_89.png" width="200px" height="150px" />
+<img src="../media/kit_88.jpg" width="100px" height="100px" />　<img src="../media/cocoCloud_project_1_2_cn.png" width="200px" height="150px" />
 
 制作的步骤：
 * STEP 1 — 注册Cocorobo账号
 
 　　为了更好地使用CocoBlockly编写程序，先注册一个CocoRobo账号，成功注册账号后，可使用CocoRobo的云端储存功能和CocoCloud的数据可视化功能。CocoRobo账号可以前往Cocorobo官方网站主页注册，登录后，CocoCloud网站将同步登录你的账号。
 
-![kit](../media/kit_90.png)
+![kit](../media/kit_90_cn.png)
 * STEP 2 — 编写主控模块的程序：使环境传感模块读取环境的数据，并且将数据发送WiFi通信模块
 
 请前往CocoBlockly平台 http://cocorobo.cn/cocoblockly/dev  的主控模式进行程序编写，然后将程序单独上传至主控模块。
 
-![kit](../media/kit_92.png) 　![kit](../media/kit_93.png)
+![kit](../media/kit_92_cn.png) 　![kit](../media/kit_93_cn.png)
 * STEP 3 — 前往CocoCloud，新建Event，获取URL地址
 
 ![kit](../media/kit_91.png)

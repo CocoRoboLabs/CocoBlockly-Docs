@@ -70,7 +70,7 @@
 打开串口监控视窗，连接主控并晃动模块，可以看到加速度的数值改变
 
 <div style="text-align:center;">
-<img src="../media/motion_8_1.png" width=50%/>
+<img src="../media/motion_8_1_cn.png" width=50%/>
 </div>
 
 <!--
@@ -118,7 +118,7 @@ Coming soon.
 打开串口监控视窗，连接主控并向不同角度转动模块，可以看到旋转度的数值改变
 
 <div style="text-align:center;">
-<img src="../media/motion_12.png" width=50%/>
+<img src="../media/motion_12_cn.png" width=50%/>
 </div>
 
 ---

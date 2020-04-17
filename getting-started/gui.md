@@ -1,7 +1,7 @@
 ## CocoBlockly 界面介绍
 ---
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_cn.png" width="100%" /></div>
 
 1. **程序档案名称**：当前正在编辑的程序档案的名称，会成为下载后的程序档案名，右侧两个按钮分别为「删除所有积木」和「将所有积木截屏并导出图片」；
 2. **通用工具列**：包含常用的一些功能，比如：导入/导出项目文件、在线帮助等；
@@ -18,16 +18,16 @@
 	- F：上载，将写好的积木程序编译，编译完以后将程序上传至已经连接好的主控模块或者 WiFi 通信模块中；
 	- G：重启 Uploader，如遇到任何上传问题，您可以尝试点击该按钮将本机的 CocoBlockly Uploader 重启再试；
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_1.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_1_cn.png" width="100%" /></div>
 
 8. **串口监控视窗**：点击「侧边工具栏」中的「串口监控视窗区域」，可以切换到「串口监控视窗」；「串口监控视窗」可以配合「程序上传区」对电子模块进行调试
 9. **侧边工具栏**：包含：「Arduino 代码区域 & 上传区域」、「串口监控视窗区域」、「全屏模式」功能；
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_2.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_2_cn.png" width="100%" /></div>
 
 10. **全屏模式**：点击「侧边工具栏」中的「全屏模式」，将放大整个「积木设计区」至全屏；
 
-<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_3.jpg" width="100%" /></div>
+<div style="padding: 10px 0 10px 0;text-align: center;"><img src="../media/info_all_mark_3_cn.png" width="100%" /></div>
 
 11. **语言切换**：点击「侧边工具栏」中的「语言选择」，可以切换至不同语言的界面；
 12. **应用中心**：点击「侧边工具栏」中的「应用中心」，可以打开「应用中心」弹窗

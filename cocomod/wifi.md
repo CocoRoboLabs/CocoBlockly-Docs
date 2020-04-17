@@ -7,7 +7,7 @@ Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT
 
 ## 模块主要部件
 
-<img src="/media/cocomod/modPic_0003_R0010176.jpg" width="350"/>
+<img src="/media/wifi/wifi_cn.png" width="350"/>
 
 <table style="margin-top:20px;">
 	<tr>
@@ -81,8 +81,8 @@ Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT
 
 给 WiFi 通信模块进行编程时，我们需要在 CocoBlockly 的界面右下角「程序上传区」中，点击红色框中的切换按钮，切换为 WiFi 模式。
 
-![wifi](../media/wifi/intro_wifi_3.png)
-![wifi](../media/wifi/intro_wifi_2.png)
+![wifi](../media/wifi/intro_wifi_3_cn.png)
+![wifi](../media/wifi/intro_wifi_2_cn.png)
 
 **当我们制作一个与外接通信的 IoT （物联网） 项目时，需要给项目中的主控模块和 WiFi 通信模块分别上传对应模式下所编写的程序，上传程序成功后再将主控模块与 WiFi 通信模块拼接在一起。**下图示范了制作一个 IoT 项目所需要的程序开发流程。
 
@@ -111,75 +111,75 @@ Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT
     <th>简介</th>
   </tr>
   <tr  >
-    <td> <img src="../media/wifi/wifi_network_detail_1.png"> </td>
+    <td> <img src="../media/wifi/wifi_network_detail_1_cn.png"> </td>
     <td> a.联网积木: 设置连接的热点名称与密码 <br> b.连接判断积木: 判断是否连接成功 <br> c.本地IP积木:获取连接无线网络的WIFI的IP地址</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_network_detail_2.png"> </td>
+    <td> <img src="../media/wifi/wifi_network_detail_2_cn.png"> </td>
     <td> a.热点积木: 设置自身热点名称与密码(密码不小于八位) </td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi_new_1.png"> </td>
+    <td> <img src="../media/wifi_new_1_cn.png"> </td>
     <td> a.发送积木: 与主控通信积木，向主控发送包含数据的数字数组(注意：单个数据取值范围为0~255) </td>
   </tr>
     <tr>
-    <td> <img src="../media/wifi_new_2.png"> </td>
+    <td> <img src="../media/wifi_new_2_cn.png"> </td>
     <td> a.接收积木:与主控通信积木，接收主控传输过来的数据，需设置长度 <br> b.取值积木: 与接收积木同用，获取主控传输过来的单个数据，以0为起始位数 <br> c. 可设定接受到的字符串类型：字符串（String）、整数数值（Number）、带小数点的数值（Float）</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webservice_detail_1.png"> </td>
+    <td> <img src="../media/wifi/wifi_webservice_detail_1_cn.png"> </td>
     <td> a. ThingSpeak积木: 向ThingSpeak项目发送数据，需从ThingSpeak项目获取API-Key </td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webservice_detail_2.png"> </td>
+    <td> <img src="../media/wifi/wifi_webservice_detail_2_cn.png"> </td>
     <td> a. IFTTT积木: 向IFTTT项目发送数据，需从IFTTT项目获取API-Key；Webhood类型：选择获取数据或者发送数据，发送的数据最多为三个</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webservice_detail_3.png"> </td>
+    <td> <img src="../media/wifi/wifi_webservice_detail_3_cn.png"> </td>
     <td> a.CocoCloud发送积木:向CocoCloud发送数据，需要设置项目API-key以及发送数据的属性名</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webservice_detail_4.png"> </td>
+    <td> <img src="../media/wifi/wifi_webservice_detail_4_cn.png"> </td>
     <td> a.CocoCloud获取积木: 从CocoCloud获取项目数据 <br> b.按属性名获取数据合集中的数据</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_1.png"> </td>
+    <td> <img src="../media/wifi/wifi_server_detail_1_cn.png"> </td>
     <td> a.服务器初始化积木: 设置服务器</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_2.png"> </td>
+    <td> <img src="../media/wifi/wifi_server_detail_2_cn.png"> </td>
     <td> a.设置主页积木: 设置主页积木，主页进入网址"http://192.168.4.1" (注意:需要连接服务器所在WiFi板设置的热点,才能进入主页)</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_3.png"> </td>
+    <td> <img src="../media/wifi/wifi_server_detail_3_cn.png"> </td>
     <td> a. 服务器路由设置积木:设置不同路径与对应响应事件</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_4.png"> </td>
+    <td> <img src="../media/wifi/wifi_server_detail_4_cn.png"> </td>
     <td> a.服务器发送积木: 向请求服务器设定路径的客户端发送对应指定数据</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_server_detail_5.png"> </td>
+    <td> <img src="../media/wifi/wifi_server_detail_5_cn.png"> </td>
     <td> a.服务器接收积木: 接收客户端向指定路径发送的数据 <br> b.数据获取积木: 从接收到的数据合集中获取指定下标的数据</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_client_detail_1.png"> </td>
+    <td> <img src="../media/wifi/wifi_client_detail_1_cn.png"> </td>
     <td> a.客户端初始化积木： 初始化客户端</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_client_detail_2.png"> </td>
+    <td> <img src="../media/wifi/wifi_client_detail_2_cn.png"> </td>
     <td> a. 客户端GET请求积木: 设置路径，向服务端发起对应HTTP请求，并获得数据(注意: 路径与服务端路由路径格式一致) <br> b.数据获取积木: 从接收到的数据合集中获取指定下标的数据</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_client_detail_3.png"> </td>
+    <td> <img src="../media/wifi/wifi_client_detail_3_cn.png"> </td>
     <td> a.客户端POST请求积木: 设置路径，向服务端发起对应HTTP请求，并发送数据(注意: 路径与服务端路由路径格式一致)</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webpage_detail_1.png"> </td>
+    <td> <img src="../media/wifi/wifi_webpage_detail_1_cn.png"> </td>
     <td> a. 网页构建Label积木：可构建一个网页，显示对应Label与设定数据，网页网址为"http://192.168.4.1"</td>
   </tr>
   <tr>
-    <td> <img src="../media/wifi/wifi_webpage_detail_2.png"> </td>
+    <td> <img src="../media/wifi/wifi_webpage_detail_2_cn.png"> </td>
     <td> a.网页构建Button积木：可构建一个网页，显示对应命名的按钮，点击按钮触发HTTP请求事件，向设定的服务器路径发送按钮命名。网页网址为"http://192.168.4.1"</td>
   </tr>
 </table>
@@ -200,21 +200,21 @@ Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT
 
 * 连接网络 : 网络连接成功，串口会在第一时间打印“WiFi connected”, 但如果未能观察到该提示也属正常情况，具体看打开串口通信的时间是否及时。
 
-![wifi__main](../media/wifi/wifi_network_1_connect.png)
+![wifi__main](../media/wifi/wifi_network_1_connect_cn.png)
 
 * 连接网络失败 : 串口会持续打印 “ . ”, 表示在尝试网络连接
 
-![wifi__main](../media/wifi/wifi_network_1_unconnect.png)
+![wifi__main](../media/wifi/wifi_network_1_unconnect_cn.png)
 
 2. 热点积木 : 设置热点网络名称和密码，并建立本地网络
 
 * 建立热点
 
-![wifi__main](../media/wifi/wifi_network_2_success.png)
+![wifi__main](../media/wifi/wifi_network_2_success_cn.png)
 
 * 密码设置应大于8位, 否则无法建立热点
 
-![wifi__main](../media/wifi/wifi_network_2_wrongSetting.png)
+![wifi__main](../media/wifi/wifi_network_2_wrongSetting_cn.png)
 
 3. 连接判断积木 : 判断网络是否连接
 
@@ -222,7 +222,7 @@ Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT
 
 * 连接网络，打印IP地址
 
-![wifi__main](../media/wifi/wifi_network_3_IPaddr.png)
+![wifi__main](../media/wifi/wifi_network_3_IPaddr_cn.png)
 
 ---
 
@@ -238,16 +238,16 @@ Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT
 * 提示：为发送积木的数组增加长度的方式参见下图：
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="../media/wifi/wifi_transfer_1_help.gif" width=40%/>
+<img src="../media/wifi/wifi_transfer_1_help_cn.gif" width=40%/>
 </div>
 
 *  发送数据数组[1,"cocorobo"]至主控模块
 
 <div style="text-align:center;margin:0 0 10px 0;">
-<img src="../media/wifi/wifi_transfer_1_sendvar.png"/>
+<img src="../media/wifi/wifi_transfer_1_sendvar_cn.png"/>
 </div>
 
-![wifi__main](../media/wifi/wifi_transfer_1_sendvar_main.png)
+![wifi__main](../media/wifi/wifi_transfer_1_sendvar_main_cn.png)
 
 上传程序成功后，用 USB 线连接好主控模块至电脑，然后打开串口监控视窗点击「连接」
 
@@ -260,23 +260,23 @@ Wi-Fi 通信模块负责进行数据的无线传输，支持 HTTP/WebSocket/MQTT
 
 * 传输失败 : 接收主控模块传输的数据出错。通常是 WiFi 通信模块未与主控模块拼接在一起时出现
 
-![wifi__main](../media/wifi/wifi_transfer_2_receivefail.png)
+![wifi__main](../media/wifi/wifi_transfer_2_receivefail_cn.png)
 
 3. 取值积木 : 与接收积木一起使用，获取主控传输过来的单个数据，以0为所获取数组的起始位
 
 * 提示：为传输数据积木的数组增加长度的方式参见下图：
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="../media/wifi/wifi_transfer_3_help.gif" width=40%/>
+<img src="../media/wifi/wifi_transfer_3_help_cn.gif" width=40%/>
 </div>
 
 *  WiFi 通信模块接收主控模块传输的数组数据[100,"cocorobo"]，并且打印到串口
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="../media/wifi/wifi_transfer_3_print_main.png"/>
+<img src="../media/wifi/wifi_transfer_3_print_main_cn.png"/>
 </div>
 
-![wifi__main](../media/wifi/wifi_transfer_3_print.png)
+![wifi__main](../media/wifi/wifi_transfer_3_print_cn.png)
 
 ---
 
@@ -292,35 +292,35 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 
 * 积木显示
 
-![wifi__main](../media/wifi/wifi_webservice_1_intro.png)
+![wifi__main](../media/wifi/wifi_webservice_1_intro_cn.png)
 
 2. IFTTT积木 : IFTTT是一个多功能网络服务平台，可通过收集的模块信息设置特定的其他网络服务反馈，如发送Email。详情可见 [IFTTT使用介绍](/cocomod/ifttt)
 
 * 积木显示 : 获取数据选项,向IFTTT特定项目获取信息
 
-![wifi__main](../media/wifi/wifi_webservice_2_intro1.png)
+![wifi__main](../media/wifi/wifi_webservice_2_intro1_cn.png)
 
 * 积木显示 : 发送数据选项，向IFTTT特定项目发送数据，可发送的数据个数为三个
 
-![wifi__main](../media/wifi/wifi_webservice_2_intro2.png)
+![wifi__main](../media/wifi/wifi_webservice_2_intro2_cn.png)
 
 3. CocoCloud发送积木 : Cococloud是cocorobo自主研发的云端平台，可用于存储模块收集的信息与可视化。详情可见 [CocoCloud使用介绍](/cocomod/coco-cloud)
 
 * 发送数据设置:向特定云端项目发送数据{属性名为“EM_data0”，值为 0}
 
-![wifi__main](../media/wifi/wifi_webservice_3_intro.png)
+![wifi__main](../media/wifi/wifi_webservice_3_intro_cn.png)
 
 4. CocoCloud获取积木 :
 
 * 获取云端数据设置:从特定云端项目获取数据，并存到rxCloud中
 
-![wifi__main](../media/wifi/wifi_webservice_4_intro.png)
+![wifi__main](../media/wifi/wifi_webservice_4_intro_cn.png)
 
 5. CocoCloud取值积木 :
 
 * 根据属性取值:从rxCloud中获取属性名为“EM_data0”,并且类型为Text的数据
 
-![wifi__main](../media/wifi/wifi_webservice_5_intro.png)
+![wifi__main](../media/wifi/wifi_webservice_5_intro_cn.png)
 
 ---
 
@@ -336,7 +336,7 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 
 * 积木显示
 
-![wifi__main](../media/wifi/wifi_server_1_intro.png)
+![wifi__main](../media/wifi/wifi_server_1_intro_cn.png)
 
 1. 设置主页积木 :
 
@@ -344,15 +344,15 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 
 > 关于网页制作的积木介绍请参见 [网页制作积木单元](#网页制作积木单元)
 
-![wifi__main](../media/wifi/wifi_server_2_intro.png)
+![wifi__main](../media/wifi/wifi_server_2_intro_cn.png)
 
-![wifi__main](../media/wifi/wifi_server_2_intro2.png)
+![wifi__main](../media/wifi/wifi_server_2_intro2_cn.png)
 
 3.设置路径积木 :
 
 * 设置简单的路径: 设置路径“/hi”, 当客户端在浏览器访问该路径（192.168.4.1/hi）时，该服务端 WiFi 通信模块在串口打印 “Hello world”。 *注意电脑要先连接热点"CocoRobo"*
 
-![wifi__main](../media/wifi/wifi_server_3_intro.png)
+![wifi__main](../media/wifi/wifi_server_3_intro_cn.png)
 
 最终结果：
 
@@ -362,7 +362,7 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 
 * 服务器响应发送数据 “1”: 设置路径“/hi”, 当客户端访问该路径（192.168.4.1/hi）时，该服务端 WiFi 通信模块服务器向客户端发送数据 “1”
 
-![wifi__main](../media/wifi/wifi_server_4_intro.png)
+![wifi__main](../media/wifi/wifi_server_4_intro_cn.png)
 
 最终结果：
 
@@ -374,13 +374,13 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 
 * 服务器响应接收数据:设置路径“/hi”, 当客户端通过该路径（192.168.4.1/hi）向该 WiFi 通信模块服务器发送数据的时候，服务器端接收数据，并存到命名为Data_receive的数组中
 
-![wifi__main](../media/wifi/wifi_server_5_intro.png)
+![wifi__main](../media/wifi/wifi_server_5_intro_cn.png)
 
 6.服务器接收数据的取值积木 :
 
 * 从服务器接收的数据中取值积木：从数组Data_receive中获取第一位类型为数字的值。与「服务器接收数据积木」一起使用
 
-![wifi__main](../media/wifi/wifi_server_6_intro.png)
+![wifi__main](../media/wifi/wifi_server_6_intro_cn.png)
 
 ---
 
@@ -396,23 +396,23 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 
 * 积木显示
 
-![wifi__main](../media/wifi/wifi_client_1_intro.png)
+![wifi__main](../media/wifi/wifi_client_1_intro_cn.png)
 
 2. 客户端接收数据积木 : GET请求积木
 
 * 向服务器请求获取数据: 向服务器路径为“/hi”的地址（即192.168.4.1/hi）请求数据，并存到客户端 WiFi 通信模块的Data_receive数组中
 
-![wifi__main](../media/wifi/wifi_client_2_intro.png)
+![wifi__main](../media/wifi/wifi_client_2_intro_cn.png)
 
 * 从获取的数据中取第一位类型为数字的值：从数组Data_receive中获取第一位类型为数字的值
 
-![wifi__main](../media/wifi/wifi_client_2_intro2.png)
+![wifi__main](../media/wifi/wifi_client_2_intro2_cn.png)
 
 3. 客户端发送数据积木  : POST请求积木
 
 * 向服务器发送数据： 向服务器路径为“/hi”的地址（即192.168.4.1/hi）发送数据[12]
 
-![wifi__main](../media/wifi/wifi_client_3_intro.png)
+![wifi__main](../media/wifi/wifi_client_3_intro_cn.png)
 
 ---
 
@@ -428,14 +428,14 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 
 * 设置一个网站，内容标签为“Data”，对应数据为“123456”的字符串 :
 
-![wifi__main](../media/wifi/wifi_webpage_1_intro.png)
+![wifi__main](../media/wifi/wifi_webpage_1_intro_cn.png)
 
-![wifi__main](../media/wifi/wifi_webpage_1_intro2.png)
+![wifi__main](../media/wifi/wifi_webpage_1_intro2_cn.png)
 
 * 提示：为「设置网址-LABEL显示积木」增加 LABEL 的方法如下图：
 
 <div style="text-align:center;margin:0 0 15px 0;">
-<img src="../media/wifi/wifi_webpage_1_help.gif" width=50%/>
+<img src="../media/wifi/wifi_webpage_1_help_cn.gif" width=50%/>
 </div>
 
 **注意：「设置网址-LABEL显示积木」只允许使用一次，不可以将多个此类积木拼接在一起，想要添加多个 LABEL 可参见上图；此外，也不可以与「设置网址-Button设置积木」拼接在一起**
@@ -444,14 +444,14 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 
 * 设置按钮名称为 “Test”，路径为 “/1” :应当配合使用「服务器设置主页积木」，并且设置「Wed Dashboard-按钮积木」的路径为 “/1”,作为响应处理
 
-![wifi__main](../media/wifi/wifi_webpage_2_intro.png)
+![wifi__main](../media/wifi/wifi_webpage_2_intro_cn.png)
 
-![wifi__main](../media/wifi/wifi_webpage_2_intro2.png)
+![wifi__main](../media/wifi/wifi_webpage_2_intro2_cn.png)
 
 * 提示：为「设置网址-Button设置积木」增加 Button 的方法如下图：
 
 <div style="text-align:center;margin:0 0 15px 0;">
-<img src="../media/wifi/wifi_webpage_2_help.gif" width=50%/>
+<img src="../media/wifi/wifi_webpage_2_help_cn.gif" width=50%/>
 </div>
 
 **注意：「设置网址-Button设置积木」只允许使用一次，不可以将多个此类积木拼接在一起，想要添加多个 Button 可参见上图；此外，也不可以与「设置网址-LABEL显示积木」拼接在一起**
@@ -495,26 +495,26 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 * 主控模式 - 传输教学模块 pin 12 开关的数据至 WiFi 通信模块
   程序下载： <a href="../xml/project1/BASIC_main.xml" download >BASIC_main.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_1_S_main.png)
+![wifi__main](../media/wifi/wifi_project_1_S_main_cn.png)
 
 * WiFi模式 - 设置热点，设置本地服务器，接收主控传输过来的数据，设置响应路径
   程序下载： <a href="../xml/project1/BASIC_wifi.xml" download >BASIC_wifi.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_1_S_wifi.png)
+![wifi__main](../media/wifi/wifi_project_1_S_wifi_cn.png)
 
 ##### 客户端程序预览
 
 * 主控模式 - 接收在此客户端上的 WiFi 通信模块传输过来的数据，根据数据对应内容设置 LED 灯
   程序下载： <a href="../xml/project1/LED_main.xml" download >LED_main.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_1_C_main.png)
+![wifi__main](../media/wifi/wifi_project_1_C_main_cn.png)
 
 * WiFi模式 - 设置连网，设置客户端发起请求，请求从服务端获取数据，并把发送请求到的数据再传输到主控
   程序下载： <a href="../xml/project1/LED_wifi.xml" download >LED_wifi.xml</a>
 
 > 注意：此处获取服务器端传过来的数值需要先赋值给变量才可以正常使用
 
-![wifi__main](../media/wifi/wifi_project_1_C_wifi.png)
+![wifi__main](../media/wifi/wifi_project_1_C_wifi_cn.png)
 
 ##### 最终结果
 
@@ -543,12 +543,12 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 * 主控模式 - 传输环境模块读取的数据至 WiFi 通信模块
   程序下载： <a href="../xml/project2/ENV_dashboard_main.xml" download >Env_dashboard_main.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_2_S_main.png)
+![wifi__main](../media/wifi/wifi_project_2_S_main_cn.png)
 
 * WiFi模式 - 设置热点，设置本地服务器，接收主控传输的数据，设置主页
   程序下载： <a href="../xml/project2/ENV_dashboard_wifi.xml" download >Env_dashboard_wifi.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_2_S_wifi.png)
+![wifi__main](../media/wifi/wifi_project_2_S_wifi_cn.png)
 
 ##### 效果展示（客户端）
 
@@ -573,16 +573,16 @@ WEB服务包含IFTTT，Thingspeak，CocoCloud相关积木，允许模块与这�
 ##### 服务端程序预览
 
 * 主控模式 - 接收从 WiFi 通信模块传输过来的数据，设置 LED 灯
-  程序下载： <a href="../xml/project3/LIGHT_dashboard_main.xml" download >LIGHT_dashboard_main.xml</a>
+  程序下载： <a href="../xml/project1/LIGHT_dashboard_main.xml" download >LIGHT_dashboard_main.xml</a>
 
-![wifi__main](../media/wifi/wifi_project_3_S_main.png)
+![wifi__main](../media/wifi/wifi_project_3_S_main_cn.png)
 
 * WiFi模式 - 设置热点，设置本地服务器，设置主页，设置响应路径，传输数据至主控模块
   程序下载： <a href="../xml/project1/LIGHT_dashboard_wifi.xml" download >LIGHT_dashboard_wifi.xml</a>
 
 > 注意：此处获取服务器端传过来的数值需要先赋值给变量才可以正常使用
 
-![wifi__main](../media/wifi/wifi_project_3_S_wifi.png)
+![wifi__main](../media/wifi/wifi_project_3_S_wifi_cn.png)
 
 ##### 效果展示（客户端）
 

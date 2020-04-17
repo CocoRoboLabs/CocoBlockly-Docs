@@ -1,0 +1,55 @@
+wifi$<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="wifiNetwork_AP" id="t-gS}8~(~8dg:IrcDXGz" x="70" y="25">
+    <field name="SSID">CocoRobo</field>
+    <field name="PW">cocorobo</field>
+  </block>
+  <block type="wifiServer_setup" id="G}0A8wWKrYnupx.eOj{;" x="256" y="75"></block>
+  <block type="wifiServer_setRootPage" id="oJX!n2d*/mlrv8K0y]U|" x="54" y="164">
+    <statement name="STATEMENT0">
+      <block type="webpage_button" id="0(|c{T(J+Fqxh873IeG^">
+        <mutation items="1"></mutation>
+        <field name="BUTTON0">on</field>
+        <field name="URL0">/light</field>
+        <next>
+          <block type="webpage_button" id="Tw17D9;9^~!adxV5fb/W">
+            <mutation items="1"></mutation>
+            <field name="BUTTON0">off</field>
+            <field name="URL0">/light</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="wifiServer_setRouter" id="7VZu-ckRqTro%11i^pU#" x="59" y="461">
+    <mutation items="1"></mutation>
+    <field name="URL0">/light</field>
+    <statement name="STATEMENT0">
+      <block type="wifiServer_Receive" id="Zsja#0VyF)d,odfL3iXb">
+        <field name="VAR">Data_receive</field>
+        <field name="LENGTH">1</field>
+      </block>
+    </statement>
+    <next>
+      <block type="variables_set" id="A}Df=_TGw}byMQ(8cO1{">
+        <field name="VAR">item</field>
+        <value name="VALUE">
+          <block type="wifiServer_Receive_getValue" id="nc=Lun_+~c`GH8(gZTl4">
+            <field name="VAR">Data_receive</field>
+            <field name="INDEX">0</field>
+            <field name="TYPE">String</field>
+          </block>
+        </value>
+        <next>
+          <block type="wifiTransfer_send" id="T!AT@vk`ei,BMB(f#+=}">
+            <mutation items="1"></mutation>
+            <value name="ADD0">
+              <block type="variables_get" id="W,7c`Dv7N(,jbzUX{Gb8">
+                <field name="VAR">item</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

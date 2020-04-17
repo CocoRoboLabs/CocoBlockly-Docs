@@ -112,18 +112,18 @@
 ![kit](../media/kit_187.png)
 
 16.伺服电机模块共有 6 组控制端口，为 D(3~13), VCC, GND，分别对应「信号控制端口」、「正极」和「负极」，按照顺序，将伺服电机的线对应连接在伺服电机模块上的 3, 5, 6, 9 处。
-   
+
    注意！切勿接反！请参考下图连接
-   
+
 ![kit](../media/kit_188.png)
 ### 完成组装
 将模块插在机械人身体模型件上，至此完成双足机械人的组装！
 
 ![kit](../media/kit_189.jpg)
 ## 双足机械人编程
-![kit](../media/kit_189.png)
+![kit](../media/kit_189_cn.png)
 
 前往 CocoBlockly，在「伺服电机」那栏拖入如上图所示的两个积木，改动第一个空以改变双足的行动动作
 
-![kit](../media/kit_190.png)
+![kit](../media/kit_190_cn.png)
 ###### Send your question to [it@cocorobo.cn](http://cocorobo.cn/online/) for support

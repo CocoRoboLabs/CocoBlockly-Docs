@@ -89,7 +89,7 @@
 
 > 注：在 macOS 作业系统中，上传完人机交互程序后，CocoBlockly 界面中右下角上传区的端口号会变为带有「HIDFG」的名称，这意味著你的主控模块已经成功被电脑识别为人机交互装置，但名称的改变不会影响之后的程序上传
 
-<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/hid_tip.jpg" width="50%" /></div>
+<div style="border:1px solid rgba(0,0,0,.1);padding: 10px 0 10px 0;text-align: center;"><img src="../media/mac_upload_cn.png" width="50%" /></div>
 
 
 ---

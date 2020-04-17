@@ -149,7 +149,7 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
 **注意：**给 NB-IoT 通信模块通电后需按住 power on 按钮2秒才能让模块开机，模块开机后会在串口监控视窗打印开机提示
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project1_2.png" width=60%/>
+<img src="/media/nbiot_project1_2_cn.png" width=60%/>
 </div>
 
 ##### 最终结果
@@ -157,7 +157,7 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
 上传程序后打开串口监控视窗并连接主控模块，可以看到此时正在打印 NB-IoT 通信模块连接移动互联网后的网络IP
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project1_3.png" width=60%/>
+<img src="/media/nbiot_project1_3_cn.png" width=60%/>
 </div>
 
 ***
@@ -191,7 +191,7 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
 **注意：**给 NB-IoT 通信模块通电后需按住 power on 按钮2秒才能让模块开机，模块开机后会在串口监控视窗打印开机提示
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project1_2.png" width=60%/>
+<img src="/media/nbiot_project1_2_cn.png" width=60%/>
 </div>
 
 ##### 最终结果
@@ -199,13 +199,13 @@ NB-IoT 通信模块可以通过移动互联网访问 Coco Cloud 平台或 IFTTT 
 上传程序后打开串口监控视窗并连接主控模块，在串口中可以看到 NB-IoT 通信模块目前的状态
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project2_1.png" width=60%/>
+<img src="/media/nbiot_project2_1_cn.png" width=60%/>
 </div>
 
 查看 Coco Cloud 平台上「Environment」事件的数据
 
 <div style="text-align:center;margin:0 0 20px 0;">
-<img src="/media/nbiot_project2_3.png" width=100%/>
+<img src="/media/nbiot_project2_3_cn.png" width=100%/>
 </div>
 
 ***
