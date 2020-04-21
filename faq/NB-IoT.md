@@ -1,9 +1,7 @@
 
 # NB-IoT 常見問題解答
 
----
-
-#### 最新更新時間 2020-04-21
+最新更新時間 2020-04-21
 
 ---
 
@@ -106,6 +104,6 @@ Blynk是一個具有iOS和Android應用程序的平台，用於通過互聯網�
 1. Home Page: cocorobo.hk
 2. CocoBlockly: http://cocorobo.hk/cocoblockly/dev/?lang=zh-hant
 3. Cococloud: http://cocorobo.hk/cloud/login
-4. EDU platform: edu.cocorobo.hk
+4. EDU platform: http://edu.cocorobo.hk
 
 
