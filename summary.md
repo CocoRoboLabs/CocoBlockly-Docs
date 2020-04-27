@@ -1,6 +1,6 @@
 - [關於 CocoBlockly](index)
 - [常見問題解答](faq)
-	- [NB-IoT 常見問題解答](/faq/NB-IoT)
+	- [NB-IoT 主題](/faq/NB-IoT)
 - [開始使用 CocoBlockly](/getting-started/info)
 	- [軟件安裝指引](/getting-started/installation)
 	- [編程界面介紹](/getting-started/gui)
