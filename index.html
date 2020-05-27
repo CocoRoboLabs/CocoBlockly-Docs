@@ -29,6 +29,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="http://cocorobo.hk/cocoblockly/dev/img/ms-icon-144x144.png">
     <script type="text/javascript" src="colorpicker.js"></script>
+    <link href="./lightbox.min.css" rel="stylesheet" />
     <script type="text/javascript">
         document.domain = "cocorobo.hk"
     </script>
@@ -155,12 +156,44 @@
         // })
         function myFunction() {
             hash = window.location.hash
+            setTimeout(() => {
+                imgload();
+            }, 500)
         }
         document.getElementById('english').onclick = function () {
             window.location.href = `http://help-english.cocorobo.hk/${hash}`
         }
         document.getElementById('cn').onclick = function () {
             window.location.href = `http://help.cocorobo.cn/${hash}`
+        }
+    </script>
+    <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+    <script>
+        window.onload = imgload = function () {
+            let imgs = document.getElementsByTagName('img')
+            for (let i = 0; i < imgs.length - 1; i++) {
+                imgs[i].onclick = function () {
+                    let parent = imgs[i].parentNode;
+                    let num = 0
+                    for (let j = 0; j < parent.children.length; j++) {
+                        let parentStr = decodeURI(parent.children[j] && parent.children[j].src) || '';
+                        let imgSrc = imgs[i].src
+                        if ((parentStr && parentStr.slice(parentStr.lastIndexOf('/') + 1, parentStr.lastIndexOf('.'))) === imgSrc.slice(imgSrc.lastIndexOf('/') + 1, imgSrc.lastIndexOf('.'))) {
+                            num = j;
+                            console.log(num)
+                        }
+                    }
+                    if (parent.tagName !== "A") {
+                        imgs[i].style.marginRight = 5 + 'px';
+                        let A = document.createElement('a')
+                        A.href = imgs[i].src;
+                        A.setAttribute('data-lightbox', imgs[i].src);
+                        A.appendChild(imgs[i]);
+                        parent.insertBefore(A, parent.children[num]);
+                        A.addEventListener('click', function () { })
+                    }
+                }
+            }
         }
     </script>
 </body>
