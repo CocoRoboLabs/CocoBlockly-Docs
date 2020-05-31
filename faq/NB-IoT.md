@@ -1,7 +1,7 @@
 
 # NB-IoT 常見問題解答
 
-最新更新時間 2020-04-21
+最新更新時間 2020-04-27
 
 ---
 
@@ -99,11 +99,43 @@ LED閃燈為黃色，快速閃爍黃燈代表正在連接，緩慢平穩的閃�
 
 Blynk是一個具有iOS和Android應用程序的平台，用於通過互聯網控制Arduino，Raspberry Pi等。它是一個數字儀表板，可以通過簡單的拖放小部件來構建項目的圖形界面。設置簡單，5分鐘內即可完成。
 
-## 16、本次工作坊使用的Website網址分別是什麼？
+---
 
-1. Home Page: cocorobo.hk
+## 16、Sim卡似乎沒有網絡無法連接成功？
+
+Sim 卡的缺角位應是向外，晶片那面要向下，此外NB-IoT模組需要開機，需按著PWRON制約2秒
+
+---
+
+## 17、儀表板中沒有數據顯示？
+
+在儀表板中要輸入事件名及數據名稱，同時，儀表板上顯示的數據需對應積木中的屬性
+
+---
+
+## 18、儀表板事件屬性顯示紅色字“該事件內無有效屬性”？
+
+儀表板定事件後,屬性現紅字：這是因爲事件中還沒有收到數據。需要先通過NBIOT上傳數據再設置儀表板
+
+---
+
+## 19、Sim卡Data Package有效期到幾時？
+
+Sim卡啟用後，有效期1年，1年NB-IoT Data Package, no data limitation
+
+---
+
+## 20、環境感應模組的針腳是否可以外接其他感應器？如果可以，這部分是否要用Arduino寫程式？
+
+環境感應模組可以接駁其他感應器，只要是Arduino-based即可。如果需要接駁很多感應器，建議加購轉接模組。目前CocoBlockly已經將一些常用的感應器積木集成在第三方感應器那裡，點擊之後可以看到相關積木。
+
+---
+
+## 21、本次工作坊使用的Website網址分別是什麼？
+
+1. Home Page: http://cocorobo.hk/
 2. CocoBlockly: http://cocorobo.hk/cocoblockly/dev/?lang=zh-hant
 3. Cococloud: http://cocorobo.hk/cloud/login
-4. EDU platform: http://edu.cocorobo.hk
+4. EDU platform: http://edu.cocorobo.hk/
 
 
