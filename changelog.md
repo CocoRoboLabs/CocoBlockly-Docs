@@ -144,4 +144,4 @@
 
 - - -
 
-如有任何疑问，请邮件联系：tommy@cocorobo.cc 感谢。
+如有任何疑问，请邮件联系：support-hk@cocorobo.cc 感谢。
