@@ -313,4 +313,4 @@
 
 - - -
 
-如有任何疑問，請郵件聯繫：tommy@cocorobo.cc 感謝。
+如有任何疑問，請郵件聯繫：support-hk@cocorobo.cc 感謝。
