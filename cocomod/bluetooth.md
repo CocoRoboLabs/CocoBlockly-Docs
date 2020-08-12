@@ -59,12 +59,12 @@ Please use the browser in your Android mobile phone to scan the QR code below an
 
 |No.| QR Code       | App Name    |   Introduction   |     Using Method    |
 |---|-------------------------|----------|------------------|------------------|
-|1. | <img src="../media/Coco_BT_Switch.png" width="80"/>     |   Coco BT Switch          |    Bluetooth control: button switch   | use switch button; send the data (a number) |
-|2. | <img src="../media/Coco_BT_Slider.png" width="80"/>              | Coco BT Slider  |  Bluetooth control: slider    | control the position of pointer in the slider; send the data (a number ranging from 0 to 100) |
-|3. | <img src="../media/Coco_BT_Motor_Control.png" width="80"/>                 | Coco BT Motor Controller    |  Bluetooth control: motor controller    | control the two motors' rotation direction and speed; send the data (the number or text shown on the button) |
-|4. | <img src="../media/Coco_BT_Servo_Control.png" width="80"/>                  | Coco BT Servo Controller    |  Bluetooth control: servo motor controller    | control the angles of the 6 servo motors simultaneously; send the data (a number) |
-|5. |  <img src="../media/Coco_Robot_Arm.png" width="80"/>               | Coco Robot Arm    |  Bluetooth control: robot arm        | open "Bluetooth" in the CocoBlockly and then select "Robot Arm Remote Control"; send the data (a number in the slider) |
-|6. | <img src="../media/Coco_Robot_Car.png" width="80"/>                 | Coco Robot Car    | Bluetooth control: robot car    | open "Bluetooth" in the CocoBlockly and then select "Robot Remote Control"; send the data (a text shown on the button) |
+|1. | <img src="../media/qrCode/Basic controller.png" width="80"/>     |   Coco BT Switch          |    Bluetooth control: button switch   | use switch button; send the data (a number) |
+|2. | <img src="../media/qrCode/Env Dashboard.png" width="80"/>              | Coco BT Slider  |  Bluetooth control: slider    | control the position of pointer in the slider; send the data (a number ranging from 0 to 100) |
+|3. | <img src="../media/qrCode/Env Control.png" width="80"/>                 | Coco BT Motor Controller    |  Bluetooth control: motor controller    | control the two motors' rotation direction and speed; send the data (the number or text shown on the button) |
+|4. | <img src="../media/qrCode/Arm Controller.png" width="80"/>                  | Coco BT Servo Controller    |  Bluetooth control: servo motor controller    | control the angles of the 6 servo motors simultaneously; send the data (a number) |
+|5. |  <img src="../media/qrCode/Car Controller.png" width="80"/>               | Coco Robot Arm    |  Bluetooth control: robot arm        | open "Bluetooth" in the CocoBlockly and then select "Robot Arm Remote Control"; send the data (a number in the slider) |
+|6. | <img src="../media/qrCode/Shooter.png" width="80"/>                 | Coco Robot Car    | Bluetooth control: robot car    | open "Bluetooth" in the CocoBlockly and then select "Robot Remote Control"; send the data (a text shown on the button) |
 
 ---
 
