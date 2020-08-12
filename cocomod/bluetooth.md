@@ -74,7 +74,7 @@
 		</tr>
 		<tr>
 			<td>基础类</td>
-			<td> <img src="../media/Coco_BT_Switch.png" width="100%"/> </td>
+			<td> <img src="../media/qrCode/Basic controller.png" width="100%"/> </td>
 			<td>Cocorobo: <br/>Basic controller</td>
 			<td>蓝牙控制模块：8合1控制器</td>
 			<td>应用内提供按钮、滑动条、手机加速仪数据、首季接近传感器数据的控制选项。</br><u><strong>注意要将蓝牙初始化及木中的数据数量调整为8</strong></u></td>
@@ -85,7 +85,7 @@
 		</tr>
 		<tr>
 			<td rowspan="5">原型类</td>
-			<td> <img src="../media/Coco_BT_Slider.png" width="100%"/> </td>
+			<td> <img src="../media/qrCode/Env Dashboard.png" width="100%"/> </td>
 			<td>CocoRobo:</br>Env Dashboard</td>
 			<td>蓝牙控制模块：</br>环境数据信息控制面板</td>
 			<td>应用内显示环境模块上的光照强度、声音强度、温度及温度数值</td>
@@ -95,7 +95,7 @@
 			<td>Android</td>
 		</tr>
 		<tr>
-			<td> <img src="../media/Coco_BT_Motor_Control.png" width="100%"/> </td>
+			<td> <img src="../media/qrCode/Env Control.png" width="100%"/> </td>
 			<td>CocoRobo:</br>Env Control</td>
 			<td>蓝牙控制模块：控制环境模块组件</td>
 			<td>应用内显示环境模块上的RGB LED灯以及蜂鸣器。</br><u><strong>注意要将蓝牙初始化及木中的数据数量调整为4</strong></u></td>
@@ -105,7 +105,7 @@
 			<td>Android</td>
 		</tr>
 		<tr>
-			<td> <img src="../media/Coco_BT_Servo_Control.png" width="100%"/> </td>
+			<td> <img src="../media/qrCode/Arm Controller.png" width="100%"/> </td>
 			<td>CocoRobo:</br>Arm Controller</td>
 			<td>蓝牙控制模块：机械臂控制</td>
 			<td>应用内通过滑动条控制插在舵机转接模块上的4个或者三个舵机<br/><u><strong>注意要将蓝牙初始化及木中的数据数量调整为4</strong></u>
@@ -116,7 +116,7 @@
 			<td>Android</td>
 		</tr>
 		<tr>
-			<td> <img src="../media/Coco_Robot_Arm.png" width="100%"/> </td>
+			<td> <img src="../media/qrCode/Car Controller.png" width="100%"/> </td>
 			<td>Cocorobo: <br/>Car Controller</td>
 			<td>蓝牙控制模块：小车控制</td>
 			<td>应用内通过4个按钮控制小车的前进后退以及左转右转</td>
@@ -126,7 +126,7 @@
 			<td>Android</td>
 		</tr>
 		<tr>
-			<td> <img src="../media/Coco_Robot_Car.png" width="100%"/> </td>
+			<td> <img src="../media/qrCode/Shooter.png" width="100%"/> </td>
 			<td>Cocorobo: <br/>Shooter</td>
 			<td>蓝牙控制模块：投射装置</td>
 			<td>应用内通过1个滑动条控制发射管的垂直角度（30-110）度范围和1个按钮来控制发射管上的送球用的舵机<u><strong>注意要将蓝牙初始化及木中的数据数量调整为2</strong></u></td>
