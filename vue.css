@@ -778,7 +778,7 @@ body {
     font-weight: 600
 }
 
-.sidebar ul li.active a {
+.sidebar ul li.active>a {
     border-right: 4px solid;
     color: var(--theme-color, #42b983);
     background-color: rgba(34,93,213,.1);
