@@ -1,7 +1,7 @@
-# 第二章 認識螢幕模組
+# 認識螢幕模組
 ---
 
-## 	G.螢幕模組
+## 	A.螢幕模組
 模組連接一個LCD彩色螢幕顯示器，螢幕解析度爲240 x 240 px (像素)，可顯示JPG, BMP 等格式圖片。像素，組成點陣數位影像的最小方塊單位，每個方塊都有一個明確的位置和被分配的色彩數值，小方格顏色和位置就決定該圖像所呈現出來的樣子。如下圖所示：
 <br>
 <img src="/media/ai/AI_g1.png" width="300"/><br>
@@ -18,7 +18,7 @@
 </table>
 
 ---
-## 	H.螢幕模組介紹
+## 	B.螢幕模組介紹
 <table style="margin-top:20px;">
 	<tr>
 		<td width="50%">積木</td>
@@ -177,11 +177,11 @@
 <img src="/media/ai/AI_I9.png" width="350"/>
 </td>
 </tr>
-<tr colspan=2>
-<td>參考程式：<br><img src="/media/ai/AI_I10.png" width="200"/><img src="/media/ai/AI_I11.png" width="200"/> </td>
+<tr>
+<td colspan=2>參考程式：<br><img src="/media/ai/AI_I10.png" width="200"/><img src="/media/ai/AI_I11.png" width="200"/> </td>
 </tr>
-<tr colspan=2>
-<td>運行結果：<br><img src="/media/ai/AI_I12.png" width="200"/><img src="/media/ai/AI_I13.png" width="200"/> </td>
+<tr >
+<td colspan=2>運行結果：<br><img src="/media/ai/AI_I12.png" width="200"/><img src="/media/ai/AI_I13.png" width="200"/> </td>
 </tr>
 </table>
 
@@ -213,7 +213,7 @@
 2)AI模組｜圖像處理：「繪製文本」放在「繪製矩形」指令之下<br>
 3)AI模組｜圖像處理：「顯示畫布」（必要積木，否則不會顯示任何訊息）
 </td><td>
-<img src="/media/ai/AI_I16.png" width="350"/><img src="/media/ai/AI_I17.png" width="350"/>
+<img src="/media/ai/AI_I21.png" width="350"/><img src="/media/ai/AI_I17.png" width="350"/>
 </td>
 </tr>
 <tr>
@@ -235,7 +235,7 @@
 </table>
 
 ---
-## J.	專題學習
+## C.	專題學習
 硬體設備：AI推理模組、螢幕模組<br>
 任務目標：運用「變數」及「循環」，用【線條】指令製作一個萬花筒動畫<br>
 基本流程/步驟：<br>
@@ -256,9 +256,9 @@
 放置【For循環】，設定變數i：由0-240，每次循環自動增加數值5，即i = 0, 5, 10, 15, ……, 240，目的是利用數值變化改變繪畫直線的座標位置，使其形成萬花筒效果。<br>
 <table style="margin-top:20px;">
 <tr>
-  <td >在步驟4【清除畫布】積木指令下，放置下列積木指令：<br>
+  <td >在步驟3【清除畫布】積木指令下，放置下列積木指令：<br>
 4)循環：【For循環】<br>
-5)AI模組｜圖像處理：【繪製直線】<br><br>
+5)AI模組｜圖像處理：【繪製直線】<br>
 6)AI模組｜圖像處理：【顯示畫布】<br>
 7)時間：【等待】
 </td><td>
