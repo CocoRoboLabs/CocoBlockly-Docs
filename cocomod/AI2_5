@@ -1,0 +1,138 @@
+# 第五章 認識音頻識別
+---
+
+##  A. 音頻識別原理
+採集周圍的環境聲音，並對採集的音頻進行频谱分析，分析其高低频的声音大小，然後將聲音大小的變化數值進行處理，轉化為圖像座標及圓心半徑，並以圖形的形式展現聲音的大小。
+
+##  B. 任務目標
+編寫積木塊程式，完成讀取環境音頻頻譜功能，並處理音頻頻譜數據，將其賦值給相應變數，最後，在螢幕上顯示對應音頻數據音頻高低的動態效果。
+
+##  C. 相關積木塊介紹
+<table style="margin-top:20px;">
+	<tr>
+		<td width="50%">積木</td>
+		<td width="20%">指令</td>
+    <td width="30%">說明</td>
+	</tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C1.png" width="150"/></td>
+    <td width="20%">初始化</td>
+    <td width="30%">初始化螢幕</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI5_C1.png" width="150"/></td>
+    <td width="20%">建立畫布</td>
+    <td width="30%">建立畫布並定義畫布的大小</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI5_C2.png" width="200"/></td>
+    <td width="20%">咪高峰初始化</td>
+    <td width="30%">初始化咪高峰</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI5_C3.png" width="200"/></td>
+    <td width="20%">讀取音頻頻譜</td>
+    <td width="30%">開始讀取音頻頻譜</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI5_C4.png" width="200"/></td>
+    <td width="20%">獲取頻譜數據</td>
+    <td width="30%">獲取咪高峰採集的音頻頻譜數據：<img src="/media/ai/AI5_C5.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI5_C6.png" width="200"/></td>
+    <td width="20%">變量賦值</td>
+    <td width="30%">為定義的變量賦值為某個值</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI5_C7.png" width="200"/></td>
+    <td width="20%">定義變數</td>
+    <td width="30%">定義一個新的變數</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C16.png" width="200"/></td>
+    <td width="20%">數學運算</td>
+    <td width="30%">數學運算：int數據格式</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C17.png" width="200"/></td>
+    <td width="20%">數學運算</td>
+    <td width="30%">包括：+, -, x, ÷ 四則運算</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI5_C8.png" width="200"/></td>
+    <td width="20%">清除畫布</td>
+    <td width="30%">清除所選畫布中的所有內容</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI4_C11.png" width="200"/></td>
+    <td width="20%">繪製圓形</td>
+    <td width="30%">在畫布上繪畫圓形，可以是實心或空心，輸入圓心的坐標及半徑。可以選擇線條顏色及厚度。</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI5_C9.png" width="200"/></td>
+    <td width="20%">畫布座標</td>
+    <td width="30%">定義畫布在螢幕上的起始位置</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI5_C10.png" width="200"/></td>
+    <td width="20%">顯示畫布</td>
+    <td width="30%">顯示指定畫布，畫布名可修改</td>
+  </tr>
+  </table>
+
+  ##  D. 實現流程圖
+  <img src="/media/ai/AI5_D1.png" width="200"/>
+
+  ##  E. 實現步驟
+  ###### 第一步：初始化
+  <table style="margin-top:20px;">
+  <tr >
+  <td>1. AI模組｜螢幕：【螢幕初始化】、【創建空白畫布】<br>
+2. AI模組｜咪高峰：【咪高峰初始化】<br>
+3. 循環：【重複執行】
+  </td>
+  <td><img src="/media/ai/AI5_E1.png" width="300"/></td>
+  </tr>
+  </table>
+
+  ###### 第二步：讀取音頻頻譜，並處理音頻頻譜數據，將其賦值給相應變數
+  <table style="margin-top:20px;">
+  <tr >
+  <td>在【重複執行】中加入以下程式：<br>
+4. AI模組｜咪高峰：【讀取音頻頻譜】<br>
+5. 變數：【變數賦值】radius：1、2、3<br>
+6. 數學運算：【int】轉換整數<br>
+7. AI模組｜咪高峰：【獲取咪高峰採集的音頻頻譜】（數值）<br>
+8. 數學運算：【四則運算】，音頻頻譜數值 / 10
+</td>
+  <td><img src="/media/ai/AI5_E2.png" width="300"/></td>
+  </tr>
+  </table>
+
+  ###### 第三步：在螢幕上顯示對應音頻數據高低的動態效果
+  <table style="margin-top:20px;">
+  <tr >
+  <td>在【重複執行】中繼續加入以下程式：<br>
+9. AI模組｜螢幕：【清除畫布】<br>
+10. AI模組｜螢幕：【繪製實心圓形】參數：放置在屏幕中間(120,120)，半徑為變數radius1，顏色為紅色，厚度為2<br>
+11. AI模組｜螢幕：【繪製實心圓形】參數：放置在屏幕中間(120,120)，半徑為變數radius2，顏色為綠色，厚度為5<br>
+12. AI模組｜螢幕：【繪製實心圓形】參數：放置在屏幕中間(120,120)，半徑為變數radius3，顏色為藍色，厚度為5<br>
+13. AI模組｜螢幕：【設定畫布起始坐標】<br>
+14. AI模組｜螢幕：【顯示畫布】
+  </td>
+  <td><img src="/media/ai/AI5_E3.png" width="300"/></td>
+  </tr>
+  </table>
+
+##  F. 代碼參考及完整積木塊程式
+  ###### 1.Python源碼參考：<br>
+<img src="/media/ai/AI5_F2.png" width="300"/><br>
+
+###### 2.完整積木塊程式：<br>
+<img src="/media/ai/AI5_F1.png" width="300"/>
+
+##  G. 最終運行結果
+<img src="/media/ai/AI5_G1.png" width="150"/>
+<img src="/media/ai/AI5_G2.png" width="150"/>
+<img src="/media/ai/AI5_G3.png" width="150"/>

@@ -1,0 +1,179 @@
+# 第二章 認識人臉識別
+---
+
+##  A. 人臉識別概念及原理介紹
+人臉識別，是基於人的臉部特徵資訊進行身份識別的一種生物識別技術。用攝像機或攝影鏡頭採集含有人臉的圖像或視頻流，並自動在圖像中檢測和跟蹤人臉，進而對檢測到的人臉進行臉部的一系列相關技術操作，通常也叫做人像識別、面部識別。<br>
+本案例中採用的技術是與物體識別同樣的原理：即YOLO算法，以此來預先進行人臉識別模型的訓練，保存為kmodel後，在後續的推理過程程式中使用，此部分過程積木塊中已集成，無需自己完成。
+##  B. 任務目標
+利用攝影鏡頭將影像顯示在螢幕模組上，實現模型加載及推理預測過程，得到預測結果。
+再對實時處理的圖像進行調整畫布尺寸、矢量轉換等操作，將其作為圖像畫布，然後判斷是否檢測到人臉，檢測到則在螢幕中顯示用檢測框框住的人臉。
+##  C. 相關積木塊介紹
+<table style="margin-top:20px;">
+	<tr>
+		<td width="50%">積木</td>
+		<td width="20%">指令</td>
+    <td width="30%">說明</td>
+	</tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C1.png" width="150"/></td>
+    <td width="20%">初始化</td>
+    <td width="30%">初始化螢幕</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C2.png" width="200"/></td>
+    <td width="20%">相機初始化</td>
+    <td width="30%">相機的初始化，可設定以下兩項屬性：<br>影像尺寸：320x240及160x120
+<br>影像色彩：彩色 及 黑白
+</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C3.png" width="150"/></td>
+    <td width="20%">重複循環</td>
+    <td width="30%">一直重複執行</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C4.png" width="200"/></td>
+    <td width="20%">變量賦值</td>
+    <td width="30%">為定義的變量賦值為某個值</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C5.png" width="200"/></td>
+    <td width="20%">獲取影像</td>
+    <td width="30%">獲取從攝影鏡頭拍攝的影像</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C6.png" width="200"/></td>
+    <td width="20%">載入模型</td>
+    <td width="30%">載入人工智能模型，可以從選單中選擇常用識別模型：<img src="/media/ai/AI2_C7.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C8.png" width="200"/></td>
+    <td width="20%">調整畫布尺寸</td>
+    <td width="30%">調整畫布尺寸，設定其寬高</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C9.png" width="200"/></td>
+    <td width="20%">矢量轉換</td>
+    <td width="30%">將畫布進行矢量轉像素變換</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C10.png" width="100"/></td>
+    <td width="20%">邏輯判斷</td>
+    <td width="30%">邏輯判斷：如果/否則</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C11.png" width="200"/></td>
+    <td width="20%">人臉識別</td>
+    <td width="30%">獲取人臉識別真假值，如果識別到人臉會返回「真」值，否則返回「假」值</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C12.png" width="200"/></td>
+    <td width="20%">遍歷循環</td>
+    <td width="30%">在某個變量列表中，以變量i為索引，遍歷每個列表中項目，重複執行</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C13.png" width="200"/></td>
+    <td width="20%">人臉識別結果的參數</td>
+    <td width="30%">獲取識別到的每個人臉的各項參數，包括：<img src="/media/ai/AI2_C14.png" width="200"/></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C15.png" width="200"/></td>
+    <td width="20%">繪製矩形</td>
+    <td width="30%">在畫布上繪畫矩形，可以是實心或空心，輸入起點坐標及尺寸。可以選擇線條顏色及厚度。</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C16.png" width="200"/></td>
+    <td width="20%">數學運算</td>
+    <td width="30%">數學運算：int數據格式</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C17.png" width="200"/></td>
+    <td width="20%">數學運算</td>
+    <td width="30%">包括：+, -, x, ÷ 四則運算</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C18.png" width="200"/></td>
+    <td width="20%">畫布座標</td>
+    <td width="30%">定義畫布在螢幕上的起始位置</td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="/media/ai/AI2_C19.png" width="200"/></td>
+    <td width="20%">顯示畫布</td>
+    <td width="30%">顯示指定畫布，畫布名可修改</td>
+  </tr>
+  </table>
+
+  ##  D. 實現流程圖
+  <img src="/media/ai/AI2_C20.png" width="200"/>
+
+  ##  E. 編程實現步驟
+  ###### 第一步：模組初始化
+  <table style="margin-top:20px;">
+  <tr >
+  <td>在積木指令區點按以下指令，並依次放在積木編程區：<br>
+  1.	AI模組｜螢幕：【初始化】<br>
+  2.	AI模組｜相機：【初始化】<br>
+  3.	循環：【重複執行】<br>
+  </td>
+  <td><img src="/media/ai/AI2_E1.png" width="300"/></td>
+  </tr>
+  </table>
+
+  ###### 第二步：獲取影像，載入人臉識別模型，進行人臉識別
+  <table style="margin-top:20px;">
+  <tr >
+  <td>在【重複執行】積木指令內，放置下列積木指令：<br>
+4.	AI模組｜AI模型：【加載模型】(模型：人臉識別模型 圖像：img_facerecognition)<br>
+5.	變數：【賦值】(名稱：img_facerecognition)<br>
+6.	AI模組｜相機：【獲取影像】<br>
+7.	變數：【建立變數】(名稱：img_display)<br>
+8.	AI模組｜圖像處理：【調整畫布尺寸】<br>
+9.	AI模組｜圖像處理：【圖像轉換】<br>
+  </td>
+  </tr>
+  <tr>
+  <td><img src="/media/ai/AI2_E2.png" width="300"/></td>
+  </tr>
+  </table>
+
+  ###### 第三步：獲取影像，載入人臉識別模型，進行人臉識別，在檢測到的人臉上顯示檢測框
+  <table style="margin-top:20px;">
+  <tr >
+  <td>在【圖像轉換】積木指令之後，放置下列積木指令：<br>
+10.	邏輯：【邏輯判斷】<br>
+11.	AI模組｜AI模型：【人臉識別】<br>
+12.	循環：【重復執行】<br>
+13.	AI模組｜AI模型：【人臉識別】<br>
+14.	AI模組｜螢幕：【繪製矩形】（畫布：img_display、空心、白色、厚度：2）
+起始座標：X值，Y值   尺寸：寬度，高度<br>
+a.	數學運算：【int】轉換整數<br>
+b.	數學運算：【四則運算】，物體識別數值 / 1.42<br>
+c.	AI模組｜AI模型：【物體識別屬性】<br>
+  </td>
+  </tr>
+  <tr>
+  <td><img src="/media/ai/AI2_E3.png" width="300"/></td>
+  </tr>
+  </table>
+
+  ###### 第四步：在螢幕上顯示影像
+  <table style="margin-top:20px;">
+  <tr >
+  <td>在步驟10【邏輯判斷】積木指令之後，放置下列積木指令：<br>
+15.	AI模組｜螢幕：【設定畫布起始坐標】(X值：8   Y值：36)、【顯示畫布】<br>
+  </td>
+  </tr>
+  <tr>
+  <td><img src="/media/ai/AI2_E4.png" width="300"/></td>
+  </tr>
+  </table>
+
+##  F. 參考源碼及積木塊程式
+  ###### 1.Python源碼參考：<br>
+<img src="/media/ai/AI2_E5.png" width="300"/>
+
+###### 2.完整積木塊程式：<br>
+<img src="/media/ai/AI2_E6.png" width="300"/>
+
+##  G. 最終運行結果
+<img src="/media/ai/AI2_E7.png" width="300"/>
