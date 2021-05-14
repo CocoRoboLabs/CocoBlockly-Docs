@@ -77,7 +77,7 @@ There are two ways to add attributes for the first time.
 
     ![cocoCloud__events](../media/cocoCloud_create_property_3.png)
 
-  * Click add more to add multiple properties
+  * Click add more to add multiple attributes
 
     ![cocoCloud__events](../media/cocoCloud_create_property_4.png)
 
