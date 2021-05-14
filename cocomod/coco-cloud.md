@@ -59,9 +59,32 @@ https://cocorobo.hk/cloud
 
 #### 添加屬性
 
-初次添加屬性時，直接在CocoBlockly的wifi模式上向Coco Cloud發送數據，即可生成對應事件的屬性。
+初次添加屬性時，有兩種方式。
 
-![cocoCloud__events](../media/cocoCloud_property_1.png)
+* 直接在CocoBlockly的wifi模式上向Coco Cloud發送數據，即可生成對應事件的屬性。
+
+  ![cocoCloud__events](../media/cocoCloud_property_1.png)
+
+* Cloud上直接創建
+
+  ![cocoCloud__events](../media/cocoCloud_create_property.png)
+
+  ![cocoCloud__events](../media/cocoCloud_create_property_1.png)
+
+  * 點擊新增按鈕（ + ）或者點擊創建屬性按鈕
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_2.png)
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_3.png)
+
+  * 點擊添加更多可添加多個屬性
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_4.png)
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_5.png)
+
+  * 最後點擊創建屬性按鈕即可生成對應事件的屬性。
+  
 
 ##### 積木編程
 
@@ -206,8 +229,8 @@ Coco Cloud平臺上：
 ![wifi__main](../media/cocoCloud_project_1_2.png)
 
 ![wifi__main](../media/cocoCloud_project_1_3.png)
-<!--
----
+
+<!-- ---
 
 ### 項目二
 
@@ -228,7 +251,7 @@ Coco Cloud平臺上：
   程式下載 <a href="../xml/cocoCloud_project2/project2_wifi.xml"
   download >project2_wifi.xml</a>
 
-![wifi__main](../media/cocoCloud_project_2_wifi.png)
--->
+![wifi__main](../media/cocoCloud_project_2_wifi.png) -->
+
 ---
 更新時間：2019年8月
