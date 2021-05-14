@@ -71,13 +71,13 @@ https://cocorobo.hk/cloud
 
   ![cocoCloud__events](../media/cocoCloud_create_property_1.png)
 
-  * 點擊新增按鈕（ + ）或者點擊創建屬性按鈕
+  * 點擊新增按鈕（ + ）或者點擊創建屬性按鈕。
 
     ![cocoCloud__events](../media/cocoCloud_create_property_2.png)
 
     ![cocoCloud__events](../media/cocoCloud_create_property_3.png)
 
-  * 點擊添加更多可添加多個屬性
+  * 點擊添加更多可添加多個屬性。
 
     ![cocoCloud__events](../media/cocoCloud_create_property_4.png)
 
