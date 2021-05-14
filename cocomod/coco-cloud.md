@@ -59,9 +59,32 @@ Click the copy icon to get the API Key of the event to add value data to the eve
 
 #### Add Attributes
 
-In the first time you add attributes, you can directly send data to Coco Cloud in WiFi mode, and then the attributes of an event are generated.
+There are two ways to add attributes for the first time.
 
-![cocoCloud__events](../media/cocoCloud_property_1_en.png)
+* you can directly send data to Coco Cloud in WiFi mode, and then the attributes of an event are generated.
+
+  ![cocoCloud__events](../media/cocoCloud_property_1_en.png)
+
+* Create directly on Cloud.
+
+  ![cocoCloud__events](../media/cocoCloud_create_property.png)
+
+  ![cocoCloud__events](../media/cocoCloud_create_property_1.png)
+
+  * Click the Add button (+) or the create attribute button.
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_2.png)
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_3.png)
+
+  * Click add more to add multiple properties
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_4.png)
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_5.png)
+
+  * Finally, click the create attribute button to generate the attribute of the corresponding event.
+
 
 ##### Code by CocoBlockly
 
@@ -198,8 +221,8 @@ Create visualization tool for the attribute of the event "Environment" in the "D
 ![wifi__main](../media/cocoCloud_project_1_2.png)
 
 ![wifi__main](../media/cocoCloud_project_1_3.png)
-<!--
----
+
+<!-- ---
 
 ### 項目二
 
@@ -220,7 +243,7 @@ Create visualization tool for the attribute of the event "Environment" in the "D
   程式下載 <a href="../xml/cocoCloud_project2/project2_wifi.xml"
   download >project2_wifi.xml</a>
 
-![wifi__main](../media/cocoCloud_project_2_wifi.png)
--->
+![wifi__main](../media/cocoCloud_project_2_wifi.png) -->
+
 ---
 Updated in August 2019
