@@ -54,9 +54,31 @@ https://cocorobo.cn/cloud
 
 #### 添加属性
 
-初次添加属性时，直接在CocoBlockly的wifi模式上向Coco Cloud发送数据，即可生成对应事件的属性。
+初次添加属性时，有两种方式。
 
-![cocoCloud__events](../media/cocoCloud_property_1_cn.png)
+* 直接在CocoBlockly的wifi模式上向Coco Cloud发送数据，即可生成对应事件的属性。
+
+  ![cocoCloud__events](../media/cocoCloud_property_1_cn.png)
+
+* Cloud上直接创建
+
+  ![cocoCloud__events](../media/cocoCloud_create_property.png)
+
+  ![cocoCloud__events](../media/cocoCloud_create_property_1.png)
+
+  * 点击新增按钮（ + ）或者点击创建属性按钮。
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_2.png)
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_3.png)
+
+  * 点击添加更多可添加多个属性。
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_4.png)
+
+    ![cocoCloud__events](../media/cocoCloud_create_property_5.png)
+
+  * 最后点击创建属性按钮即可生成对应事件的属性。
 
 ##### 积木编程
 
@@ -194,8 +216,8 @@ Coco Cloud平台上：
 ![wifi__main](../media/cocoCloud_project_1_2_cn.png)
 
 ![wifi__main](../media/cocoCloud_project_1_3_cn.png)
-<!--
----
+
+<!-- ---
 
 ### 项目二
 
@@ -216,7 +238,7 @@ Coco Cloud平台上：
   程序下载 <a href="../xml/cocoCloud_project2/project2_wifi.xml"
   download >project2_wifi.xml</a>
 
-![wifi__main](../media/cocoCloud_project_2_wifi.png)
--->
+![wifi__main](../media/cocoCloud_project_2_wifi.png) -->
+
 ---
 更新时间：2019年8月
